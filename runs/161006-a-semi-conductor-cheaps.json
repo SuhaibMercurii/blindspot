@@ -1,0 +1,2374 @@
+{
+ "question": "A semi conductor cheaps",
+ "need": "",
+ "saved": "2026-11-14 16:10",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "A semi conductor cheaps",
+   "specific": "",
+   "category": "low-cost semiconductor chips",
+   "area": "low-cost semiconductors",
+   "need": "A company that supplies affordable semiconductor chips at competitive prices, with reliable sourcing and volume pricing.",
+   "keywords": [
+    "affordable semiconductors",
+    "low-cost chips",
+    "budget microcontrollers",
+    "discrete semiconductors",
+    "value-priced ics",
+    "mature node chips",
+    "legacy node semiconductors",
+    "cost-optimized chips",
+    "chip distributor",
+    "component sourcing",
+    "wafer foundry",
+    "low-price mosfets"
+   ],
+   "zh_queries": [
+    "便宜芯片推荐",
+    "低价半导体芯片",
+    "平价芯片 替代 采购"
+   ],
+   "seconds": 18.1
+  },
+  {
+   "stage": "memory",
+   "question": "A semi conductor cheaps",
+   "specific": "",
+   "category": "low-cost semiconductor chips",
+   "need": "A company that supplies affordable semiconductor chips at competitive prices, with reliable sourcing and volume pricing.",
+   "companies": [
+    {
+     "name": "Microchip Technology",
+     "does": "Designs and sells low-cost microcontrollers, analog chips, and memory for embedded applications.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku (local CLI)": 6
+     },
+     "variants": []
+    },
+    {
+     "name": "Texas Instruments",
+     "does": "Designs and sells analog and embedded processing chips in high volume.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku (local CLI)": 6
+     },
+     "variants": []
+    },
+    {
+     "name": "Nexperia",
+     "does": "Manufactures high-volume discrete semiconductors such as diodes, transistors, and MOSFETs.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "STMicroelectronics",
+     "does": "Manufactures microcontrollers, power devices, and sensors for automotive, industrial, and consumer use.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "Diodes Incorporated",
+     "does": "Designs and sells affordable discrete and analog semiconductors for consumer and industrial markets.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Nanjing Qinheng Microelectronics",
+     "does": "Develops very low-cost RISC-V and 8-bit microcontrollers with USB and wireless connectivity.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Renesas Electronics",
+     "does": "Produces microcontrollers and analog chips for automotive, industrial, and IoT applications.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Infineon Technologies",
+     "does": "Manufactures power semiconductors and microcontrollers for automotive, industrial and energy markets.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "onsemi",
+     "does": "Supplies power, analog and sensor semiconductors for automotive and industrial customers.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Espressif Systems",
+     "does": "Designs low-cost wireless system-on-chip modules for Wi-Fi and Bluetooth devices.",
+     "count": 3,
+     "by_model": {
+      "claude-haiku (local CLI)": 3
+     },
+     "variants": []
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku (local CLI) x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku (local CLI)",
+      "samples": 8,
+      "distinct": 39,
+      "top": [
+       {
+        "name": "Microchip Technology",
+        "count": 6
+       },
+       {
+        "name": "Texas Instruments",
+        "count": 6
+       },
+       {
+        "name": "Nexperia",
+        "count": 5
+       },
+       {
+        "name": "STMicroelectronics",
+        "count": 5
+       },
+       {
+        "name": "Diodes Incorporated",
+        "count": 4
+       }
+      ]
+     }
+    ],
+    "distinct": 39,
+    "top5_share": 32,
+    "others": [
+     {
+      "name": "LCSC Electronics",
+      "count": 2
+     },
+     {
+      "name": "NVIDIA",
+      "count": 2
+     },
+     {
+      "name": "ASML",
+      "count": 2
+     },
+     {
+      "name": "Intel",
+      "count": 2
+     },
+     {
+      "name": "Samsung Electronics",
+      "count": 2
+     },
+     {
+      "name": "Applied Materials",
+      "count": 2
+     },
+     {
+      "name": "Winbond Electronics",
+      "count": 1
+     },
+     {
+      "name": "Silan Microelectronics",
+      "count": 1
+     },
+     {
+      "name": "Vishay Intertechnology",
+      "count": 1
+     },
+     {
+      "name": "TSMC",
+      "count": 1
+     },
+     {
+      "name": "Broadcom",
+      "count": 1
+     },
+     {
+      "name": "AMD",
+      "count": 1
+     },
+     {
+      "name": "Qualcomm",
+      "count": 1
+     },
+     {
+      "name": "Micron",
+      "count": 1
+     },
+     {
+      "name": "Nordic Semiconductor",
+      "count": 1
+     },
+     {
+      "name": "NXP Semiconductors",
+      "count": 1
+     },
+     {
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "count": 1
+     },
+     {
+      "name": "Cerebras Systems Inc.",
+      "count": 1
+     },
+     {
+      "name": "Tenstorrent Inc.",
+      "count": 1
+     },
+     {
+      "name": "Groq Inc.",
+      "count": 1
+     },
+     {
+      "name": "Arm Holdings plc",
+      "count": 1
+     },
+     {
+      "name": "Analog Devices",
+      "count": 1
+     },
+     {
+      "name": "GigaDevice Semiconductor",
+      "count": 1
+     },
+     {
+      "name": "DigiKey Electronics",
+      "count": 1
+     },
+     {
+      "name": "Mouser Electronics",
+      "count": 1
+     },
+     {
+      "name": "Arrow Electronics",
+      "count": 1
+     },
+     {
+      "name": "Avnet",
+      "count": 1
+     },
+     {
+      "name": "Future Electronics",
+      "count": 1
+     },
+     {
+      "name": "WPG Holdings",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 18.1
+  },
+  {
+   "stage": "money",
+   "query": "best low-cost semiconductor chips",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Renesas",
+     "does": "Supplies low-cost 32-bit microcontroller families from a major chip vendor.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Raspberry Pi",
+     "does": "Designs low-cost microcontroller chips and development boards for hobby and production use.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "STMicroelectronics",
+     "does": "Manufactures widely shipped 32-bit microcontroller families sold through authorized distributors.",
+     "sources": [
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Espressif",
+     "does": "Makes microcontrollers with integrated wireless connectivity and dual-core processing.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "WCH",
+     "does": "Makes very cheap RISC-V microcontrollers priced around fifteen cents in quantity.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Puya",
+     "does": "Makes Cortex-M0+ microcontrollers used in low-cost consumer gadgets.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 0,
+   "memory_overlap": [
+    "Espressif Systems",
+    "Renesas Electronics",
+    "STMicroelectronics"
+   ],
+   "echo": {
+    "repeated": 3,
+    "total": 6
+   },
+   "stake": {
+    "vendor": 0,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 0,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "Top 10 Cheapest Microcontrollers You Should (and Shouldn’t) Use in 2026",
+     "url": "https://predictabledesigns.com/top-10-cheapest-microcontrollers-you-should-and-shouldnt-use-in-2026/",
+     "date": "2026-01-19",
+     "date_from": "page",
+     "date_note": "Published on January 19, 2026",
+     "provider": "Exa + Brave + Parallel through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "predictabledesigns.com",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "Best Semiconductor ETFs for 2026: 5 Top AI Chip Funds to Buy- MarketWise",
+     "url": "https://marketwise.com/investing/best-semiconductor-etfs-ai-boom",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "marketwise.com",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "Best Affordable ARM-Based Microcontrollers 2026: 8 Companies Compared | FindMyChip",
+     "url": "https://www.findmychip.com/blog/best-affordable-arm-microcontrollers-2026-comparison",
+     "date": "2026-05-05",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "findmychip.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "Top 10 Best Picks for Semiconductor Penny Stocks in 2026",
+     "url": "https://www.timothysykes.com/blog/best-semiconductor-penny-stocks/",
+     "date": "2026-01-20",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "timothysykes.com",
+     "flagged": false
+    },
+    {
+     "id": "n-5",
+     "title": "The Best Semiconductor Stocks to Buy | Kiplinger",
+     "url": "https://www.kiplinger.com/investing/stocks/best-semiconductor-stocks",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "kiplinger.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "Which Microcontrollers Offer the Best Performance for the Price?",
+     "url": "https://predictabledesigns.com/top-5-microcontrollers-in-2026-best-performance-for-the-price/",
+     "date": "2026-01-20",
+     "date_from": "page",
+     "date_note": "Published on January 20, 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "predictabledesigns.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Twelve Chips, Three Bucks Each, One Brutal Bake-Off: The Sub-$3 Microcontroller Showdown — Boards & Bits",
+     "url": "https://www.boardsandbits.com/sub-3-dollar-microcontroller-benchmark-showdown/",
+     "date": "2026-10-29",
+     "date_from": "page",
+     "date_note": "Boards & Bits Oct 29, 2026",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "boardsandbits.com",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "r/Semiconductors on Reddit: What's the cheapest equipment for making semiconductor chips at home ?",
+     "url": "https://www.reddit.com/r/Semiconductors/comments/1hao7vc/whats_the_cheapest_equipment_for_making/",
+     "date": "2024-12-09",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Fetchlayer_Reddit through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reddit.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 8
+   },
+   "seconds": 46.0
+  },
+  {
+   "stage": "money",
+   "query": "best low-cost semiconductor chips",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Renesas",
+     "does": "Supplies low-cost 32-bit microcontroller families from a major chip vendor.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Raspberry Pi",
+     "does": "Designs low-cost microcontroller chips and development boards for hobby and production use.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "STMicroelectronics",
+     "does": "Manufactures widely shipped 32-bit microcontroller families sold through authorized distributors.",
+     "sources": [
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Espressif",
+     "does": "Makes microcontrollers with integrated wireless connectivity and dual-core processing.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "WCH",
+     "does": "Makes very cheap RISC-V microcontrollers priced around fifteen cents in quantity.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Puya",
+     "does": "Makes Cortex-M0+ microcontrollers used in low-cost consumer gadgets.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 0,
+   "memory_overlap": [
+    "Espressif Systems",
+    "Renesas Electronics",
+    "STMicroelectronics"
+   ],
+   "echo": {
+    "repeated": 3,
+    "total": 6
+   },
+   "stake": {
+    "vendor": 0,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 0,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "Top 10 Cheapest Microcontrollers You Should (and Shouldn’t) Use in 2026",
+     "url": "https://predictabledesigns.com/top-10-cheapest-microcontrollers-you-should-and-shouldnt-use-in-2026/",
+     "date": "2026-01-19",
+     "date_from": "page",
+     "date_note": "Published on January 19, 2026",
+     "provider": "Exa + Brave + Parallel through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "predictabledesigns.com",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "Best Semiconductor ETFs for 2026: 5 Top AI Chip Funds to Buy- MarketWise",
+     "url": "https://marketwise.com/investing/best-semiconductor-etfs-ai-boom",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "marketwise.com",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "Best Affordable ARM-Based Microcontrollers 2026: 8 Companies Compared | FindMyChip",
+     "url": "https://www.findmychip.com/blog/best-affordable-arm-microcontrollers-2026-comparison",
+     "date": "2026-05-05",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "findmychip.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "Top 10 Best Picks for Semiconductor Penny Stocks in 2026",
+     "url": "https://www.timothysykes.com/blog/best-semiconductor-penny-stocks/",
+     "date": "2026-01-20",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "timothysykes.com",
+     "flagged": false
+    },
+    {
+     "id": "n-5",
+     "title": "The Best Semiconductor Stocks to Buy | Kiplinger",
+     "url": "https://www.kiplinger.com/investing/stocks/best-semiconductor-stocks",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "kiplinger.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "Which Microcontrollers Offer the Best Performance for the Price?",
+     "url": "https://predictabledesigns.com/top-5-microcontrollers-in-2026-best-performance-for-the-price/",
+     "date": "2026-01-20",
+     "date_from": "page",
+     "date_note": "Published on January 20, 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "predictabledesigns.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Twelve Chips, Three Bucks Each, One Brutal Bake-Off: The Sub-$3 Microcontroller Showdown — Boards & Bits",
+     "url": "https://www.boardsandbits.com/sub-3-dollar-microcontroller-benchmark-showdown/",
+     "date": "2026-10-29",
+     "date_from": "page",
+     "date_note": "Boards & Bits Oct 29, 2026",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "boardsandbits.com",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "r/Semiconductors on Reddit: What's the cheapest equipment for making semiconductor chips at home ?",
+     "url": "https://www.reddit.com/r/Semiconductors/comments/1hao7vc/whats_the_cheapest_equipment_for_making/",
+     "date": "2024-12-09",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Fetchlayer_Reddit through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reddit.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 8,
+    "all_pick": "",
+    "clean_pick": "",
+    "changed": null,
+    "status": "no_flagged"
+   },
+   "seconds": 46.0
+  },
+  {
+   "stage": "china",
+   "failed": "KeyError: 'xcom'",
+   "seconds": 69.3
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "low-cost semiconductors startup raises seed round",
+    "low-cost semiconductors startup raises Series A",
+    "low-cost semiconductors startup comes out of stealth",
+    "new low-cost semiconductors startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "TYLsemi",
+     "aliases": [],
+     "kind": "company",
+     "does": "Offers pre-validated chiplets and end-to-end custom silicon services for AI processors",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$43M",
+     "when": "July 2026",
+     "investors": [
+      "Matter Venture Partners"
+     ],
+     "evidence": "has raised $43 million in seed funding to develop modular chip technology",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised $43 million in seed funding to develop modular chip technology",
+       "url": "https://www.tekedia.com/semiconductor-startup-tylsemi-raises-43m-in-seed-fund-to-develop-modular-chip-tech/",
+       "domain": "tekedia.com",
+       "title": "Semiconductor Startup Tylsemi Raises $43m in Seed Fund To Develop Modular Chip Tech - Tekedia",
+       "date": "2026-07-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://news.lavx.hu/article/semiconductor-startup-tylsemi-launches-with-43m-to-make-custom-chiplets-affordable",
+       "domain": "news.lavx.hu",
+       "title": "Semiconductor startup TYLsemi launches with $43M to make custom chiplets affordable | LavX News",
+       "date": "2026-07-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://startupfortune.com/tylsemi-emerges-from-stealth-with-43-million-to-rebuild-ai-chip-supply-chains/",
+       "domain": "startupfortune.com",
+       "title": "TYLsemi Emerges From Stealth With $43 Million to Rebuild AI Chip Supply Chains - Startup Fortune",
+       "date": "2026-07-16",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
+       "domain": "tomshardware.com",
+       "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank | Tom's Hardware",
+       "date": "2026-07-23",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "exa",
+      "parallel"
+     ],
+     "sources": [
+      "d-6",
+      "d-18",
+      "d-20",
+      "d-22"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "EUCLYD",
+     "aliases": [],
+     "kind": "company",
+     "does": "Developing chip systems designed to make AI inference more energy-efficient and cost-effective",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$231M",
+     "when": "September 2026",
+     "investors": [
+      "Samsung Electronics"
+     ],
+     "evidence": "has raised $231 million in a Series A funding round",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised $231 million in a Series A funding round",
+       "url": "https://www.linkedin.com/posts/trust-square_dutch-semiconductor-startup-euclyd-has-raised-activity-7506608038380724224-IugB",
+       "domain": "linkedin.com",
+       "title": "EUCLYD Secures $231M in Series A Funding from Samsung and Others | TRUST SQUARE posted on the topic | LinkedIn",
+       "date": "2026-09-18",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "has raised $231 million in a Series A funding round",
+       "url": "https://www.instagram.com/p/Dda4EvrvbIA",
+       "domain": "instagram.com",
+       "title": "Instagram",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "tavily"
+     ],
+     "sources": [
+      "d-13",
+      "d-15"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "Last Mile Semiconductor GmbH",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops secure, energy-efficient IoT chips based on the NR+ wireless standard",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "",
+     "when": "January 2026",
+     "investors": [
+      "TGFS Technologiegründerfonds Sachsen",
+      "European Innovation Council Fund",
+      "MBG Sachsen"
+     ],
+     "evidence": "advised Last Mile Semiconductor GmbH (LMS) on its seven-figure seed financing round",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "advised Last Mile Semiconductor GmbH (LMS) on its seven-figure seed financing round",
+       "url": "https://valbeek.law/en/news/last-mile-semiconductor-gmbh",
+       "domain": "valbeek.law",
+       "title": "valbeek advises Last Mile Semiconductor GmbH on successful seed financing - valbeek lawyers commercial law firm Hamburg",
+       "date": "2026-01-09",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-9"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 0,
+   "already_known": [],
+   "not_in_source": 0,
+   "off_topic_results": 0,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "TriMagnetix raises $1M to build ultra-efficient chips for space | Dealroom News",
+     "url": "https://dealroom.co/news/163056-trimagnetix-raises-1m-to-build-ultra-efficient-chips-for-space/",
+     "date": "2026-10-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Parallel through Telem",
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-2",
+     "title": "Agni Semiconductor raises $11M seed for scandium-based memory chips | Dealroom News",
+     "url": "https://dealroom.co/news/170985-agni-semiconductor-raises-11m-seed-for-scandium-based-memory-chips/",
+     "date": "2026-11-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-3",
+     "title": "Startup Funding: Q1 2026",
+     "url": "https://semiengineering.com/startup-funding-q1-2026/",
+     "date": "2026-05-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "domain": "semiengineering.com"
+    },
+    {
+     "id": "d-4",
+     "title": "Which semiconductor startups raised the most? – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/semiconductor-top-startups-fundraising",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-5",
+     "title": "Tendrils Compute raises $30m Seed for parallel CPU",
+     "url": "https://www.eu.vc/p/tendrils-compute-30m-seed-parallel-cpu",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "eu.vc"
+    },
+    {
+     "id": "d-6",
+     "title": "Semiconductor Startup Tylsemi Raises $43m in Seed Fund To Develop Modular Chip Tech - Tekedia",
+     "url": "https://www.tekedia.com/semiconductor-startup-tylsemi-raises-43m-in-seed-fund-to-develop-modular-chip-tech/",
+     "date": "2026-07-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "tekedia.com"
+    },
+    {
+     "id": "d-7",
+     "title": "CoolSem Technologies Secures Pre-Seed Funding to Advance Wafer-Level Thermal Innovation",
+     "url": "https://www.htgf.de/en/coolsem-technologies-pre-seed-funding",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "htgf.de"
+    },
+    {
+     "id": "d-8",
+     "title": "Nexstrom Raises $12 Million Seed Round to Commercialize the First 12-Inch Single-Crystal 2D Semiconductor Platform",
+     "url": "https://www.prnewswire.com/news-releases/nexstrom-raises-12-million-seed-round-to-commercialize-the-first-12-inch-single-crystal-2d-semiconductor-platform-302885862.html",
+     "date": "2026-09-22",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-9",
+     "title": "valbeek advises Last Mile Semiconductor GmbH on successful seed financing - valbeek lawyers commercial law firm Hamburg",
+     "url": "https://valbeek.law/en/news/last-mile-semiconductor-gmbh",
+     "date": "2026-01-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "valbeek.law"
+    },
+    {
+     "id": "d-10",
+     "title": "Seed Semiconductor Startups (Oct 2026): 162 Chip Companies — Page 2 | VCBacked",
+     "url": "https://www.vcbacked.co/directory/funding/seed/industry/semiconductor/page/2",
+     "date": "2026-10-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "vcbacked.co"
+    },
+    {
+     "id": "d-11",
+     "title": "Instagram",
+     "url": "https://www.instagram.com/reel/DeeFoniCsFI",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "instagram.com"
+    },
+    {
+     "id": "d-12",
+     "title": "Fab2 Raises $500M to Build Compact Chipmaking Facilities | citybiz",
+     "url": "https://www.citybiz.co/article/906156/fab2-raises-500m-to-build-compact-chipmaking-facilities/",
+     "date": "2026-09-21",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "citybiz.co"
+    },
+    {
+     "id": "d-13",
+     "title": "EUCLYD Secures $231M in Series A Funding from Samsung and Others | TRUST SQUARE posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/trust-square_dutch-semiconductor-startup-euclyd-has-raised-activity-7506608038380724224-IugB",
+     "date": "2026-09-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-14",
+     "title": "Space Semiconductor Startup MID Secures 15.7 Billion Won (approximately $10.8 Million) in Series A Funding — BigGo Finance",
+     "url": "https://finance.biggo.com/news/02185455-7471-4e1a-8451-2bfc9de47764",
+     "date": "2026-07-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "finance.biggo.com"
+    },
+    {
+     "id": "d-15",
+     "title": "Instagram",
+     "url": "https://www.instagram.com/p/Dda4EvrvbIA",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "instagram.com"
+    },
+    {
+     "id": "d-16",
+     "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage | WIRED",
+     "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+     "date": "2026-09-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Parallel through Telem",
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "wired.com"
+    },
+    {
+     "id": "d-17",
+     "title": "Etched Comes out of Stealth, Again. - Semiconductor Reports",
+     "url": "https://www.semiconductorreports.com/p/etched-comes-out-of-stealth-again-2026-inference-rack",
+     "date": "2026-07-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "semiconductorreports.com"
+    },
+    {
+     "id": "d-18",
+     "title": "Semiconductor startup TYLsemi launches with $43M to make custom chiplets affordable | LavX News",
+     "url": "https://news.lavx.hu/article/semiconductor-startup-tylsemi-launches-with-43m-to-make-custom-chiplets-affordable",
+     "date": "2026-07-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "news.lavx.hu"
+    },
+    {
+     "id": "d-19",
+     "title": "Inference chip startup Etched emerges from stealth with $800m funding, unveils working chip - DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-emerges-from-stealth-with-800m-funding-unveils-working-chip",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "datacenterdynamics.com"
+    },
+    {
+     "id": "d-20",
+     "title": "TYLsemi Emerges From Stealth With $43 Million to Rebuild AI Chip Supply Chains - Startup Fortune",
+     "url": "https://startupfortune.com/tylsemi-emerges-from-stealth-with-43-million-to-rebuild-ai-chip-supply-chains/",
+     "date": "2026-07-16",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "startupfortune.com"
+    },
+    {
+     "id": "d-21",
+     "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage | Winzheng",
+     "url": "https://www.winzheng.com/en/article/kepler-computing-memory-shortage",
+     "date": "2026-09-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "winzheng.com"
+    },
+    {
+     "id": "d-22",
+     "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank | Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
+     "date": "2026-07-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "tomshardware.com"
+    },
+    {
+     "id": "d-23",
+     "title": "The 10 Coolest Semiconductor Startups Of 2026 (So Far) - CRN",
+     "url": "https://www.crn.com/news/computing/2026/the-10-coolest-semiconductor-startups-of-2026-so-far",
+     "date": "2026-07-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "crn.com"
+    },
+    {
+     "id": "d-24",
+     "title": "Silicon Catalyst Announces Seven Newly Admitted Companies to Semiconductor Industry Accelerator — Silicon Catalyst",
+     "url": "https://siliconcatalyst.com/silicon-catalyst-announces-seven-newly-admitted-companies-to-semiconductor-industry-accelerator-2",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "siliconcatalyst.com"
+    },
+    {
+     "id": "d-25",
+     "title": "GitHub - aolofsson/awesome-semiconductor-startups: Open database of awesome semiconductor startups · GitHub",
+     "url": "https://github.com/aolofsson/awesome-semiconductor-startups",
+     "date": "2026-11-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "github.com"
+    },
+    {
+     "id": "d-26",
+     "title": "The 10 Coolest Semiconductor Startups Of 2026 (So Far)",
+     "url": "https://www.crn.com/news/computing/2026/the-10-coolest-semiconductor-startups-of-2026-so-far?page=1",
+     "date": "2026-07-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "crn.com"
+    },
+    {
+     "id": "d-27",
+     "title": "Sensesemi SenseSoC: Bengaluru's Edge-AI Chip Startup",
+     "url": "https://exceptional.technology/sensesemi-sensesoc-edge-ai-chip-bengaluru/",
+     "date": "2026-11-11",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "exceptional.technology"
+    },
+    {
+     "id": "d-28",
+     "title": "94 Top Semiconductors Companies in California · November 2026 | F6S",
+     "url": "https://www.f6s.com/companies/semiconductors/united-states/california/no",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "f6s.com"
+    },
+    {
+     "id": "d-29",
+     "title": "\n      What’s funding like in the semiconductor industry right now?\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/semiconductor-funding-analysis",
+     "date": "2026-04-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-30",
+     "title": "Semiconductor Startups to Watch",
+     "url": "https://netzeroinsights.com/resources/semiconductor-startups-to-watch/",
+     "date": "2026-09-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "netzeroinsights.com"
+    },
+    {
+     "id": "d-31",
+     "title": "List of Funded Semiconductor Startups in 2026 - Fundraise Insider",
+     "url": "https://fundraiseinsider.com/blog/semiconductor-startups/",
+     "date": "2026-10-19",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "fundraiseinsider.com"
+    },
+    {
+     "id": "d-32",
+     "title": "Homegrown semiconductor startups raise $206 million since 2022: Report | Start Ups - Business Standard",
+     "url": "https://www.business-standard.com/companies/start-ups/homegrown-semiconductor-startups-raise-206-million-since-2022-report-126081201314_1.html",
+     "date": "2026-08-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "business-standard.com"
+    },
+    {
+     "id": "y-1",
+     "title": "Archgen Labs (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/archgen-labs",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "Lamb Labs (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/lamb-labs",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Inversion Semiconductor (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/inversion-semiconductor",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "Baud (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/baud",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "Aerogen Systems (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/aerogen-systems",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "Visibl Semiconductors (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "Repovive (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/repovive",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Standard Machines (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/standard-machines",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "Tracer (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/tracer",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "Tire Swing (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/tire-swing",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "Reason Machines (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/reason-machines",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "RouterPlus (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/routerplus",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 91.1
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 2,
+   "of": 3,
+   "by_engine": {
+    "brave": 1,
+    "exa": 2,
+    "parallel": 1,
+    "tavily": 1
+   },
+   "reason": "",
+   "seconds": 91.1
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 0,
+    "found": 3,
+    "by_lens": {
+     "time": {
+      "found": 3,
+      "named": 0,
+      "missed": 3
+     }
+    },
+    "unverified": 0
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "TYLsemi",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Offers pre-validated chiplets and end-to-end custom silicon services for AI processors",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised $43 million in seed funding to develop modular chip technology",
+       "url": "https://www.tekedia.com/semiconductor-startup-tylsemi-raises-43m-in-seed-fund-to-develop-modular-chip-tech/",
+       "domain": "tekedia.com",
+       "title": "Semiconductor Startup Tylsemi Raises $43m in Seed Fund To Develop Modular Chip Tech - Tekedia",
+       "date": "2026-07-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://news.lavx.hu/article/semiconductor-startup-tylsemi-launches-with-43m-to-make-custom-chiplets-affordable",
+       "domain": "news.lavx.hu",
+       "title": "Semiconductor startup TYLsemi launches with $43M to make custom chiplets affordable | LavX News",
+       "date": "2026-07-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://startupfortune.com/tylsemi-emerges-from-stealth-with-43-million-to-rebuild-ai-chip-supply-chains/",
+       "domain": "startupfortune.com",
+       "title": "TYLsemi Emerges From Stealth With $43 Million to Rebuild AI Chip Supply Chains - Startup Fortune",
+       "date": "2026-07-16",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
+       "domain": "tomshardware.com",
+       "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank | Tom's Hardware",
+       "date": "2026-07-23",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "exa",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$43M",
+      "when": "July 2026",
+      "investors": [
+       "Matter Venture Partners"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 4,
+     "newest": "2026-07-24",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "EUCLYD",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Developing chip systems designed to make AI inference more energy-efficient and cost-effective",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised $231 million in a Series A funding round",
+       "url": "https://www.linkedin.com/posts/trust-square_dutch-semiconductor-startup-euclyd-has-raised-activity-7506608038380724224-IugB",
+       "domain": "linkedin.com",
+       "title": "EUCLYD Secures $231M in Series A Funding from Samsung and Others | TRUST SQUARE posted on the topic | LinkedIn",
+       "date": "2026-09-18",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "has raised $231 million in a Series A funding round",
+       "url": "https://www.instagram.com/p/Dda4EvrvbIA",
+       "domain": "instagram.com",
+       "title": "Instagram",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "tavily"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$231M",
+      "when": "September 2026",
+      "investors": [
+       "Samsung Electronics"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-09-18",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Tavily"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "Last Mile Semiconductor GmbH",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops secure, energy-efficient IoT chips based on the NR+ wireless standard",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "advised Last Mile Semiconductor GmbH (LMS) on its seven-figure seed financing round",
+       "url": "https://valbeek.law/en/news/last-mile-semiconductor-gmbh",
+       "domain": "valbeek.law",
+       "title": "valbeek advises Last Mile Semiconductor GmbH on successful seed financing - valbeek lawyers commercial law firm Hamburg",
+       "date": "2026-01-09",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "",
+      "when": "January 2026",
+      "investors": [
+       "TGFS Technologiegründerfonds Sachsen",
+       "European Innovation Council Fund",
+       "MBG Sachsen"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-01-09",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    }
+   ],
+   "missed": [
+    "t-1",
+    "t-2",
+    "t-3"
+   ],
+   "known_in_west": [],
+   "china_rule": "A thing from Chinese platforms is counted only with 2 or more posts there and the status \"No Western posts found (top results)\" or \"Few Western posts\".",
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "failed: KeyError: 'xcom'"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 91.1
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku (local CLI)"
+   ],
+   "errors": [
+    "china lens: KeyError: 'xcom'"
+   ],
+   "notes": [
+    "Telem engines that failed on at least one search: tavily."
+   ],
+   "seconds": 91.1
+  }
+ ]
+}

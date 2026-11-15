@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blindspot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F7F9; --card: #FFFFFF; --ink: #14171F; --quiet: #5B6272; --line: #E1E4EA; --soft: #EEF0F4;
+    --memory: #5B6272; --money: #B45309; --time: #3434E6; --china: #D0312D; --engines: #0F766E;
+    --time-wash: #ECECFD; --china-wash: #FCECEB; --money-wash: #FDF2E3; --engines-wash: #E3F4F1;
+    --ok: #1F7A4A; --warn: #B45309; --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px; line-height: 1.4;
+  }
+  a { color: inherit; text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--time); outline-offset: 2px; }
+  h2 { font-size: 24px; font-weight: 900; font-stretch: 115%; margin: 0; }
+  h3 { font-size: 18px; font-weight: 800; margin: 0; }
+  p { margin: 0; }
+  [hidden] { display: none !important; }
+
+  .wrap { max-width: 1300px; margin: 0 auto; padding: 14px 28px 60px; }
+
+  /* header */
+  header { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .mark { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand { font-size: 27px; font-weight: 800; font-stretch: 125%; letter-spacing: -0.01em; margin: 0; }
+  .tagline { font-size: 17px; color: var(--quiet); }
+  .pill { font-size: 13px; font-weight: 700; padding: 2px 10px; border-radius: 99px; background: var(--soft); color: var(--quiet); }
+  .pill.live { background: #E2F3EA; color: var(--ok); }
+  .pill.sample { background: var(--money-wash); color: var(--money); }
+  .tools { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .tools select, .tools button, .tools a.proof {
+    border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 6px 12px; font-size: 14px; cursor: pointer; text-decoration: none;
+  }
+  .tools select { max-width: 190px; }
+  .tools button#demo { border-color: var(--ink); font-weight: 700; }
+  .tools button.pin { color: var(--quiet); }
+  .tools a.proof { background: var(--ink); color: #fff; border-color: var(--ink); font-weight: 700; }
+  .tools button:disabled { opacity: .45; cursor: default; }
+
+  .banner { border-radius: 8px; background: var(--money-wash); color: #7A3A06; padding: 8px 14px; margin: 10px 0 0; font-size: 14.5px; display: none; }
+  .banner.replay { background: var(--time-wash); color: #23239E; }
+
+  form.ask { display: flex; gap: 10px; align-items: stretch; margin: 12px 0 0; }
+  form.ask input { min-width: 0; padding: 11px 14px; font-size: 18px; border: 2px solid var(--ink); border-radius: 10px; background: #fff; }
+  form.ask #q { flex: 1.4; }
+  form.ask #need { flex: 1; border: 1px solid #C3C8D2; font-size: 16px; }
+  form button.go, .check button {
+    padding: 0 26px; border: 0; border-radius: 10px; background: var(--ink); color: #fff; font-weight: 800; font-size: 17px; cursor: pointer;
+  }
+  form button:disabled { opacity: .5; cursor: wait; }
+  .underform { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin: 8px 0 0; min-height: 28px; }
+  .tries { display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; color: var(--quiet); align-items: center; }
+  .tries button { border: 1px solid var(--line); background: #fff; border-radius: 99px; padding: 2px 12px; cursor: pointer; font-size: 14px; }
+  .status { margin-left: auto; font-size: 14.5px; font-weight: 600; text-align: right; }
+  .status .clock { font-weight: 500; color: var(--quiet); font-variant-numeric: tabular-nums; margin-left: 6px; }
+  .status.error { color: #B3261E; }
+  .status.replay { color: #23239E; }
+  .problems { margin: 4px 0 0; padding: 0; list-style: none; font-size: 14px; }
+  .problems li { margin: 2px 0; color: #B3261E; }
+  .problems li.info { color: var(--quiet); }
+
+  /* hero: the one loud element */
+  .hero {
+    display: grid; grid-template-columns: auto 1fr; gap: 44px; align-items: center;
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 28px 14px; margin: 8px 0 0;
+  }
+  .hero { gap: 4px 44px; }
+  .say { grid-column: 1 / -1; font-size: 17px; line-height: 1.35; margin: 6px 0 0; padding: 10px 0 0; border-top: 1px solid var(--line); }
+  .say b { font-weight: 800; }
+  .hero .lead, .hero .tail { font-size: 21px; font-weight: 600; }
+  .hero .num { font-size: 86px; line-height: .98; font-weight: 900; font-stretch: 125%; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; color: var(--time); white-space: nowrap; }
+  .hero .num small { font-size: 40px; font-weight: 800; color: var(--ink); letter-spacing: 0; }
+  .hero.empty .num { color: #CCD1DA; }
+  .dots { display: flex; flex-wrap: wrap; gap: 8px; }
+  .dot { width: 24px; height: 24px; border-radius: 50%; display: inline-block; flex: none; }
+  .dots.small .dot { width: 17px; height: 17px; }
+  .dots.big { gap: 10px; }
+  .dots.big .dot { width: 32px; height: 32px; }
+  .dots.big .dot.named { border-width: 4px; }
+  .dot.named { border: 3px solid #B4BAC6; }
+  .dot.time { background: var(--time); }
+  .dot.china { background: var(--china); }
+  a.dot:hover { outline: 3px solid var(--ink); outline-offset: 1px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 12px 0 0; font-size: 15px; }
+  .legend .lg { display: inline-flex; align-items: center; gap: 7px; }
+  .legend .dot { width: 13px; height: 13px; border-width: 2.5px; }
+  .legend b { font-variant-numeric: tabular-nums; }
+  .why { font-size: 14px; color: var(--quiet); margin: 8px 0 0; }
+  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  ol.steps li { border-left: 3px solid var(--line); padding: 2px 0 2px 14px; }
+  ol.steps b { display: block; font-size: 13px; color: var(--quiet); }
+  ol.steps span { display: block; font-size: 19px; font-weight: 800; }
+  ol.steps small { display: block; font-size: 14px; color: var(--quiet); }
+
+  /* tiles */
+  .tiles { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 10px 0 0; }
+  .tile { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: var(--radius); padding: 8px 14px 10px; }
+  .tile.memory { --c: var(--memory); } .tile.money { --c: var(--money); } .tile.time { --c: var(--time); }
+  .tile.china { --c: var(--china); } .tile.engines { --c: var(--engines); }
+  .tile .lens { font-size: 14px; font-weight: 800; color: var(--c); }
+  .tile b { display: block; font-size: 32px; line-height: 1.15; font-weight: 900; font-stretch: 120%; font-variant-numeric: tabular-nums; }
+  .tile b.words { font-size: 19px; line-height: 1.95; font-weight: 700; color: var(--quiet); }
+  .tile b.busy { animation: pulse 1.1s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+  .tile p { font-size: 14px; line-height: 1.25; color: var(--quiet); min-height: 35px; }
+  .meter { display: block; height: 6px; border-radius: 3px; background: var(--soft); margin: 8px 0 0; overflow: hidden; }
+  .meter span { display: block; height: 100%; width: 0; background: var(--c); border-radius: 3px; }
+  .tile:hover { border-color: var(--c); }
+
+  section.block { margin: 30px 0 0; scroll-margin-top: 10px; }
+  #sec-answer { margin-top: 12px; } #sec-missed { margin-top: 16px; }
+  #answer > summary { list-style: none; cursor: pointer; margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 9px 16px; }
+  #answer > summary::-webkit-details-marker { display: none; }
+  #answer > summary h2 { font-size: 20px; }
+  #answer[open] > summary { margin-bottom: 10px; }
+  #answer .toggle { margin-left: auto; font-size: 14px; font-weight: 700; white-space: nowrap; }
+  #answer .toggle::after { content: "Show details"; } #answer[open] .toggle::after { content: "Hide details"; }
+  body.idle #sec-answer, body.idle #sec-missed { display: none; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin: 0 0 10px; }
+  .sub { font-size: 14.5px; color: var(--quiet); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px 16px; min-width: 0; }
+  .box-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 0 0 12px; }
+
+  /* memory bars */
+  ul.bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  ul.bars li { display: grid; grid-template-columns: minmax(110px, 36%) 1fr 62px; gap: 12px; align-items: center; }
+  .bars .nm { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bars .bar { height: 14px; background: var(--soft); border-radius: 7px; overflow: hidden; }
+  .bars .bar span { display: block; height: 100%; background: var(--memory); border-radius: 7px; }
+  .bars li.full .bar span { background: var(--ink); }
+  .bars .ct { text-align: right; font-weight: 700; font-size: 14.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .bars .split { grid-column: 1 / -1; font-size: 13px; color: var(--quiet); margin-top: -4px; }
+  i.also { display: inline-block; width: 9px; height: 9px; border-radius: 2px; background: var(--money); margin-left: 7px; }
+  .key { font-size: 13px; color: var(--quiet); margin: 8px 0 0; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); }
+  .stats b { display: block; font-size: 24px; font-weight: 900; font-stretch: 115%; line-height: 1.1; }
+  .stats span { display: block; font-size: 13.5px; color: var(--quiet); line-height: 1.25; overflow-wrap: anywhere; }
+
+  /* pages behind normal search */
+  .pages { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .pg { display: block; text-decoration: none; border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-width: 0; }
+  .pg .dom { display: block; font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pg .fl { display: block; font-size: 12.5px; color: var(--quiet); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pg.flagged { border-color: #E3B77A; background: var(--money-wash); }
+  .pg.flagged .fl { color: var(--money); font-weight: 700; }
+  .pg:hover { border-color: var(--ink); }
+  .ftest { display: grid; grid-template-columns: 1fr auto 1fr auto; gap: 10px; align-items: center; margin: 12px 0 0; }
+  .ft-box { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; min-width: 0; }
+  .ft-box span { display: block; font-size: 12.5px; color: var(--quiet); }
+  .ft-box b { display: block; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ft-arrow { color: var(--quiet); font-size: 20px; }
+  .ft-v { font-weight: 800; font-size: 14px; padding: 6px 12px; border-radius: 99px; white-space: nowrap; background: var(--soft); }
+  .ft-v.changed { background: var(--money-wash); color: var(--money); }
+  .named-lbl { font-size: 13.5px; color: var(--quiet); margin: 14px 0 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 13.5px; padding: 2px 10px; border-radius: 99px; border: 1px solid var(--line); background: #fff; white-space: nowrap; }
+  .chip.mem { background: var(--soft); border-color: var(--soft); }
+  .chip.flagonly { border-color: #E3B77A; color: var(--money); }
+  .chip b { font-weight: 700; }
+  a.chip { text-decoration: none; } a.chip:hover { border-color: var(--ink); }
+  .chip small { color: var(--quiet); font-size: 12.5px; margin-left: 4px; }
+
+  .waiting { color: var(--quiet); font-size: 15px; padding: 6px 0; }
+  .waiting::after { content: ""; animation: dots 1.2s steps(4) infinite; }
+  @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
+  .failed { color: #B3261E; font-size: 15px; padding: 6px 0; }
+  .note { font-size: 14.5px; color: var(--quiet); margin: 8px 0 0; }
+
+  details.more { margin: 12px 0 0; font-size: 14px; }
+  details.more > summary { cursor: pointer; color: var(--quiet); font-weight: 600; }
+  details.more ol, details.more ul { padding-left: 20px; margin: 8px 0 0; }
+  details.more li { margin: 0 0 6px; }
+  details.more h4 { font-size: 13.5px; margin: 12px 0 0; }
+  details.more li.flagged::marker { color: var(--money); font-weight: 700; }
+  .srcflag { display: block; color: var(--money); }
+  .srcmeta { color: var(--quiet); }
+
+  /* missed list */
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
+  .filters button { border: 1px solid var(--line); background: #fff; border-radius: 99px; padding: 4px 14px; font-size: 14.5px; cursor: pointer; }
+  .filters button b { font-variant-numeric: tabular-nums; margin-left: 4px; }
+  .filters button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .filters button:disabled { opacity: .45; cursor: default; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--c, var(--time)); border-radius: var(--radius); padding: 12px 14px; min-width: 0; scroll-margin-top: 12px; }
+  .card.time { --c: var(--time); } .card.china { --c: var(--china); }
+  .card:target { box-shadow: 0 0 0 3px var(--ink); }
+  .badges { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 6px; }
+  .badge { font-size: 12.5px; font-weight: 700; padding: 1px 9px; border-radius: 99px; white-space: nowrap; }
+  .badge.time { background: var(--time-wash); color: #23239E; }
+  .badge.china { background: var(--china-wash); color: #A11F1B; }
+  .badge.eng { background: var(--soft); color: var(--quiet); }
+  .badge.eng.one { background: var(--engines-wash); color: var(--engines); }
+  .card h4 { font-size: 19px; font-weight: 800; margin: 0; line-height: 1.2; overflow-wrap: anywhere; }
+  .card .zh { font-weight: 500; color: var(--quiet); margin-left: 6px; font-size: 16px; }
+  .does { font-size: 14.5px; color: var(--quiet); margin: 3px 0 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .fact { font-size: 15px; margin: 8px 0 0; }
+  .fact b { font-weight: 800; }
+  .cnrow { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0 0; }
+  .cnrow > div { background: var(--paper); border-radius: 8px; padding: 6px 10px; min-width: 0; }
+  .cnrow .k { display: block; font-size: 12px; font-weight: 700; color: var(--quiet); }
+  .cnrow b { display: block; font-size: 15px; }
+  .cnrow .v { display: block; font-size: 12.5px; color: var(--quiet); overflow-wrap: anywhere; }
+  .cnrow .none b { color: var(--china); }
+  .srcline { font-size: 13.5px; color: var(--quiet); margin: 9px 0 0; }
+  .srcline a { color: var(--ink); font-weight: 600; }
+  .srcline .ok { color: var(--ok); font-weight: 700; }
+  .card details.more { margin: 6px 0 0; font-size: 13.5px; }
+  .ev { margin: 6px 0 0; padding: 0; list-style: none; }
+  .ev li { margin: 6px 0 0; padding-left: 9px; border-left: 2px solid var(--line); }
+  .ev .ok { color: var(--ok); font-weight: 600; }
+  .ev .meta { color: var(--quiet); }
+  .extra { margin: 6px 0 0; color: var(--quiet); }
+  .rowlbl { font-size: 14px; color: var(--quiet); margin: 16px 0 6px; }
+
+  /* check anything */
+  .check form { display: flex; gap: 10px; max-width: 560px; }
+  .check input { flex: 1; min-width: 0; padding: 10px 14px; font-size: 17px; border: 2px solid var(--ink); border-radius: 10px; background: #fff; }
+  .panels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 12px 0 0; align-items: start; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: var(--radius); padding: 10px 14px 12px; min-height: 120px; min-width: 0; }
+  #p-memory { --c: var(--memory); } #p-west { --c: var(--time); } #p-china { --c: var(--china); } #p-engines { --c: var(--engines); }
+  .panel .lens { font-size: 14px; font-weight: 800; color: var(--c); display: block; }
+  .panel b.big { display: block; font-size: 30px; font-weight: 900; font-stretch: 120%; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .panel b.words { display: block; font-size: 17px; font-weight: 700; color: var(--quiet); line-height: 1.7; }
+  .panel p { font-size: 13.5px; color: var(--quiet); margin: 2px 0 0; }
+  ul.mrows { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+  ul.mrows li { display: grid; grid-template-columns: 96px 1fr 64px; gap: 8px; align-items: center; font-size: 14px; }
+  ul.mrows .bar { height: 10px; background: var(--soft); border-radius: 5px; overflow: hidden; }
+  ul.mrows .bar span { display: block; height: 100%; background: var(--c); border-radius: 5px; }
+  ul.mrows b { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  ul.mrows li.bad { grid-template-columns: 96px 1fr; color: #B3261E; }
+  .panel details.more { font-size: 13px; margin: 8px 0 0; }
+  .panel details.more li { overflow-wrap: anywhere; }
+
+  footer { margin: 36px 0 0; font-size: 13.5px; color: var(--quiet); border-top: 1px solid var(--line); padding-top: 12px; }
+
+  @media (max-width: 1100px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 980px) {
+    .tiles { grid-template-columns: 1fr 1fr; }
+    .hero { grid-template-columns: 1fr; gap: 16px; padding: 16px 18px; }
+    .hero .num { font-size: 72px; } .hero .num small { font-size: 34px; }
+    ol.steps { grid-template-columns: 1fr; }
+    .two, .cards { grid-template-columns: 1fr; }
+    .panels { grid-template-columns: 1fr 1fr; }
+    .pages { grid-template-columns: 1fr 1fr; }
+    form.ask { flex-wrap: wrap; }
+    form.ask #q, form.ask #need { flex: 1 1 100%; }
+    form button.go { padding: 10px 26px; }
+    .status { margin-left: 0; text-align: left; }
+    .filters { margin-left: 0; }
+    .wrap { padding: 12px 16px 50px; }
+  }
+  @media (max-width: 560px) { .panels, .tiles { grid-template-columns: 1fr; } .ftest { grid-template-columns: 1fr; } .ft-arrow { display: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .waiting::after { animation: none; content: "..."; }
+    .tile b.busy { animation: none; }
+  }
+</style>
+</head>
+<body class="idle">
+<div class="wrap">
+  <header>
+    <a class="mark" href="/" aria-label="Blindspot, start page">
+      <!-- The classic blind-spot test card: close your left eye, look at the cross, and the dot vanishes. -->
+      <svg width="58" height="22" viewBox="0 0 58 22" aria-hidden="true">
+        <path d="M8 4v14M1 11h14" stroke="#14171F" stroke-width="3"/>
+        <circle cx="48" cy="11" r="8" fill="#3434E6"/>
+      </svg>
+      <h1 class="brand">Blindspot</h1>
+    </a>
+    <p class="tagline">See what AI search can't. <span style="opacity:.6;white-space:nowrap">by Hublox Studio</span></p>
+    <a href="http://localhost:4499/" target="_blank" rel="noopener" class="pill" style="text-decoration:none" title="Opens the Chinese-platform board in a new window. It runs as a separate local app.">China board ↗</a>
+    <span class="pill" id="mode" hidden></span>
+    <div class="tools">
+      <button id="demo" type="button" hidden title="Replay the saved run you pinned as the demo run">Replay demo run</button>
+      <select id="runs" aria-label="Replay a saved run"><option value="">Saved runs</option></select>
+      <button id="pin" class="pin" type="button" hidden>Pin as demo run</button>
+      <a class="proof" id="proof" href="/proof" hidden>Proof: we predicted this room</a>
+    </div>
+  </header>
+
+  <div class="banner" id="banner"></div>
+
+  <form class="ask" id="ask">
+    <input id="q" autocomplete="off" aria-label="Category" maxlength="300" placeholder="A category, e.g. AI glasses">
+    <input id="need" autocomplete="off" aria-label="Specific need, optional" maxlength="300" placeholder="Specific need (optional)">
+    <button class="go" id="go" type="submit">Run</button>
+  </form>
+  <div class="underform">
+    <div class="tries" id="tries"><span>Try</span></div>
+    <div class="status" id="status" role="status" aria-live="polite"><span id="status-text"></span><span class="clock" id="clock"></span></div>
+  </div>
+  <ul class="problems" id="problems"></ul>
+
+  <section class="hero empty" id="headline" aria-live="polite">
+    <div>
+      <p class="lead">The AI's answer named</p>
+      <p class="num" id="h-num">?</p>
+      <p class="tail">things we found.</p>
+    </div>
+    <div>
+      <ol class="steps" id="steps">
+        <li><b>1</b><span>Ask the AI</span><small id="step-ask">several times, with no search</small></li>
+        <li><b>2</b><span>Search past it</span><small>recent news, YC's directory, Chinese platforms</small></li>
+        <li><b>3</b><span>Count what it left out</span><small>every name traced to a source you can open</small></li>
+      </ol>
+      <div class="dots" id="dots" hidden></div>
+      <div class="legend" id="legend" hidden></div>
+      <p class="why" id="h-why"></p>
+    </div>
+    <p class="say" id="h-say" hidden></p>
+  </section>
+
+  <nav class="tiles" aria-label="The five blind spots">
+    <a class="tile memory" href="#sec-answer" id="t-memory"><span class="lens">Memory</span><b class="words">&ndash;</b><p>how often the same name comes back</p><span class="meter"><span></span></span></a>
+    <a class="tile money" href="#sec-answer" id="t-money"><span class="lens">Money</span><b class="words">&ndash;</b><p>pages with a stake</p><span class="meter"><span></span></span></a>
+    <a class="tile time" href="#sec-missed" id="t-time" data-f="time"><span class="lens">Time</span><b class="words">&ndash;</b><p>recently funded or launched, left out</p><span class="meter"><span></span></span></a>
+    <a class="tile china" href="#sec-missed" id="t-china" data-f="china"><span class="lens">China</span><b class="words">&ndash;</b><p>on Chinese platforms, left out by the AI</p><span class="meter"><span></span></span></a>
+    <a class="tile engines" href="#sec-missed" id="t-engines" data-f="one"><span class="lens">Engines</span><b class="words">&ndash;</b><p>found by only one engine</p><span class="meter"><span></span></span></a>
+  </nav>
+
+  <section class="block" id="sec-answer">
+    <details id="answer">
+    <summary class="sec-head"><h2>The AI's answer</h2><p class="sub" id="answer-sum">What it says from memory, and what a normal search adds.</p><span class="toggle"></span></summary>
+    <div class="two">
+      <div class="box">
+        <div class="box-head"><h3>From memory</h3><span class="sub" id="h-memory">Asked several times, no search</span></div>
+        <div id="c-memory"></div>
+      </div>
+      <div class="box">
+        <div class="box-head"><h3>From normal search</h3><span class="sub" id="h-money">The pages a "best of" search is built on</span></div>
+        <div id="c-money"></div>
+      </div>
+    </div>
+    </details>
+  </section>
+
+  <section class="block" id="sec-missed">
+    <div class="sec-head">
+      <h2>What it missed</h2>
+      <p class="sub" id="h-missed">In none of the AI's answers and on none of the pages behind normal search.</p>
+      <div class="filters" id="filters" role="group" aria-label="Filter the list">
+        <button type="button" data-f="all" aria-pressed="true">All</button>
+        <button type="button" data-f="time" aria-pressed="false">New</button>
+        <button type="button" data-f="china" aria-pressed="false">China</button>
+        <button type="button" data-f="one" aria-pressed="false">One engine only</button>
+      </div>
+    </div>
+    <div id="c-missed"></div>
+    <div id="c-named"></div>
+    <div id="c-missed-notes"></div>
+  </section>
+
+  <section class="block check" id="sec-check">
+    <div class="sec-head"><h2>Check anything</h2><p class="sub">One name, four checks. Counts are of the top results only.</p></div>
+    <form id="check"><input id="check-name" autocomplete="off" maxlength="80" aria-label="Company or product to check" placeholder="A company or product name"><button type="submit" id="check-go">Check</button></form>
+    <div class="panels" id="panels" hidden>
+      <div class="panel" id="p-memory"><span class="lens">AI memory</span></div>
+      <div class="panel" id="p-west"><span class="lens">Western internet</span></div>
+      <div class="panel" id="p-china"><span class="lens">Chinese internet</span></div>
+      <div class="panel" id="p-engines"><span class="lens">Engines</span></div>
+    </div>
+    <p class="note" id="check-foot"></p>
+  </section>
+
+  <footer>
+    Every name is in a cited source. Every quote was found word for word in it. "Not found" means not in the top results of the searches named. Not a ranking of who is better.
+    <span id="setup"></span>
+    <br>Built by Hublox Studio (Muhammadjon and Suhayb) at SearchHack, Sunnyvale, 14 November 2026.
+  </footer>
+</div>
+
+<script>
+const TRIES = ["AI glasses", "AI tools for chip design", "AI office apps"];
+const $ = (id) => document.getElementById(id);
+const state = { filter: "all" };
+let timer = null, startedAt = 0;
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function safeUrl(u) {
+  try { const x = new URL(u); return (x.protocol === "http:" || x.protocol === "https:") ? x.href : "#"; }
+  catch { return "#"; }
+}
+function list(items) {
+  items = (items || []).filter(Boolean);
+  return items.length < 2 ? (items[0] || "") : `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+}
+function arr(x) { return Array.isArray(x) ? x : x ? [x] : []; }
+function cap(s) { return s ? s[0].toUpperCase() + s.slice(1) : ""; }
+function num(x) { return Number(x || 0).toLocaleString("en-US"); }
+function plural(n, word) { return `${n} ${word}${n === 1 ? "" : "s"}`; }
+function setStatus(text, error = false) {
+  $("status-text").textContent = text;
+  $("status").className = "status" + (error ? " error" : "");
+}
+function setProblems(errors, notes) {
+  $("problems").innerHTML =
+    (errors || []).map((e) => `<li>Failed: ${esc(e)}</li>`).join("") +
+    (notes || []).map((e) => `<li class="info">Note: ${esc(e)}</li>`).join("");
+}
+function startClock() {
+  startedAt = Date.now();
+  clearInterval(timer);
+  timer = setInterval(() => { $("clock").textContent = `${((Date.now() - startedAt) / 1000).toFixed(0)}s`; }, 250);
+  $("clock").textContent = "0s";
+}
+function stopClock() { clearInterval(timer); timer = null; $("clock").textContent = ""; }
+
+// A tile shows one number, or a word when there is no number to show. Never a made-up zero.
+function tile(id, value, label, isNumber = true, title = "", frac = null) {
+  const el = $(id);
+  const b = el.querySelector("b");
+  b.textContent = value;
+  b.className = isNumber ? "" : "words" + (value === "Running" || value === "Waiting" ? " busy" : "");
+  if (label) el.querySelector("p").textContent = label;
+  el.title = title;
+  el.querySelector(".meter span").style.width = frac == null ? "0%" : `${Math.round(100 * Math.max(0, Math.min(1, frac)))}%`;
+}
+
+// Runs saved before the China counting rule have no "counted" field: there, every verified name counted.
+const isCounted = (e) => e.counted ?? e.name_verified;
+
+// One line that stays visible while "The AI's answer" is collapsed.
+function renderAnswerSum() {
+  const m = state.memory, mo = state.money, parts = [];
+  if (m && !m.failed && m.companies && m.companies[0]) parts.push(`Memory: ${m.companies[0].name} in ${m.companies[0].count} of ${m.hivemind.samples} answers`);
+  if (mo && !mo.failed && mo.stake && mo.stake.total) {
+    const ft = mo.filter_test;
+    parts.push(`Normal search: ${mo.stake.flagged} of ${mo.stake.total} pages with a stake${ft && ft.status === "done" ? `, filtering them ${ft.changed ? "changed" : "did not change"} the top pick` : ""}`);
+  }
+  $("answer-sum").textContent = parts.length ? parts.join(" · ") : "What it says from memory, and what a normal search adds.";
+}
+
+// The plain sentence under the headline, built from this run only.
+function renderSay() {
+  const rep = state.report, mem = state.memory, el = $("h-say");
+  if (!rep || !rep.coverage.ready || !mem || mem.failed || !mem.companies || !mem.companies.length) { el.hidden = true; return; }
+  const byId = Object.fromEntries(rep.entities.map((e) => [e.id, e]));
+  const missed = rep.missed.map((i) => byId[i]).filter(Boolean);
+  const label = (e) => {
+    const f = e.funding || {};
+    const money = f.verified ? [f.amount, f.round].filter(Boolean).join(" ") : "";
+    return `${esc(e.name)}${money ? ` (${esc(money)})` : ""}`;
+  };
+  const top = missed.slice(0, 3).map(label), rest = missed.length - top.length;
+  const cat = (state.plan && state.plan.question) || $("q").value;
+  el.innerHTML = `Ask AI about <b>${esc(cat)}</b> and you hear about ${esc(list(mem.companies.slice(0, 3).map((c) => c.name)).replace(/\.$/, ""))}. ` +
+    (missed.length ? `You don't hear about these <b>${missed.length}</b>: ${list(top.concat(rest > 0 ? [`${rest} more`] : []))}.` : "We found nothing it left out.");
+  el.hidden = false;
+}
+
+// The full, wordy list of pages. It sits behind a "show" link.
+function sourceList(sources) {
+  return `<ol>${(sources || []).map((s) => {
+    const flags = [];
+    if (s.vendor) flags.push(`Published on ${esc(s.vendor)}'s own site, and it names ${esc(s.vendor)}.`);
+    if (s.paid && s.paid_kind === "link") flags.push(`Affiliate link on the page: ${esc(s.paid)}`);
+    if (s.paid && s.paid_kind === "wording") flags.push(`Disclosure on the page: "${esc(s.paid)}"`);
+    if (s.paid && s.paid_kind === "self") flags.push(`The page says it ranks its own product: "${esc(s.paid)}"`);
+    if (s.stale) flags.push(`Over a year old: the page is dated ${esc(s.date)}${s.date_note ? ` ("${esc(s.date_note)}")` : ""}.`);
+    const meta = [esc(s.domain)];
+    if (s.date && !s.stale) meta.push(s.date_from === "search" ? `the search engine dates it ${esc(s.date)}` : esc(s.date));
+    if (s.provider) meta.push(`found via ${esc(s.provider)}`);
+    if (s.opened === true) meta.push(s.opened_by ? `opened with ${esc(s.opened_by)}` : "opened");
+    else if (s.opened === false && s.open_error) meta.push(`could not be opened (${esc(s.open_error)}), so only its search snippet was checked`);
+    else if (s.opened === false) meta.push("not opened, only its search snippet was checked");
+    if (arr(s.found_by).length) meta.push(esc(arr(s.found_by).join(", ")));
+    return `<li class="${flags.length ? "flagged" : ""}"><a href="${safeUrl(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>
+      <span class="srcmeta">(${meta.join("; ")})</span>${flags.map((f) => `<span class="srcflag">${f}</span>`).join("")}</li>`;
+  }).join("")}</ol>`;
+}
+
+function renderMemory() {
+  const e = state.memory;
+  if (!e) return;
+  if (e.failed) {
+    $("c-memory").innerHTML = `<div class="failed">This lens failed: ${esc(e.failed)}</div>`;
+    tile("t-memory", "Failed", "the memory lens did not finish", false, e.failed);
+    return;
+  }
+  const overlap = new Set((state.money && state.money.memory_overlap) || []);
+  const hm = e.hivemind;
+  const models = hm.per_model || [];
+  const many = models.length > 1;
+  const ways = (hm.phrasings || []).length;
+  $("h-memory").textContent = `Asked ${hm.asked} times, no search${hm.samples < hm.asked ? `, ${hm.samples} answered` : ""}`;
+  const SHOW = 8;
+  const row = (c) => {
+    const pct = hm.samples ? Math.round(100 * (c.count || 0) / hm.samples) : 0;
+    const split = many ? models.map((m) => `${esc(m.model)} ${(c.by_model || {})[m.model] || 0} of ${m.samples}`).join(" · ") : "";
+    return `<li class="${c.count === hm.samples ? "full" : ""}" title="${esc(c.does)}">
+      <span class="nm">${esc(c.name)}${overlap.has(c.name) ? '<i class="also" title="Also on the pages behind normal search"></i>' : ""}</span>
+      <span class="bar" aria-hidden="true"><span style="width:${pct}%"></span></span>
+      <span class="ct">${c.count || 0} of ${hm.samples}</span>
+      ${split ? `<span class="split">${split}</span>` : ""}</li>`;
+  };
+  const top = e.companies.slice(0, SHOW), rest = e.companies.slice(SHOW);
+  const others = rest.map((c) => ({ name: c.name, count: c.count })).concat(hm.others || []);
+  const together = e.companies.filter((c) => c.variants && c.variants.length);
+  const more = [
+    others.length ? `<h4>The other ${others.length} names</h4><ul>${others.map((o) => `<li>${esc(o.name)} <span class="srcmeta">(${o.count} of ${hm.samples})</span></li>`).join("")}</ul>` : "",
+    `<h4>Per model</h4><ul>${models.map((m) => `<li><b>${esc(m.model)}</b>: ${plural(m.samples, "answer")}, ${m.distinct} different companies. Most named: ${esc((m.top || []).map((t) => `${t.name} (${t.count} of ${m.samples})`).join(", "))}</li>`).join("")}</ul>`,
+    together.length ? `<h4>Names counted together</h4><ul>${together.map((c) => `<li>${esc(c.name)}: ${esc(c.variants.join(", "))}</li>`).join("")}</ul>` : "",
+    ways ? `<h4>The ${ways} wordings, at temperature ${hm.temperature != null ? Number(hm.temperature).toFixed(1) : "default"}</h4><ol>${hm.phrasings.map((p) => `<li>${esc(p)}</li>`).join("")}</ol>` : "",
+  ].join("");
+  $("c-memory").innerHTML = top.length
+    ? `<ul class="bars">${top.map(row).join("")}</ul>
+       ${top.some((c) => overlap.has(c.name)) ? `<p class="key"><i class="also" style="margin:0 6px 0 0"></i>also on the pages behind normal search</p>` : ""}
+       <div class="stats">
+         <div><b>${hm.distinct}</b><span>different companies named</span></div>
+         <div><b>${hm.top5_share}%</b><span>of all mentions went to the top 5</span></div>
+         <div><b>${models.length}</b><span>${many ? "models asked" : `model: ${esc((models[0] || {}).model || "")}`}</span></div>
+       </div>
+       <details class="more"${many ? " open" : ""}><summary>Other names, wordings and the per-model split</summary>${more}</details>`
+    : `<div class="note">The model named no companies.</div>`;
+  const first = e.companies[0];
+  if (first) tile("t-memory", `${first.count} of ${hm.samples}`, `answers named ${first.name}`, true, "", hm.samples ? first.count / hm.samples : 0);
+  else tile("t-memory", "None", "no company was named", false);
+  renderAnswerSum(); renderSay();
+}
+
+function filterTest(ft) {
+  if (!ft) return "";
+  if (ft.status === "running") return `<div class="waiting">Asking for the top pick twice: all ${ft.all_pages} pages, then the ${ft.clean_pages} unflagged ones</div>`;
+  if (ft.status === "no_clean") return `<p class="note">Filter test: every page is flagged, so there is no unflagged set to compare.</p>`;
+  if (ft.status === "no_flagged") return `<p class="note">Filter test: no page was flagged, so there was nothing to filter.</p>`;
+  if (ft.status === "no_pick") return `<p class="note">Filter test: no usable pick (all pages: ${esc(ft.all_pick || "none")}; unflagged pages: ${esc(ft.clean_pick || "none")}).</p>`;
+  return `<div class="ftest" title="The model is asked for one top pick from all the pages, then again from only the unflagged pages.">
+    <div class="ft-box"><span>Top pick, all ${ft.all_pages} pages</span><b>${esc(ft.all_pick)}</b></div>
+    <span class="ft-arrow" aria-hidden="true">&rarr;</span>
+    <div class="ft-box"><span>Only the ${ft.clean_pages} unflagged pages</span><b>${esc(ft.clean_pick)}</b></div>
+    <span class="ft-v${ft.changed ? " changed" : ""}">${ft.changed ? "Pick changed" : "Same pick"}</span>
+  </div>`;
+}
+
+function pageFlags(s) {
+  const f = [];
+  if (s.vendor) f.push("own site");
+  if (s.paid) f.push(s.paid_kind === "link" ? "affiliate link" : s.paid_kind === "self" ? "ranks its own product" : "disclosure");
+  if (s.stale) f.push("over a year old");
+  return f;
+}
+
+function renderMoney() {
+  const e = state.money;
+  if (!e) return;
+  if (e.failed) {
+    $("c-money").innerHTML = `<div class="failed">This lens failed: ${esc(e.failed)}</div>`;
+    tile("t-money", "Failed", "the normal-search lens did not finish", false, e.failed);
+    return;
+  }
+  const st = e.stake || {};
+  const n = e.sources.length;
+  const tried = st.tried != null ? st.tried : n;
+  $("h-money").textContent = `"${e.query}" · ${st.opened != null ? `${st.opened} of ${n} pages opened` : `${n} pages`}`;
+  const pages = e.sources.map((s) => {
+    const f = pageFlags(s);
+    return `<a class="pg${f.length ? " flagged" : ""}" href="${safeUrl(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">
+      <span class="dom">${esc(s.domain)}</span><span class="fl">${f.length ? esc(f.join(", ")) : s.opened === false ? "not opened" : "no flag"}</span></a>`;
+  }).join("");
+  const chips = e.companies.map((c) =>
+    `<span class="chip${c.in_memory ? " mem" : ""}${c.flagged_only ? " flagonly" : ""}" title="${esc(c.does)}${c.flagged_only ? " (only on flagged pages)" : ""}">${esc(c.name)}</span>`).join("");
+  const routed = (e.routing || []).map(cap);
+  const notes = [];
+  if (routed.length) notes.push(`Telem's router chose ${list(routed)} for this search.`);
+  else if (e.searched_with) notes.push(`Searched with ${e.searched_with}.`);
+  if (e.retried) notes.push(`The first search came back off topic, so the same query was run again at Tavily's ${e.retried} depth.`);
+  if (tried !== n) notes.push(`We tried to open ${tried} of the ${n} pages.`);
+  if (st.vendor) notes.push(`${st.vendor} ${st.vendor > 1 ? "are" : "is"} a vendor's own page.`);
+  if (st.paid) notes.push(`${st.paid} carr${st.paid > 1 ? "y" : "ies"} an affiliate link or a disclosure sentence.`);
+  if (st.stale) notes.push(`${st.stale} ${st.stale > 1 ? "are" : "is"} over a year old by the page's own date line.`);
+  const echo = e.echo || {};
+  $("c-money").innerHTML =
+    (n ? `<div class="pages">${pages}</div>` : `<div class="note">The search returned no pages.</div>`) +
+    filterTest(e.filter_test) +
+    (chips ? `<p class="named-lbl">${echo.total || e.companies.length} companies named on these pages${echo.total ? ` · <b>${echo.repeated}</b> already in the AI's memory (grey)` : ""}${e.flagged_only ? ` · ${e.flagged_only} only on flagged pages (amber)` : ""}</p><div class="chips">${chips}</div>`
+           : `<div class="note">No companies found in the results.</div>`) +
+    `<details class="more"><summary>Every page and why it is flagged</summary>${notes.length ? `<p class="extra">${esc(notes.join(" "))}</p>` : ""}${sourceList(e.sources)}</details>`;
+  if (st.total) tile("t-money", `${st.flagged} of ${st.total}`, "pages with a stake", true, "", st.flagged / st.total);
+  else tile("t-money", "None", "the search returned no pages", false);
+  renderAnswerSum();
+}
+
+const TYPE = { independent: "independent source", own_site: "its own site", directory: "YC's directory", post: "post" };
+function card(e, eng) {
+  const f = e.funding || {};
+  const badges = [];
+  if (e.lenses.includes("time")) {
+    if (f.verified) badges.push(`<span class="badge time">Funded</span>`);
+    if (e.yc_batch) badges.push(`<span class="badge time">YC ${esc(e.yc_batch)}</span>`);
+    if (!f.verified && !e.yc_batch) badges.push(`<span class="badge time">New</span>`);
+  }
+  if (e.lenses.includes("china")) badges.push(`<span class="badge china">China</span>`);
+  if (eng && eng.enough && e.engines.length) {
+    badges.push(e.engines.length === 1
+      ? `<span class="badge eng one" title="Only this engine returned it">Only ${esc(cap(e.engines[0]))} found it</span>`
+      : `<span class="badge eng" title="${esc(list(e.engines.map(cap)))}">${e.engines.length} engines</span>`);
+  }
+  const money = [f.amount, f.round].filter(Boolean).join(" ");
+  const fact = f.verified && money ? `<p class="fact"><b>${esc(money)}</b>${f.when ? ` · ${esc(f.when)}` : ""}</p>` : "";
+  let cn = "";
+  if (e.china || e.west) {
+    const c = e.china, w = e.west;
+    const none = w && /^No Western posts/.test(w.status || "");
+    cn = `<div class="cnrow">
+      ${c ? `<div><span class="k">Chinese platforms</span><b>${plural(c.posts, "post")}</b><span class="v">${num(c.likes)} likes · ${esc((c.platforms || []).join(", "))}</span></div>` : ""}
+      ${w ? `<div class="${none ? "none" : ""}"><span class="k">Reddit and X</span><b>${esc(w.status || "")}</b><span class="v">${plural(w.posts, "post")}${none ? ` · searched as ${esc((w.checked_names || []).join(", "))}` : ""}</span></div>` : ""}
+    </div>`;
+  }
+  const evs = e.evidence || [];
+  const main = evs.find((x) => x.quote) || evs[0];
+  const srcline = main ? `<p class="srcline"><a href="${safeUrl(main.url)}" target="_blank" rel="noopener">${esc(main.domain)}</a>${main.date ? ` · ${esc(main.date)}` : ""}${main.quote ? ` · <span class="ok" title="The quote below was found word for word in this source">quote found</span>` : ""}</p>` : "";
+  const ev = evs.map((x) => {
+    const via = x.engine && x.engine.length ? `, via ${esc(list(x.engine.map(cap)))}` : "";
+    const where = x.source_type === "post" && x.platform ? `post on ${esc(x.platform)}` : TYPE[x.source_type] || esc(x.source_type);
+    return `<li>${x.quote ? `"${esc(x.quote)}" <span class="ok">found in the source</span><br>` : ""}
+      <a href="${safeUrl(x.url)}" target="_blank" rel="noopener">${esc(x.domain)}</a> <span class="meta">(${where}${x.date ? `, ${esc(x.date)}` : ""}${via})</span></li>`;
+  }).join("");
+  const extra = [];
+  if (f.verified && f.investors && f.investors.length) extra.push(`Investors: ${esc(f.investors.join(", "))}`);
+  if (e.west) extra.push(`Names searched on Reddit and X: ${esc((e.west.checked_names || []).join(", "))}${e.west.posts ? ` (${num(e.west.likes)} likes, ${num(e.west.comments)} comments)` : ""}. Top results only.${e.west.web ? ` Web: ${e.west.web.count} of the top ${e.west.web.returned} results name it.` : ""}`);
+  if (e.china) extra.push(`Chinese platforms: ${num(e.china.comments)} comments. Top results only.`);
+  if (e.name_proof) extra.push(`English name: ${esc(e.name_proof)}`);
+  if (e.found_by && e.found_by.length) extra.push(`Found by: ${esc(e.found_by.join(", "))}`);
+  if (e.engines && e.engines.length) extra.push(`Engines: ${esc(list(e.engines.map(cap)))}`);
+  return `<article class="card ${e.lens === "china" ? "china" : "time"}" id="card-${esc(e.id)}">
+    <div class="badges">${badges.join("")}</div>
+    <h4>${esc(e.name)}${e.zh && e.zh !== e.name ? `<span class="zh" lang="zh">${esc(e.zh)}</span>` : ""}</h4>
+    <p class="does" title="${esc(e.does)}">${esc(e.does)}</p>
+    ${fact}${cn}${srcline}
+    <details class="more"><summary>Evidence (${evs.length})</summary><ul class="ev">${ev}</ul>${extra.map((x) => `<p class="extra">${x}</p>`).join("")}</details>
+  </article>`;
+}
+
+function renderMissed() {
+  const rep = state.report, eng = state.engines;
+  if (!rep) return;
+  const byId = Object.fromEntries(rep.entities.map((e) => [e.id, e]));
+  const missed = rep.missed.map((i) => byId[i]).filter(Boolean);
+  const one = (e) => !!(eng && eng.enough && e.engines.length === 1);
+  const pass = { all: () => true, time: (e) => e.lenses.includes("time"), china: (e) => e.lenses.includes("china"), one };
+  const show = missed.filter(pass[state.filter] || pass.all);
+  $("c-missed").innerHTML = show.length ? `<div class="cards">${show.map((e) => card(e, eng)).join("")}</div>`
+    : `<div class="note">${missed.length ? "Nothing in this filter." : "Nothing was missed: every thing we found was already in the AI's answer."}</div>`;
+
+  const mem = state.memory && state.memory.hivemind, mon = state.money;
+  $("h-missed").textContent = `In none of the AI's ${mem ? `${mem.samples} ` : ""}answers and on none of the ${mon && mon.sources ? `${mon.sources.length} ` : ""}pages behind normal search.${rep.coverage.by_lens.china ? " Post counts are from the top results only." : ""}`;
+
+  const named = rep.entities.filter((e) => e.named_by_ai && isCounted(e));
+  const unverified = rep.entities.filter((e) => !e.name_verified);
+  const known = (rep.known_in_west || []).map((i) => byId[i]).filter(Boolean);
+  const first = (e) => safeUrl(((e.evidence || [])[0] || {}).url);
+  $("c-named").innerHTML =
+    (known.length ? `<p class="rowlbl">Known in the West, but the AI still didn't name them (${known.length})</p><div class="chips">${known.map((e) =>
+      `<a class="chip" href="${first(e)}" target="_blank" rel="noopener" title="${esc(e.does)}"><b>${esc(e.name)}</b>${e.zh && e.zh !== e.name ? ` <span lang="zh">${esc(e.zh)}</span>` : ""}<small>${e.china ? `${plural(e.china.posts, "post")} on Chinese platforms · ` : ""}${e.west ? `${plural(e.west.posts, "post")} on Reddit and X` : ""}</small></a>`).join("")}</div>` : "") +
+    (named.length ? `<p class="rowlbl" id="named">We also found these, and the AI did name them (${named.length})</p><div class="chips">${named.map((e) =>
+      `<span class="chip mem" title="${esc(e.does)}"><b>${esc(e.name)}</b><small>${e.ai.memory_count} of ${e.ai.memory_samples} answers${e.ai.in_normal_search ? " · in normal search" : ""}</small></span>`).join("")}</div>` : "") +
+    (unverified.length ? `<p class="rowlbl">Not counted, because no source showed an English name next to the Chinese one (${unverified.length})</p><div class="chips">${unverified.map((e) =>
+      `<span class="chip" title="Searched as ${esc(e.west ? e.west.checked_names.join(", ") : e.name)}">${esc(e.name)}<small>name unverified</small></span>`).join("")}</div>` : "");
+
+  const notes = [`Order: ${rep.sort || "independent sources, then engines, then newest date"}. Not a ranking of who is better.`];
+  const t = state.time, c = state.china;
+  if (rep.china_rule) notes.push(rep.china_rule);
+  const seenNamed = rep.entities.filter((e) => e.name_verified && !isCounted(e) && e.named_by_ai);
+  if (seenNamed.length) notes.push(`From Chinese platforms, seen in the West and named by the AI, so not counted: ${seenNamed.map((e) => e.name).join(", ")}.`);
+  const other = rep.entities.filter((e) => e.name_verified && !isCounted(e) && !e.named_by_ai && !known.includes(e));
+  if (other.length) notes.push(`Not counted, because the Western check did not finish: ${other.map((e) => e.name).join(", ")}.`);
+  if (c && c.one_post_dropped) notes.push(`${plural(c.one_post_dropped, "thing")} named in only one Chinese post ${c.one_post_dropped > 1 ? "were" : "was"} left out.`);
+  if (c && c.status === "ok" && c.posts_read != null) notes.push(`China lens: read ${c.posts_read} recent posts from ${(c.platforms || []).join(", ")} for ${(c.queries || []).join(" / ")}, and kept ${c.companies.length} named things whose name is in a post. Western check: ${(c.west_platforms || []).join(", ")}.`);
+  if (t && !t.failed && t.companies) {
+    notes.push(`The plain "new startups" search found ${t.plain_found} of the ${t.companies.length} companies from the time lens on its own.`);
+    if (t.off_topic_results) notes.push(`${plural(t.off_topic_results, "search result")} never mentioned the category and ${t.off_topic_results > 1 ? "were" : "was"} dropped before the model saw ${t.off_topic_results > 1 ? "them" : "it"}.`);
+    if (t.not_in_source) notes.push(`${plural(t.not_in_source, "name")} the model gave ${t.not_in_source > 1 ? "were" : "was"} not in the source it cited and ${t.not_in_source > 1 ? "were" : "was"} dropped.`);
+  }
+  if (c && (c.status === "needs" || c.status === "off")) notes.push(`China lens not run. ${c.reason}`);
+  if (t && t.status === "off") notes.push(`Time lens not run. ${t.reason}`);
+  if (c && c.failed) notes.push(`The China lens failed: ${c.failed}`);
+  if (t && t.failed) notes.push(`The time lens failed: ${t.failed}`);
+  if (eng && !eng.enough) notes.push(`Engines: ${eng.reason}`);
+  const runNotes = (state.done && state.done.notes) || [];
+  $("c-missed-notes").innerHTML = runNotes.map((x) => `<p class="note">Note: ${esc(x)}</p>`).join("") + `<details class="more"><summary>How this was counted</summary><ul>${notes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>${
+    t && !t.failed && t.sources && t.sources.length ? `<h4>Everything the time lens searched (${t.sources.length})</h4>${sourceList(t.sources)}` : ""}</details>`;
+
+  const counts = { all: missed.length, time: missed.filter(pass.time).length, china: missed.filter(pass.china).length, one: missed.filter(one).length };
+  const LABEL = { all: "All", time: "New", china: "China", one: "One engine only" };
+  for (const b of document.querySelectorAll("#filters button")) {
+    const k = b.dataset.f;
+    b.setAttribute("aria-pressed", String(k === state.filter));
+    b.disabled = (k === "one" && !(eng && eng.enough)) || (k === "china" && !rep.coverage.by_lens.china);
+    b.title = k === "one" && b.disabled && eng ? eng.reason : "";
+    b.innerHTML = `${LABEL[k]}${b.disabled ? "" : `<b>${counts[k]}</b>`}`;
+  }
+}
+
+function renderReport() {
+  const rep = state.report;
+  if (!rep) return;
+  const cov = rep.coverage;
+  $("steps").hidden = true;
+  if (cov.ready) {
+    $("headline").classList.remove("empty");
+    $("h-num").innerHTML = `${cov.named}<small> of ${cov.found}</small>`;
+    // One dot per thing counted in the headline. Drawn only when the dots add up to the headline.
+    const counted = rep.entities.filter(isCounted);
+    const named = counted.filter((e) => e.named_by_ai), missed = counted.filter((e) => !e.named_by_ai);
+    const mt = missed.filter((e) => e.lenses.includes("time")), mc = missed.filter((e) => !e.lenses.includes("time"));
+    if (counted.length === cov.found && named.length === cov.named) {
+      const dot = (e, cls, href) => `<a class="dot ${cls}" href="${href}" title="${esc(e.name)}" aria-label="${esc(e.name)}"></a>`;
+      $("dots").className = "dots" + (counted.length > 36 ? " small" : counted.length <= 22 ? " big" : "");
+      $("dots").innerHTML = named.map((e) => dot(e, "named", "#named")).join("") + mt.map((e) => dot(e, "time", `#card-${esc(e.id)}`)).join("") + mc.map((e) => dot(e, "china", `#card-${esc(e.id)}`)).join("");
+      $("legend").innerHTML =
+        `<span class="lg"><i class="dot named"></i><b>${named.length}</b> named by the AI</span>` +
+        (mt.length ? `<span class="lg"><i class="dot time"></i><b>${mt.length}</b> missed: recently funded or launched</span>` : "") +
+        (mc.length ? `<span class="lg"><i class="dot china"></i><b>${mc.length}</b> missed: on Chinese platforms</span>` : "");
+      $("dots").hidden = false; $("legend").hidden = false;
+    }
+    const why = [];
+    if (cov.unverified) why.push(`${cov.unverified} more left out: the name could not be verified.`);
+    if (!cov.by_lens.china) why.push("The China lens did not run, so it is not in this number.");
+    $("h-why").textContent = why.join(" ");
+  } else {
+    $("headline").classList.add("empty");
+    $("h-num").textContent = "?";
+    $("h-why").textContent = cov.why_not;
+  }
+  const t = cov.by_lens.time, c = cov.by_lens.china;
+  if (t) tile("t-time", t.found ? `${t.missed} missed` : "None found", t.found ? `of ${t.found} recently funded or launched` : "no recent company passed the checks", !!t.found, "", t.found ? t.missed / t.found : null);
+  if (c) tile("t-china", c.found ? String(c.missed) : "None", "on Chinese platforms, left out by the AI", !!c.found,
+    c.found ? `${c.missed} of the ${c.found} counted things from Chinese platforms` : "Nothing from Chinese platforms passed the counting rule. See \"How this was counted\".", c.found ? c.missed / c.found : null);
+  renderMissed(); renderSay();
+}
+
+function renderEngines() {
+  const e = state.engines;
+  if (!e) return;
+  if (e.enough) tile("t-engines", `${e.one_engine} of ${e.of}`, `found by only one of ${e.engines.length} engines`, true, list(e.engines.map(cap)), e.of ? e.one_engine / e.of : null);
+  else tile("t-engines", e.engines.length >= 3 ? "Nothing to count" : "Needs Telem", "found by only one engine", false, e.reason);
+}
+
+function reset() {
+  for (const k of ["plan", "memory", "money", "time", "china", "engines", "report", "replay", "runId", "done"]) delete state[k];
+  state.filter = "all";
+  document.body.classList.remove("idle");
+  $("headline").classList.add("empty"); $("h-num").textContent = "?"; $("h-why").textContent = "";
+  $("steps").hidden = false; $("dots").hidden = true; $("legend").hidden = true; $("dots").innerHTML = ""; $("legend").innerHTML = "";
+  tile("t-memory", "Running", "how often the same name comes back", false);
+  tile("t-money", "Waiting", "pages with a stake", false);
+  tile("t-time", "Waiting", "recently funded or launched, left out", false);
+  tile("t-china", "Waiting", "on Chinese platforms, left out by the AI", false);
+  tile("t-engines", "Waiting", "found by only one engine", false);
+  $("h-memory").textContent = "Asked several times, no search";
+  $("h-money").textContent = 'The pages a "best of" search is built on';
+  $("c-memory").innerHTML = `<div class="waiting">Asking the AI the same question several times, with no search</div>`;
+  $("c-money").innerHTML = `<div class="waiting">Waiting for the plan</div>`;
+  $("c-missed").innerHTML = `<div class="waiting">Waiting for the plan</div>`;
+  $("c-named").innerHTML = ""; $("c-missed-notes").innerHTML = "";
+  $("h-say").hidden = true; renderAnswerSum();
+  $("pin").hidden = true;
+  setProblems([], []);
+  if (!state.sample) $("banner").style.display = "none"; else $("banner").textContent = state.sampleText;
+}
+
+function onEvent(e) {
+  const re = state.replay ? "Replaying: " : "";
+  switch (e.stage) {
+    case "replaying":
+      state.replay = e; state.runId = e.run_id;
+      $("q").value = e.question || ""; $("need").value = e.need || "";
+      setStatus(`Replaying a run saved ${e.saved || "earlier"}`); $("status").classList.add("replay");
+      if (state.sample) $("banner").textContent = "This is a replay of a real saved run. This computer has no keys, so a new run or a check here would use made-up sample data.";
+      break;
+    case "plan":
+      state.plan = e;
+      $("c-money").innerHTML = `<div class="waiting">Searching for "best ${esc(e.category)}" and opening every page behind it</div>`;
+      $("c-missed").innerHTML = `<div class="waiting">Searching recent funding and launch news, YC's directory and Chinese platforms for ${esc(e.area)}</div>`;
+      tile("t-money", "Running", "pages with a stake", false);
+      tile("t-time", "Running", "recently funded or launched, left out", false);
+      tile("t-china", "Running", "on Chinese platforms, left out by the AI", false);
+      break;
+    case "memory":
+      state.memory = e; renderMemory();
+      setStatus(`${re}memory done, now searching`);
+      break;
+    case "money":
+      state.money = e;
+      if (e.status === "off") { $("c-money").innerHTML = `<div class="note">${esc(e.reason)}</div>`; tile("t-money", "Off", "pages with a stake", false, e.reason); break; }
+      renderMoney(); renderMemory(); break;
+    case "time":
+      state.time = e;
+      if (e.status === "off") { $("c-missed").innerHTML = `<div class="note">${esc(e.reason)}</div>`; tile("t-time", "Off", "recently funded or launched, left out", false, e.reason); }
+      else if (e.failed) { $("c-missed").innerHTML = `<div class="failed">The time lens failed: ${esc(e.failed)}</div>`; tile("t-time", "Failed", "the time lens did not finish", false, e.failed); }
+      else $("c-missed").innerHTML = `<div class="waiting">Found ${e.companies.length} recently funded or launched companies. Checking each against the AI's answer</div>`;
+      break;
+    case "china":
+      state.china = e;
+      if (e.failed) tile("t-china", "Failed", "the China lens did not finish", false, e.failed);
+      else if (e.status === "needs") tile("t-china", "Needs Telem", "on Chinese platforms, left out by the AI", false, e.reason);
+      else if (e.status === "off") tile("t-china", "Off", "on Chinese platforms, left out by the AI", false, e.reason);
+      break;
+    case "engines": state.engines = e; renderEngines(); break;
+    case "report": state.report = e; renderReport(); break;
+    case "done": {
+      stopClock();
+      const errs = e.errors || [];
+      const how = e.mode === "mock" ? "sample data, nothing real" : `live · ${cap(e.provider)}${e.models && e.models.length ? ` · ${e.models.join(", ")}` : ""}`;
+      const text = state.replay ? `Replay of a run saved ${state.replay.saved || "earlier"} · it took ${e.seconds}s (${how}) · nothing is being searched now.` : `Done in ${e.seconds}s (${how}).`;
+      setStatus(errs.length ? `${text} ${plural(errs.length, "thing")} failed:` : text, errs.length > 0);
+      if (state.replay && !errs.length) $("status").classList.add("replay");
+      setProblems(errs, []);
+      state.done = e; renderMissed();
+      break;
+    }
+    case "progress": setStatus(re + e.message); if (state.replay) $("status").classList.add("replay"); break;
+    case "saved": state.runId = e.run_id; loadRuns(); break;
+    case "error": stopClock(); setStatus(`The run stopped: ${e.message}`, true); break;
+  }
+}
+
+async function readStream(resp) {
+  const reader = resp.body.getReader();
+  const dec = new TextDecoder();
+  let buf = "";
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    buf += dec.decode(value, { stream: true });
+    let i;
+    while ((i = buf.indexOf("\n")) >= 0) {
+      const text = buf.slice(0, i).trim();
+      buf = buf.slice(i + 1);
+      if (text) onEvent(JSON.parse(text));
+    }
+  }
+  if (buf.trim()) onEvent(JSON.parse(buf));
+}
+
+async function stream(url, options, live) {
+  $("go").disabled = true; $("demo").disabled = true;
+  reset();
+  if (live) startClock(); else stopClock();
+  try {
+    const resp = await fetch(url, options);
+    if (!resp.ok) {
+      const body = await resp.json().catch(() => ({}));
+      throw new Error(body.error || `Server returned ${resp.status}`);
+    }
+    await readStream(resp);
+  } catch (err) {
+    setStatus(`The run stopped: ${err.message}`, true);
+  } finally {
+    stopClock();
+    $("go").disabled = false; $("demo").disabled = false;
+    for (const b of document.querySelectorAll(".tile b.busy")) { b.classList.remove("busy"); if (b.textContent === "Running" || b.textContent === "Waiting") b.textContent = "Not run"; }
+    updatePin();
+  }
+}
+
+$("ask").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const q = $("q").value.trim();
+  if (!q) { setStatus("Name a category first.", true); $("q").focus(); return; }
+  setStatus(`Asking the AI ${state.samples || "several"} times, with no search`);
+  stream("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q, need: $("need").value.trim() }) }, true);
+});
+
+for (const t of TRIES) {
+  const b = document.createElement("button");
+  b.type = "button"; b.textContent = t;
+  b.addEventListener("click", () => { $("q").value = t; $("need").value = ""; $("ask").requestSubmit(); });
+  $("tries").appendChild(b);
+}
+for (const b of document.querySelectorAll("#filters button")) {
+  b.addEventListener("click", () => { state.filter = b.dataset.f; renderMissed(); });
+}
+// A lens tile opens the list already filtered to that lens. A dot opens its card.
+for (const t of document.querySelectorAll(".tile[data-f]")) {
+  t.addEventListener("click", () => {
+    const b = document.querySelector(`#filters button[data-f="${t.dataset.f}"]`);
+    if (state.report && b && !b.disabled) { state.filter = t.dataset.f; renderMissed(); }
+  });
+}
+for (const id of ["t-memory", "t-money"]) $(id).addEventListener("click", () => { $("answer").open = true; });
+$("dots").addEventListener("click", () => { if (state.filter !== "all") { state.filter = "all"; renderMissed(); } });
+
+// ---------- Check anything ----------
+function panel(id, lens, html) { $(id).innerHTML = `<span class="lens">${lens}</span>${html}`; }
+function needs(p) { return `<b class="words">${p.status === "failed" ? "Failed" : "Needs Telem"}</b><p>${esc(p.reason || "")}</p>`; }
+function mrows(sources) {
+  return `<ul class="mrows">${sources.map((s) => s.failed ? `<li class="bad"><span>${esc(s.label)}</span><span>failed: ${esc(s.failed)}</span></li>`
+    : `<li><span>${esc(s.label)}</span><span class="bar" aria-hidden="true"><span style="width:${s.returned ? Math.round(100 * s.count / s.returned) : 0}%"></span></span><b>${s.count} of ${s.returned}</b></li>`).join("")}</ul>`;
+}
+function linkList(sources, word) {
+  const items = sources.flatMap((s) => (s.links || []).map((l) => `<li>${esc(s.label)}: <a href="${safeUrl(l.url)}" target="_blank" rel="noopener">${esc(l.title || l.domain || word)}</a></li>`));
+  return items.length ? `<details class="more"><summary>Open the ${word}s (${items.length})</summary><ul>${items.join("")}</ul></details>` : "";
+}
+const PANELS = [["p-memory", "AI memory", "Asking the AI three times, with no search"], ["p-west", "Western internet", "Searching Reddit, X and the web"],
+                ["p-china", "Chinese internet", "Checking Chinese platforms"], ["p-engines", "Engines", "Asking each engine"]];
+$("check").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  const name = $("check-name").value.trim();
+  if (!name) { $("check-name").focus(); return; }
+  $("panels").hidden = false; $("check-go").disabled = true; $("check-foot").textContent = "";
+  const started = Date.now();
+  for (const [id, lens, doing] of PANELS) panel(id, lens, `<p class="waiting">${doing}</p>`);
+  try {
+    const resp = await fetch("/api/check", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name }) });
+    const r = await resp.json();
+    if (!resp.ok) throw new Error(r.error || `Server returned ${resp.status}`);
+    const m = r.memory;
+    panel("p-memory", "AI memory", m.status !== "ok" ? `<b class="words">${m.status === "needs" ? "Needs an AI key" : "Failed"}</b><p>${esc(m.reason || "")}</p>`
+      : `<b class="big">${m.knew} of ${m.asked}</b><p>answers described it, with no search</p>
+         <details class="more"><summary>What it said (not checked)</summary><ul>${m.answers.map((a) => `<li><b>${esc(a.model)}</b>: ${a.failed ? `failed (${esc(a.failed)})` : esc(a.answer)}</li>`).join("")}</ul></details>`);
+    const w = r.west;
+    panel("p-west", "Western internet", w.status !== "ok" ? needs(w)
+      : `${mrows(w.sources.map((s) => ({ ...s, returned: s.returned ?? w.top })))}<p>results that name it · searched as ${esc(w.searched_as || name)}</p>${linkList(w.sources, "result")}`);
+    const c = r.china;
+    panel("p-china", "Chinese internet", c.status !== "ok" ? needs(c)
+      : `${mrows(c.sources || [])}<p>posts that name it · searched as ${esc(c.searched_as)}</p>${linkList(c.sources || [], "post")}`);
+    const g = r.engines;
+    panel("p-engines", "Engines", g.status !== "ok" ? needs(g)
+      : `<b class="big">${g.engines.filter((x) => x.count).length} of ${g.engines.length}</b><p>engines returned a result that names it</p>
+         <div class="chips" style="margin-top:8px">${g.engines.map((x) => `<span class="chip${x.count ? " mem" : ""}"><b>${esc(cap(x.engine))}</b><small>${x.count ? plural(x.count, "result") : "none"}</small></span>`).join("")}</div>`);
+    const withs = [w.status === "ok" ? w.searched_with : "", c.status === "ok" ? `${c.searched_with} for Chinese platforms` : ""].filter(Boolean);
+    $("check-foot").textContent = `Checked "${name}" in ${r.seconds}s${r.mode === "mock" ? " (sample mode: nothing real was searched)" : ""}.${withs.length ? ` Searched with ${withs.join("; ")}.` : ""} Top results only.`;
+  } catch (err) {
+    for (const [id, lens] of PANELS) panel(id, lens, "");
+    panel("p-memory", "AI memory", `<b class="words">Failed</b><p>${esc(err.message)} (after ${((Date.now() - started) / 1000).toFixed(0)}s)</p>`);
+  } finally {
+    $("check-go").disabled = false;
+  }
+});
+
+// ---------- saved runs ----------
+function replay(id, fast) {
+  setStatus("Replaying a saved run");
+  stream(`/api/replay/${encodeURIComponent(id)}${fast ? "?fast=1" : ""}`, {}, false);
+}
+function updatePin() {
+  const run = (state.runs || []).find((r) => r.id === state.runId);
+  $("pin").hidden = !run;
+  if (run) $("pin").textContent = run.pinned ? "Unpin demo run" : "Pin as demo run";
+}
+async function loadRuns() {
+  try {
+    const runs = await (await fetch("/api/runs")).json();
+    state.runs = runs;
+    $("runs").innerHTML = `<option value="">Saved runs (${runs.length})</option>` +
+      runs.map((r) => `<option value="${esc(r.id)}">${r.pinned ? "★ " : ""}${esc(r.question)} · ${esc(r.saved.slice(11))} · ${r.seconds != null ? `${esc(r.seconds)}s` : "?"}${r.errors ? ` · ${r.errors} failed` : ""}</option>`).join("");
+    $("demo").hidden = !runs.some((r) => r.pinned);
+    updatePin();
+  } catch { /* no saved runs yet */ }
+}
+$("runs").addEventListener("change", (ev) => { const id = ev.target.value; if (!id) return; replay(id); ev.target.value = ""; });
+$("demo").addEventListener("click", () => replay("pinned"));
+$("pin").addEventListener("click", async () => {
+  if (!state.runId) return;
+  try { await fetch(`/api/pin/${encodeURIComponent(state.runId)}`, { method: "POST" }); } catch { /* the list below shows the result */ }
+  loadRuns();
+});
+
+(async () => {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    state.samples = h.samples;
+    if (h.samples) $("step-ask").textContent = `${h.samples} times, with no search`;
+    $("proof").hidden = !h.proof;
+    $("mode").hidden = false;
+    if (h.mode === "mock") {
+      state.sample = true;
+      $("mode").textContent = "Sample data"; $("mode").className = "pill sample";
+      $("banner").className = "banner"; $("banner").style.display = "block";
+      state.sampleText = `Sample data with made-up companies. ${h.mock_reason} Add your keys to .env and restart for a live run.`;
+      $("banner").textContent = state.sampleText;
+    } else {
+      const s = h.search || {};
+      const setup = `Normal search: ${s.normal}. Recent news: ${s.discovery}. Pages opened with ${h.opens_pages}. AI: ${(h.models || []).join(", ")}.${h.china ? " China lens and Engines tile: need Telem." : " China lens: Xiaohongshu, Bilibili, Zhihu through Telem."}`;
+      $("mode").textContent = "Live"; $("mode").className = "pill live"; $("mode").title = setup;
+      $("setup").textContent = `Live setup: ${setup}`;
+    }
+  } catch { /* server not reachable */ }
+  await loadRuns();
+  // Bookmarkable shortcuts: /?replay=pinned (or a run id; &fast=1 skips the pacing), /?q=a+category, /?check=a+name
+  const params = new URLSearchParams(location.search);
+  if (params.get("replay")) replay(params.get("replay"), params.get("fast") === "1");
+  else if (params.get("q")) { $("q").value = params.get("q"); $("need").value = params.get("need") || ""; $("ask").requestSubmit(); }
+  if (params.get("check")) { $("check-name").value = params.get("check"); $("check").requestSubmit(); }
+})();
+</script>
+</body>
+</html>

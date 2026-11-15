@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blindspot · Proof</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F7F9;
+    --card: #FFFFFF;
+    --ink: #14171F;
+    --quiet: #5B6272;
+    --line: #E1E4EA;
+    --accent: #3434E6;
+    --accent-wash: #ECECFD;
+    --warn: #B45309;
+    --track: #ECEEF1;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 17px; line-height: 1.4;
+  }
+  a { color: inherit; text-underline-offset: 2px; }
+  button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .wrap { max-width: 1300px; margin: 0 auto; padding: 14px 28px 60px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
+
+  header { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .mark { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand { font-size: 28px; font-weight: 800; font-stretch: 125%; letter-spacing: -0.01em; margin: 0; }
+  .tagline { font-size: 18px; color: var(--quiet); margin: 0 0 0 4px; }
+  .back { margin-left: auto; font-size: 15px; font-weight: 700; text-decoration: none; padding: 7px 14px; border-radius: 8px; }
+  .back:hover { border-color: var(--ink); }
+
+  .hero { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: end; margin: 22px 0 0; }
+  h1 { font-size: 58px; line-height: 1; font-weight: 900; font-stretch: 120%; letter-spacing: -0.02em; margin: 0; }
+  .sub { font-size: 19px; color: var(--quiet); max-width: 780px; margin: 10px 0 0; }
+  .topscore { display: block; text-decoration: none; padding: 12px 20px 14px; min-width: 330px; }
+  .topscore:hover { border-color: var(--accent); }
+  .topscore .n { display: block; font-size: 54px; line-height: 1.05; font-weight: 900; font-stretch: 120%; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .topscore .n.none { font-size: 24px; line-height: 1.5; color: var(--quiet); font-weight: 700; }
+  .topscore .l { display: block; font-size: 15px; color: var(--quiet); }
+
+  .seal { margin: 16px 0 0; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; font-size: 15px; }
+  .seal .k { font-size: 12.5px; font-weight: 700; letter-spacing: .07em; color: var(--quiet); }
+  .seal code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14.5px; font-weight: 600; word-break: break-all; }
+  .seal .when { font-weight: 700; }
+  .seal .note { flex-basis: 100%; font-size: 13.5px; color: var(--quiet); margin: 0; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 12px 0 0; }
+  .stat { padding: 12px 18px 14px; }
+  .stat b { display: block; font-size: 44px; line-height: 1.1; font-weight: 900; font-stretch: 120%; font-variant-numeric: tabular-nums; }
+  .stat b small { font-size: 24px; font-weight: 800; color: var(--quiet); }
+  .stat p { margin: 2px 0 0; font-size: 15px; line-height: 1.3; color: var(--quiet); }
+  .stat .fine { font-size: 13px; margin-top: 4px; }
+
+  h2 { font-size: 24px; font-weight: 900; font-stretch: 115%; margin: 30px 0 2px; scroll-margin-top: 12px; }
+  .how { margin: 0 0 12px; font-size: 15px; color: var(--quiet); }
+
+  .first { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .fam { padding: 14px 18px 16px; }
+  .fam .who { font-size: 15px; font-weight: 700; color: var(--quiet); }
+  .fam .n { display: block; font-size: 42px; line-height: 1.1; font-weight: 900; font-stretch: 120%; font-variant-numeric: tabular-nums; }
+  .fam .n.hit { color: var(--accent); }
+  .fam .what { font-size: 16px; margin: 0; }
+  .seg { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--track); margin: 10px 0 6px; gap: 2px; }
+  .seg span { display: block; min-width: 0; }
+  .seg .a { background: var(--accent); }
+  .seg .b { background: #8C93A3; }
+  .seg .c { background: #C3C8D2; }
+  .key { font-size: 13.5px; color: var(--quiet); margin: 0; }
+  .key i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin: 0 5px 0 0; vertical-align: -1px; }
+  .key span { margin-right: 14px; white-space: nowrap; }
+  .caveat { font-size: 14px; color: var(--quiet); margin: 10px 0 0; }
+
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .sq { padding: 11px 14px 12px; display: flex; flex-direction: column; }
+  .sq.hit { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .sq h3 { font-size: 15.5px; line-height: 1.2; font-weight: 800; margin: 0; }
+  .sq p { font-size: 13px; line-height: 1.3; color: var(--quiet); margin: 4px 0 8px; flex: 1; }
+  .bar { height: 6px; background: var(--track); border-radius: 3px; }
+  .bar span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+  .nums { display: flex; justify-content: space-between; gap: 8px; font-size: 13.5px; margin: 6px 0 0; color: var(--quiet); }
+  .nums b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .here { align-self: flex-start; font-size: 12.5px; font-weight: 700; padding: 1px 9px; border-radius: 99px; background: var(--accent-wash); color: #23239E; margin: 7px 0 0; }
+
+  .scores { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 12px; }
+  .score { padding: 14px 20px 16px; }
+  .score .lvl { font-size: 12.5px; font-weight: 700; letter-spacing: .07em; color: var(--quiet); }
+  .score .n { display: block; font-size: 64px; line-height: 1.05; font-weight: 900; font-stretch: 120%; font-variant-numeric: tabular-nums; color: var(--accent); }
+  .score .n.none { font-size: 26px; line-height: 2; color: var(--quiet); font-weight: 700; }
+  .score .l { font-size: 16px; margin: 0; }
+  .hand { display: inline-block; font-size: 12.5px; font-weight: 700; padding: 1px 9px; border-radius: 99px; border: 1px dashed var(--quiet); color: var(--quiet); margin-left: 8px; letter-spacing: 0; }
+
+  .room { padding: 14px 18px 8px; }
+  form.add, .row { display: grid; grid-template-columns: 1.1fr 2fr 1.5fr auto auto; gap: 10px; align-items: center; }
+  form.add input[type="text"], select { min-width: 0; width: 100%; padding: 9px 12px; font-size: 16px; border: 1px solid #B9BEC8; border-radius: 8px; background: #fff; }
+  .core { display: flex; align-items: center; gap: 7px; font-size: 15px; white-space: nowrap; cursor: pointer; }
+  .core input { width: 18px; height: 18px; accent-color: var(--accent); }
+  .core.off { color: #A2A8B4; cursor: default; }
+  button.addbtn { padding: 9px 20px; border: 0; border-radius: 8px; background: var(--ink); color: #fff; font-weight: 700; font-size: 16px; cursor: pointer; }
+  button.small { border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 6px 12px; font-size: 14px; cursor: pointer; color: var(--quiet); }
+  button.small:hover { border-color: var(--ink); color: var(--ink); }
+  .rows { margin: 12px 0 0; }
+  .row { padding: 8px 0; border-top: 1px solid var(--line); }
+  .row .pname { font-weight: 700; overflow-wrap: anywhere; }
+  .row .ppitch { font-size: 15px; color: var(--quiet); overflow-wrap: anywhere; }
+  .row select { padding: 6px 10px; font-size: 15px; }
+  .empty { padding: 12px 0; border-top: 1px solid var(--line); color: var(--quiet); font-size: 15.5px; }
+  .roomfoot { display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; color: var(--quiet); }
+
+  footer { margin: 36px 0 0; font-size: 14px; color: var(--quiet); border-top: 1px solid var(--line); padding-top: 12px; }
+
+  @media (max-width: 980px) {
+    .hero { grid-template-columns: 1fr; align-items: start; }
+    h1 { font-size: 40px; }
+    .stats, .grid { grid-template-columns: 1fr 1fr; }
+    .first, .scores { grid-template-columns: 1fr; }
+    form.add, .row { grid-template-columns: 1fr; }
+    .score .n { font-size: 48px; }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 12px 16px 50px; }
+    .stats, .grid { grid-template-columns: 1fr; }
+    .topscore { min-width: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="mark" href="/" aria-label="Blindspot, back to the report">
+      <svg width="58" height="22" viewBox="0 0 58 22" aria-hidden="true">
+        <path d="M8 4v14M1 11h14" stroke="#14171F" stroke-width="3"/>
+        <circle cx="48" cy="11" r="8" fill="#3434E6"/>
+      </svg>
+      <span class="brand">Blindspot</span>
+    </a>
+    <p class="tagline">See what AI search can't.</p>
+    <a class="back box" href="/">&larr; Blind Spot Report</a>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h1>Our sealed prediction of this room.</h1>
+      <p class="sub">AI models were asked what a team at this hackathon should build, each time as a new user. The list was sealed at 12:09, before any project was shown.</p>
+    </div>
+    <a class="topscore box" href="#room" id="topscore" aria-live="polite">
+      <span class="n none" id="top-n">No projects scored yet</span>
+      <span class="l" id="top-l">Add the room's projects below</span>
+    </a>
+  </div>
+
+  <div class="seal box">
+    <span class="k">SHA-256</span>
+    <code>b625f0c1c4e82a12ab546d8dc935fd5fbe64a4e499d7738ed5f42c3798c4b786</code>
+    <span class="when">sealed 2026-11-14 12:09:42 PST</span>
+    <p class="note">This page shows the card as copied from Suhayb's write-up. The hash is the one he posted. It is not re-checked here, because the card file is on his laptop.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat box"><b>354</b><p>ideas sampled from 4 models, each in a fresh context</p><p class="fine">GPT 12 · Haiku 114 · Opus 114 · Sonnet 114</p></div>
+    <div class="stat box"><b>307</b><p>links to existing projects, found in the Telem sweep across the 13 boxes</p></div>
+    <div class="stat box"><b>289 <small>of 307</small></b><p>were found by exactly one engine (94%)</p></div>
+    <div class="stat box"><b>38%</b><p>is the most any single engine found of the links for any box</p></div>
+  </div>
+
+  <h2>First choice, per model family</h2>
+  <p class="how">Each model was asked for its single best idea. How many first answers were a claim-level fact checker:</p>
+  <div class="first">
+    <div class="fam box">
+      <span class="who">Claude models (Haiku, Opus, Sonnet)</span>
+      <b class="n hit">70 of 72</b>
+      <p class="what">first answers were a claim-level fact checker.</p>
+      <div class="seg" aria-hidden="true"><span class="a" style="flex: 70"></span><span class="c" style="flex: 2"></span></div>
+      <p class="key"><span><i style="background: var(--accent)"></i>Fact checker 70</span><span><i style="background: #C3C8D2"></i>Other ideas 2</span></p>
+    </div>
+    <div class="fam box">
+      <span class="who">GPT</span>
+      <b class="n">0 of 12</b>
+      <p class="what">first answers were a fact checker. Its 12 were only two ideas.</p>
+      <div class="seg" aria-hidden="true"><span class="b" style="flex: 8"></span><span class="c" style="flex: 4"></span></div>
+      <p class="key"><span><i style="background: #8C93A3"></i>Source-echo tracer 8</span><span><i style="background: #C3C8D2"></i>API deal-breaker finder 4</span></p>
+    </div>
+  </div>
+  <p class="caveat">So the fact-checker result is about Claude models, not every AI. GPT ran out of quota after 12 samples. No Gemini or Grok were sampled. The write-up does not split the three Claude models.</p>
+
+  <h2 id="card">The card</h2>
+  <p class="how">The 13 boxes the 354 ideas were sorted into, with each box's share of all ideas and how many were already built (found by Telem). Bars are scaled to the largest box.</p>
+  <div class="grid" id="grid"></div>
+  <p class="caveat">A box is broad: "on the card" means the same kind of project, not the same product. Ideas were sorted into boxes by keyword rules, which can put one in the wrong box.</p>
+
+  <h2 id="room">The room <span class="hand">Marked by hand</span></h2>
+  <p class="how">Type each real project, then choose its square yourself. Tick "Same core idea" only when the project is the same idea as its square, not just the same kind.</p>
+  <div class="scores" aria-live="polite">
+    <div class="score box"><span class="lvl">SAME SQUARE</span><b class="n none" id="s-square">No projects scored yet</b><p class="l" id="l-square">&nbsp;</p></div>
+    <div class="score box"><span class="lvl">SAME CORE IDEA</span><b class="n none" id="s-core">No projects scored yet</b><p class="l" id="l-core">&nbsp;</p></div>
+  </div>
+  <div class="room box">
+    <form class="add" id="add" autocomplete="off">
+      <input type="text" id="p-name" maxlength="120" aria-label="Project name" placeholder="Project name">
+      <input type="text" id="p-pitch" maxlength="300" aria-label="One-line pitch" placeholder="One-line pitch">
+      <select id="p-box" aria-label="Square on the card"></select>
+      <label class="core off" id="p-core-label"><input type="checkbox" id="p-core" disabled> Same core idea</label>
+      <button class="addbtn" type="submit">Add project</button>
+    </form>
+    <div class="rows" id="rows"></div>
+    <div class="roomfoot">
+      <span>Kept in this browser only. Both scores are counted from the rows above.</span>
+      <button class="small" type="button" id="clear" hidden>Clear all</button>
+    </div>
+  </div>
+
+  <h2 id="ask">Try it on any question</h2>
+  <p class="sub" style="margin:0 0 8px">Type any question. The AI is asked it 8 times, each time as a new user with no memory of the others, and the answers are counted.</p>
+  <div class="seal box" style="display:block">
+    <form id="rq" style="display:flex;gap:8px">
+      <input id="rq-in" maxlength="300" placeholder="What is the best programming language to learn first?" style="flex:1;min-width:0;font:inherit;font-size:17px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:transparent;color:inherit" aria-label="Any question">
+      <button class="small" type="submit" id="rq-go" style="font:inherit;font-size:16px;font-weight:700;padding:10px 16px;cursor:pointer">Ask 8 times</button>
+    </form>
+    <p class="note" id="rq-status" role="status" style="min-height:20px"></p>
+    <div id="rq-out"></div>
+  </div>
+
+  <h2 id="more">More measured today</h2>
+  <div class="stats">
+    <div class="stat box"><b>14%</b><p>of what 14 search engines returned together is what one engine returned, on average</p><p class="fine">40 questions, 560 Telem calls, top 10 links each</p></div>
+    <div class="stat box"><b>52% <small>vs 40%</small></b><p>of everything found: 4 engines chosen for independence against 4 picked at random</p><p class="fine">Order learned on 20 questions, scored on 20 others</p></div>
+    <div class="stat box"><b>19 <small>of 20</small></b><p>answers about exciting new games named the same title (GTA VI); none named 4 recent rising indie games we checked</p><p class="fine">One model family, no search tool</p></div>
+    <div class="stat box"><b>17 <small>of 22</small></b><p>things with heavy recent engagement on Chinese platforms were never named in 78 answers</p><p class="fine">22 after a checker removed 10 wrong or unfair rows</p></div>
+  </div>
+  <div class="seal box" style="margin-top:12px"><span class="k">Is it only the training cutoff?</span>
+    <p class="note" style="font-size:16px;color:inherit;margin:6px 0 0"><b>0 of 12.</b> We asked the normal questions ("best AI office apps" and two variants) on 14 search engines and read 300 distinct results. None of the 12 recently funded companies the AI left out appears in any title or snippet. A model with search switched on reads those same results.</p>
+    <p class="note">Measured 14 Nov 2026 at 3:53 PM against the pinned run. Titles and snippets only, top 10 per engine; full page text was not read.</p></div>
+  <p class="fine" style="color:var(--quiet);font-size:13px;margin-top:8px">These four come from Suhayb's separate runs on 14 Nov 2026 (engine overlap, repeated answers, Chinese platforms). Counts are samples of top results, read and rechecked by a language model, not by a person. Links counted are not judged for relevance.</p>
+
+  <footer>Source: Suhayb's Sealed write-up and demo page, 14 Nov 2026. Built by Hublox Studio (Muhammadjon and Suhayb).</footer>
+</div>
+
+<script>
+// The sealed card, copied from Suhayb's write-up ("What the models suggested") and demo page.
+// share = % of all 354 sampled ideas. built = "already built (found by Telem)". Nothing here is computed or changed.
+const BOXES = [
+  { id: "fact",      name: "Claim-level fact checker", does: "Splits an answer into claims and marks each supported, contested or unsupported across engines.", share: 40.4, built: 18 },
+  { id: "brief",     name: "Living brief / what-changed monitor", does: "A research brief or watcher that updates itself and reports only what changed.", share: 14.7, built: 4 },
+  { id: "router",    name: "Learned engine router / engine benchmark", does: "Picks the best or cheapest search engine per query, usually with a bandit and a leaderboard.", share: 11.9, built: 11 },
+  { id: "graph",     name: "Knowledge-graph explorer", does: "Turns a question or topic into an explorable graph of entities and relationships.", share: 9.0, built: 12 },
+  { id: "shot",      name: "Screenshot / photo to sources", does: "Search from a screenshot, photo or camera and return the sources behind it.", share: 4.2, built: 6 },
+  { id: "vertical",  name: "Vertical search assistant (jobs, shopping, travel, papers, code, health, legal)", does: "A search agent for one domain: jobs, shopping, travel, academic papers, code/docs, health or legal.", share: 4.0, built: 8 },
+  { id: "memory",    name: "Search memory / show only what's new", does: "Remembers what you already read or searched and filters or rewrites new searches.", share: 3.7, built: 1 },
+  { id: "cascade",   name: "Cheap-first cascade / budgeted retrieval", does: "Answers from a cheap engine or cache first and escalates only when needed.", share: 3.4, built: 2 },
+  { id: "origin",    name: "Source provenance / origin tracer", does: "Traces claims or results back to the original source and collapses echoes.", share: 3.1, built: 5 },
+  { id: "table",     name: "Query to table / spreadsheet", does: "Turns a question into a filled table of entities and attributes.", share: 2.0, built: 6 },
+  { id: "research",  name: "Deep-research agent (plan, search, verify, report)", does: "Multi-step research agent that plans, tracks gaps and writes a cited report.", share: 1.4, built: 20 },
+  { id: "decision",  name: "Decision search: find the fact that flips a choice", does: "Compares tools or APIs against your requirements and hunts for the hidden deal-breaker.", share: 1.1, built: 11 },
+  { id: "sidebar",   name: "Context-aware search sidebar", does: "Searches based on what you are reading or working on, without a typed query.", share: 1.1, built: 10 },
+];
+const KEY = "blindspot-proof-room-v1";
+const $ = (id) => document.getElementById(id);
+const onCard = (id) => BOXES.some((b) => b.id === id);
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// The room: rows typed and marked by hand. Kept in this browser only.
+function load() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(KEY) || "[]");
+    if (!Array.isArray(saved)) return [];
+    return saved.filter((r) => r && typeof r.name === "string" && r.name.trim()).map((r) => {
+      const box = onCard(r.box) ? r.box : "";
+      return { name: r.name.slice(0, 120), pitch: String(r.pitch || "").slice(0, 300), box, core: !!box && !!r.core };
+    });
+  } catch { return []; }
+}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(rows)); } catch { /* still works without storage */ } }
+let rows = load();
+
+function options(selected) {
+  return `<option value="">Not on the card</option>` +
+    BOXES.map((b) => `<option value="${b.id}"${b.id === selected ? " selected" : ""}>${esc(b.name)}</option>`).join("");
+}
+
+function renderCard() {
+  const most = Math.max(...BOXES.map((b) => b.share));
+  $("grid").innerHTML = BOXES.map((b) => {
+    const here = rows.filter((r) => r.box === b.id).length;
+    return `<div class="sq box${here ? " hit" : ""}">
+      <h3>${esc(b.name)}</h3>
+      <p>${esc(b.does)}</p>
+      <div class="bar" aria-hidden="true"><span style="width:${(100 * b.share / most).toFixed(1)}%"></span></div>
+      <div class="nums"><span><b>${b.share.toFixed(1)}%</b> of ideas</span><span><b>${b.built}</b> already built</span></div>
+      ${here ? `<span class="here">${here} in this room</span>` : ""}
+    </div>`;
+  }).join("");
+}
+
+// Both scores are counted here from the rows, and from nothing else.
+function renderScores() {
+  const total = rows.length;
+  const square = rows.filter((r) => r.box).length;
+  const core = rows.filter((r) => r.box && r.core).length;
+  const one = total === 1;
+  const set = (id, labelId, n, label) => {
+    $(id).className = total ? "n" : "n none";
+    $(id).textContent = total ? `${n} of ${total}` : "No projects scored yet";
+    $(labelId).textContent = total ? label : " ";
+  };
+  set("s-square", "l-square", square, `${one ? "project is" : "projects are"} in a square on the card`);
+  set("s-core", "l-core", core, `${one ? "is" : "are"} the same core idea as ${one ? "its" : "their"} square`);
+  $("top-n").className = total ? "n" : "n none";
+  $("top-n").textContent = total ? `${square} of ${total}` : "No projects scored yet";
+  $("top-l").textContent = total
+    ? `${one ? "project" : "projects"} in this room ${one ? "is" : "are"} on the card (${core} the same core idea). Marked by hand.`
+    : "Add the room's projects below";
+}
+
+function renderRows() {
+  $("rows").innerHTML = rows.length ? rows.map((r, i) => `<div class="row">
+      <span class="pname">${esc(r.name)}</span>
+      <span class="ppitch">${esc(r.pitch)}</span>
+      <select data-i="${i}" data-act="box" aria-label="Square for ${esc(r.name)}">${options(r.box)}</select>
+      <label class="core${r.box ? "" : " off"}"><input type="checkbox" data-i="${i}" data-act="core"${r.core ? " checked" : ""}${r.box ? "" : " disabled"}> Same core idea</label>
+      <button class="small" type="button" data-i="${i}" data-act="remove" aria-label="Remove ${esc(r.name)}">Remove</button>
+    </div>`).join("") : `<div class="empty">No projects scored yet.</div>`;
+  $("clear").hidden = !rows.length;
+  resetClear();
+}
+
+function render() { renderRows(); renderScores(); renderCard(); }
+
+function resetClear() { $("clear").dataset.sure = ""; $("clear").textContent = "Clear all"; }
+
+$("p-box").innerHTML = options("");
+$("p-box").addEventListener("change", () => {
+  const picked = !!$("p-box").value;
+  $("p-core").disabled = !picked;
+  if (!picked) $("p-core").checked = false;
+  $("p-core-label").className = picked ? "core" : "core off";
+});
+
+$("add").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const name = $("p-name").value.trim();
+  if (!name) { $("p-name").focus(); return; }
+  const box = onCard($("p-box").value) ? $("p-box").value : "";
+  rows.push({ name, pitch: $("p-pitch").value.trim(), box, core: !!box && $("p-core").checked });
+  save();
+  $("p-name").value = ""; $("p-pitch").value = ""; $("p-box").value = ""; $("p-core").checked = false;
+  $("p-box").dispatchEvent(new Event("change"));
+  render();
+  $("p-name").focus();
+});
+
+$("rows").addEventListener("change", (ev) => {
+  const el = ev.target, r = rows[Number(el.dataset.i)];
+  if (!r) return;
+  if (el.dataset.act === "box") { r.box = onCard(el.value) ? el.value : ""; if (!r.box) r.core = false; }
+  if (el.dataset.act === "core") r.core = !!r.box && el.checked;
+  save(); render();
+});
+$("rows").addEventListener("click", (ev) => {
+  const el = ev.target;
+  if (el.dataset.act !== "remove") return;
+  rows.splice(Number(el.dataset.i), 1);
+  save(); render();
+});
+// Two clicks to clear, so one slip does not empty the room.
+$("clear").addEventListener("click", () => {
+  if ($("clear").dataset.sure) { rows = []; save(); render(); return; }
+  $("clear").dataset.sure = "1";
+  $("clear").textContent = "Click again to clear all";
+});
+
+render();
+</script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const el = (t, text, css) => { const e = document.createElement(t); if (text != null) e.textContent = text; if (css) e.style.cssText = css; return e; };
+  let busy = false;
+  $('rq').addEventListener('submit', async ev => {
+    ev.preventDefault();
+    const q = $('rq-in').value.trim();
+    if (busy) return;
+    if (q.length < 4) { $('rq-status').textContent = 'Type a question first.'; return; }
+    busy = true; $('rq-go').disabled = true; $('rq-out').textContent = '';
+    const t0 = Date.now(), tick = setInterval(() => { $('rq-status').textContent = 'Asking 8 fresh users… ' + Math.round((Date.now() - t0) / 1000) + 's'; }, 500);
+    try {
+      const res = await fetch('/api/repeat', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({question: q, times: 8})});
+      const d = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(d.error || ('The server answered ' + res.status + '.'));
+      const top = (d.answers || [])[0];
+      $('rq-status').textContent = d.asked + ' answers in ' + d.seconds + ' seconds from ' + d.model + (d.failed ? ' (' + d.failed + ' calls failed)' : '') + '. ' + d.distinct + ' different answer' + (d.distinct === 1 ? '' : 's') + '.';
+      if (top) $('rq-out').append(el('p', top.count + ' of ' + d.asked + ' said the same thing.', 'font-size:30px;font-weight:900;margin:6px 0 10px'));
+      for (const a of d.answers || []) {
+        const row = el('div', null, 'display:grid;grid-template-columns:minmax(0,1fr) 90px;gap:10px;align-items:center;margin:6px 0');
+        const bar = el('div', null, 'position:relative;border:1px solid var(--line);border-radius:6px;overflow:hidden;padding:7px 10px');
+        const fill = el('i', null, 'position:absolute;inset:0;width:' + (100 * a.count / d.asked) + '%;background:#3434E6;opacity:.16');
+        bar.append(fill, el('span', a.answer, 'position:relative'));
+        row.append(bar, el('b', a.count + ' of ' + d.asked, 'font-variant-numeric:tabular-nums'));
+        $('rq-out').append(row);
+      }
+      $('rq-out').append(el('p', 'Answers are matched by their words after removing case and punctuation, so two phrasings of one idea count separately. One model, no search.', 'font-size:13px;color:var(--quiet);margin-top:8px'));
+    } catch (e) { $('rq-status').textContent = 'That did not work: ' + e.message; }
+    clearInterval(tick); busy = false; $('rq-go').disabled = false;
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3718 @@
+{
+ "question": "AI tools for chip design",
+ "need": "",
+ "saved": "2026-11-14 16:05",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "AI tools for chip design",
+   "specific": "",
+   "category": "AI chip design tools",
+   "area": "AI chip design",
+   "need": "A company that uses AI to automate or speed up chip design steps such as RTL generation, verification, floorplanning, place and route, and timing closure.",
+   "keywords": [
+    "ai eda",
+    "electronic design automation",
+    "logic synthesis",
+    "rtl code generation",
+    "verilog generation",
+    "place and route",
+    "physical design automation",
+    "floorplanning",
+    "timing closure",
+    "chip verification automation",
+    "hardware design copilot",
+    "semiconductor design software"
+   ],
+   "zh_queries": [
+    "AI芯片设计工具",
+    "芯片设计 AI EDA",
+    "EDA 人工智能 芯片设计软件"
+   ],
+   "seconds": 16.3
+  },
+  {
+   "stage": "memory",
+   "question": "AI tools for chip design",
+   "specific": "",
+   "category": "AI chip design tools",
+   "need": "A company that uses AI to automate or speed up chip design steps such as RTL generation, verification, floorplanning, place and route, and timing closure.",
+   "companies": [
+    {
+     "name": "Synopsys, Inc.",
+     "does": "Provides electronic design automation software and AI-driven chip design and verification tools.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": [
+      "Synopsys"
+     ]
+    },
+    {
+     "name": "Cadence Design Systems, Inc.",
+     "does": "Develops electronic design automation software for semiconductor, system, and printed circuit board engineering.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": [
+      "Cadence Design Systems"
+     ]
+    },
+    {
+     "name": "Siemens AG",
+     "does": "Industrial conglomerate whose software arm offers EDA tools for chip and PCB design.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": [
+      "Siemens",
+      "Siemens Digital Industries Software"
+     ]
+    },
+    {
+     "name": "NVIDIA Corporation",
+     "does": "Designs GPUs and accelerated computing hardware and software used to speed chip simulation.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku (local CLI)": 7
+     },
+     "variants": [
+      "NVIDIA"
+     ]
+    },
+    {
+     "name": "Alphabet Inc.",
+     "does": "Parent holding company; its research units have published AI methods for chip floorplanning.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku (local CLI)": 6
+     },
+     "variants": [
+      "Alphabet"
+     ]
+    },
+    {
+     "name": "Cognichip",
+     "does": "Startup building generative AI models to design semiconductor chips from specifications.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "ChipAgents",
+     "does": "Startup using AI agents to automate chip verification, debugging, and design documentation tasks.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": [
+      "ChipAgents, Inc."
+     ]
+    },
+    {
+     "name": "Keysight Technologies, Inc.",
+     "does": "Makes electronic test and measurement instruments and EDA simulation software for chip and RF design.",
+     "count": 1,
+     "by_model": {
+      "claude-haiku (local CLI)": 1
+     },
+     "variants": []
+    },
+    {
+     "name": "Silvaco, Inc.",
+     "does": "Supplies TCAD, device modeling, and analog and custom IC design software.",
+     "count": 1,
+     "by_model": {
+      "claude-haiku (local CLI)": 1
+     },
+     "variants": []
+    },
+    {
+     "name": "Google",
+     "does": "Technology company whose research group develops reinforcement learning methods for floorplanning and chip layout.",
+     "count": 1,
+     "by_model": {
+      "claude-haiku (local CLI)": 1
+     },
+     "variants": []
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku (local CLI) x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku (local CLI)",
+      "samples": 8,
+      "distinct": 15,
+      "top": [
+       {
+        "name": "Synopsys, Inc.",
+        "count": 8
+       },
+       {
+        "name": "Cadence Design Systems, Inc.",
+        "count": 8
+       },
+       {
+        "name": "Siemens AG",
+        "count": 8
+       },
+       {
+        "name": "NVIDIA Corporation",
+        "count": 7
+       },
+       {
+        "name": "Alphabet Inc.",
+        "count": 6
+       }
+      ]
+     }
+    ],
+    "distinct": 15,
+    "top5_share": 69,
+    "others": [
+     {
+      "name": "Ricursive Intelligence",
+      "count": 1
+     },
+     {
+      "name": "Silimate",
+      "count": 1
+     },
+     {
+      "name": "Empyrean Technology",
+      "count": 1
+     },
+     {
+      "name": "Arteris",
+      "count": 1
+     },
+     {
+      "name": "Arm Holdings plc",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 16.3
+  },
+  {
+   "stage": "money",
+   "query": "best AI chip design tools",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Cadence Design Systems",
+     "does": "Offers AI agents and platforms automating RTL design, verification, synthesis, place-and-route, and SoC design closure.",
+     "sources": [
+      "n-1",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Synopsys",
+     "does": "Provides AI-driven features integrated into its electronic design automation software suites.",
+     "sources": [
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Siemens",
+     "does": "Offers an agent orchestrating architecture exploration, RTL coding, verification, place-and-route and sign-off.",
+     "sources": [
+      "n-3",
+      "n-5",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Cognichip",
+     "does": "Develops a physics-informed AI foundation model for semiconductor chip design, broadening access.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "ChipNexus",
+     "does": "Provides agentic AI solutions streamlining chip design workflows for designers.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Agentrys",
+     "does": "Builds a platform where design teams create agents automating chip-design work on their own tools.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "NVIDIA",
+     "does": "Expands its agent toolkit with physics-AI and GPU-accelerated computing libraries for chip design.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 3,
+   "memory_overlap": [
+    "Cadence Design Systems, Inc.",
+    "Cognichip",
+    "NVIDIA Corporation",
+    "Siemens AG",
+    "Synopsys, Inc."
+   ],
+   "echo": {
+    "repeated": 5,
+    "total": 7
+   },
+   "stake": {
+    "vendor": 4,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 4,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "What are the best AI chip design automation tools available in 2026 and how do they compare? | designedbyai.io",
+     "url": "https://designedbyai.io/knowledge/what_are_the_best_ai_chip_design_automation_tools_available_in_2026_and_how_do_they_compare.php",
+     "date": "2026-10-15",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel + Tavily through Telem",
+     "engines": [
+      "parallel",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "designedbyai.io",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "Cognichip",
+     "url": "https://cognichip.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Cognichip",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cognichip.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-3",
+     "title": "The state of agentic AI in chip design tools in 2026 — Cadence, Synopsys, and Siemens all pitch autonomous engineers | Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-agentic-ai-in-chip-design-tools-in-2026-cadence-synopsys-and-siemens-all-pitch-autonomous-engineers",
+     "date": "2026-09-30",
+     "date_from": "page",
+     "date_note": "Published 30 September 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "tomshardware.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "ChipNexus",
+     "url": "https://chipnexus.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "ChipNexus",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "chipnexus.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "Best AI Chip-Design Agent Alternatives for Semiconductor Teams",
+     "url": "https://sekin.in/best-alternatives-to-ai-chip-design-agents-for-semiconductor-teams",
+     "date": "2026-10-20",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "sekin.in",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "What are AI chip design automation tools and how do they work in 2026? | designedbyai.io",
+     "url": "https://designedbyai.io/knowledge/what_are_ai_chip_design_automation_tools_and_how_do_they_work_in_2026.php",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "designedbyai.io",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Agentrys",
+     "url": "https://agentrys.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Agentrys",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "agentrys.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "\n          Cadence Cerebrus AI Studio | Digital Design and Signoff | Cadence\n\t  ",
+     "url": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/cadence-cerebrus-ai-studio.html",
+     "date": "2025-05-07",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "Cadence Design Systems",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cadence.com",
+     "flagged": true
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 4
+   },
+   "seconds": 36.2
+  },
+  {
+   "stage": "money",
+   "query": "best AI chip design tools",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Cadence Design Systems",
+     "does": "Offers AI agents and platforms automating RTL design, verification, synthesis, place-and-route, and SoC design closure.",
+     "sources": [
+      "n-1",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Synopsys",
+     "does": "Provides AI-driven features integrated into its electronic design automation software suites.",
+     "sources": [
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Siemens",
+     "does": "Offers an agent orchestrating architecture exploration, RTL coding, verification, place-and-route and sign-off.",
+     "sources": [
+      "n-3",
+      "n-5",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Cognichip",
+     "does": "Develops a physics-informed AI foundation model for semiconductor chip design, broadening access.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "ChipNexus",
+     "does": "Provides agentic AI solutions streamlining chip design workflows for designers.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Agentrys",
+     "does": "Builds a platform where design teams create agents automating chip-design work on their own tools.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "NVIDIA",
+     "does": "Expands its agent toolkit with physics-AI and GPU-accelerated computing libraries for chip design.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 3,
+   "memory_overlap": [
+    "Cadence Design Systems, Inc.",
+    "Cognichip",
+    "NVIDIA Corporation",
+    "Siemens AG",
+    "Synopsys, Inc."
+   ],
+   "echo": {
+    "repeated": 5,
+    "total": 7
+   },
+   "stake": {
+    "vendor": 4,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 4,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "What are the best AI chip design automation tools available in 2026 and how do they compare? | designedbyai.io",
+     "url": "https://designedbyai.io/knowledge/what_are_the_best_ai_chip_design_automation_tools_available_in_2026_and_how_do_they_compare.php",
+     "date": "2026-10-15",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel + Tavily through Telem",
+     "engines": [
+      "parallel",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "designedbyai.io",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "Cognichip",
+     "url": "https://cognichip.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Cognichip",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cognichip.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-3",
+     "title": "The state of agentic AI in chip design tools in 2026 — Cadence, Synopsys, and Siemens all pitch autonomous engineers | Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-agentic-ai-in-chip-design-tools-in-2026-cadence-synopsys-and-siemens-all-pitch-autonomous-engineers",
+     "date": "2026-09-30",
+     "date_from": "page",
+     "date_note": "Published 30 September 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "tomshardware.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "ChipNexus",
+     "url": "https://chipnexus.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "ChipNexus",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "chipnexus.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "Best AI Chip-Design Agent Alternatives for Semiconductor Teams",
+     "url": "https://sekin.in/best-alternatives-to-ai-chip-design-agents-for-semiconductor-teams",
+     "date": "2026-10-20",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "sekin.in",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "What are AI chip design automation tools and how do they work in 2026? | designedbyai.io",
+     "url": "https://designedbyai.io/knowledge/what_are_ai_chip_design_automation_tools_and_how_do_they_work_in_2026.php",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "designedbyai.io",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Agentrys",
+     "url": "https://agentrys.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Agentrys",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "agentrys.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "\n          Cadence Cerebrus AI Studio | Digital Design and Signoff | Cadence\n\t  ",
+     "url": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/cadence-cerebrus-ai-studio.html",
+     "date": "2025-05-07",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "Cadence Design Systems",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cadence.com",
+     "flagged": true
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 4,
+    "all_pick": "Cadence Design Systems",
+    "clean_pick": "Cadence Design Systems",
+    "changed": false,
+    "status": "done"
+   },
+   "seconds": 42.9
+  },
+  {
+   "stage": "china",
+   "failed": "KeyError: 'xcom'",
+   "seconds": 52.2
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "AI chip design startup raises seed round",
+    "AI chip design startup raises Series A",
+    "AI chip design startup comes out of stealth",
+    "new AI chip design startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "Architect Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI system to design custom chips, end-to-end",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$24M",
+     "when": "June 2026",
+     "investors": [
+      "Kindred Ventures",
+      "TQ Ventures",
+      "Race Capital"
+     ],
+     "evidence": "emerged from stealth today with $24 million in seed funding",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "emerged from stealth today with $24 million in seed funding",
+       "url": "https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design",
+       "domain": "businesswire.com",
+       "title": "Architect Labs Raises $24M Seed to Democratize Custom Chip Design",
+       "date": "2026-06-18",
+       "source_type": "independent",
+       "engine": [
+        "brave",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://thenextweb.com/news/architect-labs-24m-seed-ai-custom-chip-design",
+       "domain": "thenextweb.com",
+       "title": "Architect Labs raises $24M to let any company design its own AI chip",
+       "date": "2026-08-06",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "emerged from stealth today with $24 million in seed funding",
+       "url": "https://www.ien.com/artificial-intelligence/news/22969153/architect-labs-emerges-from-stealth-using-ai-to-democratize-custom-chip-design-and-birth-designless-semiconductor-industry",
+       "domain": "ien.com",
+       "title": "Architect Labs Emerges from Stealth; Using AI to ...",
+       "date": "2026-06-18",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "parallel",
+      "exa"
+     ],
+     "sources": [
+      "d-1",
+      "d-7",
+      "d-26"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "Phinity Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "Software agents handle the full chip design process",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$5.2M",
+     "when": "October 2026",
+     "investors": [
+      "Uncork Capital",
+      "Moxxie",
+      "Pear"
+     ],
+     "evidence": "We've raised $5.2 million in seed funding led by Uncork Capital",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "We've raised $5.2 million in seed funding led by Uncork Capital",
+       "url": "https://www.phinity.cc/blog/introducing-phinity",
+       "domain": "phinity.cc",
+       "title": "Introducing Phinity Labs | Phinity Labs",
+       "date": "2026-10-08",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://dealroom.co/news/161248-phinity-labs-raises-5-2m-to-design-chips-from-text-prompts",
+       "domain": "dealroom.co",
+       "title": "Phinity Labs raises $5.2M to design chips from text prompts | Dealroom News",
+       "date": "2026-10-09",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://economictimes.indiatimes.com/world/people/in-2026-sonya-jin-and-aadi-nashikkar-led-phinity-labs-raised-5-2-million-to-let-ai-agents-design-computer-chips-from-text-prompts/articleshow/135399457.cms",
+       "domain": "economictimes.indiatimes.com",
+       "title": "AI chip design technology: In 2026, Sonya Jin and Aadi Nashikkar-led Phinity Labs raised $5.2 million to let AI agents design computer chips from text prompts - The Economic Times",
+       "date": "2026-10-31",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "We've raised $5.2 million in seed funding led by Uncork Capital",
+       "url": "https://www.phinity.ai/blog/introducing-phinity",
+       "domain": "phinity.ai",
+       "title": "Introducing Phinity Labs | Phinity Labs",
+       "date": "2026-10-08",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel",
+      "brave"
+     ],
+     "sources": [
+      "d-2",
+      "d-8",
+      "d-21",
+      "d-30"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "Agentrys",
+     "aliases": [],
+     "kind": "company",
+     "does": "enables engineering teams to build and own a self-improving agentic workforce for chip design",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$19.1M",
+     "when": "August 2026",
+     "investors": [
+      "Etna Labs",
+      "MediaTek"
+     ],
+     "evidence": "has raised $19.1 million in an oversubscribed seed round led by Etna Labs",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised $19.1 million in an oversubscribed seed round led by Etna Labs",
+       "url": "https://app.dealroom.co/news/note/ex-nvidia-ai-lead-s-chip-startup-agentrys-raises-19-1m-seed",
+       "domain": "app.dealroom.co",
+       "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom.co",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.businesswire.com/news/home/20260826681966/en/Agentrys-Raises-%2424.5-Million-to-Build-Agentic-Design-Automation-for-Chipmakers",
+       "domain": "businesswire.com",
+       "title": "Agentrys Raises $24.5 Million to Build Agentic Design Automation for Chipmakers",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "has raised $19.1 million in an oversubscribed seed round led by Etna Labs",
+       "url": "https://dealroom.co/news/147123-ex-nvidia-ai-leads-chip-startup-agentrys-raises-19-1m-seed/",
+       "domain": "dealroom.co",
+       "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom News",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "exa"
+     ],
+     "sources": [
+      "d-3",
+      "d-4",
+      "d-5"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-4",
+     "name": "ChipAgents",
+     "aliases": [],
+     "kind": "company",
+     "does": "agentic AI to accelerate RTL code verification, debugging, and design optimization",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$60M",
+     "when": "July 2026",
+     "investors": [
+      "B Capital",
+      "Bessemer Venture Partners",
+      "Micron"
+     ],
+     "evidence": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://www.datacenterdynamics.com/en/news/chipagents-raises-additional-60m-in-expanded-series-a-round-to-support-ai-chip-design-platform/",
+       "domain": "datacenterdynamics.com",
+       "title": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform - DCD",
+       "date": "2026-07-30",
+       "source_type": "independent",
+       "engine": [
+        "brave",
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/b-capital-group_chipagents-has-raised-60-million-in-series-activity-7488239667142893568-tAqb",
+       "domain": "linkedin.com",
+       "title": "ChipAgents Raises $60M in Series A2 Funding for AI Chip Design Platform | B Capital posted on the topic | LinkedIn",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.reuters.com/business/nvidia-partner-chipagents-raises-60-million-accelerate-chip-design-with-ai-2026-07-29",
+       "domain": "reuters.com",
+       "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents | Reuters",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://insideai.news/news/agentic-ai/chipagents-raises-60m-to-automate-chip-design-with-ai-agents/6404/",
+       "domain": "insideai.news",
+       "title": "ChipAgents Raises $60M to Automate Chip Design with AI Agents",
+       "date": "2026-08-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design",
+       "url": "https://dealroom.co/news/141848-chipagents-adds-60m-to-series-a-as-micron-mediatek-back-ai-chip-design/",
+       "domain": "dealroom.co",
+       "title": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design | Dealroom News",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://semiengineering.com/startup-funding-q1-2026",
+       "domain": "semiengineering.com",
+       "title": "Startup Funding: Q1 2026",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "brave",
+      "tavily",
+      "parallel"
+     ],
+     "sources": [
+      "d-9",
+      "d-14",
+      "d-15",
+      "d-17",
+      "d-19",
+      "d-34"
+     ],
+     "name_verified": true,
+     "memory_count": 4
+    },
+    {
+     "id": "t-5",
+     "name": "Ricursive Intelligence",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI tools that design chips, learn from each iteration and refine later designs",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$300M",
+     "when": "January 2026",
+     "investors": [
+      "Lightspeed Venture Partners",
+      "DST Global",
+      "NVentures"
+     ],
+     "evidence": "announced a $300 million Series A funding round led by Lightspeed Venture Partners",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "announced a $300 million Series A funding round led by Lightspeed Venture Partners",
+       "url": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html",
+       "domain": "prnewswire.com",
+       "title": "Ricursive Intelligence Raises $300 Million Series A at $4 Billion Valuation to Accelerate AI-Driven Semiconductor Design",
+       "date": "2026-01-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://nstartup.me/news/3ea5f6ad-f767-49ed-8eac-a606cc493737",
+       "domain": "nstartup.me",
+       "title": "Ricursive Intelligence’s AI Chip Design Bet Targets Compute Constraints — nstartup",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+       "domain": "techcrunch.com",
+       "title": "Ricursive Intelligence’s co-founders join Disrupt 2026 | TechCrunch",
+       "date": "2026-09-25",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+       "domain": "techcrunch.com",
+       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis | TechCrunch",
+       "date": "2026-10-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "sources": [
+      "d-10",
+      "d-31",
+      "d-35",
+      "d-39"
+     ],
+     "name_verified": true,
+     "memory_count": 1
+    },
+    {
+     "id": "t-6",
+     "name": "Cognichip",
+     "aliases": [],
+     "kind": "company",
+     "does": "physics-informed AI for chip design",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$60M",
+     "when": "April 2026",
+     "investors": [
+      "Seligman Ventures",
+      "SBI Investment"
+     ],
+     "evidence": "announced an oversubscribed $60 million Series A financing led by Seligman Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "announced an oversubscribed $60 million Series A financing led by Seligman Ventures",
+       "url": "https://www.cognichip.ai/news/seligman-ventures-leads-cognichips-60m-series-a-to-back-physics-informed-ai-for-chip-design-intel-ceo-lip-bu-tan-and-seligman-ventures-umesh-padval-join-the-board",
+       "domain": "cognichip.ai",
+       "title": "Seligman Ventures Leads Cognichip's $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures' Umesh Padval Join the Board | Cognichip News",
+       "date": "",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.businesswire.com/news/home/20260401581076/en/Seligman-Ventures-Leads-Cognichips-%2460M-Series-A-to-Back-Physics-Informed-AI-for-Chip-Design-Intel-CEO-Lip-Bu-Tan-and-Seligman-Ventures-Umesh-Padval-Join-the-Board",
+       "domain": "businesswire.com",
+       "title": "Seligman Ventures Leads Cognichip’s $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures’ Umesh Padval Join the Board",
+       "date": "2026-04-01",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel",
+      "exa"
+     ],
+     "sources": [
+      "d-11",
+      "d-12"
+     ],
+     "name_verified": true,
+     "memory_count": 5
+    },
+    {
+     "id": "t-7",
+     "name": "Tattvam AI",
+     "aliases": [],
+     "kind": "company",
+     "does": "using AI in the process of converting system RTL to GDSII",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "February 2026",
+     "investors": [],
+     "evidence": "has emerged from stealth with a mission to reduce the time it takes",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has emerged from stealth with a mission to reduce the time it takes",
+       "url": "https://www.eetimes.com/startup-wants-to-speed-up-chip-design-with-ai-in-rtl-to-gdsii-path/",
+       "domain": "eetimes.com",
+       "title": "Tattvam AI to Speed up Chip Design with AI In RTL to GDSII - EE Times",
+       "date": "2026-02-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-20"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-8",
+     "name": "Partcl",
+     "aliases": [],
+     "kind": "company",
+     "does": "physics-informed models powered by GPU acceleration for chip design automation",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "Partcl modernizes chip design automation with physics-informed models powered by GPU acceleration.",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Partcl modernizes chip design automation with physics-informed models powered by GPU acceleration.",
+       "url": "https://www.ycombinator.com/companies/partcl",
+       "domain": "ycombinator.com",
+       "title": "Partcl (YC Spring 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Spring 2025",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-7"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-9",
+     "name": "SigmanticAI",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native hardware development assistant that automates the entire RTL design flow",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "SigmanticAI is building an AI-native hardware development assistant",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "SigmanticAI is building an AI-native hardware development assistant",
+       "url": "https://www.ycombinator.com/companies/sigmanticai",
+       "domain": "ycombinator.com",
+       "title": "SigmanticAI (YC Summer 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Summer 2025",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-1"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-10",
+     "name": "Archgen Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "builds AI-powered chip design tools for the next generation of 3D semiconductors",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors",
+       "url": "https://www.ycombinator.com/companies/archgen-labs",
+       "domain": "ycombinator.com",
+       "title": "Archgen Labs (YC Fall 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Fall 2026",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-2"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-11",
+     "name": "Standard Machines",
+     "aliases": [],
+     "kind": "company",
+     "does": "Automating chip design",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "We're a new kind of chip company focused on autonomy.",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "We're a new kind of chip company focused on autonomy.",
+       "url": "https://www.ycombinator.com/companies/standard-machines",
+       "domain": "ycombinator.com",
+       "title": "Standard Machines (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Summer 2026",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-5"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-12",
+     "name": "hardware intelligence",
+     "aliases": [],
+     "kind": "company",
+     "does": "makes chip design tools to cut development by months",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "Hardware Intelligence makes chip design tools to cut development by months",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Hardware Intelligence makes chip design tools to cut development by months",
+       "url": "https://www.ycombinator.com/companies/hardware-intelligence",
+       "domain": "ycombinator.com",
+       "title": "hardware intelligence (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Summer 2026",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-10"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 3,
+   "already_known": [
+    "ChipAgents",
+    "Cognichip",
+    "Ricursive Intelligence"
+   ],
+   "not_in_source": 0,
+   "off_topic_results": 0,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "Architect Labs Raises $24M Seed to Democratize Custom Chip Design",
+     "url": "https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design",
+     "date": "2026-06-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Parallel through Telem",
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "domain": "businesswire.com"
+    },
+    {
+     "id": "d-2",
+     "title": "Introducing Phinity Labs | Phinity Labs",
+     "url": "https://www.phinity.cc/blog/introducing-phinity",
+     "date": "2026-10-08",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "phinity.cc"
+    },
+    {
+     "id": "d-3",
+     "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom.co",
+     "url": "https://app.dealroom.co/news/note/ex-nvidia-ai-lead-s-chip-startup-agentrys-raises-19-1m-seed",
+     "date": "2026-08-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "app.dealroom.co"
+    },
+    {
+     "id": "d-4",
+     "title": "Agentrys Raises $24.5 Million to Build Agentic Design Automation for Chipmakers",
+     "url": "https://www.businesswire.com/news/home/20260826681966/en/Agentrys-Raises-%2424.5-Million-to-Build-Agentic-Design-Automation-for-Chipmakers",
+     "date": "2026-08-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "businesswire.com"
+    },
+    {
+     "id": "d-5",
+     "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom News",
+     "url": "https://dealroom.co/news/147123-ex-nvidia-ai-leads-chip-startup-agentrys-raises-19-1m-seed/",
+     "date": "2026-08-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-6",
+     "title": "Custom AI chip design startup TYLsemi launches with $43M in early-stage funding - SiliconANGLE",
+     "url": "https://siliconangle.com/2026/07/14/custom-ai-chip-design-startup-tylsemi-launches-43m-early-stage-funding/",
+     "date": "2026-07-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "siliconangle.com"
+    },
+    {
+     "id": "d-7",
+     "title": "Architect Labs raises $24M to let any company design its own AI chip",
+     "url": "https://thenextweb.com/news/architect-labs-24m-seed-ai-custom-chip-design",
+     "date": "2026-08-06",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "domain": "thenextweb.com"
+    },
+    {
+     "id": "d-8",
+     "title": "Phinity Labs raises $5.2M to design chips from text prompts | Dealroom News",
+     "url": "https://dealroom.co/news/161248-phinity-labs-raises-5-2m-to-design-chips-from-text-prompts",
+     "date": "2026-10-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-9",
+     "title": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform - DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/chipagents-raises-additional-60m-in-expanded-series-a-round-to-support-ai-chip-design-platform/",
+     "date": "2026-07-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "datacenterdynamics.com"
+    },
+    {
+     "id": "d-10",
+     "title": "Ricursive Intelligence Raises $300 Million Series A at $4 Billion Valuation to Accelerate AI-Driven Semiconductor Design",
+     "url": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html",
+     "date": "2026-01-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-11",
+     "title": "Seligman Ventures Leads Cognichip's $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures' Umesh Padval Join the Board | Cognichip News",
+     "url": "https://www.cognichip.ai/news/seligman-ventures-leads-cognichips-60m-series-a-to-back-physics-informed-ai-for-chip-design-intel-ceo-lip-bu-tan-and-seligman-ventures-umesh-padval-join-the-board",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "cognichip.ai"
+    },
+    {
+     "id": "d-12",
+     "title": "Seligman Ventures Leads Cognichip’s $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures’ Umesh Padval Join the Board",
+     "url": "https://www.businesswire.com/news/home/20260401581076/en/Seligman-Ventures-Leads-Cognichips-%2460M-Series-A-to-Back-Physics-Informed-AI-for-Chip-Design-Intel-CEO-Lip-Bu-Tan-and-Seligman-Ventures-Umesh-Padval-Join-the-Board",
+     "date": "2026-04-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "businesswire.com"
+    },
+    {
+     "id": "d-13",
+     "title": "AI Chip Startup Mueon Raises $65M Series A: Founder Lessons",
+     "url": "https://www.under30ceo.com/ai-chip-startup-mueon-65m-series-a/",
+     "date": "2026-10-19",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "under30ceo.com"
+    },
+    {
+     "id": "d-14",
+     "title": "ChipAgents Raises $60M in Series A2 Funding for AI Chip Design Platform | B Capital posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/b-capital-group_chipagents-has-raised-60-million-in-series-activity-7488239667142893568-tAqb",
+     "date": "2026-07-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-15",
+     "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents | Reuters",
+     "url": "https://www.reuters.com/business/nvidia-partner-chipagents-raises-60-million-accelerate-chip-design-with-ai-2026-07-29",
+     "date": "2026-07-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "reuters.com"
+    },
+    {
+     "id": "d-16",
+     "title": "Chip designer Velaura AI valued at more than $1 billion after funding round | MarketScreener Saudi Arabia",
+     "url": "https://sa.marketscreener.com/news/chip-designer-velaura-ai-valued-at-more-than-1-billion-after-funding-round-ce7859ddd98bf325",
+     "date": "2026-08-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "sa.marketscreener.com"
+    },
+    {
+     "id": "d-17",
+     "title": "ChipAgents Raises $60M to Automate Chip Design with AI Agents",
+     "url": "https://insideai.news/news/agentic-ai/chipagents-raises-60m-to-automate-chip-design-with-ai-agents/6404/",
+     "date": "2026-08-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "insideai.news"
+    },
+    {
+     "id": "d-18",
+     "title": "What are the latest funding trends in AI chips?\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/ai-chip-funding-trends",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-19",
+     "title": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design | Dealroom News",
+     "url": "https://dealroom.co/news/141848-chipagents-adds-60m-to-series-a-as-micron-mediatek-back-ai-chip-design/",
+     "date": "2026-07-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-20",
+     "title": "Tattvam AI to Speed up Chip Design with AI In RTL to GDSII - EE Times",
+     "url": "https://www.eetimes.com/startup-wants-to-speed-up-chip-design-with-ai-in-rtl-to-gdsii-path/",
+     "date": "2026-02-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "eetimes.com"
+    },
+    {
+     "id": "d-21",
+     "title": "AI chip design technology: In 2026, Sonya Jin and Aadi Nashikkar-led Phinity Labs raised $5.2 million to let AI agents design computer chips from text prompts - The Economic Times",
+     "url": "https://economictimes.indiatimes.com/world/people/in-2026-sonya-jin-and-aadi-nashikkar-led-phinity-labs-raised-5-2-million-to-let-ai-agents-design-computer-chips-from-text-prompts/articleshow/135399457.cms",
+     "date": "2026-10-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "economictimes.indiatimes.com"
+    },
+    {
+     "id": "d-22",
+     "title": "AI Chip Startup Emerges from Stealth with Breakthroughs in LVI and CSM | Etched posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/etched-ai_were-coming-out-of-stealth-weve-built-activity-7477738203290988544-XF06",
+     "date": "2026-06-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-23",
+     "title": "Inference chip startup Etched emerges from stealth with $800m funding, unveils working chip - DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-emerges-from-stealth-with-800m-funding-unveils-working-chip",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "datacenterdynamics.com"
+    },
+    {
+     "id": "d-24",
+     "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage | WIRED",
+     "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+     "date": "2026-09-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "wired.com"
+    },
+    {
+     "id": "d-25",
+     "title": "Patrick OShaughnessy on X: \"Three years ago, two Harvard dropouts set out to build a better AI chip than the largest companies in the world. Almost everyone I called at the time said it was impossible. Today, Etched (@Etched) comes out of stealth with $800M total raised, $1B in signed customer c… / X",
+     "url": "https://x.com/patrick_oshag/status/2071972025896489452",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "x.com"
+    },
+    {
+     "id": "d-26",
+     "title": "Architect Labs Emerges from Stealth; Using AI to ...",
+     "url": "https://www.ien.com/artificial-intelligence/news/22969153/architect-labs-emerges-from-stealth-using-ai-to-democratize-custom-chip-design-and-birth-designless-semiconductor-industry",
+     "date": "2026-06-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "ien.com"
+    },
+    {
+     "id": "d-27",
+     "title": "AI network startup Eridu emerges from stealth with hefty $200M Series A | TechCrunch",
+     "url": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/",
+     "date": "2026-03-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-28",
+     "title": "Indian chip startup Agrani Labs emerges from stealth with $8m funding round - DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/indian-chip-startup-agrani-labs-emerges-from-stealth-with-8m-funding-round/",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "datacenterdynamics.com"
+    },
+    {
+     "id": "d-29",
+     "title": "AI Chip Startups 2026: Funding, Valuations and Top Companies - AI Funding Tracker",
+     "url": "https://aifundingtracker.com/ai-chip-startups/",
+     "date": "2026-10-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "aifundingtracker.com"
+    },
+    {
+     "id": "d-30",
+     "title": "Introducing Phinity Labs | Phinity Labs",
+     "url": "https://www.phinity.ai/blog/introducing-phinity",
+     "date": "2026-10-08",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "phinity.ai"
+    },
+    {
+     "id": "d-31",
+     "title": "Ricursive Intelligence’s AI Chip Design Bet Targets Compute Constraints — nstartup",
+     "url": "https://nstartup.me/news/3ea5f6ad-f767-49ed-8eac-a606cc493737",
+     "date": "2026-10-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "nstartup.me"
+    },
+    {
+     "id": "d-32",
+     "title": "AI Chip Startups 2026: Five Raises Totalling $1.6 Billion | Semiconductors Insight",
+     "url": "https://semiconductorsinsight.com/ai-chip-startups-2026-semicon-startups-weekly-issue-1/",
+     "date": "2026-04-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "semiconductorsinsight.com"
+    },
+    {
+     "id": "d-33",
+     "title": "AI Chip: what are the top startups now? – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/ai-chip-top-startups",
+     "date": "2026-10-21",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-34",
+     "title": "Startup Funding: Q1 2026",
+     "url": "https://semiengineering.com/startup-funding-q1-2026",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "semiengineering.com"
+    },
+    {
+     "id": "d-35",
+     "title": "Ricursive Intelligence’s co-founders join Disrupt 2026 | TechCrunch",
+     "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+     "date": "2026-09-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-36",
+     "title": "TYLsemi launches full-stack chiplet platform for custom AI silicon - TYLsemi",
+     "url": "https://www.tylsemi.ai/news/tylsemi-launches-full-stack-chiplet-platform-for-custom-ai-silicon/",
+     "date": "2026-10-08",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "tylsemi.ai"
+    },
+    {
+     "id": "d-37",
+     "title": "Top AI Chip Startups by Valuation (2026) – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/ai-chip-top-startups-valuation",
+     "date": "2026-11-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-38",
+     "title": "The 10 Coolest Semiconductor Startups Of 2026 (So Far)",
+     "url": "https://www.crn.com/news/computing/2026/the-10-coolest-semiconductor-startups-of-2026-so-far",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "crn.com"
+    },
+    {
+     "id": "d-39",
+     "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis | TechCrunch",
+     "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+     "date": "2026-10-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "y-1",
+     "title": "SigmanticAI (YC Summer 2025)",
+     "url": "https://www.ycombinator.com/companies/sigmanticai",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "Archgen Labs (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/archgen-labs",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Resin Technologies (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/resin-technologies",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "Steinmetz (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/steinmetz",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "Standard Machines (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/standard-machines",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "Visibl Semiconductors (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "Partcl (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/partcl",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Inversion Semiconductor (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/inversion-semiconductor",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "Simantic (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/simantic",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "hardware intelligence (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/hardware-intelligence",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "Confetti (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/confetti",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "Dualizer (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/dualizer",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 64.6
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 1,
+   "of": 7,
+   "by_engine": {
+    "brave": 4,
+    "exa": 6,
+    "parallel": 5,
+    "tavily": 1
+   },
+   "reason": "",
+   "seconds": 64.6
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 4,
+    "found": 12,
+    "by_lens": {
+     "time": {
+      "found": 12,
+      "named": 4,
+      "missed": 8
+     }
+    },
+    "unverified": 0
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "Architect Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI system to design custom chips, end-to-end",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "emerged from stealth today with $24 million in seed funding",
+       "url": "https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design",
+       "domain": "businesswire.com",
+       "title": "Architect Labs Raises $24M Seed to Democratize Custom Chip Design",
+       "date": "2026-06-18",
+       "source_type": "independent",
+       "engine": [
+        "brave",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://thenextweb.com/news/architect-labs-24m-seed-ai-custom-chip-design",
+       "domain": "thenextweb.com",
+       "title": "Architect Labs raises $24M to let any company design its own AI chip",
+       "date": "2026-08-06",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "emerged from stealth today with $24 million in seed funding",
+       "url": "https://www.ien.com/artificial-intelligence/news/22969153/architect-labs-emerges-from-stealth-using-ai-to-democratize-custom-chip-design-and-birth-designless-semiconductor-industry",
+       "domain": "ien.com",
+       "title": "Architect Labs Emerges from Stealth; Using AI to ...",
+       "date": "2026-06-18",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "parallel",
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$24M",
+      "when": "June 2026",
+      "investors": [
+       "Kindred Ventures",
+       "TQ Ventures",
+       "Race Capital"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 3,
+     "newest": "2026-08-06",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "Phinity Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Software agents handle the full chip design process",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "We've raised $5.2 million in seed funding led by Uncork Capital",
+       "url": "https://www.phinity.cc/blog/introducing-phinity",
+       "domain": "phinity.cc",
+       "title": "Introducing Phinity Labs | Phinity Labs",
+       "date": "2026-10-08",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://dealroom.co/news/161248-phinity-labs-raises-5-2m-to-design-chips-from-text-prompts",
+       "domain": "dealroom.co",
+       "title": "Phinity Labs raises $5.2M to design chips from text prompts | Dealroom News",
+       "date": "2026-10-09",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://economictimes.indiatimes.com/world/people/in-2026-sonya-jin-and-aadi-nashikkar-led-phinity-labs-raised-5-2-million-to-let-ai-agents-design-computer-chips-from-text-prompts/articleshow/135399457.cms",
+       "domain": "economictimes.indiatimes.com",
+       "title": "AI chip design technology: In 2026, Sonya Jin and Aadi Nashikkar-led Phinity Labs raised $5.2 million to let AI agents design computer chips from text prompts - The Economic Times",
+       "date": "2026-10-31",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "We've raised $5.2 million in seed funding led by Uncork Capital",
+       "url": "https://www.phinity.ai/blog/introducing-phinity",
+       "domain": "phinity.ai",
+       "title": "Introducing Phinity Labs | Phinity Labs",
+       "date": "2026-10-08",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel",
+      "brave"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$5.2M",
+      "when": "October 2026",
+      "investors": [
+       "Uncork Capital",
+       "Moxxie",
+       "Pear"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-10-31",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "Agentrys",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "enables engineering teams to build and own a self-improving agentic workforce for chip design",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised $19.1 million in an oversubscribed seed round led by Etna Labs",
+       "url": "https://app.dealroom.co/news/note/ex-nvidia-ai-lead-s-chip-startup-agentrys-raises-19-1m-seed",
+       "domain": "app.dealroom.co",
+       "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom.co",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.businesswire.com/news/home/20260826681966/en/Agentrys-Raises-%2424.5-Million-to-Build-Agentic-Design-Automation-for-Chipmakers",
+       "domain": "businesswire.com",
+       "title": "Agentrys Raises $24.5 Million to Build Agentic Design Automation for Chipmakers",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "has raised $19.1 million in an oversubscribed seed round led by Etna Labs",
+       "url": "https://dealroom.co/news/147123-ex-nvidia-ai-leads-chip-startup-agentrys-raises-19-1m-seed/",
+       "domain": "dealroom.co",
+       "title": "Ex-NVIDIA AI lead's chip startup Agentrys raises $19.1M seed | Dealroom News",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$19.1M",
+      "when": "August 2026",
+      "investors": [
+       "Etna Labs",
+       "MediaTek"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 3,
+     "newest": "2026-08-26",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-4",
+     "name": "ChipAgents",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "agentic AI to accelerate RTL code verification, debugging, and design optimization",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://www.datacenterdynamics.com/en/news/chipagents-raises-additional-60m-in-expanded-series-a-round-to-support-ai-chip-design-platform/",
+       "domain": "datacenterdynamics.com",
+       "title": "ChipAgents raises additional $60m in expanded Series A round to support AI chip design platform - DCD",
+       "date": "2026-07-30",
+       "source_type": "independent",
+       "engine": [
+        "brave",
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/b-capital-group_chipagents-has-raised-60-million-in-series-activity-7488239667142893568-tAqb",
+       "domain": "linkedin.com",
+       "title": "ChipAgents Raises $60M in Series A2 Funding for AI Chip Design Platform | B Capital posted on the topic | LinkedIn",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.reuters.com/business/nvidia-partner-chipagents-raises-60-million-accelerate-chip-design-with-ai-2026-07-29",
+       "domain": "reuters.com",
+       "title": "Nvidia partner ChipAgents raises $60 million to accelerate chip design with AI agents | Reuters",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://insideai.news/news/agentic-ai/chipagents-raises-60m-to-automate-chip-design-with-ai-agents/6404/",
+       "domain": "insideai.news",
+       "title": "ChipAgents Raises $60M to Automate Chip Design with AI Agents",
+       "date": "2026-08-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design",
+       "url": "https://dealroom.co/news/141848-chipagents-adds-60m-to-series-a-as-micron-mediatek-back-ai-chip-design/",
+       "domain": "dealroom.co",
+       "title": "ChipAgents adds $60M to Series A as Micron, MediaTek back AI chip design | Dealroom News",
+       "date": "2026-07-29",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://semiengineering.com/startup-funding-q1-2026",
+       "domain": "semiengineering.com",
+       "title": "Startup Funding: Q1 2026",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "brave",
+      "tavily",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$60M",
+      "when": "July 2026",
+      "investors": [
+       "B Capital",
+       "Bessemer Venture Partners",
+       "Micron"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 4,
+      "memory_samples": 8,
+      "memory_name": "ChipAgents",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 6,
+     "newest": "2026-08-25",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-5",
+     "name": "Ricursive Intelligence",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI tools that design chips, learn from each iteration and refine later designs",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "announced a $300 million Series A funding round led by Lightspeed Venture Partners",
+       "url": "https://www.prnewswire.com/news-releases/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design-302670061.html",
+       "domain": "prnewswire.com",
+       "title": "Ricursive Intelligence Raises $300 Million Series A at $4 Billion Valuation to Accelerate AI-Driven Semiconductor Design",
+       "date": "2026-01-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://nstartup.me/news/3ea5f6ad-f767-49ed-8eac-a606cc493737",
+       "domain": "nstartup.me",
+       "title": "Ricursive Intelligence’s AI Chip Design Bet Targets Compute Constraints — nstartup",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+       "domain": "techcrunch.com",
+       "title": "Ricursive Intelligence’s co-founders join Disrupt 2026 | TechCrunch",
+       "date": "2026-09-25",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+       "domain": "techcrunch.com",
+       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis | TechCrunch",
+       "date": "2026-10-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$300M",
+      "when": "January 2026",
+      "investors": [
+       "Lightspeed Venture Partners",
+       "DST Global",
+       "NVentures"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 1,
+      "memory_samples": 8,
+      "memory_name": "Ricursive Intelligence",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 4,
+     "newest": "2026-10-15",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-6",
+     "name": "Cognichip",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "physics-informed AI for chip design",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "announced an oversubscribed $60 million Series A financing led by Seligman Ventures",
+       "url": "https://www.cognichip.ai/news/seligman-ventures-leads-cognichips-60m-series-a-to-back-physics-informed-ai-for-chip-design-intel-ceo-lip-bu-tan-and-seligman-ventures-umesh-padval-join-the-board",
+       "domain": "cognichip.ai",
+       "title": "Seligman Ventures Leads Cognichip's $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures' Umesh Padval Join the Board | Cognichip News",
+       "date": "",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.businesswire.com/news/home/20260401581076/en/Seligman-Ventures-Leads-Cognichips-%2460M-Series-A-to-Back-Physics-Informed-AI-for-Chip-Design-Intel-CEO-Lip-Bu-Tan-and-Seligman-Ventures-Umesh-Padval-Join-the-Board",
+       "domain": "businesswire.com",
+       "title": "Seligman Ventures Leads Cognichip’s $60M Series A to Back Physics-Informed AI for Chip Design, Intel CEO Lip-Bu Tan and Seligman Ventures’ Umesh Padval Join the Board",
+       "date": "2026-04-01",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel",
+      "exa"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$60M",
+      "when": "April 2026",
+      "investors": [
+       "Seligman Ventures",
+       "SBI Investment"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 5,
+      "memory_samples": 8,
+      "memory_name": "Cognichip",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 1,
+     "newest": "2026-04-01",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-7",
+     "name": "Tattvam AI",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "using AI in the process of converting system RTL to GDSII",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has emerged from stealth with a mission to reduce the time it takes",
+       "url": "https://www.eetimes.com/startup-wants-to-speed-up-chip-design-with-ai-in-rtl-to-gdsii-path/",
+       "domain": "eetimes.com",
+       "title": "Tattvam AI to Speed up Chip Design with AI In RTL to GDSII - EE Times",
+       "date": "2026-02-26",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "February 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-02-26",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-8",
+     "name": "Partcl",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "physics-informed models powered by GPU acceleration for chip design automation",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Partcl modernizes chip design automation with physics-informed models powered by GPU acceleration.",
+       "url": "https://www.ycombinator.com/companies/partcl",
+       "domain": "ycombinator.com",
+       "title": "Partcl (YC Spring 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Spring 2025",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "t-9",
+     "name": "SigmanticAI",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native hardware development assistant that automates the entire RTL design flow",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "SigmanticAI is building an AI-native hardware development assistant",
+       "url": "https://www.ycombinator.com/companies/sigmanticai",
+       "domain": "ycombinator.com",
+       "title": "SigmanticAI (YC Summer 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Summer 2025",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "t-10",
+     "name": "Archgen Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "builds AI-powered chip design tools for the next generation of 3D semiconductors",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Archgen Labs builds AI-powered chip design tools for the next generation of 3D semiconductors",
+       "url": "https://www.ycombinator.com/companies/archgen-labs",
+       "domain": "ycombinator.com",
+       "title": "Archgen Labs (YC Fall 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Fall 2026",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "t-11",
+     "name": "Standard Machines",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Automating chip design",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "We're a new kind of chip company focused on autonomy.",
+       "url": "https://www.ycombinator.com/companies/standard-machines",
+       "domain": "ycombinator.com",
+       "title": "Standard Machines (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Summer 2026",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "t-12",
+     "name": "hardware intelligence",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "makes chip design tools to cut development by months",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Hardware Intelligence makes chip design tools to cut development by months",
+       "url": "https://www.ycombinator.com/companies/hardware-intelligence",
+       "domain": "ycombinator.com",
+       "title": "hardware intelligence (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Summer 2026",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    }
+   ],
+   "missed": [
+    "t-1",
+    "t-2",
+    "t-7",
+    "t-8",
+    "t-9",
+    "t-10",
+    "t-11",
+    "t-12"
+   ],
+   "known_in_west": [],
+   "china_rule": "A thing from Chinese platforms is counted only with 2 or more posts there and the status \"No Western posts found (top results)\" or \"Few Western posts\".",
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "failed: KeyError: 'xcom'"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 64.6
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku (local CLI)"
+   ],
+   "errors": [
+    "china lens: KeyError: 'xcom'"
+   ],
+   "notes": [
+    "Telem engines that failed on at least one search: tavily.",
+    "Telem engines that failed on at least one search: exa, parallel."
+   ],
+   "seconds": 64.6
+  }
+ ]
+}

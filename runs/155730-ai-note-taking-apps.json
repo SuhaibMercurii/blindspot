@@ -1,0 +1,3917 @@
+{
+ "question": "AI note-taking apps",
+ "need": "",
+ "saved": "2026-11-14 15:57",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "AI note-taking apps",
+   "specific": "",
+   "category": "AI note-taking apps",
+   "area": "AI note-taking",
+   "need": "A company that provides an AI-powered app to capture, transcribe, summarize, and organize notes for individuals or teams.",
+   "keywords": [
+    "ai note taking",
+    "meeting notes",
+    "ai meeting transcription",
+    "note summarization",
+    "voice to text notes",
+    "knowledge management",
+    "second brain",
+    "smart notes",
+    "note organization",
+    "ai writing assistant",
+    "personal knowledge base",
+    "notes app"
+   ],
+   "zh_queries": [
+    "AI笔记软件推荐",
+    "智能笔记工具",
+    "AI会议记录软件"
+   ],
+   "seconds": 22.3
+  },
+  {
+   "stage": "memory",
+   "question": "AI note-taking apps",
+   "specific": "",
+   "category": "AI note-taking apps",
+   "need": "A company that provides an AI-powered app to capture, transcribe, summarize, and organize notes for individuals or teams.",
+   "companies": [
+    {
+     "name": "Notion Labs, Inc.",
+     "does": "Builds a workspace combining notes, docs, databases, and AI writing assistance.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Microsoft Corporation",
+     "does": "Develops software including productivity suites, operating systems, cloud services, and AI assistants.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Fireflies.ai Inc.",
+     "does": "Records, transcribes, and summarizes meetings across video calls, calendars, and conversations.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": [
+      "Fireflies.ai Corp.",
+      "Fireflies.ai",
+      "Fireflies.ai, Inc."
+     ]
+    },
+    {
+     "name": "Otter.ai, Inc.",
+     "does": "Provides AI transcription and meeting summaries for conversations and recorded audio.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku (local CLI)": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "Read AI, Inc.",
+     "does": "Produces meeting transcripts, summaries, and action items using artificial intelligence.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku (local CLI)": 6
+     },
+     "variants": [
+      "Read.ai, Inc."
+     ]
+    },
+    {
+     "name": "Alphabet Inc.",
+     "does": "Operates internet services, cloud computing, and AI research across search, mobile, and productivity.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "Evernote Corporation",
+     "does": "Offers digital note-taking with AI features for organizing notes, documents, and tasks.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Apple Inc.",
+     "does": "Designs consumer electronics and operating systems, including built-in note-taking and dictation features.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Zoom Video Communications, Inc.",
+     "does": "Provides cloud meetings with AI-generated recaps, transcripts, and summaries.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku (local CLI)": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Granola Labs",
+     "does": "Builds an AI notepad that captures meeting notes from device audio without bots.",
+     "count": 3,
+     "by_model": {
+      "claude-haiku (local CLI)": 3
+     },
+     "variants": [
+      "Granola Labs, Inc."
+     ]
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku (local CLI) x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku (local CLI)",
+      "samples": 8,
+      "distinct": 16,
+      "top": [
+       {
+        "name": "Notion Labs, Inc.",
+        "count": 8
+       },
+       {
+        "name": "Microsoft Corporation",
+        "count": 8
+       },
+       {
+        "name": "Fireflies.ai Inc.",
+        "count": 8
+       },
+       {
+        "name": "Otter.ai, Inc.",
+        "count": 7
+       },
+       {
+        "name": "Read AI, Inc.",
+        "count": 6
+       }
+      ]
+     }
+    ],
+    "distinct": 16,
+    "top5_share": 57,
+    "others": [
+     {
+      "name": "Google LLC",
+      "count": 2
+     },
+     {
+      "name": "Krisp Technologies",
+      "count": 2
+     },
+     {
+      "name": "Mem Labs, Inc.",
+      "count": 1
+     },
+     {
+      "name": "Dropbox, Inc.",
+      "count": 1
+     },
+     {
+      "name": "Atlassian Corporation",
+      "count": 1
+     },
+     {
+      "name": "AISense, Inc.",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 22.3
+  },
+  {
+   "stage": "money",
+   "query": "best AI note-taking apps",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Mem",
+     "does": "Note app that proactively recalls and connects your notes into a second brain.",
+     "sources": [
+      "n-1",
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Evernote",
+     "does": "Note app with AI tools to fix typos, summarize, and change tone.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Reflect",
+     "does": "Note app that transcribes voice notes and edits them with AI.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Notion",
+     "does": "Workspace with databases and tags, offering AI help for organizing and writing.",
+     "sources": [
+      "n-1",
+      "n-2",
+      "n-3",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Lindy",
+     "does": "Turns meeting or note content into follow-up tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Granola",
+     "does": "Meeting notes taken without a bot joining the call; audio is deleted after transcription.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-4",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Otter",
+     "does": "Records, transcribes, and summarizes meetings, including in-person and mobile recordings.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-4"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Fireflies.ai",
+     "does": "Records and transcribes calls into a searchable meeting history.",
+     "sources": [
+      "n-2",
+      "n-3"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Jamie",
+     "does": "Captures meeting notes across any meeting platform.",
+     "sources": [
+      "n-2",
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "tl;dv",
+     "does": "Records calls for sales coaching and call review.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Fathom",
+     "does": "Records and transcribes meetings, with a free option for solo users.",
+     "sources": [
+      "n-2",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Gemini Notebook",
+     "does": "Research tool that answers questions across your own documents and sources.",
+     "sources": [
+      "n-2",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "monday AI Workspace",
+     "does": "Workspace that captures meetings with admin-controlled settings.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "ClickUp",
+     "does": "Project management tool that turns meeting notes into tasks.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft OneNote",
+     "does": "Note app with Copilot for research and collaboration.",
+     "sources": [
+      "n-3",
+      "n-4",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 2,
+   "memory_overlap": [
+    "Evernote Corporation",
+    "Fireflies.ai Inc.",
+    "Granola Labs",
+    "Mem Labs, Inc.",
+    "Microsoft Corporation",
+    "Notion Labs, Inc.",
+    "Otter.ai, Inc."
+   ],
+   "echo": {
+    "repeated": 7,
+    "total": 15
+   },
+   "stake": {
+    "vendor": 1,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 1,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "The 4 Best AI Notes Apps in 2026 | Zapier",
+     "url": "https://zapier.com/blog/best-ai-notes-apps/",
+     "date": "2026-08-26",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave + Tavily through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "zapier.com",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "9 Best AI Note-Taking Apps: Tested & Ranked [Sep 26]",
+     "url": "https://www.lindy.ai/blog/ai-note-taking-app",
+     "date": "2026-10-07",
+     "date_from": "page",
+     "date_note": "Last Updated: October 7, 2026",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "Lindy",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "lindy.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-3",
+     "title": "10 Best AI Note-Taking Apps Reviewed in 2026",
+     "url": "https://thedigitalprojectmanager.com/tools/best-ai-note-taking-apps/",
+     "date": "2025-11-28",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Tavily through Telem",
+     "engines": [
+      "exa",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "thedigitalprojectmanager.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "The best AI note-taking apps in 2026, compared · Reminari",
+     "url": "https://www.reminari.com/blog/best-ai-note-taking-apps",
+     "date": "2026-11-06",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reminari.com",
+     "flagged": false
+    },
+    {
+     "id": "n-5",
+     "title": "r/AI_Agents on Reddit: What is actually the best AI note taking app for meetings?",
+     "url": "https://www.reddit.com/r/AI_Agents/comments/1rav5ks/what_is_actually_the_best_ai_note_taking_app_for/",
+     "date": "2026-02-21",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Fetchlayer_Reddit through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reddit.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "The Best AI Note-Taking Apps We've Tested for 2026 | PCMag",
+     "url": "https://www.pcmag.com/picks/best-ai-tools-taking-notes",
+     "date": "2026-08-13",
+     "date_from": "page",
+     "date_note": "Updated August 13, 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "pcmag.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Top 8 AI Note-Taking Apps in 2026 (Free & Paid)",
+     "url": "http://incbusiness.in/ai-resources/best-ai-note-taking-apps",
+     "date": "2026-10-27",
+     "date_from": "page",
+     "date_note": "Jhanvi Shah Oct 27, 2026 4 min read",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "incbusiness.in",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "10 Best AI Note Takers in 2026",
+     "url": "https://www.bluedothq.com/blog/best-ai-note-takers",
+     "date": "2026-11-10",
+     "date_from": "page",
+     "date_note": "Nov 10, 2026",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "bluedothq.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 7
+   },
+   "seconds": 43.7
+  },
+  {
+   "stage": "money",
+   "query": "best AI note-taking apps",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Mem",
+     "does": "Note app that proactively recalls and connects your notes into a second brain.",
+     "sources": [
+      "n-1",
+      "n-3",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Evernote",
+     "does": "Note app with AI tools to fix typos, summarize, and change tone.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Reflect",
+     "does": "Note app that transcribes voice notes and edits them with AI.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Notion",
+     "does": "Workspace with databases and tags, offering AI help for organizing and writing.",
+     "sources": [
+      "n-1",
+      "n-2",
+      "n-3",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Lindy",
+     "does": "Turns meeting or note content into follow-up tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Granola",
+     "does": "Meeting notes taken without a bot joining the call; audio is deleted after transcription.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-4",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Otter",
+     "does": "Records, transcribes, and summarizes meetings, including in-person and mobile recordings.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-4"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Fireflies.ai",
+     "does": "Records and transcribes calls into a searchable meeting history.",
+     "sources": [
+      "n-2",
+      "n-3"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Jamie",
+     "does": "Captures meeting notes across any meeting platform.",
+     "sources": [
+      "n-2",
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "tl;dv",
+     "does": "Records calls for sales coaching and call review.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Fathom",
+     "does": "Records and transcribes meetings, with a free option for solo users.",
+     "sources": [
+      "n-2",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Gemini Notebook",
+     "does": "Research tool that answers questions across your own documents and sources.",
+     "sources": [
+      "n-2",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "monday AI Workspace",
+     "does": "Workspace that captures meetings with admin-controlled settings.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "ClickUp",
+     "does": "Project management tool that turns meeting notes into tasks.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft OneNote",
+     "does": "Note app with Copilot for research and collaboration.",
+     "sources": [
+      "n-3",
+      "n-4",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 2,
+   "memory_overlap": [
+    "Evernote Corporation",
+    "Fireflies.ai Inc.",
+    "Granola Labs",
+    "Mem Labs, Inc.",
+    "Microsoft Corporation",
+    "Notion Labs, Inc.",
+    "Otter.ai, Inc."
+   ],
+   "echo": {
+    "repeated": 7,
+    "total": 15
+   },
+   "stake": {
+    "vendor": 1,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 1,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "The 4 Best AI Notes Apps in 2026 | Zapier",
+     "url": "https://zapier.com/blog/best-ai-notes-apps/",
+     "date": "2026-08-26",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave + Tavily through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "zapier.com",
+     "flagged": false
+    },
+    {
+     "id": "n-2",
+     "title": "9 Best AI Note-Taking Apps: Tested & Ranked [Sep 26]",
+     "url": "https://www.lindy.ai/blog/ai-note-taking-app",
+     "date": "2026-10-07",
+     "date_from": "page",
+     "date_note": "Last Updated: October 7, 2026",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "Lindy",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "lindy.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-3",
+     "title": "10 Best AI Note-Taking Apps Reviewed in 2026",
+     "url": "https://thedigitalprojectmanager.com/tools/best-ai-note-taking-apps/",
+     "date": "2025-11-28",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Tavily through Telem",
+     "engines": [
+      "exa",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "thedigitalprojectmanager.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "The best AI note-taking apps in 2026, compared · Reminari",
+     "url": "https://www.reminari.com/blog/best-ai-note-taking-apps",
+     "date": "2026-11-06",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reminari.com",
+     "flagged": false
+    },
+    {
+     "id": "n-5",
+     "title": "r/AI_Agents on Reddit: What is actually the best AI note taking app for meetings?",
+     "url": "https://www.reddit.com/r/AI_Agents/comments/1rav5ks/what_is_actually_the_best_ai_note_taking_app_for/",
+     "date": "2026-02-21",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Fetchlayer_Reddit through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "reddit.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "The Best AI Note-Taking Apps We've Tested for 2026 | PCMag",
+     "url": "https://www.pcmag.com/picks/best-ai-tools-taking-notes",
+     "date": "2026-08-13",
+     "date_from": "page",
+     "date_note": "Updated August 13, 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "pcmag.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Top 8 AI Note-Taking Apps in 2026 (Free & Paid)",
+     "url": "http://incbusiness.in/ai-resources/best-ai-note-taking-apps",
+     "date": "2026-10-27",
+     "date_from": "page",
+     "date_note": "Jhanvi Shah Oct 27, 2026 4 min read",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "incbusiness.in",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "10 Best AI Note Takers in 2026",
+     "url": "https://www.bluedothq.com/blog/best-ai-note-takers",
+     "date": "2026-11-10",
+     "date_from": "page",
+     "date_note": "Nov 10, 2026",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "bluedothq.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 7,
+    "all_pick": "Notion",
+    "clean_pick": "Mem",
+    "changed": true,
+    "status": "done"
+   },
+   "seconds": 52.0
+  },
+  {
+   "stage": "china",
+   "status": "ok",
+   "queries": [
+    "AI笔记软件推荐",
+    "智能笔记工具",
+    "AI会议记录软件"
+   ],
+   "platforms": [
+    "Xiaohongshu",
+    "Bilibili",
+    "Zhihu"
+   ],
+   "west_platforms": [
+    "Reddit",
+    "X",
+    "web"
+   ],
+   "posts_read": 43,
+   "old_posts_dropped": 7,
+   "not_in_post": 0,
+   "one_post_dropped": 6,
+   "companies": [
+    {
+     "id": "c-1",
+     "name": "Obsidian",
+     "zh": "Obsidian",
+     "aliases": [
+      "Obsidian"
+     ],
+     "kind": "product",
+     "does": "Local Markdown note app with linked notes, plugins, and tutorials.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "超干货🔥Obsidian保姆级入门教程笔记 还在为笔记乱糟糟、找不到重点发愁吗？🤯 今天给大家安排了超硬核的 Obsidian 从0到1保姆级入门攻略！熬夜整理的",
+       "url": "https://www.xiaohongshu.com/explore/6a1e39ea0000000008003b67",
+       "domain": "xiaohongshu.com",
+       "title": "超干货🔥Obsidian保姆级入门教程笔记",
+       "date": "2026-06-02",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 6251,
+        "comments": 46
+       }
+      },
+      {
+       "quote": "再见 Notion、Obsidian！新一代的全能 AI 笔记神器，诞生了！ 今天要给大家介绍一款革命性的开源笔记工具 NoteGen。 它采用 AI + 智能识别的创新方案，…",
+       "url": "https://zhuanlan.zhihu.com/p/2028888083114856802",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "再见 Notion、Obsidian！新一代的全能 AI 笔记神器，诞生了！",
+       "date": "2026-04-20",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 39,
+        "comments": 5
+       }
+      },
+      {
+       "quote": "顺手整理的Obsidian好用插件 最近刷小红书的时候，我把大家常提到的 Obsidian 插件顺手整理了一遍。 这篇不是“我个人最爱榜”，更像是一个高频插",
+       "url": "https://www.xiaohongshu.com/explore/6a620b76000000000e036bfa",
+       "domain": "xiaohongshu.com",
+       "title": "顺手整理的Obsidian好用插件",
+       "date": "2026-07-23",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 486,
+        "comments": 3
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 6776,
+      "comments": 54,
+      "engagement": 6830
+     },
+     "west": {
+      "posts": 15,
+      "checked_names": [
+       "Obsidian"
+      ],
+      "likes": 14463,
+      "comments": 1246,
+      "sources": [
+       {
+        "title": "obsidian is changing my life!",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xj38rj/obsidian_is_changing_my_life/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Are you paying for Obsidian sync?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xuylrc/are_you_paying_for_obsidian_sync/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Obsidian 1.15.1 (public): Relevance search, Android widgets, Web viewer for mobile, and mo",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xug865/obsidian_1151_public_relevance_search_android/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Obsidian",
+       "count": 9,
+       "returned": 9,
+       "links": [
+        {
+         "title": "Obsidian - Sharpen your thinking",
+         "url": "https://obsidian.md/",
+         "domain": "obsidian.md"
+        },
+        {
+         "title": "Obsidian",
+         "url": "https://en.wikipedia.org/wiki/Obsidian",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Obsidian | Home",
+         "url": "https://www.obsidian.net/",
+         "domain": "obsidian.net"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    },
+    {
+     "id": "c-2",
+     "name": "NotebookLM",
+     "zh": "NotebookLM",
+     "aliases": [
+      "NotebookLM"
+     ],
+     "kind": "product",
+     "does": "Google's RAG-based AI notebook for summarizing and querying your own documents.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "NotebookLM最厉害的，从来不是总结PDF 谷歌这个免费AI工具，90%的人没用明白 最近连续用了几周NotebookLM。 发现很多人把它当AI笔记软件…",
+       "url": "https://www.xiaohongshu.com/explore/6a3cec0f0000000008032dc4",
+       "domain": "xiaohongshu.com",
+       "title": "NotebookLM最厉害的，从来不是总结PDF",
+       "date": "2026-06-25",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 540,
+        "comments": 8
+       }
+      },
+      {
+       "quote": "每天拆解一个AI产品No.002：NotebookLM 【产品概述】 NotebookLM 是 Google 推出的一款基于 RAG（检索增强生成）技术的智能笔记工具，旨在通过",
+       "url": "https://www.xiaohongshu.com/explore/6942db0b000000001e00b989",
+       "domain": "xiaohongshu.com",
+       "title": "每天拆解一个AI产品No.002：NotebookLM",
+       "date": "2025-12-17",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 1824,
+        "comments": 32
+       }
+      },
+      {
+       "quote": "🇲🇾大学生一定要会用的12个 AI 工具 ① Google NotebookLM 📚 把Lecture Notes、PDF、Slides上传进去。 ✅ 自动总结",
+       "url": "https://www.xiaohongshu.com/explore/6a9bfa5e0000000014013037",
+       "domain": "xiaohongshu.com",
+       "title": "🇲🇾大学生一定要会用的12个 AI 工具",
+       "date": "2026-09-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 479,
+        "comments": 0
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Xiaohongshu"
+      ],
+      "likes": 3359,
+      "comments": 51,
+      "engagement": 3410
+     },
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "NotebookLM"
+      ],
+      "likes": 6642,
+      "comments": 608,
+      "sources": [
+       {
+        "title": "Impressionante o que faz o notebook lm nos estudos",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1v9dfxk/impressionante_o_que_faz_o_notebook_lm_nos_estudos/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Como estruturei um ecossistema com NotebookLM, método do MIT, para estudar para carreiras ",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1wmljjm/como_estruturei_um_ecossistema_com_notebooklm/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ازاي تبصمج عن طريق Notebooklm",
+        "url": "https://www.reddit.com/r/EgyUniversity/comments/1xoea7y/%D8%A7%D8%B2%D8%A7%D9%8A_%D8%AA%D8%A8%D8%B5%D9%85%D8%AC_%D8%B9%D9%86_%D8%B7%D8%B1%D9%8A%D9%82_notebooklm/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "NotebookLM",
+       "count": 8,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Gemini Notebook (formerly NotebookLM): AI research and learning assistant tool | Google Wo",
+         "url": "https://workspace.google.com/products/gemini-notebook/",
+         "domain": "workspace.google.com"
+        },
+        {
+         "title": "Gemini Notebook - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Gemini_Notebook",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Gemini Notebook (NotebookLM) - AI Tools & Google Education - Research Guides at Willamette",
+         "url": "https://libguides.willamette.edu/google-ed-ai-tools/notebooklm",
+         "domain": "libguides.willamette.edu"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    }
+   ],
+   "note": "Counts are from the top results only.",
+   "seconds": 55.2
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "AI note-taking startup raises seed round",
+    "AI note-taking startup raises Series A",
+    "AI note-taking startup comes out of stealth",
+    "new AI note-taking startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "Quill",
+     "aliases": [],
+     "kind": "company",
+     "does": "Starts as a meeting notetaker, becomes users' personal AI layer",
+     "lens": "time",
+     "round": "",
+     "amount": "$6.5M",
+     "when": "Feb 2026",
+     "investors": [
+      "Basis Set Ventures",
+      "500 Global",
+      "Naval Ravikant"
+     ],
+     "evidence": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+       "url": "https://www.prnewswire.com/news-releases/quill-launches-sovereign-chief-of-ai-staff-agent-and-raises-6-5m-302696537.html",
+       "domain": "prnewswire.com",
+       "title": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+       "date": "2026-02-25",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://siliconangle.com/2026/03/03/quill-meetings-built-agentic-chief-ai-staff-takes-private-meeting-notes/",
+       "domain": "siliconangle.com",
+       "title": "How Quill Meetings built an agentic 'chief of AI staff' that takes private meeting notes - SiliconANGLE",
+       "date": "2026-03-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-1",
+      "d-9"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "Kin Health",
+     "aliases": [],
+     "kind": "company",
+     "does": "Building a notetaker that can transcribe your visits to doctors, parse medical advice",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$9M",
+     "when": "May 2026",
+     "investors": [
+      "Maveron",
+      "Town Hall Ventures",
+      "Eniac Ventures"
+     ],
+     "evidence": "the startup has raised $9 million in a seed funding round led by Maveron",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://finance.yahoo.com/sectors/healthcare/articles/kin-health-raises-9m-build-152600787.html",
+       "domain": "finance.yahoo.com",
+       "title": "Kin Health raises $9M to build an AI notetaker for patients",
+       "date": "2026-05-18",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "the startup has raised $9 million in a seed funding round led by Maveron",
+       "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients",
+       "domain": "techcrunch.com",
+       "title": "Kin Health raises $9M to build an AI notetaker for patients | TechCrunch",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "sources": [
+      "d-2",
+      "d-3"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "Granola",
+     "aliases": [],
+     "kind": "company",
+     "does": "Software transcribes conversations and converts rough meeting notes into polished summaries",
+     "lens": "time",
+     "round": "",
+     "amount": "$125M",
+     "when": "Mar 2026",
+     "investors": [
+      "Index Ventures",
+      "Kleiner Perkins",
+      "Lightspeed Venture Partners"
+     ],
+     "evidence": "Granola, an AI notetaking startup, is raising $125 million at a $1.5 billion valuation, led by Index Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Granola, an AI notetaking startup, is raising $125 million at a $1.5 billion valuation, led by Index Ventures",
+       "url": "https://economictimes.indiatimes.com/tech/funding/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding/articleshow/129803368.cms",
+       "domain": "economictimes.indiatimes.com",
+       "title": "AI notetaker Granola hits $1.5 billion value in $125 million funding - The Economic Times",
+       "date": "2026-03-25",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.founded.com/granola-ai-note-taking-app-valuation/",
+       "domain": "founded.com",
+       "title": "AI note-taking app Granola hits $1.5B valuation, up from $250M in under a year",
+       "date": "2026-03-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.instagram.com/p/DWWvlzRkUov",
+       "domain": "instagram.com",
+       "title": "Instagram",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.granola.ai/blog/series-a",
+       "domain": "granola.ai",
+       "title": "Granola raises $20M to build the AI notepad that makes you smarter | Granola",
+       "date": "",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "parallel",
+      "brave",
+      "tavily"
+     ],
+     "sources": [
+      "d-4",
+      "d-6",
+      "d-7",
+      "d-12"
+     ],
+     "name_verified": true,
+     "memory_count": 3
+    },
+    {
+     "id": "t-4",
+     "name": "Taya",
+     "aliases": [],
+     "kind": "company",
+     "does": "Wearable voice-based note-taking pendant with AI-powered voice capture platform",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$5M",
+     "when": "Mar 2026",
+     "investors": [
+      "MaC Venture Capital",
+      "Female Founders Fund",
+      "a16z Speedrun"
+     ],
+     "evidence": "has raised $5 million in seed funding to develop its voice-based note-taking pendant",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised $5 million in seed funding to develop its voice-based note-taking pendant",
+       "url": "https://www.founderstoday.news/taya-raises-5m-seed-to-launch-privacy/",
+       "domain": "founderstoday.news",
+       "title": "Taya raises $5M seed to launch privacy-focused AI note-taking pendant - FoundersToday",
+       "date": "2026-03-12",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-5"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-5",
+     "name": "Sandbar",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-powered note-taking wearable designed to record, transcribe, and organise spoken thoughts",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$23M",
+     "when": "Mar 2026",
+     "investors": [
+      "Adjacent",
+      "Kindred Ventures"
+     ],
+     "evidence": "The company has now raised $23 million in a Series A funding round led by Adjacent and Kindred Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "The company has now raised $23 million in a Series A funding round led by Adjacent and Kindred Ventures",
+       "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+       "domain": "techcrunch.com",
+       "title": "Sandbar secures $23M Series A for its AI note-taking ring | TechCrunch",
+       "date": "2026-03-18",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.upstartsmedia.com/p/sandbar-stream-ai-ring-raises-23m",
+       "domain": "upstartsmedia.com",
+       "title": "Meet The AI Ring Startup Taking On OpenAI And Meta In Wearables",
+       "date": "2026-03-10",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://inshorts.com/en/news/ex-meta-staff-s-startup-raises--211-cr-for-its-ai-note-taking-ring-1773163916097",
+       "domain": "inshorts.com",
+       "title": "Ex-Meta staff's startup raises ₹211 cr for its AI note-taking ring",
+       "date": "2026-03-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "sources": [
+      "d-13",
+      "d-15",
+      "d-16"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-6",
+     "name": "Pocket",
+     "aliases": [],
+     "kind": "company",
+     "does": "Wearable AI device that captures conversations and turns them into summaries, speaker-attributed notes",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$11M",
+     "when": "Jun 2026",
+     "investors": [
+      "Accel",
+      "Y Combinator",
+      "Guillermo Rauch"
+     ],
+     "evidence": "Pocket raised an $11 million seed round led by Accel",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Pocket raised an $11 million seed round led by Accel",
+       "url": "https://seedtable.com/companies/pocket/funding-rounds/seed-2026-06",
+       "domain": "seedtable.com",
+       "title": "Pocket Raises 11.0M USD in Seed Funding | Seedtable",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://varenyaz.com/news/pocket-raises-11m-ai-note-taking-device-bet/",
+       "domain": "varenyaz.com",
+       "title": "Pocket Raises $11M for Credit Card-Sized AI Note-Taking Device",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/y-combinator_pocket-yc-w26-has-raised-11-million-to-activity-7477443277533638657--DdX",
+       "domain": "linkedin.com",
+       "title": "Pocket Raises $11M for AI Note-Taking Device | Y Combinator posted on the topic | LinkedIn",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+       "domain": "techcrunch.com",
+       "title": "Pocket raises $11M in bet on rising demand for AI note- ...",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/pocket",
+       "domain": "ycombinator.com",
+       "title": "Pocket (YC Winter 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Winter 2026",
+     "found_by": [
+      "Seed round news",
+      "Series A news",
+      "YC directory"
+     ],
+     "engines": [
+      "parallel",
+      "brave",
+      "tavily",
+      "exa"
+     ],
+     "sources": [
+      "d-8",
+      "d-10",
+      "d-11",
+      "d-14",
+      "y-12"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-7",
+     "name": "Wispr",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI note-taking assistant that records meetings and generates conversation summaries",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "Aug 2026",
+     "investors": [],
+     "evidence": "has created an AI note-taking assistant that records meetings and generates conversation summaries for users",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has created an AI note-taking assistant that records meetings and generates conversation summaries for users",
+       "url": "https://www.computerworld.com/article/4206765/wispr-moves-beyond-ai-dictation-with-note-taking-assistant.html",
+       "domain": "computerworld.com",
+       "title": "Wispr moves beyond AI dictation with live meeting assistant – Computerworld",
+       "date": "2026-08-07",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.gladia.io/blog/best-ai-notetakers-compared",
+       "domain": "gladia.io",
+       "title": "Gladia - Best AI notetakers in 2026: 44 tools compared by use case",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "tavily"
+     ],
+     "sources": [
+      "d-25",
+      "d-27"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-8",
+     "name": "Talat",
+     "aliases": [],
+     "kind": "company",
+     "does": "New Mac app for local-only AI meeting notes, available for a one-time fee without subscription",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "Mar 2026",
+     "investors": [],
+     "evidence": "That's led to the creation of a new Mac app called Talat",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "That's led to the creation of a new Mac app called Talat",
+       "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+       "domain": "techcrunch.com",
+       "title": "Talat's AI meeting notes stay on your machine, not in the cloud | TechCrunch",
+       "date": "2026-03-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-29"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-9",
+     "name": "TranzyNote",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI meeting notes tool that stays invisible during screen share (no bot joins)",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "Feb 2026",
+     "investors": [],
+     "evidence": "Built TranzyNote, an AI meeting notes tool that stays invisible during screen share (no bot joins). Launched quietly in February",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Built TranzyNote, an AI meeting notes tool that stays invisible during screen share (no bot joins). Launched quietly in February",
+       "url": "https://www.reddit.com/r/SaaS/comments/1r4brbp/built_an_invisible_ai_meeting_notes_tool_heres/",
+       "domain": "reddit.com",
+       "title": "r/SaaS on Reddit: \"Built an 'invisible' AI meeting notes tool - here's why nobody cared at first\"",
+       "date": "2026-02-14",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "sources": [
+      "d-17"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 2,
+   "already_known": [
+    "Granola"
+   ],
+   "not_in_source": 0,
+   "off_topic_results": 4,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+     "url": "https://www.prnewswire.com/news-releases/quill-launches-sovereign-chief-of-ai-staff-agent-and-raises-6-5m-302696537.html",
+     "date": "2026-02-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-2",
+     "title": "Kin Health raises $9M to build an AI notetaker for patients",
+     "url": "https://finance.yahoo.com/sectors/healthcare/articles/kin-health-raises-9m-build-152600787.html",
+     "date": "2026-05-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "finance.yahoo.com"
+    },
+    {
+     "id": "d-3",
+     "title": "Kin Health raises $9M to build an AI notetaker for patients | TechCrunch",
+     "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-4",
+     "title": "AI notetaker Granola hits $1.5 billion value in $125 million funding - The Economic Times",
+     "url": "https://economictimes.indiatimes.com/tech/funding/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding/articleshow/129803368.cms",
+     "date": "2026-03-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "domain": "economictimes.indiatimes.com"
+    },
+    {
+     "id": "d-5",
+     "title": "Taya raises $5M seed to launch privacy-focused AI note-taking pendant - FoundersToday",
+     "url": "https://www.founderstoday.news/taya-raises-5m-seed-to-launch-privacy/",
+     "date": "2026-03-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "founderstoday.news"
+    },
+    {
+     "id": "d-6",
+     "title": "AI note-taking app Granola hits $1.5B valuation, up from $250M in under a year",
+     "url": "https://www.founded.com/granola-ai-note-taking-app-valuation/",
+     "date": "2026-03-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "founded.com"
+    },
+    {
+     "id": "d-7",
+     "title": "Instagram",
+     "url": "https://www.instagram.com/p/DWWvlzRkUov",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "instagram.com"
+    },
+    {
+     "id": "d-8",
+     "title": "Pocket Raises 11.0M USD in Seed Funding | Seedtable",
+     "url": "https://seedtable.com/companies/pocket/funding-rounds/seed-2026-06",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "seedtable.com"
+    },
+    {
+     "id": "d-9",
+     "title": "How Quill Meetings built an agentic 'chief of AI staff' that takes private meeting notes - SiliconANGLE",
+     "url": "https://siliconangle.com/2026/03/03/quill-meetings-built-agentic-chief-ai-staff-takes-private-meeting-notes/",
+     "date": "2026-03-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "siliconangle.com"
+    },
+    {
+     "id": "d-10",
+     "title": "Pocket Raises $11M for Credit Card-Sized AI Note-Taking Device",
+     "url": "https://varenyaz.com/news/pocket-raises-11m-ai-note-taking-device-bet/",
+     "date": "2026-06-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "varenyaz.com"
+    },
+    {
+     "id": "d-11",
+     "title": "Pocket Raises $11M for AI Note-Taking Device | Y Combinator posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/y-combinator_pocket-yc-w26-has-raised-11-million-to-activity-7477443277533638657--DdX",
+     "date": "2026-06-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-12",
+     "title": "Granola raises $20M to build the AI notepad that makes you smarter | Granola",
+     "url": "https://www.granola.ai/blog/series-a",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "domain": "granola.ai"
+    },
+    {
+     "id": "d-13",
+     "title": "Sandbar secures $23M Series A for its AI note-taking ring | TechCrunch",
+     "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+     "date": "2026-03-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-14",
+     "title": "Pocket raises $11M in bet on rising demand for AI note- ...",
+     "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+     "date": "2026-06-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-15",
+     "title": "Meet The AI Ring Startup Taking On OpenAI And Meta In Wearables",
+     "url": "https://www.upstartsmedia.com/p/sandbar-stream-ai-ring-raises-23m",
+     "date": "2026-03-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "upstartsmedia.com"
+    },
+    {
+     "id": "d-16",
+     "title": "Ex-Meta staff's startup raises ₹211 cr for its AI note-taking ring",
+     "url": "https://inshorts.com/en/news/ex-meta-staff-s-startup-raises--211-cr-for-its-ai-note-taking-ring-1773163916097",
+     "date": "2026-03-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "inshorts.com"
+    },
+    {
+     "id": "d-17",
+     "title": "r/SaaS on Reddit: \"Built an 'invisible' AI meeting notes tool - here's why nobody cared at first\"",
+     "url": "https://www.reddit.com/r/SaaS/comments/1r4brbp/built_an_invisible_ai_meeting_notes_tool_heres/",
+     "date": "2026-02-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "reddit.com"
+    },
+    {
+     "id": "d-18",
+     "title": "AI note-taking startup Fireflies was really two guys typing notes by hand | Hacker News",
+     "url": "https://news.ycombinator.com/item?id=45934447",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "id": "d-19",
+     "title": "Noetive Revolutionizes Physical Economy with AI | Guy Tennenholtz posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/guytenn_were-coming-out-of-stealth-noetive-is-activity-7506017878408859648-oiJE",
+     "date": "2026-09-16",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-20",
+     "title": "An AI Startup's Viral LinkedIn Story and 'Fake It Till You Make It' - Business Insider",
+     "url": "https://www.businessinsider.com/startup-story-fake-it-till-you-make-it-fireflies-ai-2025-11",
+     "date": "2025-11-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "businessinsider.com"
+    },
+    {
+     "id": "d-21",
+     "title": "ElevenLabs' new app combines meeting note-taking and dictation for teams | TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+     "date": "2026-11-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-22",
+     "title": "Best AI notetakers in 2026: the top AI note taking apps compared | AssemblyAI",
+     "url": "https://www.assemblyai.com/blog/top-ai-notetakers",
+     "date": "2026-09-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "assemblyai.com"
+    },
+    {
+     "id": "d-23",
+     "title": "AI Note-Taker Market Report 2026 | 190+ Pages\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/pages/ai-note-taker",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-24",
+     "title": "Best AI Note Taking Apps in 2026: 11 Tools Compared | Fastio",
+     "url": "http://fast.io/resources/best-ai-note-taking-apps-2026",
+     "date": "2026-10-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "fast.io"
+    },
+    {
+     "id": "d-25",
+     "title": "Wispr moves beyond AI dictation with live meeting assistant – Computerworld",
+     "url": "https://www.computerworld.com/article/4206765/wispr-moves-beyond-ai-dictation-with-note-taking-assistant.html",
+     "date": "2026-08-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "computerworld.com"
+    },
+    {
+     "id": "d-26",
+     "title": "The best AI notetakers to use in 2026 | Product Hunt",
+     "url": "https://www.producthunt.com/categories/ai-meeting-notetakers",
+     "date": "2026-11-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "producthunt.com"
+    },
+    {
+     "id": "d-27",
+     "title": "Gladia - Best AI notetakers in 2026: 44 tools compared by use case",
+     "url": "https://www.gladia.io/blog/best-ai-notetakers-compared",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "gladia.io"
+    },
+    {
+     "id": "d-28",
+     "title": "Best 8 AI Note Takers for Startups [2026] | Jamie",
+     "url": "https://www.meetjamie.ai/blog/ai-note-takers-for-startups",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "meetjamie.ai"
+    },
+    {
+     "id": "d-29",
+     "title": "Talat's AI meeting notes stay on your machine, not in the cloud | TechCrunch",
+     "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+     "date": "2026-03-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-30",
+     "title": "AI Note-Taking Apps in 2026: What to Pay For and What to Skip | Zemith.com",
+     "url": "https://www.zemith.com/en/contents/ai-note-taking-apps-2026",
+     "date": "2026-07-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "zemith.com"
+    },
+    {
+     "id": "d-31",
+     "title": "6 Best AI Note Takers for Sales Calls & CRM Notes (2026)",
+     "url": "https://www.getmaxiq.com/blog/best-ai-note-takers-for-sales",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "getmaxiq.com"
+    },
+    {
+     "id": "d-32",
+     "title": "Best AI Note-Taking Tools in 2026: 4 Compared | Hokai",
+     "url": "https://hokai.io/guides/best-ai-note-taking-2026",
+     "date": "2026-08-16",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "hokai.io"
+    },
+    {
+     "id": "y-1",
+     "title": "Epicenter (YC Summer 2025)",
+     "url": "https://www.ycombinator.com/companies/epicenter",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "Caddy (YC Fall 2025)",
+     "url": "https://www.ycombinator.com/companies/caddy",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Ladder (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/ladderai",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "Egoist Machines (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/egoist-machines",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "Sidekick (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/textsidekick",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "GBrain (YC Spring 2026)",
+     "url": "https://www.ycombinator.com/companies/gbrain",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "MochaCare (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/mochacare",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Atlog (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/atlog",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "Orchid (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/orchid-ai",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "Leaping AI (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/leaping-ai",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "antimattr (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/antimattr",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "Pocket (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/pocket",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 68.3
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 4,
+   "of": 9,
+   "by_engine": {
+    "brave": 5,
+    "exa": 6,
+    "parallel": 2,
+    "tavily": 4
+   },
+   "reason": "",
+   "seconds": 68.3
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 1,
+    "found": 9,
+    "by_lens": {
+     "time": {
+      "found": 9,
+      "named": 1,
+      "missed": 8
+     },
+     "china": {
+      "found": 0,
+      "named": 0,
+      "missed": 0
+     }
+    },
+    "unverified": 0
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "Quill",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Starts as a meeting notetaker, becomes users' personal AI layer",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+       "url": "https://www.prnewswire.com/news-releases/quill-launches-sovereign-chief-of-ai-staff-agent-and-raises-6-5m-302696537.html",
+       "domain": "prnewswire.com",
+       "title": "Quill Launches Sovereign Chief of AI Staff Agent and Raises $6.5M",
+       "date": "2026-02-25",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://siliconangle.com/2026/03/03/quill-meetings-built-agentic-chief-ai-staff-takes-private-meeting-notes/",
+       "domain": "siliconangle.com",
+       "title": "How Quill Meetings built an agentic 'chief of AI staff' that takes private meeting notes - SiliconANGLE",
+       "date": "2026-03-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$6.5M",
+      "when": "Feb 2026",
+      "investors": [
+       "Basis Set Ventures",
+       "500 Global",
+       "Naval Ravikant"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-03-03",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "Kin Health",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Building a notetaker that can transcribe your visits to doctors, parse medical advice",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://finance.yahoo.com/sectors/healthcare/articles/kin-health-raises-9m-build-152600787.html",
+       "domain": "finance.yahoo.com",
+       "title": "Kin Health raises $9M to build an AI notetaker for patients",
+       "date": "2026-05-18",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "the startup has raised $9 million in a seed funding round led by Maveron",
+       "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients",
+       "domain": "techcrunch.com",
+       "title": "Kin Health raises $9M to build an AI notetaker for patients | TechCrunch",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$9M",
+      "when": "May 2026",
+      "investors": [
+       "Maveron",
+       "Town Hall Ventures",
+       "Eniac Ventures"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-05-18",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "Granola",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Software transcribes conversations and converts rough meeting notes into polished summaries",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Granola, an AI notetaking startup, is raising $125 million at a $1.5 billion valuation, led by Index Ventures",
+       "url": "https://economictimes.indiatimes.com/tech/funding/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding/articleshow/129803368.cms",
+       "domain": "economictimes.indiatimes.com",
+       "title": "AI notetaker Granola hits $1.5 billion value in $125 million funding - The Economic Times",
+       "date": "2026-03-25",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.founded.com/granola-ai-note-taking-app-valuation/",
+       "domain": "founded.com",
+       "title": "AI note-taking app Granola hits $1.5B valuation, up from $250M in under a year",
+       "date": "2026-03-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.instagram.com/p/DWWvlzRkUov",
+       "domain": "instagram.com",
+       "title": "Instagram",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.granola.ai/blog/series-a",
+       "domain": "granola.ai",
+       "title": "Granola raises $20M to build the AI notepad that makes you smarter | Granola",
+       "date": "",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "parallel",
+      "brave",
+      "tavily"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$125M",
+      "when": "Mar 2026",
+      "investors": [
+       "Index Ventures",
+       "Kleiner Perkins",
+       "Lightspeed Venture Partners"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 3,
+      "memory_samples": 8,
+      "memory_name": "Granola Labs",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 3,
+     "newest": "2026-03-25",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-4",
+     "name": "Taya",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Wearable voice-based note-taking pendant with AI-powered voice capture platform",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised $5 million in seed funding to develop its voice-based note-taking pendant",
+       "url": "https://www.founderstoday.news/taya-raises-5m-seed-to-launch-privacy/",
+       "domain": "founderstoday.news",
+       "title": "Taya raises $5M seed to launch privacy-focused AI note-taking pendant - FoundersToday",
+       "date": "2026-03-12",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$5M",
+      "when": "Mar 2026",
+      "investors": [
+       "MaC Venture Capital",
+       "Female Founders Fund",
+       "a16z Speedrun"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-03-12",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-5",
+     "name": "Sandbar",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-powered note-taking wearable designed to record, transcribe, and organise spoken thoughts",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "The company has now raised $23 million in a Series A funding round led by Adjacent and Kindred Ventures",
+       "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+       "domain": "techcrunch.com",
+       "title": "Sandbar secures $23M Series A for its AI note-taking ring | TechCrunch",
+       "date": "2026-03-18",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.upstartsmedia.com/p/sandbar-stream-ai-ring-raises-23m",
+       "domain": "upstartsmedia.com",
+       "title": "Meet The AI Ring Startup Taking On OpenAI And Meta In Wearables",
+       "date": "2026-03-10",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://inshorts.com/en/news/ex-meta-staff-s-startup-raises--211-cr-for-its-ai-note-taking-ring-1773163916097",
+       "domain": "inshorts.com",
+       "title": "Ex-Meta staff's startup raises ₹211 cr for its AI note-taking ring",
+       "date": "2026-03-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$23M",
+      "when": "Mar 2026",
+      "investors": [
+       "Adjacent",
+       "Kindred Ventures"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 3,
+     "newest": "2026-03-18",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-6",
+     "name": "Pocket",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Wearable AI device that captures conversations and turns them into summaries, speaker-attributed notes",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Pocket raised an $11 million seed round led by Accel",
+       "url": "https://seedtable.com/companies/pocket/funding-rounds/seed-2026-06",
+       "domain": "seedtable.com",
+       "title": "Pocket Raises 11.0M USD in Seed Funding | Seedtable",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://varenyaz.com/news/pocket-raises-11m-ai-note-taking-device-bet/",
+       "domain": "varenyaz.com",
+       "title": "Pocket Raises $11M for Credit Card-Sized AI Note-Taking Device",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/y-combinator_pocket-yc-w26-has-raised-11-million-to-activity-7477443277533638657--DdX",
+       "domain": "linkedin.com",
+       "title": "Pocket Raises $11M for AI Note-Taking Device | Y Combinator posted on the topic | LinkedIn",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+       "domain": "techcrunch.com",
+       "title": "Pocket raises $11M in bet on rising demand for AI note- ...",
+       "date": "2026-06-29",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/pocket",
+       "domain": "ycombinator.com",
+       "title": "Pocket (YC Winter 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Series A news",
+      "YC directory"
+     ],
+     "engines": [
+      "parallel",
+      "brave",
+      "tavily",
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$11M",
+      "when": "Jun 2026",
+      "investors": [
+       "Accel",
+       "Y Combinator",
+       "Guillermo Rauch"
+      ],
+      "verified": true
+     },
+     "yc_batch": "Winter 2026",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 4,
+     "newest": "2026-06-29",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-7",
+     "name": "Wispr",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI note-taking assistant that records meetings and generates conversation summaries",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has created an AI note-taking assistant that records meetings and generates conversation summaries for users",
+       "url": "https://www.computerworld.com/article/4206765/wispr-moves-beyond-ai-dictation-with-note-taking-assistant.html",
+       "domain": "computerworld.com",
+       "title": "Wispr moves beyond AI dictation with live meeting assistant – Computerworld",
+       "date": "2026-08-07",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.gladia.io/blog/best-ai-notetakers-compared",
+       "domain": "gladia.io",
+       "title": "Gladia - Best AI notetakers in 2026: 44 tools compared by use case",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "tavily"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "Aug 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-08-07",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-8",
+     "name": "Talat",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "New Mac app for local-only AI meeting notes, available for a one-time fee without subscription",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "That's led to the creation of a new Mac app called Talat",
+       "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+       "domain": "techcrunch.com",
+       "title": "Talat's AI meeting notes stay on your machine, not in the cloud | TechCrunch",
+       "date": "2026-03-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "Mar 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-03-24",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-9",
+     "name": "TranzyNote",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI meeting notes tool that stays invisible during screen share (no bot joins)",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Built TranzyNote, an AI meeting notes tool that stays invisible during screen share (no bot joins). Launched quietly in February",
+       "url": "https://www.reddit.com/r/SaaS/comments/1r4brbp/built_an_invisible_ai_meeting_notes_tool_heres/",
+       "domain": "reddit.com",
+       "title": "r/SaaS on Reddit: \"Built an 'invisible' AI meeting notes tool - here's why nobody cared at first\"",
+       "date": "2026-02-14",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "Feb 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-02-14",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Brave"
+     ]
+    },
+    {
+     "id": "c-1",
+     "name": "Obsidian",
+     "zh": "Obsidian",
+     "aliases": [
+      "Obsidian"
+     ],
+     "kind": "product",
+     "does": "Local Markdown note app with linked notes, plugins, and tutorials.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "超干货🔥Obsidian保姆级入门教程笔记 还在为笔记乱糟糟、找不到重点发愁吗？🤯 今天给大家安排了超硬核的 Obsidian 从0到1保姆级入门攻略！熬夜整理的",
+       "url": "https://www.xiaohongshu.com/explore/6a1e39ea0000000008003b67",
+       "domain": "xiaohongshu.com",
+       "title": "超干货🔥Obsidian保姆级入门教程笔记",
+       "date": "2026-06-02",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 6251,
+        "comments": 46
+       }
+      },
+      {
+       "quote": "再见 Notion、Obsidian！新一代的全能 AI 笔记神器，诞生了！ 今天要给大家介绍一款革命性的开源笔记工具 NoteGen。 它采用 AI + 智能识别的创新方案，…",
+       "url": "https://zhuanlan.zhihu.com/p/2028888083114856802",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "再见 Notion、Obsidian！新一代的全能 AI 笔记神器，诞生了！",
+       "date": "2026-04-20",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 39,
+        "comments": 5
+       }
+      },
+      {
+       "quote": "顺手整理的Obsidian好用插件 最近刷小红书的时候，我把大家常提到的 Obsidian 插件顺手整理了一遍。 这篇不是“我个人最爱榜”，更像是一个高频插",
+       "url": "https://www.xiaohongshu.com/explore/6a620b76000000000e036bfa",
+       "domain": "xiaohongshu.com",
+       "title": "顺手整理的Obsidian好用插件",
+       "date": "2026-07-23",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 486,
+        "comments": 3
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 15,
+      "checked_names": [
+       "Obsidian"
+      ],
+      "likes": 14463,
+      "comments": 1246,
+      "sources": [
+       {
+        "title": "obsidian is changing my life!",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xj38rj/obsidian_is_changing_my_life/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Are you paying for Obsidian sync?",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xuylrc/are_you_paying_for_obsidian_sync/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Obsidian 1.15.1 (public): Relevance search, Android widgets, Web viewer for mobile, and mo",
+        "url": "https://www.reddit.com/r/ObsidianMD/comments/1xug865/obsidian_1151_public_relevance_search_android/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Obsidian",
+       "count": 9,
+       "returned": 9,
+       "links": [
+        {
+         "title": "Obsidian - Sharpen your thinking",
+         "url": "https://obsidian.md/",
+         "domain": "obsidian.md"
+        },
+        {
+         "title": "Obsidian",
+         "url": "https://en.wikipedia.org/wiki/Obsidian",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Obsidian | Home",
+         "url": "https://www.obsidian.net/",
+         "domain": "obsidian.net"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 6776,
+      "comments": 54,
+      "engagement": 6830
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-07-23",
+     "counted": false,
+     "why_missed": []
+    },
+    {
+     "id": "c-2",
+     "name": "NotebookLM",
+     "zh": "NotebookLM",
+     "aliases": [
+      "NotebookLM"
+     ],
+     "kind": "product",
+     "does": "Google's RAG-based AI notebook for summarizing and querying your own documents.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "NotebookLM最厉害的，从来不是总结PDF 谷歌这个免费AI工具，90%的人没用明白 最近连续用了几周NotebookLM。 发现很多人把它当AI笔记软件…",
+       "url": "https://www.xiaohongshu.com/explore/6a3cec0f0000000008032dc4",
+       "domain": "xiaohongshu.com",
+       "title": "NotebookLM最厉害的，从来不是总结PDF",
+       "date": "2026-06-25",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 540,
+        "comments": 8
+       }
+      },
+      {
+       "quote": "每天拆解一个AI产品No.002：NotebookLM 【产品概述】 NotebookLM 是 Google 推出的一款基于 RAG（检索增强生成）技术的智能笔记工具，旨在通过",
+       "url": "https://www.xiaohongshu.com/explore/6942db0b000000001e00b989",
+       "domain": "xiaohongshu.com",
+       "title": "每天拆解一个AI产品No.002：NotebookLM",
+       "date": "2025-12-17",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 1824,
+        "comments": 32
+       }
+      },
+      {
+       "quote": "🇲🇾大学生一定要会用的12个 AI 工具 ① Google NotebookLM 📚 把Lecture Notes、PDF、Slides上传进去。 ✅ 自动总结",
+       "url": "https://www.xiaohongshu.com/explore/6a9bfa5e0000000014013037",
+       "domain": "xiaohongshu.com",
+       "title": "🇲🇾大学生一定要会用的12个 AI 工具",
+       "date": "2026-09-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 479,
+        "comments": 0
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "NotebookLM"
+      ],
+      "likes": 6642,
+      "comments": 608,
+      "sources": [
+       {
+        "title": "Impressionante o que faz o notebook lm nos estudos",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1v9dfxk/impressionante_o_que_faz_o_notebook_lm_nos_estudos/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Como estruturei um ecossistema com NotebookLM, método do MIT, para estudar para carreiras ",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1wmljjm/como_estruturei_um_ecossistema_com_notebooklm/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ازاي تبصمج عن طريق Notebooklm",
+        "url": "https://www.reddit.com/r/EgyUniversity/comments/1xoea7y/%D8%A7%D8%B2%D8%A7%D9%8A_%D8%AA%D8%A8%D8%B5%D9%85%D8%AC_%D8%B9%D9%86_%D8%B7%D8%B1%D9%8A%D9%82_notebooklm/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "NotebookLM",
+       "count": 8,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Gemini Notebook (formerly NotebookLM): AI research and learning assistant tool | Google Wo",
+         "url": "https://workspace.google.com/products/gemini-notebook/",
+         "domain": "workspace.google.com"
+        },
+        {
+         "title": "Gemini Notebook - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Gemini_Notebook",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Gemini Notebook (NotebookLM) - AI Tools & Google Education - Research Guides at Willamette",
+         "url": "https://libguides.willamette.edu/google-ed-ai-tools/notebooklm",
+         "domain": "libguides.willamette.edu"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Xiaohongshu"
+      ],
+      "likes": 3359,
+      "comments": 51,
+      "engagement": 3410
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-09-05",
+     "counted": false,
+     "why_missed": []
+    }
+   ],
+   "missed": [
+    "t-6",
+    "t-5",
+    "t-7",
+    "t-2",
+    "t-1",
+    "t-8",
+    "t-4",
+    "t-9"
+   ],
+   "known_in_west": [],
+   "china_rule": "A thing from Chinese platforms is counted only with 2 or more posts there and the status \"No Western posts found (top results)\" or \"Few Western posts\".",
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "ok"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 68.3
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku (local CLI)"
+   ],
+   "errors": [],
+   "notes": [
+    "Telem engines that failed on at least one search: exa, parallel.",
+    "Telem engines that failed on at least one search: tavily."
+   ],
+   "seconds": 68.3
+  }
+ ]
+}

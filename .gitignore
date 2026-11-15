@@ -1,0 +1,5 @@
+.env
+__pycache__/
+runs/*.json
+runs/pinned.txt
+.venv/

@@ -1,0 +1,4965 @@
+{
+ "question": "AI office apps",
+ "need": "",
+ "saved": "2026-11-14 14:39",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "AI office apps",
+   "specific": "",
+   "category": "AI office apps",
+   "area": "AI office productivity",
+   "need": "A company needs software that uses AI to help with everyday office work such as writing documents, summarizing meetings, managing email, and building spreadsheets or presentations.",
+   "keywords": [
+    "ai writing assistant",
+    "document automation",
+    "meeting summarization",
+    "ai email assistant",
+    "spreadsheet automation",
+    "presentation generator",
+    "workplace productivity",
+    "generative ai for office",
+    "knowledge management",
+    "copilot for documents",
+    "task automation",
+    "collaborative workspace"
+   ],
+   "zh_queries": [
+    "AI办公软件推荐",
+    "AI办公工具 效率",
+    "智能办公助手 文档 表格"
+   ],
+   "seconds": 10.4
+  },
+  {
+   "stage": "memory",
+   "question": "AI office apps",
+   "specific": "",
+   "category": "AI office apps",
+   "need": "A company needs software that uses AI to help with everyday office work such as writing documents, summarizing meetings, managing email, and building spreadsheets or presentations.",
+   "companies": [
+    {
+     "name": "Microsoft",
+     "does": "Develops Windows and Office software, plus AI assistants for documents, spreadsheets, email, and meetings.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": [
+      "Microsoft Corporation"
+     ]
+    },
+    {
+     "name": "Notion Labs",
+     "does": "Offers a workspace combining notes, databases, wikis, and project tracking with built-in AI writing help.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": [
+      "Notion",
+      "Notion Labs, Inc."
+     ]
+    },
+    {
+     "name": "Zoho",
+     "does": "Builds business software suite covering email, documents, CRM, and invoicing with AI features.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": [
+      "Zoho Corporation"
+     ]
+    },
+    {
+     "name": "Canva",
+     "does": "Designs online graphics, presentations, and video editing tools with AI image and text generation.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku-5-5": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "Google",
+     "does": "Provides cloud email, documents, spreadsheets, and AI assistance across its productivity suite.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku-5-5": 6
+     },
+     "variants": []
+    },
+    {
+     "name": "Grammarly",
+     "does": "Provides AI writing assistance that checks grammar, tone, and clarity across apps and websites.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku-5-5": 6
+     },
+     "variants": [
+      "Grammarly, Inc."
+     ]
+    },
+    {
+     "name": "Atlassian",
+     "does": "Develops team collaboration and project tracking software with AI assistance for knowledge management.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku-5-5": 6
+     },
+     "variants": [
+      "Atlassian Corporation"
+     ]
+    },
+    {
+     "name": "Dropbox",
+     "does": "Offers cloud file storage and syncing, plus an AI tool that searches files across work apps.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku-5-5": 5
+     },
+     "variants": [
+      "Dropbox, Inc."
+     ]
+    },
+    {
+     "name": "Smartsheet",
+     "does": "Provides spreadsheet-style work management software with automation and AI-driven workflow features.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku-5-5": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Adobe",
+     "does": "Makes creative and document software, including PDF editing and generative AI tools for content creation.",
+     "count": 3,
+     "by_model": {
+      "claude-haiku-5-5": 3
+     },
+     "variants": []
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku-5-5 x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku-5-5",
+      "samples": 8,
+      "distinct": 20,
+      "top": [
+       {
+        "name": "Microsoft",
+        "count": 8
+       },
+       {
+        "name": "Notion Labs",
+        "count": 8
+       },
+       {
+        "name": "Zoho",
+        "count": 8
+       },
+       {
+        "name": "Canva",
+        "count": 7
+       },
+       {
+        "name": "Google",
+        "count": 6
+       }
+      ]
+     }
+    ],
+    "distinct": 20,
+    "top5_share": 47,
+    "others": [
+     {
+      "name": "ClickUp",
+      "count": 3
+     },
+     {
+      "name": "Kingsoft",
+      "count": 3
+     },
+     {
+      "name": "Box",
+      "count": 3
+     },
+     {
+      "name": "Alphabet",
+      "count": 2
+     },
+     {
+      "name": "Airtable",
+      "count": 2
+     },
+     {
+      "name": "Salesforce, Inc.",
+      "count": 1
+     },
+     {
+      "name": "Coda Project",
+      "count": 1
+     },
+     {
+      "name": "Gamma Technologies",
+      "count": 1
+     },
+     {
+      "name": "OpenAI",
+      "count": 1
+     },
+     {
+      "name": "Anthropic",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 10.4
+  },
+  {
+   "stage": "money",
+   "query": "best AI office apps",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Kingsoft Office",
+     "does": "Free all-in-one suite for documents, spreadsheets, presentations and PDFs, with built-in AI on desktop and mobile.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft 365 Copilot",
+     "does": "AI built into Word, Excel, PowerPoint, Outlook and Teams for drafting, analysis and summaries.",
+     "sources": [
+      "n-2",
+      "n-5",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Notion AI",
+     "does": "AI for writing, notes, documents and organizing tasks within a shared workspace.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Kimi",
+     "does": "Reads long documents and drafts reports, with a free tier.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "腾讯 ima",
+     "does": "Turns a personal knowledge base into an assistant for organizing meeting material and writing.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "飞书智能伙伴",
+     "does": "AI assistant for team collaboration scenarios within the Feishu workplace platform.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "通义千问",
+     "does": "Free general-purpose AI assistant that helps with writing and office tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "钉钉 AI 助理",
+     "does": "AI assistant inside the DingTalk enterprise messaging platform for daily work efficiency.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "腾讯 WorkBuddy",
+     "does": "Agent-style office assistant that carries out multi-step office tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "讯飞星火",
+     "does": "Office AI strong in voice and meeting scenarios, including transcription and summaries.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Prezent.ai",
+     "does": "AI tool that creates on-brand presentations for enterprise teams.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Otter.ai",
+     "does": "AI meeting transcription that produces searchable notes and summaries.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Overten AI",
+     "does": "AI office suite that creates finished Word, Excel and PowerPoint files from a single prompt.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Superhuman",
+     "does": "Email client with AI triage for handling high volumes of messages quickly.",
+     "sources": [
+      "n-6",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 3,
+   "memory_overlap": [
+    "Kingsoft",
+    "Microsoft",
+    "Notion Labs"
+   ],
+   "echo": {
+    "repeated": 3,
+    "total": 14
+   },
+   "stake": {
+    "vendor": 3,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 3,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "ClickUp",
+     "url": "https://clickup.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "ClickUp",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "clickup.com",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "AI 办公软件哪个好？10 款实测对比+免费额度（2026） - ai345",
+     "url": "https://www.ai345.info/ai-guide/best-ai-office-software-2026",
+     "date": "2026-08-26",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "ai345.info",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "9 Best AI Organization Tools for Productivity and Workflows",
+     "url": "https://www.prezent.ai/blog/ai-organization-tools",
+     "date": "2026-09-19",
+     "date_from": "page",
+     "date_note": "September 19, 2026",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "Prezent.ai",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "prezent.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-4",
+     "title": "Overten AI",
+     "url": "https://overten.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Overten AI",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "overten.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "AI办公工具怎么选？2026 Copilot、Gemini、Notion AI与会议办公指南 - 此刻AI",
+     "url": "https://cike.ai/ai-topics/ai-office",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cike.ai",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "10 Best AI Executive Assistants in 2026: Complete Comparisons & Full Guide",
+     "url": "https://www.simular.ai/alternatives/ai-executive-assistants",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "simular.ai",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Kingsoft Office",
+     "url": "https://wps.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "wps.com",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "Best AI Assistant for Office Work in 2026: Prices Compared | Hokai",
+     "url": "https://hokai.io/guides/best-ai-assistant-for-office-work-2026",
+     "date": "2026-10-22",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "hokai.io",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 5
+   },
+   "seconds": 25.4
+  },
+  {
+   "stage": "money",
+   "query": "best AI office apps",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Kingsoft Office",
+     "does": "Free all-in-one suite for documents, spreadsheets, presentations and PDFs, with built-in AI on desktop and mobile.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft 365 Copilot",
+     "does": "AI built into Word, Excel, PowerPoint, Outlook and Teams for drafting, analysis and summaries.",
+     "sources": [
+      "n-2",
+      "n-5",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Notion AI",
+     "does": "AI for writing, notes, documents and organizing tasks within a shared workspace.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Kimi",
+     "does": "Reads long documents and drafts reports, with a free tier.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "腾讯 ima",
+     "does": "Turns a personal knowledge base into an assistant for organizing meeting material and writing.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "飞书智能伙伴",
+     "does": "AI assistant for team collaboration scenarios within the Feishu workplace platform.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "通义千问",
+     "does": "Free general-purpose AI assistant that helps with writing and office tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "钉钉 AI 助理",
+     "does": "AI assistant inside the DingTalk enterprise messaging platform for daily work efficiency.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "腾讯 WorkBuddy",
+     "does": "Agent-style office assistant that carries out multi-step office tasks.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "讯飞星火",
+     "does": "Office AI strong in voice and meeting scenarios, including transcription and summaries.",
+     "sources": [
+      "n-2"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Prezent.ai",
+     "does": "AI tool that creates on-brand presentations for enterprise teams.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Otter.ai",
+     "does": "AI meeting transcription that produces searchable notes and summaries.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Overten AI",
+     "does": "AI office suite that creates finished Word, Excel and PowerPoint files from a single prompt.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Superhuman",
+     "does": "Email client with AI triage for handling high volumes of messages quickly.",
+     "sources": [
+      "n-6",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 3,
+   "memory_overlap": [
+    "Kingsoft",
+    "Microsoft",
+    "Notion Labs"
+   ],
+   "echo": {
+    "repeated": 3,
+    "total": 14
+   },
+   "stake": {
+    "vendor": 3,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 3,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "ClickUp",
+     "url": "https://clickup.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "ClickUp",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "clickup.com",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "AI 办公软件哪个好？10 款实测对比+免费额度（2026） - ai345",
+     "url": "https://www.ai345.info/ai-guide/best-ai-office-software-2026",
+     "date": "2026-08-26",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "ai345.info",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "9 Best AI Organization Tools for Productivity and Workflows",
+     "url": "https://www.prezent.ai/blog/ai-organization-tools",
+     "date": "2026-09-19",
+     "date_from": "page",
+     "date_note": "September 19, 2026",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "Prezent.ai",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "prezent.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-4",
+     "title": "Overten AI",
+     "url": "https://overten.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Overten AI",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "overten.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "AI办公工具怎么选？2026 Copilot、Gemini、Notion AI与会议办公指南 - 此刻AI",
+     "url": "https://cike.ai/ai-topics/ai-office",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cike.ai",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "10 Best AI Executive Assistants in 2026: Complete Comparisons & Full Guide",
+     "url": "https://www.simular.ai/alternatives/ai-executive-assistants",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "simular.ai",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Kingsoft Office",
+     "url": "https://wps.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "wps.com",
+     "flagged": false
+    },
+    {
+     "id": "n-8",
+     "title": "Best AI Assistant for Office Work in 2026: Prices Compared | Hokai",
+     "url": "https://hokai.io/guides/best-ai-assistant-for-office-work-2026",
+     "date": "2026-10-22",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "hokai.io",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 5,
+    "all_pick": "Kingsoft Office",
+    "clean_pick": "Microsoft",
+    "changed": true,
+    "status": "done"
+   },
+   "seconds": 29.1
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "AI office productivity startup raises seed round",
+    "AI office productivity startup raises Series A",
+    "AI office productivity startup comes out of stealth",
+    "new AI office productivity startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "Ollie",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI assistant and agentic workspace automating day-to-day corporate workflows across communication tools and documents.",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$7.5M",
+     "when": "September 2026",
+     "investors": [
+      "Khosla Ventures",
+      "AI House"
+     ],
+     "evidence": "raised $7.5m in seed funding in a round led by Khosla Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "raised $7.5m in seed funding in a round led by Khosla Ventures",
+       "url": "https://media.startupcentrum.com/en/investment-ollie-raises-7-5m/",
+       "domain": "media.startupcentrum.com",
+       "title": "Investment: \"Ollie raises $7.5M\"",
+       "date": "2026-09-08",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-1"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "Marble Cognition",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI coworkers that learn office workflows by observing how employees work across inboxes and spreadsheets.",
+     "lens": "time",
+     "round": "Pre-seed",
+     "amount": "$3.75M",
+     "when": "November 2026",
+     "investors": [
+      "Heartcore",
+      "Seedcamp"
+     ],
+     "evidence": "Marble Cognition has raised $3.75 million in pre-seed funding to turn that operational knowledge",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Marble Cognition has raised $3.75 million in pre-seed funding to turn that operational knowledge",
+       "url": "https://www.unite.ai/marble-cognition-raises-3-75m-pre-seed-ai-coworkers/",
+       "domain": "unite.ai",
+       "title": "Marble Cognition Raises $3.75M Pre-Seed to Build AI Coworkers That Learn by Observing – Unite.AI",
+       "date": "2026-10-28",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://gisuser.com/2026/11/german-startups-are-teaching-ai-to-do-office-work/",
+       "domain": "gisuser.com",
+       "title": "German startups are teaching AI to do office work - GIS user technology news",
+       "date": "2026-11-07",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "parallel",
+      "brave"
+     ],
+     "sources": [
+      "d-4",
+      "d-6"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "Diaflow",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI platform to automate complex workflows with customized AI agents for business workspaces.",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "",
+     "when": "February 2026",
+     "investors": [
+      "Insignia Ventures Partners"
+     ],
+     "evidence": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption",
+       "url": "https://review.insignia.vc/2026/02/24/diaflow-seed/",
+       "domain": "review.insignia.vc",
+       "title": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption in business workspaces - Insignia Business Review",
+       "date": "2026-02-23",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-5"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-4",
+     "name": "Highlight AI",
+     "aliases": [],
+     "kind": "company",
+     "does": "Intelligent operating system for teams and AI agents, providing a shared intelligence layer for work.",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$40M",
+     "when": "March 2026",
+     "investors": [
+      "Khosla Ventures",
+      "359 Capital",
+      "General Catalyst"
+     ],
+     "evidence": "announced a $40 million Series A funding round led by Khosla Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "announced a $40 million Series A funding round led by Khosla Ventures",
+       "url": "https://www.businesswire.com/news/home/20260324500318/en/Highlight-AI-Raises-%2440-Million-Series-A-to-Build-the-Shared-Intelligence-Layer-for-the-Agentic-Age-of-Work",
+       "domain": "businesswire.com",
+       "title": "Highlight AI Raises $40 Million Series A to Build the Shared Intelligence Layer for the Agentic Age of Work",
+       "date": "2026-03-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-10"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-5",
+     "name": "Viktor",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI co-worker inside Slack and Microsoft Teams, connecting with over 3,000 workplace tools.",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$75M",
+     "when": "May 2026",
+     "investors": [
+      "Accel",
+      "Stewart Butterfield",
+      "Cal Henderson"
+     ],
+     "evidence": "Viktor raised a $75M Series A led by Accel",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Viktor raised a $75M Series A led by Accel",
+       "url": "https://techfundingnews.com/former-meta-engineers-secure-75m-for-viktor-an-ai-co-worker-built-for-slack-and-teams/",
+       "domain": "techfundingnews.com",
+       "title": "Former Meta engineers secure $75M for Viktor, an AI co-worker built for Slack and Teams — TFN",
+       "date": "2026-05-20",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-14"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-6",
+     "name": "Endex",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI agent inside Excel for financial analysis, data processing, and memo creation.",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$14M",
+     "when": "August 2025",
+     "investors": [
+      "OpenAI Startup Fund"
+     ],
+     "evidence": "Aug 2025 | Seed | $14M | North America | OpenAI Startup Fund",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Aug 2025 | Seed | $14M | North America | OpenAI Startup Fund",
+       "url": "https://newmarketpitch.com/blogs/news/ai-productivity-funding-analysis",
+       "domain": "newmarketpitch.com",
+       "title": "\n      AI Productivity Startup Funding (2026)\n – New Market Pitch",
+       "date": "2026-07-13",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "sources": [
+      "d-16"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-7",
+     "name": "Scape",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native inbox that prepares replies, generates documents and prioritises important emails.",
+     "lens": "time",
+     "round": "",
+     "amount": "$3.2M",
+     "when": "July 2026",
+     "investors": [
+      "Y Combinator",
+      "General Catalyst",
+      "FundersClub"
+     ],
+     "evidence": "Scape has raised $3.2 million from Y Combinator, General Catalyst, and FundersClub.",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Scape has raised $3.2 million from Y Combinator, General Catalyst, and FundersClub.",
+       "url": "https://tech.eu/2026/07/24/y-combinator-startup-scape-emerges-from-stealth-with-32m/",
+       "domain": "tech.eu",
+       "title": "Y Combinator startup Scape emerges from stealth with $3.2M to rethink email - Tech.eu",
+       "date": "2026-07-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-20"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-8",
+     "name": "Neo",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native enterprise work platform combining documents, project management, and storage to replace Office.",
+     "lens": "time",
+     "round": "",
+     "amount": "$30M",
+     "when": "July 2026",
+     "investors": [],
+     "evidence": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch",
+       "url": "https://startupfortune.com/bhavin-turakhia-is-spending-30-million-of-his-own-money-to-rebuild-office-from-scratch/",
+       "domain": "startupfortune.com",
+       "title": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch - Startup Fortune",
+       "date": "2026-07-02",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+       "domain": "techcrunch.com",
+       "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+       "date": "2026-07-02",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "parallel",
+      "exa"
+     ],
+     "sources": [
+      "d-24",
+      "d-29"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-9",
+     "name": "Hops",
+     "aliases": [],
+     "kind": "company",
+     "does": "Collaborative AI workspace where people and AI work together in chats, docs, and slides.",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [],
+     "evidence": "The Hops™ Collaborative AI workspace opens to everyone today, after more than 2,500 teams used it",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "The Hops™ Collaborative AI workspace opens to everyone today, after more than 2,500 teams used it",
+       "url": "https://www.prnewswire.com/news-releases/ai-promised-10x-most-companies-got-1-2x-wrike-founder-andrew-filev-launches-hops-to-close-the-gap-302934936.html",
+       "domain": "prnewswire.com",
+       "title": "AI promised 10x. Most companies got 1.2x. Wrike founder Andrew Filev launches Hops to close the gap",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-25"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-10",
+     "name": "Mobeera Office",
+     "aliases": [],
+     "kind": "company",
+     "does": "Office suite with Docs, Sheets, Slides and PDF editors plus AI chat for Mac and iOS.",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [],
+     "evidence": "Introducing Mobeera Office, the office suite built for you and your agents",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Introducing Mobeera Office, the office suite built for you and your agents",
+       "url": "https://www.mobeera.ai/blog/introducing-mobeera-office",
+       "domain": "mobeera.ai",
+       "title": "Introducing Mobeera Office, the office suite built for you and your agents · Mobeera",
+       "date": "2026-11-07",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-33"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-11",
+     "name": "Slashy",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native email client that drafts replies, triages inbox, and tracks follow-ups.",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "",
+     "evidence_ok": false,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/slashy",
+       "domain": "ycombinator.com",
+       "title": "Slashy (YC Summer 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Summer 2025",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-1"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-12",
+     "name": "Logical",
+     "aliases": [],
+     "kind": "company",
+     "does": "Desktop AI copilot that drafts emails, writes docs, and notes meetings across apps.",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "Logical is a desktop AI that acts as a proactive and largely promptless copilot",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Logical is a desktop AI that acts as a proactive and largely promptless copilot",
+       "url": "https://www.ycombinator.com/companies/logical",
+       "domain": "ycombinator.com",
+       "title": "Logical (YC Fall 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Fall 2025",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-5"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 3,
+   "already_known": [],
+   "not_in_source": 0,
+   "off_topic_results": 11,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "Investment: \"Ollie raises $7.5M\"",
+     "url": "https://media.startupcentrum.com/en/investment-ollie-raises-7-5m/",
+     "date": "2026-09-08",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "media.startupcentrum.com"
+    },
+    {
+     "id": "d-2",
+     "title": "Minicor raises $3.8M seed funding for AI automation | KARV Tech Insider",
+     "url": "https://karvtechinsider.com/ai/news/minicor-raises-38-million-seed-round-to-bring-api-access-to-legacy-desktop-software",
+     "date": "2026-10-19",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "karvtechinsider.com"
+    },
+    {
+     "id": "d-3",
+     "title": "Trase AI Raises $107M Seed Round for AI-Powered Productivity | Greater Washington Partnership posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/greater-washington-partnership_artificial-intelligence-is-creating-new-opportunities-activity-7482439310554669056-Ur9s",
+     "date": "2026-07-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-4",
+     "title": "Marble Cognition Raises $3.75M Pre-Seed to Build AI Coworkers That Learn by Observing – Unite.AI",
+     "url": "https://www.unite.ai/marble-cognition-raises-3-75m-pre-seed-ai-coworkers/",
+     "date": "2026-10-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "unite.ai"
+    },
+    {
+     "id": "d-5",
+     "title": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption in business workspaces - Insignia Business Review",
+     "url": "https://review.insignia.vc/2026/02/24/diaflow-seed/",
+     "date": "2026-02-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "review.insignia.vc"
+    },
+    {
+     "id": "d-6",
+     "title": "German startups are teaching AI to do office work - GIS user technology news",
+     "url": "https://gisuser.com/2026/11/german-startups-are-teaching-ai-to-do-office-work/",
+     "date": "2026-11-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "gisuser.com"
+    },
+    {
+     "id": "d-7",
+     "title": "Everyone bought AI tools. Certifyde wants to make people actually use them – and just raised $2M - Refresh Miami",
+     "url": "https://refreshmiami.com/news/everyone-bought-ai-tools-certifyde-wants-to-make-people-actually-use-them-and-just-raised-2m/",
+     "date": "2026-04-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "refreshmiami.com"
+    },
+    {
+     "id": "d-8",
+     "title": "Zenzap raises $33 million Series A to bring AI agents into everyday workplace chats | Ctech",
+     "url": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe",
+     "date": "2026-10-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "domain": "calcalistech.com"
+    },
+    {
+     "id": "d-9",
+     "title": "Nebuly raises $21M Series A for its enterprise AI ROI tool",
+     "url": "https://www.sesamers.com?p=27303",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "sesamers.com"
+    },
+    {
+     "id": "d-10",
+     "title": "Highlight AI Raises $40 Million Series A to Build the Shared Intelligence Layer for the Agentic Age of Work",
+     "url": "https://www.businesswire.com/news/home/20260324500318/en/Highlight-AI-Raises-%2440-Million-Series-A-to-Build-the-Shared-Intelligence-Layer-for-the-Agentic-Age-of-Work",
+     "date": "2026-03-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "businesswire.com"
+    },
+    {
+     "id": "d-11",
+     "title": "AI IT startup Serval raises $47M in Series A funding round | LinkedIn",
+     "url": "https://www.linkedin.com/news/story/ai-it-startup-serval-raises-47m-in-series-a-funding-round-7119265",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-12",
+     "title": "Nebuly raises $21M Series A to turn AI investments into measurable results - Tech.eu",
+     "url": "https://tech.eu/2026/11/12/nebuly-raises-21m-series-a-to-turn-ai-investments-into-measurable-results/",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "tech.eu"
+    },
+    {
+     "id": "d-13",
+     "title": "Nebuly Raises $21M Series A to Measure AI ROI",
+     "url": "https://thetopvoices.com/news/nebuly-raises-21m-series-a-enterprise-ai-roi",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "thetopvoices.com"
+    },
+    {
+     "id": "d-14",
+     "title": "Former Meta engineers secure $75M for Viktor, an AI co-worker built for Slack and Teams — TFN",
+     "url": "https://techfundingnews.com/former-meta-engineers-secure-75m-for-viktor-an-ai-co-worker-built-for-slack-and-teams/",
+     "date": "2026-05-20",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "techfundingnews.com"
+    },
+    {
+     "id": "d-15",
+     "title": "AI Coding Startup Cursor Raises $2.3bn, Valued At $29.3bn In Series D | Crowdfund Insider",
+     "url": "https://www.crowdfundinsider.com/2025/11/255630-ai-coding-startup-cursor-raises-2-3bn-valued-at-29-3bn-in-series-d",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "crowdfundinsider.com"
+    },
+    {
+     "id": "d-16",
+     "title": "\n      AI Productivity Startup Funding (2026)\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/ai-productivity-funding-analysis",
+     "date": "2026-07-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-17",
+     "title": "AI startup raises $20m to build 'digital twins' of office workers",
+     "url": "https://www.cityam.com/ai-startup-raises-20m-to-build-digital-twins-of-office-workers/",
+     "date": "2026-08-20",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Parallel through Telem",
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "cityam.com"
+    },
+    {
+     "id": "d-18",
+     "title": "Town's CEO on the self-organizing company",
+     "url": "https://www.platformer.news/town-interview-jean-denis-greze-assistants/",
+     "date": "2026-08-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "platformer.news"
+    },
+    {
+     "id": "d-19",
+     "title": "The AI Office Paradox: Growth Driver, Space Reducer, or Both? | Kidder Mathews",
+     "url": "https://kidder.com/trend-articles/the-ai-office-paradox-growth-driver-space-reducer-or-both",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "kidder.com"
+    },
+    {
+     "id": "d-20",
+     "title": "Y Combinator startup Scape emerges from stealth with $3.2M to rethink email - Tech.eu",
+     "url": "https://tech.eu/2026/07/24/y-combinator-startup-scape-emerges-from-stealth-with-32m/",
+     "date": "2026-07-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "tech.eu"
+    },
+    {
+     "id": "d-21",
+     "title": "Our AI Startup's First Office | Zain Jaffer",
+     "url": "https://zain-jaffer.com/our-ai-startups-first-office/",
+     "date": "2026-06-04",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "zain-jaffer.com"
+    },
+    {
+     "id": "d-22",
+     "title": "Former Workplace from Facebook engineers launch AI start-up Slashwork to banish teamwork slop",
+     "url": "https://diginomica.com/former-workplace-facebook-engineers-launch-ai-startup-slashwork-banish-teamwork-slop",
+     "date": "2026-02-04",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "diginomica.com"
+    },
+    {
+     "id": "d-23",
+     "title": "24h Inside $5M Silicon Valley AI Startup Building Personal Super Intelligence",
+     "url": "https://www.youtube.com/watch?v=ibrjXMXMNP8",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "youtube.com"
+    },
+    {
+     "id": "d-24",
+     "title": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch - Startup Fortune",
+     "url": "https://startupfortune.com/bhavin-turakhia-is-spending-30-million-of-his-own-money-to-rebuild-office-from-scratch/",
+     "date": "2026-07-02",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "startupfortune.com"
+    },
+    {
+     "id": "d-25",
+     "title": "AI promised 10x. Most companies got 1.2x. Wrike founder Andrew Filev launches Hops to close the gap",
+     "url": "https://www.prnewswire.com/news-releases/ai-promised-10x-most-companies-got-1-2x-wrike-founder-andrew-filev-launches-hops-to-close-the-gap-302934936.html",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-26",
+     "title": "Productivity Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+     "url": "https://www.ycombinator.com/companies/industry/productivity",
+     "date": "2026-10-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "d-27",
+     "title": "Productivity Startups funded by Y Combinator (YC) in New York 2026 | Y Combinator",
+     "url": "https://www.ycombinator.com/companies/industry/productivity/new-york",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "d-28",
+     "title": "Hottest AI Startups in Silicon Valley: Why Productivity AI Is Moving ...",
+     "url": "https://hinoter.com/blog/hottest-ai-startups-in-silicon-valley",
+     "date": "2026-09-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "hinoter.com"
+    },
+    {
+     "id": "d-29",
+     "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+     "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+     "date": "2026-07-02",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-30",
+     "title": "The 20 Best AI Productivity and Workflow Tools in 2… | StartupHub.ai",
+     "url": "https://www.startuphub.ai/ai-news/insights/2026/best-ai-productivity-workflow-tools-2026",
+     "date": "2026-07-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "startuphub.ai"
+    },
+    {
+     "id": "d-31",
+     "title": "18 best AI productivity tools I can't live without in 2026",
+     "url": "https://www.gumloop.com/blog/best-ai-productivity-tools",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "gumloop.com"
+    },
+    {
+     "id": "d-32",
+     "title": "Best AI Productivity Startups (2026) | Seedtable",
+     "url": "https://seedtable.com/best-startups/ai-productivity",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "seedtable.com"
+    },
+    {
+     "id": "d-33",
+     "title": "Introducing Mobeera Office, the office suite built for you and your agents · Mobeera",
+     "url": "https://www.mobeera.ai/blog/introducing-mobeera-office",
+     "date": "2026-11-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "mobeera.ai"
+    },
+    {
+     "id": "d-34",
+     "title": "The 20 Best AI Productivity Tools for Business Teams in 2026",
+     "url": "https://www.startuphub.ai/ai-news/insights/2026/ai-productivity-tools-2026",
+     "date": "2026-07-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "startuphub.ai"
+    },
+    {
+     "id": "d-35",
+     "title": "Best AI Productivity Tools 2026: 9 Game-Changing Apps | Lovable",
+     "url": "https://lovable.dev/guides/best-ai-productivity-tools-2026",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "lovable.dev"
+    },
+    {
+     "id": "y-1",
+     "title": "Slashy (YC Summer 2025)",
+     "url": "https://www.ycombinator.com/companies/slashy",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "Telamont (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/telamont",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Spacesheep (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/spacesheep",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "GBrain (YC Spring 2026)",
+     "url": "https://www.ycombinator.com/companies/gbrain",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "Logical (YC Fall 2025)",
+     "url": "https://www.ycombinator.com/companies/logical",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "Parsewise (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/parsewise",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "Almanac (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/almanac",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Lunavo (YC Fall 2025)",
+     "url": "https://www.ycombinator.com/companies/lunavo",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "Anana (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/anana",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "Quantstruct (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/quantstruct",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "Stamp (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/stamp",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "Finbar (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/finbar",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 32.7
+  },
+  {
+   "stage": "china",
+   "status": "ok",
+   "queries": [
+    "AI办公软件推荐",
+    "AI办公工具 效率",
+    "智能办公助手 文档 表格"
+   ],
+   "platforms": [
+    "Xiaohongshu",
+    "Bilibili",
+    "Zhihu"
+   ],
+   "west_platforms": [
+    "Reddit",
+    "X",
+    "web"
+   ],
+   "posts_read": 46,
+   "old_posts_dropped": 9,
+   "not_in_post": 0,
+   "companies": [
+    {
+     "id": "c-1",
+     "name": "WorkBuddy",
+     "zh": "WorkBuddy",
+     "aliases": [
+      "WorkBuddy"
+     ],
+     "kind": "product",
+     "does": "Tencent's all-scenario AI office workstation that executes tasks and delivers finished results.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景 AI 办公工作台，官方…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、…",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬 长期共存成定局。企业不会为了AI辅助而打破现有的公办系统，而是选择在其中嵌入A…",
+       "url": "https://zhuanlan.zhihu.com/p/2083364479048406976",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬",
+       "date": "2026-09-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 18,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 9,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 46066,
+      "comments": 2406,
+      "engagement": 48472
+     },
+     "west": {
+      "posts": 12,
+      "checked_names": [
+       "WorkBuddy"
+      ],
+      "likes": 1533,
+      "comments": 660,
+      "sources": [
+       {
+        "title": "Has anyone actually figured out the difference between WorkBuddy and Codex?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vu77iy/has_anyone_actually_figured_out_the_difference/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "AI Agents Comparison: Codex, Kimi and WorkBuddy (Proposal Work Use Cases)",
+        "url": "https://www.reddit.com/r/AIToolCompare/comments/1wlfapj/ai_agents_comparison_codex_kimi_and_workbuddy/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "My Hermes hired free labor Muse + WorkBuddy, $0 in tokens. through GitHub,Here‘s the exact",
+        "url": "https://www.reddit.com/r/hermesagent/comments/1x5n0dv/my_hermes_hired_free_labor_muse_workbuddy_0_in/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "WorkBuddy",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "WorkBuddy",
+         "url": "https://tavily.com/knowledge/company/zaWhw09Mgew0",
+         "domain": "tavily.com"
+        },
+        {
+         "title": "WorkBuddy Review | This AI Agent Builds Reports, Slides & Websites",
+         "url": "https://www.youtube.com/watch?v=sIL4Fa58nd8",
+         "domain": "youtube.com"
+        },
+        {
+         "title": "WorkBuddy: Tencent’s AI Agent That Does EVERYTHING",
+         "url": "https://www.youtube.com/watch?v=sIS0aWI0veo",
+         "domain": "youtube.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    },
+    {
+     "id": "c-2",
+     "name": "千问办公",
+     "zh": "千问办公",
+     "aliases": [
+      "千问办公",
+      "qian wen ban gong"
+     ],
+     "kind": "product",
+     "does": "Alibaba's AI office agent with team features, for desktop task execution.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "千问办公2.0实测，4招帮你提早下班！ #千问办公  #千问办公2  #TeamAgent  #AI办公  #AI提效  #AI工具  #提效工具…",
+       "url": "https://www.xiaohongshu.com/explore/6af57bc3000000002b004b3a",
+       "domain": "xiaohongshu.com",
+       "title": "千问办公2.0实测，4招帮你提早下班！",
+       "date": "2026-11-12",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 220,
+        "comments": 0
+       }
+      },
+      {
+       "quote": "千问办公2.0有多离谱？以后再也没有办公室政治了！ 感谢千问办公对本期节目的大力支持！",
+       "url": "https://www.bilibili.com/video/BV1anWd6zEPu",
+       "domain": "bilibili.com",
+       "title": "千问办公2.0有多离谱？以后再也没有办公室政治了！",
+       "date": "2026-11-12",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 3485,
+        "comments": 52
+       }
+      },
+      {
+       "quote": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬 长期共存成定局。企业不会为了AI辅助而打破现有的公办系统，而是选择在其中嵌入AI智能体。…",
+       "url": "https://zhuanlan.zhihu.com/p/2083364479048406976",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬",
+       "date": "2026-09-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 18,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 3736,
+      "comments": 70,
+      "engagement": 3806
+     },
+     "west": {
+      "posts": 16,
+      "checked_names": [
+       "千问办公",
+       "qian wen ban gong"
+      ],
+      "likes": 0,
+      "comments": 0,
+      "sources": [
+       {
+        "title": "AI 改变打工人之后，千问办公盯上了企业Agent 化",
+        "url": "https://www.reddit.com/r/ChineseNewsHub/comments/1veb25t/ai_%E6%94%B9%E5%8F%98%E6%89%93%E5%B7%A5%E4%BA%BA%E4%B9%8B%E5%90%8E%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%E7%9B%AF%E4%B8%8A%E4%BA%86%E4%BC%81%E4%B8%9A_agent_%E5%8C%96",
+        "platform": "Reddit"
+       },
+       {
+        "title": "实测千问办公：阿里这个AI 专家，真的能帮你带货",
+        "url": "https://www.reddit.com/r/ChineseNewsHub/comments/1vefff1/%E5%AE%9E%E6%B5%8B%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%E9%98%BF%E9%87%8C%E8%BF%99%E4%B8%AA_ai_%E4%B8%93%E5%AE%B6%E7%9C%9F%E7%9A%84%E8%83%BD%E5%B8%AE%E4%BD%A0%E5%B8%A6%E8%B4%A7",
+        "platform": "Reddit"
+       },
+       {
+        "title": "在《千与千寻》中隐藏的小细节: r/SpiritedAway",
+        "url": "https://www.reddit.com/r/SpiritedAway/comments/1wqmnma/%E5%9C%A8%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E5%B0%8F%E7%BB%86%E8%8A%82",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "千问办公",
+       "count": 5,
+       "returned": 10,
+       "links": [
+        {
+         "title": "千问办公 - 一站式AI生产力平台",
+         "url": "https://www.qianwenai.com/agents/qwenwork",
+         "domain": "qianwenai.com"
+        },
+        {
+         "title": "千问办公登场！一句话需求生成 PPT、网站、文档，卷起来",
+         "url": "https://zhuanlan.zhihu.com/p/2065557933967029438",
+         "domain": "zhuanlan.zhihu.com"
+        },
+        {
+         "title": "千问办公开启公测，硬刚腾讯WorkBuddy？",
+         "url": "https://www.guancha.cn/economy/2026_08_06_826303.shtml",
+         "domain": "guancha.cn"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Name unverified"
+     },
+     "name_verified": false,
+     "name_proof": "",
+     "memory_count": 0
+    },
+    {
+     "id": "c-3",
+     "name": "Doubao",
+     "zh": "豆包",
+     "aliases": [
+      "豆包",
+      "Doubao",
+      "dou bao"
+     ],
+     "kind": "product",
+     "does": "All-purpose desktop AI assistant, with a work-focused version for office tasks.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "别再问 AI 办公助手选哪个了：扒完豆包、WorkBuddy、千问、百度搭子，我得出一个反常识结论 定位：桌面端执行型智能体 口号：AI Agent 办公新范式 千问办公 母公司：…",
+       "url": "https://zhuanlan.zhihu.com/p/2080026736100754219",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "别再问 AI 办公助手选哪个了：扒完豆包、WorkBuddy、千问、百度搭子，我得出一个反常识结论",
+       "date": "2026-09-06",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 7
+       }
+      },
+      {
+       "quote": "…们在你的办公过程中真正带来帮助。 一、日常办公必备 1、全能桌面AI：豆包 链接",
+       "url": "https://zhuanlan.zhihu.com/p/2078988194385864263",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "最值得入手的12款AI办公工具！（2026最新）",
+       "date": "2026-09-04",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 7,
+        "comments": 2
+       }
+      }
+     ],
+     "found_by": [
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Zhihu"
+      ],
+      "likes": 33,
+      "comments": 12,
+      "engagement": 45
+     },
+     "west": {
+      "posts": 28,
+      "checked_names": [
+       "Doubao",
+       "豆包"
+      ],
+      "likes": 1706,
+      "comments": 48,
+      "sources": [
+       {
+        "title": "Doubao is a freaking Joke",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vqhpv2/doubao_is_a_freaking_joke/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Why doubao is more popular than Deepseek?",
+        "url": "https://www.reddit.com/r/Business_in_China/comments/1nowi8o/why_doubao_is_more_popular_than_deepseek/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "A huge citation study of DeepSeek, Qwen, Doubao and Yuanbao found 64.2% of Qwen queries sh",
+        "url": "https://www.reddit.com/r/China/comments/1x8a61o/a_huge_citation_study_of_deepseek_qwen_doubao_and/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Doubao",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Doubao AI: What It Is, and Whether You Can Use It",
+         "url": "https://doubao-english.com/doubao-ai",
+         "domain": "doubao-english.com"
+        },
+        {
+         "title": "Doubao - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Doubao",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Doubao - Products, Competitors, Financials, Employees, Headquarters Locations",
+         "url": "https://www.cbinsights.com/company/doubao",
+         "domain": "cbinsights.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem",
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "A web page has both names: Doubao - Wikipedia ## Design\n\n[edit]\n\nDoubao is powered by the Doubao Large Model (豆包大模型) of the Volcano Engin…",
+     "memory_count": 0
+    },
+    {
+     "id": "c-4",
+     "name": "Codex",
+     "zh": "Codex",
+     "aliases": [
+      "Codex"
+     ],
+     "kind": "product",
+     "does": "AI coding agent that also handles Excel data processing using skills.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "…6 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景 AI 办公工作台，官方定位”说出要…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "…026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、开发者深度工具三大类",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "用Codex做数据处理，这6个skill必备 用 Codex 做 Excel数据处理，别只会上传文件让它硬算。 真正好用的是先把 Skill 配好。 这…",
+       "url": "https://www.xiaohongshu.com/explore/6a410e7e000000000f004092",
+       "domain": "xiaohongshu.com",
+       "title": "用Codex做数据处理，这6个skill必备",
+       "date": "2026-06-28",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 438,
+        "comments": 12
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 453,
+      "comments": 14,
+      "engagement": 467
+     },
+     "west": {
+      "posts": 12,
+      "checked_names": [
+       "Codex"
+      ],
+      "likes": 24530,
+      "comments": 14580,
+      "sources": [
+       {
+        "title": "What happened to Codex?",
+        "url": "https://www.reddit.com/r/OpenaiCodex/comments/1xw8zxi/what_happened_to_codex/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Codex is a joke",
+        "url": "https://www.reddit.com/r/codex/comments/1xw7oe0/codex_is_a_joke/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Why do you guys stick with Codex right now?",
+        "url": "https://www.reddit.com/r/codex/comments/1xokk0t/why_do_you_guys_stick_with_codex_right_now/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Codex",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "CODEX Definition & Meaning | Dictionary.com",
+         "url": "https://www.dictionary.com/browse/codex",
+         "domain": "dictionary.com"
+        },
+        {
+         "title": "Getting Started with Codex - Dometrain",
+         "url": "https://dometrain.com/blog/getting-started-with-codex",
+         "domain": "dometrain.com"
+        },
+        {
+         "title": "Codex - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Codex",
+         "domain": "en.wikipedia.org"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    },
+    {
+     "id": "c-5",
+     "name": "Claude",
+     "zh": "Claude",
+     "aliases": [
+      "Claude"
+     ],
+     "kind": "product",
+     "does": "AI assistant; its Cowork mode handles work tasks smoothly, per posts.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "当今世界最先进大脑都在这！ 1.Claude（解決任何事情） 2. NotebookLM（学习任何东西） 3. Perplexity（研究任何事情",
+       "url": "https://www.xiaohongshu.com/explore/6adc6323000000002b00f41c",
+       "domain": "xiaohongshu.com",
+       "title": "当今世界最先进大脑都在这！",
+       "date": "2026-10-24",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 513,
+        "comments": 11
+       }
+      },
+      {
+       "quote": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、开发者深度工具三大类",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "感慨一下AI真的太强大了 我用AI工作已经好几年了。今天用 Claude Cowork 处理工作任务，真的感到极其的、前所未有的丝滑和流畅，完全没",
+       "url": "https://www.xiaohongshu.com/explore/69fbe91e000000001a03445d",
+       "domain": "xiaohongshu.com",
+       "title": "感慨一下AI真的太强大了",
+       "date": "2026-05-07",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 531,
+        "comments": 89
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 1057,
+      "comments": 101,
+      "engagement": 1158
+     },
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "Claude"
+      ],
+      "likes": 199199,
+      "comments": 6708,
+      "sources": [
+       {
+        "title": "Claude Killed my Company",
+        "url": "https://www.reddit.com/r/claude/comments/1xttkm8/claude_killed_my_company/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "I spent 4,500+ hours coding with AI. This is the Claude Code setup I ended up with.",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1xw7ylh/i_spent_4500_hours_coding_with_ai_this_is_the/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Claude design is dead!",
+        "url": "https://www.reddit.com/r/claude/comments/1xtqqpn/claude_design_is_dead/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Claude",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Claude (AI) - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Claude and Lusha integration - connect lusha with Claude",
+         "url": "https://www.lusha.com/blog/lusha-claude-connector",
+         "domain": "lusha.com"
+        },
+        {
+         "title": "Claude by Anthropic | The AI for problem solvers",
+         "url": "https://claude.com",
+         "domain": "claude.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    },
+    {
+     "id": "c-6",
+     "name": "NotebookLM",
+     "zh": "NotebookLM",
+     "aliases": [
+      "NotebookLM"
+     ],
+     "kind": "product",
+     "does": "Google AI research and note tool that helps learn from documents and create presentations.",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "当今世界最先进大脑都在这！ 1.Claude（解決任何事情） 2. NotebookLM（学习任何东西） 3. Perplexity（研究任何事情",
+       "url": "https://www.xiaohongshu.com/explore/6adc6323000000002b00f41c",
+       "domain": "xiaohongshu.com",
+       "title": "当今世界最先进大脑都在这！",
+       "date": "2026-10-24",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 513,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 1,
+      "platforms": [
+       "Xiaohongshu"
+      ],
+      "likes": 513,
+      "comments": 11,
+      "engagement": 524
+     },
+     "west": {
+      "posts": 11,
+      "checked_names": [
+       "NotebookLM"
+      ],
+      "likes": 13696,
+      "comments": 882,
+      "sources": [
+       {
+        "title": "Impressionante o que faz o notebook lm nos estudos",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1v9dfxk/impressionante_o_que_faz_o_notebook_lm_nos_estudos/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Como estruturei um ecossistema com NotebookLM, método do MIT, para estudar para carreiras ",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1wmljjm/como_estruturei_um_ecossistema_com_notebooklm/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ازاي تبصمج عن طريق Notebooklm",
+        "url": "https://www.reddit.com/r/EgyUniversity/comments/1xoea7y/%D8%A7%D8%B2%D8%A7%D9%8A_%D8%AA%D8%A8%D8%B5%D9%85%D8%AC_%D8%B9%D9%86_%D8%B7%D8%B1%D9%8A%D9%82_notebooklm/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "NotebookLM",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "NotebookLM now lets you listen to a conversation about your sources",
+         "url": "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews",
+         "domain": "blog.google"
+        },
+        {
+         "title": "Google Notebook LM",
+         "url": "https://sites.google.com/view/notebook-lm",
+         "domain": "sites.google.com"
+        },
+        {
+         "title": "Gemini Notebook - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Gemini_Notebook",
+         "domain": "en.wikipedia.org"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    }
+   ],
+   "note": "Counts are from the top results only.",
+   "seconds": 50.3
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 8,
+   "of": 10,
+   "by_engine": {
+    "brave": 1,
+    "exa": 8,
+    "parallel": 3,
+    "tavily": 0
+   },
+   "reason": "",
+   "seconds": 50.4
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 4,
+    "found": 17,
+    "by_lens": {
+     "time": {
+      "found": 12,
+      "named": 0,
+      "missed": 12
+     },
+     "china": {
+      "found": 5,
+      "named": 4,
+      "missed": 1
+     }
+    },
+    "unverified": 1
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "Ollie",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI assistant and agentic workspace automating day-to-day corporate workflows across communication tools and documents.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "raised $7.5m in seed funding in a round led by Khosla Ventures",
+       "url": "https://media.startupcentrum.com/en/investment-ollie-raises-7-5m/",
+       "domain": "media.startupcentrum.com",
+       "title": "Investment: \"Ollie raises $7.5M\"",
+       "date": "2026-09-08",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$7.5M",
+      "when": "September 2026",
+      "investors": [
+       "Khosla Ventures",
+       "AI House"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-09-08",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "Marble Cognition",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI coworkers that learn office workflows by observing how employees work across inboxes and spreadsheets.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Marble Cognition has raised $3.75 million in pre-seed funding to turn that operational knowledge",
+       "url": "https://www.unite.ai/marble-cognition-raises-3-75m-pre-seed-ai-coworkers/",
+       "domain": "unite.ai",
+       "title": "Marble Cognition Raises $3.75M Pre-Seed to Build AI Coworkers That Learn by Observing – Unite.AI",
+       "date": "2026-10-28",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://gisuser.com/2026/11/german-startups-are-teaching-ai-to-do-office-work/",
+       "domain": "gisuser.com",
+       "title": "German startups are teaching AI to do office work - GIS user technology news",
+       "date": "2026-11-07",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "parallel",
+      "brave"
+     ],
+     "funding": {
+      "round": "Pre-seed",
+      "amount": "$3.75M",
+      "when": "November 2026",
+      "investors": [
+       "Heartcore",
+       "Seedcamp"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-11-07",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "Diaflow",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI platform to automate complex workflows with customized AI agents for business workspaces.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption",
+       "url": "https://review.insignia.vc/2026/02/24/diaflow-seed/",
+       "domain": "review.insignia.vc",
+       "title": "Diaflow secures seed funding from Insignia Ventures Partners to accelerate AI adoption in business workspaces - Insignia Business Review",
+       "date": "2026-02-23",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "",
+      "when": "February 2026",
+      "investors": [
+       "Insignia Ventures Partners"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-02-23",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-4",
+     "name": "Highlight AI",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Intelligent operating system for teams and AI agents, providing a shared intelligence layer for work.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "announced a $40 million Series A funding round led by Khosla Ventures",
+       "url": "https://www.businesswire.com/news/home/20260324500318/en/Highlight-AI-Raises-%2440-Million-Series-A-to-Build-the-Shared-Intelligence-Layer-for-the-Agentic-Age-of-Work",
+       "domain": "businesswire.com",
+       "title": "Highlight AI Raises $40 Million Series A to Build the Shared Intelligence Layer for the Agentic Age of Work",
+       "date": "2026-03-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$40M",
+      "when": "March 2026",
+      "investors": [
+       "Khosla Ventures",
+       "359 Capital",
+       "General Catalyst"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-03-24",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-5",
+     "name": "Viktor",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI co-worker inside Slack and Microsoft Teams, connecting with over 3,000 workplace tools.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Viktor raised a $75M Series A led by Accel",
+       "url": "https://techfundingnews.com/former-meta-engineers-secure-75m-for-viktor-an-ai-co-worker-built-for-slack-and-teams/",
+       "domain": "techfundingnews.com",
+       "title": "Former Meta engineers secure $75M for Viktor, an AI co-worker built for Slack and Teams — TFN",
+       "date": "2026-05-20",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$75M",
+      "when": "May 2026",
+      "investors": [
+       "Accel",
+       "Stewart Butterfield",
+       "Cal Henderson"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-05-20",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-6",
+     "name": "Endex",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI agent inside Excel for financial analysis, data processing, and memo creation.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Aug 2025 | Seed | $14M | North America | OpenAI Startup Fund",
+       "url": "https://newmarketpitch.com/blogs/news/ai-productivity-funding-analysis",
+       "domain": "newmarketpitch.com",
+       "title": "\n      AI Productivity Startup Funding (2026)\n – New Market Pitch",
+       "date": "2026-07-13",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$14M",
+      "when": "August 2025",
+      "investors": [
+       "OpenAI Startup Fund"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-07-13",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Parallel"
+     ]
+    },
+    {
+     "id": "t-7",
+     "name": "Scape",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native inbox that prepares replies, generates documents and prioritises important emails.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Scape has raised $3.2 million from Y Combinator, General Catalyst, and FundersClub.",
+       "url": "https://tech.eu/2026/07/24/y-combinator-startup-scape-emerges-from-stealth-with-32m/",
+       "domain": "tech.eu",
+       "title": "Y Combinator startup Scape emerges from stealth with $3.2M to rethink email - Tech.eu",
+       "date": "2026-07-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$3.2M",
+      "when": "July 2026",
+      "investors": [
+       "Y Combinator",
+       "General Catalyst",
+       "FundersClub"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-07-24",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-8",
+     "name": "Neo",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native enterprise work platform combining documents, project management, and storage to replace Office.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch",
+       "url": "https://startupfortune.com/bhavin-turakhia-is-spending-30-million-of-his-own-money-to-rebuild-office-from-scratch/",
+       "domain": "startupfortune.com",
+       "title": "Bhavin Turakhia is spending $30 million of his own money to rebuild Office from scratch - Startup Fortune",
+       "date": "2026-07-02",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+       "domain": "techcrunch.com",
+       "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office | TechCrunch",
+       "date": "2026-07-02",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "parallel",
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$30M",
+      "when": "July 2026",
+      "investors": [],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-07-02",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-9",
+     "name": "Hops",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Collaborative AI workspace where people and AI work together in chats, docs, and slides.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "The Hops™ Collaborative AI workspace opens to everyone today, after more than 2,500 teams used it",
+       "url": "https://www.prnewswire.com/news-releases/ai-promised-10x-most-companies-got-1-2x-wrike-founder-andrew-filev-launches-hops-to-close-the-gap-302934936.html",
+       "domain": "prnewswire.com",
+       "title": "AI promised 10x. Most companies got 1.2x. Wrike founder Andrew Filev launches Hops to close the gap",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-10",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-10",
+     "name": "Mobeera Office",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Office suite with Docs, Sheets, Slides and PDF editors plus AI chat for Mac and iOS.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Introducing Mobeera Office, the office suite built for you and your agents",
+       "url": "https://www.mobeera.ai/blog/introducing-mobeera-office",
+       "domain": "mobeera.ai",
+       "title": "Introducing Mobeera Office, the office suite built for you and your agents · Mobeera",
+       "date": "2026-11-07",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-11-07",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-11",
+     "name": "Slashy",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI-native email client that drafts replies, triages inbox, and tracks follow-ups.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/slashy",
+       "domain": "ycombinator.com",
+       "title": "Slashy (YC Summer 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Summer 2025",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "t-12",
+     "name": "Logical",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Desktop AI copilot that drafts emails, writes docs, and notes meetings across apps.",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Logical is a desktop AI that acts as a proactive and largely promptless copilot",
+       "url": "https://www.ycombinator.com/companies/logical",
+       "domain": "ycombinator.com",
+       "title": "Logical (YC Fall 2025)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Fall 2025",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    },
+    {
+     "id": "c-1",
+     "name": "WorkBuddy",
+     "zh": "WorkBuddy",
+     "aliases": [
+      "WorkBuddy"
+     ],
+     "kind": "product",
+     "does": "Tencent's all-scenario AI office workstation that executes tasks and delivers finished results.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景 AI 办公工作台，官方…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、…",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬 长期共存成定局。企业不会为了AI辅助而打破现有的公办系统，而是选择在其中嵌入A…",
+       "url": "https://zhuanlan.zhihu.com/p/2083364479048406976",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬",
+       "date": "2026-09-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 18,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 12,
+      "checked_names": [
+       "WorkBuddy"
+      ],
+      "likes": 1533,
+      "comments": 660,
+      "sources": [
+       {
+        "title": "Has anyone actually figured out the difference between WorkBuddy and Codex?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1vu77iy/has_anyone_actually_figured_out_the_difference/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "AI Agents Comparison: Codex, Kimi and WorkBuddy (Proposal Work Use Cases)",
+        "url": "https://www.reddit.com/r/AIToolCompare/comments/1wlfapj/ai_agents_comparison_codex_kimi_and_workbuddy/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "My Hermes hired free labor Muse + WorkBuddy, $0 in tokens. through GitHub,Here‘s the exact",
+        "url": "https://www.reddit.com/r/hermesagent/comments/1x5n0dv/my_hermes_hired_free_labor_muse_workbuddy_0_in/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "WorkBuddy",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "WorkBuddy",
+         "url": "https://tavily.com/knowledge/company/zaWhw09Mgew0",
+         "domain": "tavily.com"
+        },
+        {
+         "title": "WorkBuddy Review | This AI Agent Builds Reports, Slides & Websites",
+         "url": "https://www.youtube.com/watch?v=sIL4Fa58nd8",
+         "domain": "youtube.com"
+        },
+        {
+         "title": "WorkBuddy: Tencent’s AI Agent That Does EVERYTHING",
+         "url": "https://www.youtube.com/watch?v=sIS0aWI0veo",
+         "domain": "youtube.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 9,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 46066,
+      "comments": 2406,
+      "engagement": 48472
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-11-05",
+     "why_missed": []
+    },
+    {
+     "id": "c-2",
+     "name": "千问办公",
+     "zh": "千问办公",
+     "aliases": [
+      "千问办公",
+      "qian wen ban gong"
+     ],
+     "kind": "product",
+     "does": "Alibaba's AI office agent with team features, for desktop task execution.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "千问办公2.0实测，4招帮你提早下班！ #千问办公  #千问办公2  #TeamAgent  #AI办公  #AI提效  #AI工具  #提效工具…",
+       "url": "https://www.xiaohongshu.com/explore/6af57bc3000000002b004b3a",
+       "domain": "xiaohongshu.com",
+       "title": "千问办公2.0实测，4招帮你提早下班！",
+       "date": "2026-11-12",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 220,
+        "comments": 0
+       }
+      },
+      {
+       "quote": "千问办公2.0有多离谱？以后再也没有办公室政治了！ 感谢千问办公对本期节目的大力支持！",
+       "url": "https://www.bilibili.com/video/BV1anWd6zEPu",
+       "domain": "bilibili.com",
+       "title": "千问办公2.0有多离谱？以后再也没有办公室政治了！",
+       "date": "2026-11-12",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 3485,
+        "comments": 52
+       }
+      },
+      {
+       "quote": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬 长期共存成定局。企业不会为了AI辅助而打破现有的公办系统，而是选择在其中嵌入AI智能体。…",
+       "url": "https://zhuanlan.zhihu.com/p/2083364479048406976",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "WorkBuddy、千问办公、TRAE Work、百度搭子：四大AI办公硬碰硬",
+       "date": "2026-09-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 18,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 16,
+      "checked_names": [
+       "千问办公",
+       "qian wen ban gong"
+      ],
+      "likes": 0,
+      "comments": 0,
+      "sources": [
+       {
+        "title": "AI 改变打工人之后，千问办公盯上了企业Agent 化",
+        "url": "https://www.reddit.com/r/ChineseNewsHub/comments/1veb25t/ai_%E6%94%B9%E5%8F%98%E6%89%93%E5%B7%A5%E4%BA%BA%E4%B9%8B%E5%90%8E%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%E7%9B%AF%E4%B8%8A%E4%BA%86%E4%BC%81%E4%B8%9A_agent_%E5%8C%96",
+        "platform": "Reddit"
+       },
+       {
+        "title": "实测千问办公：阿里这个AI 专家，真的能帮你带货",
+        "url": "https://www.reddit.com/r/ChineseNewsHub/comments/1vefff1/%E5%AE%9E%E6%B5%8B%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%E9%98%BF%E9%87%8C%E8%BF%99%E4%B8%AA_ai_%E4%B8%93%E5%AE%B6%E7%9C%9F%E7%9A%84%E8%83%BD%E5%B8%AE%E4%BD%A0%E5%B8%A6%E8%B4%A7",
+        "platform": "Reddit"
+       },
+       {
+        "title": "在《千与千寻》中隐藏的小细节: r/SpiritedAway",
+        "url": "https://www.reddit.com/r/SpiritedAway/comments/1wqmnma/%E5%9C%A8%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E5%B0%8F%E7%BB%86%E8%8A%82",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "千问办公",
+       "count": 5,
+       "returned": 10,
+       "links": [
+        {
+         "title": "千问办公 - 一站式AI生产力平台",
+         "url": "https://www.qianwenai.com/agents/qwenwork",
+         "domain": "qianwenai.com"
+        },
+        {
+         "title": "千问办公登场！一句话需求生成 PPT、网站、文档，卷起来",
+         "url": "https://zhuanlan.zhihu.com/p/2065557933967029438",
+         "domain": "zhuanlan.zhihu.com"
+        },
+        {
+         "title": "千问办公开启公测，硬刚腾讯WorkBuddy？",
+         "url": "https://www.guancha.cn/economy/2026_08_06_826303.shtml",
+         "domain": "guancha.cn"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Name unverified"
+     },
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 3736,
+      "comments": 70,
+      "engagement": 3806
+     },
+     "name_verified": false,
+     "name_proof": "",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-11-12",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Name unverified",
+      "Found on Bilibili, Xiaohongshu, Zhihu"
+     ]
+    },
+    {
+     "id": "c-3",
+     "name": "Doubao",
+     "zh": "豆包",
+     "aliases": [
+      "豆包",
+      "Doubao",
+      "dou bao"
+     ],
+     "kind": "product",
+     "does": "All-purpose desktop AI assistant, with a work-focused version for office tasks.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "别再问 AI 办公助手选哪个了：扒完豆包、WorkBuddy、千问、百度搭子，我得出一个反常识结论 定位：桌面端执行型智能体 口号：AI Agent 办公新范式 千问办公 母公司：…",
+       "url": "https://zhuanlan.zhihu.com/p/2080026736100754219",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "别再问 AI 办公助手选哪个了：扒完豆包、WorkBuddy、千问、百度搭子，我得出一个反常识结论",
+       "date": "2026-09-06",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 7
+       }
+      },
+      {
+       "quote": "…们在你的办公过程中真正带来帮助。 一、日常办公必备 1、全能桌面AI：豆包 链接",
+       "url": "https://zhuanlan.zhihu.com/p/2078988194385864263",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "最值得入手的12款AI办公工具！（2026最新）",
+       "date": "2026-09-04",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 7,
+        "comments": 2
+       }
+      }
+     ],
+     "found_by": [
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 28,
+      "checked_names": [
+       "Doubao",
+       "豆包"
+      ],
+      "likes": 1706,
+      "comments": 48,
+      "sources": [
+       {
+        "title": "Doubao is a freaking Joke",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1vqhpv2/doubao_is_a_freaking_joke/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Why doubao is more popular than Deepseek?",
+        "url": "https://www.reddit.com/r/Business_in_China/comments/1nowi8o/why_doubao_is_more_popular_than_deepseek/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "A huge citation study of DeepSeek, Qwen, Doubao and Yuanbao found 64.2% of Qwen queries sh",
+        "url": "https://www.reddit.com/r/China/comments/1x8a61o/a_huge_citation_study_of_deepseek_qwen_doubao_and/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Doubao",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Doubao AI: What It Is, and Whether You Can Use It",
+         "url": "https://doubao-english.com/doubao-ai",
+         "domain": "doubao-english.com"
+        },
+        {
+         "title": "Doubao - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Doubao",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Doubao - Products, Competitors, Financials, Employees, Headquarters Locations",
+         "url": "https://www.cbinsights.com/company/doubao",
+         "domain": "cbinsights.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem",
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Zhihu"
+      ],
+      "likes": 33,
+      "comments": 12,
+      "engagement": 45
+     },
+     "name_verified": true,
+     "name_proof": "A web page has both names: Doubao - Wikipedia ## Design\n\n[edit]\n\nDoubao is powered by the Doubao Large Model (豆包大模型) of the Volcano Engin…",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-11-05",
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Seen in the West",
+      "Found on Zhihu"
+     ]
+    },
+    {
+     "id": "c-4",
+     "name": "Codex",
+     "zh": "Codex",
+     "aliases": [
+      "Codex"
+     ],
+     "kind": "product",
+     "does": "AI coding agent that also handles Excel data processing using skills.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "…6 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？ 腾讯的全场景 AI 办公工作台，负责”把活干完” WorkBuddy 是腾讯出品的全场景 AI 办公工作台，官方定位”说出要…",
+       "url": "https://zhuanlan.zhihu.com/p/2101743018764247630",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026 年 AI 办公 Agent 三选一：豆包工作、WorkBuddy、Codex，到底该选谁？",
+       "date": "2026-11-05",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 2,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "…026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、开发者深度工具三大类",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "用Codex做数据处理，这6个skill必备 用 Codex 做 Excel数据处理，别只会上传文件让它硬算。 真正好用的是先把 Skill 配好。 这…",
+       "url": "https://www.xiaohongshu.com/explore/6a410e7e000000000f004092",
+       "domain": "xiaohongshu.com",
+       "title": "用Codex做数据处理，这6个skill必备",
+       "date": "2026-06-28",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 438,
+        "comments": 12
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 12,
+      "checked_names": [
+       "Codex"
+      ],
+      "likes": 24530,
+      "comments": 14580,
+      "sources": [
+       {
+        "title": "What happened to Codex?",
+        "url": "https://www.reddit.com/r/OpenaiCodex/comments/1xw8zxi/what_happened_to_codex/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Codex is a joke",
+        "url": "https://www.reddit.com/r/codex/comments/1xw7oe0/codex_is_a_joke/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Why do you guys stick with Codex right now?",
+        "url": "https://www.reddit.com/r/codex/comments/1xokk0t/why_do_you_guys_stick_with_codex_right_now/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Codex",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "CODEX Definition & Meaning | Dictionary.com",
+         "url": "https://www.dictionary.com/browse/codex",
+         "domain": "dictionary.com"
+        },
+        {
+         "title": "Getting Started with Codex - Dometrain",
+         "url": "https://dometrain.com/blog/getting-started-with-codex",
+         "domain": "dometrain.com"
+        },
+        {
+         "title": "Codex - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Codex",
+         "domain": "en.wikipedia.org"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 453,
+      "comments": 14,
+      "engagement": 467
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-11-05",
+     "why_missed": []
+    },
+    {
+     "id": "c-5",
+     "name": "Claude",
+     "zh": "Claude",
+     "aliases": [
+      "Claude"
+     ],
+     "kind": "product",
+     "does": "AI assistant; its Cowork mode handles work tasks smoothly, per posts.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "当今世界最先进大脑都在这！ 1.Claude（解決任何事情） 2. NotebookLM（学习任何东西） 3. Perplexity（研究任何事情",
+       "url": "https://www.xiaohongshu.com/explore/6adc6323000000002b00f41c",
+       "domain": "xiaohongshu.com",
+       "title": "当今世界最先进大脑都在这！",
+       "date": "2026-10-24",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 513,
+        "comments": 11
+       }
+      },
+      {
+       "quote": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了 这段时间我干脆实测了15款主流AI办公工具，包含全能办公工作台、轻量化桌面AI助手、开发者深度工具三大类",
+       "url": "https://zhuanlan.zhihu.com/p/2094182258848678344",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "2026年AI办公工具实测合集｜WorkBuddy、扣子、Claude、Codex等15+款，别再乱装了",
+       "date": "2026-10-15",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 13,
+        "comments": 1
+       }
+      },
+      {
+       "quote": "感慨一下AI真的太强大了 我用AI工作已经好几年了。今天用 Claude Cowork 处理工作任务，真的感到极其的、前所未有的丝滑和流畅，完全没",
+       "url": "https://www.xiaohongshu.com/explore/69fbe91e000000001a03445d",
+       "domain": "xiaohongshu.com",
+       "title": "感慨一下AI真的太强大了",
+       "date": "2026-05-07",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 531,
+        "comments": 89
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "Claude"
+      ],
+      "likes": 199199,
+      "comments": 6708,
+      "sources": [
+       {
+        "title": "Claude Killed my Company",
+        "url": "https://www.reddit.com/r/claude/comments/1xttkm8/claude_killed_my_company/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "I spent 4,500+ hours coding with AI. This is the Claude Code setup I ended up with.",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1xw7ylh/i_spent_4500_hours_coding_with_ai_this_is_the/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Claude design is dead!",
+        "url": "https://www.reddit.com/r/claude/comments/1xtqqpn/claude_design_is_dead/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Claude",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Claude (AI) - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Claude_(AI)",
+         "domain": "en.wikipedia.org"
+        },
+        {
+         "title": "Claude and Lusha integration - connect lusha with Claude",
+         "url": "https://www.lusha.com/blog/lusha-claude-connector",
+         "domain": "lusha.com"
+        },
+        {
+         "title": "Claude by Anthropic | The AI for problem solvers",
+         "url": "https://claude.com",
+         "domain": "claude.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 3,
+      "platforms": [
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 1057,
+      "comments": 101,
+      "engagement": 1158
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-10-24",
+     "why_missed": []
+    },
+    {
+     "id": "c-6",
+     "name": "NotebookLM",
+     "zh": "NotebookLM",
+     "aliases": [
+      "NotebookLM"
+     ],
+     "kind": "product",
+     "does": "Google AI research and note tool that helps learn from documents and create presentations.",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "当今世界最先进大脑都在这！ 1.Claude（解決任何事情） 2. NotebookLM（学习任何东西） 3. Perplexity（研究任何事情",
+       "url": "https://www.xiaohongshu.com/explore/6adc6323000000002b00f41c",
+       "domain": "xiaohongshu.com",
+       "title": "当今世界最先进大脑都在这！",
+       "date": "2026-10-24",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 513,
+        "comments": 11
+       }
+      }
+     ],
+     "found_by": [
+      "Xiaohongshu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 11,
+      "checked_names": [
+       "NotebookLM"
+      ],
+      "likes": 13696,
+      "comments": 882,
+      "sources": [
+       {
+        "title": "Impressionante o que faz o notebook lm nos estudos",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1v9dfxk/impressionante_o_que_faz_o_notebook_lm_nos_estudos/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Como estruturei um ecossistema com NotebookLM, método do MIT, para estudar para carreiras ",
+        "url": "https://www.reddit.com/r/concursospublicos/comments/1wmljjm/como_estruturei_um_ecossistema_com_notebooklm/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ازاي تبصمج عن طريق Notebooklm",
+        "url": "https://www.reddit.com/r/EgyUniversity/comments/1xoea7y/%D8%A7%D8%B2%D8%A7%D9%8A_%D8%AA%D8%A8%D8%B5%D9%85%D8%AC_%D8%B9%D9%86_%D8%B7%D8%B1%D9%8A%D9%82_notebooklm/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "NotebookLM",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "NotebookLM now lets you listen to a conversation about your sources",
+         "url": "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews",
+         "domain": "blog.google"
+        },
+        {
+         "title": "Google Notebook LM",
+         "url": "https://sites.google.com/view/notebook-lm",
+         "domain": "sites.google.com"
+        },
+        {
+         "title": "Gemini Notebook - Wikipedia",
+         "url": "https://en.wikipedia.org/wiki/Gemini_Notebook",
+         "domain": "en.wikipedia.org"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 1,
+      "platforms": [
+       "Xiaohongshu"
+      ],
+      "likes": 513,
+      "comments": 11,
+      "engagement": 524
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-10-24",
+     "why_missed": []
+    }
+   ],
+   "missed": [
+    "t-2",
+    "t-8",
+    "t-9",
+    "t-1",
+    "t-7",
+    "t-6",
+    "t-5",
+    "t-4",
+    "t-3",
+    "t-10",
+    "c-3",
+    "t-11",
+    "t-12"
+   ],
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "ok"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 50.4
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku-5-5"
+   ],
+   "errors": [],
+   "notes": [],
+   "seconds": 50.4
+  }
+ ]
+}

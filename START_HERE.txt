@@ -1,0 +1,46 @@
+BLINDSPOT  -  See what AI search can't.
+SearchHack, Sunnyvale, 14 November 2026. Muhammadjon and Suhayb.
+
+Read Blindspot.pdf first: what it is, what it found today, who it is for, what it could become.
+
+
+START IT (Mac)
+  1. Unzip this folder anywhere.
+  2. Double-click  start.command
+     If macOS refuses to open it: open Terminal, type  sh  and a space, drag start.sh
+     into the Terminal window, press Return.
+  3. The first start takes about a minute (it installs three Python packages, needs internet).
+     Then the browser opens the pinned demo run.
+
+START IT (Linux)     sh start.sh
+START IT (Windows)   double-click start.bat   (written on a Mac, not tested on Windows)
+
+It needs Python 3.10 or newer (python.org/downloads). The script tells you if it is missing.
+To stop it: press Ctrl+C in the Terminal window.
+
+
+WHAT YOU GET WITHOUT ANY KEYS
+  - "Replay demo run" and the "Saved runs" menu play five real runs saved today. Real data,
+    nothing is searched again.
+  - The Proof page (button at the top right).
+  - A new run, or "Check anything", uses made-up sample data, and the page says so.
+
+FOR LIVE RUNS
+  Copy .env.example to .env and fill in:
+    TAVILY_API_KEY, TELEM_API_KEY, and one of ANTHROPIC_API_KEY / OPENAI_API_KEY / GEMINI_API_KEY
+  Set SEARCH_PROVIDER=telem. Start it again.
+  The .env file with keys is NOT in this folder on purpose. Never put it in a zip, a chat or git.
+
+
+THE SAVED RUNS IN THIS FOLDER (runs/)
+  151221-ai-office-apps      pinned demo run     0 of 12   (current counting rule)
+  151130-ai-glasses                              0 of 12   (current counting rule)
+  143831-ai-glasses                              4 of 18   (earlier rule: every verified China find counted)
+  143922-ai-office-apps                          4 of 17   (earlier rule)
+  144004-ai-tools-for-chip-design                5 of 15   (earlier rule)
+  Check one:  .venv/bin/python check_run.py --replay 151221-ai-office-apps
+
+
+MORE
+  README.md      how it works, the pitch, the numbers per run file, honest limits
+  Blindspot.pdf  the short version

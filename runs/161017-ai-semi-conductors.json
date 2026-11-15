@@ -1,0 +1,3682 @@
+{
+ "question": "ai semi conductors",
+ "need": "",
+ "saved": "2026-11-14 16:10",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "ai semi conductors",
+   "specific": "",
+   "category": "AI semiconductor chips",
+   "area": "AI semiconductors",
+   "need": "A company that designs, supplies, or integrates chips built for AI workloads such as training and inference, including accelerators, GPUs, NPUs, and related hardware.",
+   "keywords": [
+    "ai chip",
+    "ai accelerator",
+    "gpu for ai",
+    "npu",
+    "ai inference chip",
+    "ai training chip",
+    "asic for machine learning",
+    "ai processor",
+    "data center accelerator",
+    "edge ai chip",
+    "neural processing unit",
+    "ai silicon"
+   ],
+   "zh_queries": [
+    "AI芯片",
+    "AI芯片 推荐 国产",
+    "GPU 推理芯片 公司"
+   ],
+   "seconds": 15.8
+  },
+  {
+   "stage": "memory",
+   "question": "ai semi conductors",
+   "specific": "",
+   "category": "AI semiconductor chips",
+   "need": "A company that designs, supplies, or integrates chips built for AI workloads such as training and inference, including accelerators, GPUs, NPUs, and related hardware.",
+   "companies": [
+    {
+     "name": "NVIDIA",
+     "does": "Designs graphics processors and accelerator chips widely used for training and running AI models.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Broadcom",
+     "does": "Designs custom AI accelerator chips and high-speed networking silicon for data centers.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku (local CLI)": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Intel",
+     "does": "Designs CPUs and AI accelerators and manufactures semiconductors in its own fabs.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku (local CLI)": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "Qualcomm",
+     "does": "Designs mobile and edge AI processors used in smartphones, PCs, and automotive systems.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku (local CLI)": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "Cerebras Systems",
+     "does": "Builds wafer-scale processors aimed at fast AI model training and inference.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku (local CLI)": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "Marvell Technology",
+     "does": "Designs custom silicon, networking, and data infrastructure chips for cloud and AI customers.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku (local CLI)": 6
+     },
+     "variants": []
+    },
+    {
+     "name": "Samsung Electronics",
+     "does": "Manufactures memory chips, logic chips, and foundry services including AI-focused high-bandwidth memory.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "AMD",
+     "does": "Designs CPUs, GPUs, and AI accelerators for data centers, PCs, and embedded systems.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "Groq",
+     "does": "Builds low-latency inference chips for running AI models quickly.",
+     "count": 5,
+     "by_model": {
+      "claude-haiku (local CLI)": 5
+     },
+     "variants": []
+    },
+    {
+     "name": "Taiwan Semiconductor Manufacturing Company",
+     "does": "Manufactures advanced semiconductor chips for many chip designers under contract.",
+     "count": 3,
+     "by_model": {
+      "claude-haiku (local CLI)": 3
+     },
+     "variants": []
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku (local CLI) x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku (local CLI)",
+      "samples": 8,
+      "distinct": 20,
+      "top": [
+       {
+        "name": "NVIDIA",
+        "count": 8
+       },
+       {
+        "name": "Broadcom",
+        "count": 8
+       },
+       {
+        "name": "Intel",
+        "count": 7
+       },
+       {
+        "name": "Qualcomm",
+        "count": 7
+       },
+       {
+        "name": "Cerebras Systems",
+        "count": 7
+       }
+      ]
+     }
+    ],
+    "distinct": 20,
+    "top5_share": 46,
+    "others": [
+     {
+      "name": "Advanced Micro Devices",
+      "count": 3
+     },
+     {
+      "name": "Tenstorrent",
+      "count": 3
+     },
+     {
+      "name": "SambaNova Systems",
+      "count": 3
+     },
+     {
+      "name": "Micron Technology",
+      "count": 2
+     },
+     {
+      "name": "Alphabet",
+      "count": 2
+     },
+     {
+      "name": "TSMC",
+      "count": 2
+     },
+     {
+      "name": "Arm Holdings",
+      "count": 1
+     },
+     {
+      "name": "SK hynix",
+      "count": 1
+     },
+     {
+      "name": "Etched",
+      "count": 1
+     },
+     {
+      "name": "d-Matrix",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 15.8
+  },
+  {
+   "stage": "money",
+   "query": "best AI semiconductor chips",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Efficient Computer",
+     "does": "Designs energy-efficient general-purpose processors for edge AI and embedded devices.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Nvidia",
+     "does": "Designs GPUs and AI accelerators for training and inference workloads.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-5",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "AMD",
+     "does": "Designs AI accelerators and server CPUs for data centers.",
+     "sources": [
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Broadcom",
+     "does": "Designs custom AI chips for hyperscaler customers.",
+     "sources": [
+      "n-3",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Marvell",
+     "does": "Provides networking and optical interconnect chips for large-scale AI clusters.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Positron AI",
+     "does": "Builds purpose-built hardware for transformer model inference in generative AI.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Cerebras",
+     "does": "Builds wafer-scale processors for AI inference.",
+     "sources": [
+      "n-5",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Groq",
+     "does": "Designs inference chips that keep model weights in on-chip memory.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Etched",
+     "does": "Designs inference chips that combine HBM and SRAM memory.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Qualcomm",
+     "does": "Makes inference accelerator cards with large LPDDR memory for very large models.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Intel",
+     "does": "Designs AI accelerators and AI-capable processors for data centers and PCs.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft",
+     "does": "Designs custom AI chips for its own data centers.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Google",
+     "does": "Designs custom AI accelerator chips for training and inference.",
+     "sources": [
+      "n-5",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "AWS",
+     "does": "Designs custom AI training and inference chips for cloud customers.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Alibaba",
+     "does": "Designs in-house AI chips for training and inference.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 2,
+   "memory_overlap": [
+    "AMD",
+    "Broadcom",
+    "Cerebras Systems",
+    "Etched",
+    "Groq",
+    "Intel",
+    "Marvell Technology",
+    "NVIDIA",
+    "Qualcomm"
+   ],
+   "echo": {
+    "repeated": 9,
+    "total": 15
+   },
+   "stake": {
+    "vendor": 3,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 3,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "Efficient Computer",
+     "url": "https://efficient.computer/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Efficient Computer",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "efficient.computer",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "AI chips compared · Chip Supply Chain",
+     "url": "https://chipsupplychain.org/chips",
+     "date": "2026-10-28",
+     "date_from": "page",
+     "date_note": "38 chips 13 makers Updated 28 October 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "chipsupplychain.org",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "Top AI Semiconductor Stocks to Buy in 2026: AI Chips and Supply Chain Complete Guide",
+     "url": "https://bingx.com/en/learn/article/top-ai-semiconductor-stocks-to-buy-ai-chips-and-ai-supply-chain-guide",
+     "date": "2026-05-29",
+     "date_from": "page",
+     "date_note": "Last update: 2026-05-29",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "bingx.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "Positron AI",
+     "url": "https://positron.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Positron AI",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "positron.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "AI Chips Comparison 2026: Nvidia, Google, AWS, AMD | Codiot",
+     "url": "https://codiot.com/blog/ai-chips-compared-2026",
+     "date": "2026-10-19",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "codiot.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "10 top AI hardware and chip-making companies in 2026 | TechTarget",
+     "url": "https://www.techtarget.com/news/10-top-AI-hardware-and-chip-making-companies-in-2026/857310",
+     "date": "2026-01-30",
+     "date_from": "page",
+     "date_note": "Published Jan. 30, 2026",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "techtarget.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Cerebras",
+     "url": "https://cerebras.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Cerebras",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cerebras.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "Custom AI Chips Compared: TPU, Trainium, MTIA, Maia, Ascend",
+     "url": "https://customsiliconlist.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "customsiliconlist.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 5
+   },
+   "seconds": 39.4
+  },
+  {
+   "stage": "china",
+   "failed": "KeyError: 'xcom'",
+   "seconds": 48.7
+  },
+  {
+   "stage": "money",
+   "query": "best AI semiconductor chips",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Efficient Computer",
+     "does": "Designs energy-efficient general-purpose processors for edge AI and embedded devices.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Nvidia",
+     "does": "Designs GPUs and AI accelerators for training and inference workloads.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-5",
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "AMD",
+     "does": "Designs AI accelerators and server CPUs for data centers.",
+     "sources": [
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Broadcom",
+     "does": "Designs custom AI chips for hyperscaler customers.",
+     "sources": [
+      "n-3",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Marvell",
+     "does": "Provides networking and optical interconnect chips for large-scale AI clusters.",
+     "sources": [
+      "n-3"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Positron AI",
+     "does": "Builds purpose-built hardware for transformer model inference in generative AI.",
+     "sources": [
+      "n-4"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Cerebras",
+     "does": "Builds wafer-scale processors for AI inference.",
+     "sources": [
+      "n-5",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Groq",
+     "does": "Designs inference chips that keep model weights in on-chip memory.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Etched",
+     "does": "Designs inference chips that combine HBM and SRAM memory.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Qualcomm",
+     "does": "Makes inference accelerator cards with large LPDDR memory for very large models.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Intel",
+     "does": "Designs AI accelerators and AI-capable processors for data centers and PCs.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Microsoft",
+     "does": "Designs custom AI chips for its own data centers.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Google",
+     "does": "Designs custom AI accelerator chips for training and inference.",
+     "sources": [
+      "n-5",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "AWS",
+     "does": "Designs custom AI training and inference chips for cloud customers.",
+     "sources": [
+      "n-5"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Alibaba",
+     "does": "Designs in-house AI chips for training and inference.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 2,
+   "memory_overlap": [
+    "AMD",
+    "Broadcom",
+    "Cerebras Systems",
+    "Etched",
+    "Groq",
+    "Intel",
+    "Marvell Technology",
+    "NVIDIA",
+    "Qualcomm"
+   ],
+   "echo": {
+    "repeated": 9,
+    "total": 15
+   },
+   "stake": {
+    "vendor": 3,
+    "paid": 0,
+    "stale": 0,
+    "flagged": 3,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "Efficient Computer",
+     "url": "https://efficient.computer/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Efficient Computer",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "efficient.computer",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "AI chips compared · Chip Supply Chain",
+     "url": "https://chipsupplychain.org/chips",
+     "date": "2026-10-28",
+     "date_from": "page",
+     "date_note": "38 chips 13 makers Updated 28 October 2026",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "chipsupplychain.org",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "Top AI Semiconductor Stocks to Buy in 2026: AI Chips and Supply Chain Complete Guide",
+     "url": "https://bingx.com/en/learn/article/top-ai-semiconductor-stocks-to-buy-ai-chips-and-ai-supply-chain-guide",
+     "date": "2026-05-29",
+     "date_from": "page",
+     "date_note": "Last update: 2026-05-29",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "bingx.com",
+     "flagged": false
+    },
+    {
+     "id": "n-4",
+     "title": "Positron AI",
+     "url": "https://positron.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Positron AI",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "positron.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "AI Chips Comparison 2026: Nvidia, Google, AWS, AMD | Codiot",
+     "url": "https://codiot.com/blog/ai-chips-compared-2026",
+     "date": "2026-10-19",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Exa through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "codiot.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "10 top AI hardware and chip-making companies in 2026 | TechTarget",
+     "url": "https://www.techtarget.com/news/10-top-AI-hardware-and-chip-making-companies-in-2026/857310",
+     "date": "2026-01-30",
+     "date_from": "page",
+     "date_note": "Published Jan. 30, 2026",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "techtarget.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Cerebras",
+     "url": "https://cerebras.ai/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "Cerebras",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tinyfish through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "cerebras.ai",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "Custom AI Chips Compared: TPU, Trainium, MTIA, Maia, Ascend",
+     "url": "https://customsiliconlist.com/",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Firecrawl through Telem",
+     "open_error": "",
+     "found_by": "",
+     "domain": "customsiliconlist.com",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 5,
+    "all_pick": "NVIDIA",
+    "clean_pick": "Nvidia",
+    "changed": false,
+    "status": "done"
+   },
+   "seconds": 52.6
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "AI semiconductors startup raises seed round",
+    "AI semiconductors startup raises Series A",
+    "AI semiconductors startup comes out of stealth",
+    "new AI semiconductors startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "Ubitium",
+     "aliases": [],
+     "kind": "company",
+     "does": "universal processor for machines that perceive, think and act in the real world",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$14M",
+     "when": "October 2026",
+     "investors": [
+      "Ibex Investors",
+      "OpenOcean",
+      "KBC Focus Fund"
+     ],
+     "evidence": "today announced $14 million in new seed funding",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "today announced $14 million in new seed funding",
+       "url": "https://www.ubitium.com/ubitium-raises-14-million-to-build-the-first-universal-processor-for-physical-ai/",
+       "domain": "ubitium.com",
+       "title": "Ubitium Raises $14 Million to Build the First Universal Processor for Physical AI – Ubitium",
+       "date": "2026-10-13",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-1"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "Agrani Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "Aims to build AI computing solutions from India",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$8M",
+     "when": "January 2026",
+     "investors": [
+      "Peak XV Partners"
+     ],
+     "evidence": "Agrani Labs has raised $8 million in a seed funding round led by Peak XV Partners",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Agrani Labs has raised $8 million in a seed funding round led by Peak XV Partners",
+       "url": "https://www.linkedin.com/posts/viestories_agranilabs-aisemiconductor-funding-activity-7422191207331782656-I5AD",
+       "domain": "linkedin.com",
+       "title": "Agrani Labs Launches as AI Semiconductor Startup with $8M Seed Funding | Viestories Media posted on the topic | LinkedIn",
+       "date": "2026-01-28",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "tavily"
+     ],
+     "sources": [
+      "d-3"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "TYLsemi",
+     "aliases": [],
+     "kind": "company",
+     "does": "develops energy-efficient AI chip technology for AI infrastructure",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$43M",
+     "when": "July 2026",
+     "investors": [
+      "Matter Venture Partners",
+      "Viola Ventures",
+      "GHOVC"
+     ],
+     "evidence": "emerged from stealth with a $43 million seed round",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "emerged from stealth with a $43 million seed round",
+       "url": "https://www.bizjournals.com/sanjose/news/2026/07/14/tylsemi-43m-seed-round-ai-chips.html",
+       "domain": "bizjournals.com",
+       "title": "San Jose chip startup TYLsemi raises $43 million in seed funding - Silicon Valley Business Journal",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://siliconangle.com/2026/07/14/custom-ai-chip-design-startup-tylsemi-launches-43m-early-stage-funding",
+       "domain": "siliconangle.com",
+       "title": "Custom AI chip design startup TYLsemi launches with $43M in early-stage funding - SiliconANGLE",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.reuters.com/business/tylsemi-raises-43-million-create-building-blocks-custom-ai-chips-2026-07-14",
+       "domain": "reuters.com",
+       "title": "TYLSemi raises $43 million to create building blocks of custom AI chips  | Reuters",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "sources": [
+      "d-10",
+      "d-12",
+      "d-15"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-4",
+     "name": "MemSilicon",
+     "aliases": [],
+     "kind": "company",
+     "does": "Compute-in-memory chip startup",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$59.8M",
+     "when": "November 2026",
+     "investors": [
+      "Boyuan Capital",
+      "Bosch Ventures",
+      "Chuangling Capital"
+     ],
+     "evidence": "has raised more than US$55M ($59.8 million at current rates) in a Series A round",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised more than US$55M ($59.8 million at current rates) in a Series A round",
+       "url": "https://dealroom.co/news/169395-memsilicon-raises-59-8m-series-a-names-chip-veteran-lu-tao-ceo/",
+       "domain": "dealroom.co",
+       "title": "MemSilicon raises $59.8M Series A, names chip veteran Lu Tao CEO | Dealroom News",
+       "date": "2026-11-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-13"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-5",
+     "name": "Mueon Corp",
+     "aliases": [],
+     "kind": "company",
+     "does": "building new semiconductor systems to create cost efficiencies in AI and hyperscale computing",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$65M",
+     "when": "October 2026",
+     "investors": [
+      "Maverick Silicon"
+     ],
+     "evidence": "has closed a $65 million Series A funding round led by Maverick Silicon",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has closed a $65 million Series A funding round led by Maverick Silicon",
+       "url": "https://www.citybiz.co/article/919860/mueon-raises-65m-series-a-to-optimize-semiconductors-for-ai/",
+       "domain": "citybiz.co",
+       "title": "Mueon Raises $65M Series A to Optimize Semiconductors for AI | citybiz",
+       "date": "2026-10-16",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "sources": [
+      "d-14"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-6",
+     "name": "Volantis",
+     "aliases": [],
+     "kind": "company",
+     "does": "building a new category of AI inference system",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$88M",
+     "when": "October 2026",
+     "investors": [
+      "Lachy Groom",
+      "Abstract Ventures",
+      "John Doerr"
+     ],
+     "evidence": "today announced an $88 million Series A co-led by Lachy Groom and Abstract Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "today announced an $88 million Series A co-led by Lachy Groom and Abstract Ventures",
+       "url": "https://www.hpcwire.com/off-the-wire/volantis-raises-88m-series-a-to-advance-photonic-memory-architecture/",
+       "domain": "hpcwire.com",
+       "title": "HPCwire - Since 1987 – Covering the Fastest Computers in the World and the People Who Run Them",
+       "date": "2026-10-01",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "today announced an $88 million Series A co-led by Lachy Groom and Abstract Ventures",
+       "url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html",
+       "domain": "prnewswire.com",
+       "title": "Volantis Raises $88M Series A to Demolish the AI Memory Wall With Photonics",
+       "date": "2026-10-01",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "sources": [
+      "d-16",
+      "d-18"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-7",
+     "name": "Velaura AI",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI compute infrastructure company developing ultra-low-power silicon and software technologies",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$110M",
+     "when": "August 2026",
+     "investors": [],
+     "evidence": "today announced that it has raised $110 million in Series A financing",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "today announced that it has raised $110 million in Series A financing",
+       "url": "https://velaura.ai/velaura-ai-raises-110-million-series-a-to-advance-the-next-generation-of-ultra-low-power-ai-compute-infrastructure/",
+       "domain": "velaura.ai",
+       "title": "Velaura AI Raises $110 Million Series A to Advance the Next Generation of Ultra-Low-Power AI Compute Infrastructure - Velaura",
+       "date": "2026-08-18",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-19"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-8",
+     "name": "PowerLattice",
+     "aliases": [],
+     "kind": "company",
+     "does": "building chips that cut the power demands of AI processors",
+     "lens": "time",
+     "round": "",
+     "amount": "$86M",
+     "when": "October 2026",
+     "investors": [],
+     "evidence": "has raised $86 million, according to an SEC filing on October 30",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "has raised $86 million, according to an SEC filing on October 30",
+       "url": "https://dealroom.co/news/168493-powerlattice-raises-86m-to-break-ais-power-wall",
+       "domain": "dealroom.co",
+       "title": "PowerLattice raises $86M to break AI's power wall | Dealroom News",
+       "date": "2026-10-30",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "sources": [
+      "d-21"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-9",
+     "name": "Etched",
+     "aliases": [],
+     "kind": "company",
+     "does": "building chips specialized for AI inference",
+     "lens": "time",
+     "round": "Series B",
+     "amount": "$800M",
+     "when": "June 2026",
+     "investors": [
+      "Jane Street",
+      "Stripes",
+      "Hudson River Trading"
+     ],
+     "evidence": "Inference chip startup Etched has launched from stealth with $800 million in funding.",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/etched-ai_were-coming-out-of-stealth-weve-built-activity-7477738203290988544-XF06",
+       "domain": "linkedin.com",
+       "title": "AI Chip Startup Emerges from Stealth with Breakthroughs in LVI and CSM | Etched posted on the topic | LinkedIn",
+       "date": "2026-06-30",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Inference chip startup Etched has launched from stealth with $800 million in funding.",
+       "url": "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-emerges-from-stealth-with-800m-funding-unveils-working-chip",
+       "domain": "datacenterdynamics.com",
+       "title": "Inference chip startup Etched emerges from stealth with $800m funding, unveils working chip - DCD",
+       "date": "2026-11-12",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.jain.com/etched-800m-funding-working-ai-inference-chip/",
+       "domain": "jain.com",
+       "title": "Etched Exits Stealth Mode With $800M and Working Silicon for AI Inference – Jain.com",
+       "date": "2026-08-23",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "tavily",
+      "parallel"
+     ],
+     "sources": [
+      "d-25",
+      "d-26",
+      "d-29"
+     ],
+     "name_verified": true,
+     "memory_count": 1
+    },
+    {
+     "id": "t-10",
+     "name": "Staera Semiconductor",
+     "aliases": [],
+     "kind": "company",
+     "does": "builds LED optical links inside silicon chips for AI systems",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [],
+     "evidence": "Staera Semiconductor (Staera) today emerged from stealth with a technology that builds optical data links",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Staera Semiconductor (Staera) today emerged from stealth with a technology that builds optical data links",
+       "url": "https://www.staera.ai/blog/staera-emerges-from-stealth",
+       "domain": "staera.ai",
+       "title": "Staera Semiconductor emerges from stealth",
+       "date": "2026-11-10",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Staera Semiconductor (Staera) today emerged from stealth with a technology that builds optical data links",
+       "url": "https://www.prnewswire.com/news-releases/staera-semiconductor-emerges-from-stealth-with-us4-6-million-to-build-light-into-the-chip-and-break-ais-data-bottleneck-302934648.html",
+       "domain": "prnewswire.com",
+       "title": "Staera Semiconductor Emerges from Stealth with US$4.6 Million to Build Light into the Chip and Break AI's Data Bottleneck",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "sources": [
+      "d-23",
+      "d-31"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-11",
+     "name": "Nagare Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "new memory technology designed to overcome hardware bottleneck in AI innovation",
+     "lens": "time",
+     "round": "",
+     "amount": "$5M",
+     "when": "October 2026",
+     "investors": [
+      "Playground Global"
+     ],
+     "evidence": "Nagare Labs emerged from stealth with $5M led by Playground Global",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Nagare Labs emerged from stealth with $5M led by Playground Global",
+       "url": "https://www.semiconductor-digest.com/nagare-labs-emerges-from-stealth-to-break-ais-memory-bottleneck/",
+       "domain": "semiconductor-digest.com",
+       "title": "Nagare Labs Emerges from Stealth to Break AI’s Memory Bottleneck - Semiconductor Digest",
+       "date": "2026-10-29",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-27"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-12",
+     "name": "Baud",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI chips for ultra-fast training and inference",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "",
+     "investors": [],
+     "evidence": "",
+     "evidence_ok": false,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/baud",
+       "domain": "ycombinator.com",
+       "title": "Baud (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "Summer 2026",
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "sources": [
+      "y-3"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 1,
+   "already_known": [
+    "Etched"
+   ],
+   "not_in_source": 0,
+   "off_topic_results": 0,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "Ubitium Raises $14 Million to Build the First Universal Processor for Physical AI – Ubitium",
+     "url": "https://www.ubitium.com/ubitium-raises-14-million-to-build-the-first-universal-processor-for-physical-ai/",
+     "date": "2026-10-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "ubitium.com"
+    },
+    {
+     "id": "d-2",
+     "title": "Startup Funding: Q1 2026",
+     "url": "https://semiengineering.com/startup-funding-q1-2026/",
+     "date": "2026-05-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "semiengineering.com"
+    },
+    {
+     "id": "d-3",
+     "title": "Agrani Labs Launches as AI Semiconductor Startup with $8M Seed Funding | Viestories Media posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/viestories_agranilabs-aisemiconductor-funding-activity-7422191207331782656-I5AD",
+     "date": "2026-01-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-4",
+     "title": "Nexstrom Raises $12 Million Seed Round to Commercialize the First 12-Inch Single-Crystal 2D Semiconductor Platform",
+     "url": "https://www.prnewswire.com/news-releases/nexstrom-raises-12-million-seed-round-to-commercialize-the-first-12-inch-single-crystal-2d-semiconductor-platform-302885862.html",
+     "date": "2026-09-22",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-5",
+     "title": "Tendrils raises €26 million to reinvent the CPU with thousands of parallel cores | EU-Startups",
+     "url": "https://www.eu-startups.com/2026/11/tendrils-raises-e26-million-to-reinvent-the-cpu-with-thousands-of-parallel-cores/",
+     "date": "2026-11-11",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "eu-startups.com"
+    },
+    {
+     "id": "d-6",
+     "title": "AI Chip Startups 2026: Five Raises Totalling $1.6 Billion | Semiconductors Insight",
+     "url": "https://semiconductorsinsight.com/ai-chip-startups-2026-semicon-startups-weekly-issue-1/",
+     "date": "2026-04-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "semiconductorsinsight.com"
+    },
+    {
+     "id": "d-7",
+     "title": "Which semiconductor startups raised the most? – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/semiconductor-top-startups-fundraising",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-8",
+     "title": "US startup Discovered Materials closes $9 million seed round",
+     "url": "https://evertiq.com/news/2026-08-31-us-startup-discovered-materials-closes-9-million-seed-round",
+     "date": "2026-08-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "evertiq.com"
+    },
+    {
+     "id": "d-9",
+     "title": "Introducing Phinity Labs | Phinity Labs",
+     "url": "https://www.phinity.ai/blog/introducing-phinity",
+     "date": "2026-10-08",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "phinity.ai"
+    },
+    {
+     "id": "d-10",
+     "title": "San Jose chip startup TYLsemi raises $43 million in seed funding - Silicon Valley Business Journal",
+     "url": "https://www.bizjournals.com/sanjose/news/2026/07/14/tylsemi-43m-seed-round-ai-chips.html",
+     "date": "2026-07-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "bizjournals.com"
+    },
+    {
+     "id": "d-11",
+     "title": "CEO VINE",
+     "url": "https://www.facebook.com/ceovine/posts/bengaluru-based-semiconductor-startup-nova-spectral-ai-has-raised-2115-crore-225/1037335142653158",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "facebook.com"
+    },
+    {
+     "id": "d-12",
+     "title": "Custom AI chip design startup TYLsemi launches with $43M in early-stage funding - SiliconANGLE",
+     "url": "https://siliconangle.com/2026/07/14/custom-ai-chip-design-startup-tylsemi-launches-43m-early-stage-funding",
+     "date": "2026-07-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "siliconangle.com"
+    },
+    {
+     "id": "d-13",
+     "title": "MemSilicon raises $59.8M Series A, names chip veteran Lu Tao CEO | Dealroom News",
+     "url": "https://dealroom.co/news/169395-memsilicon-raises-59-8m-series-a-names-chip-veteran-lu-tao-ceo/",
+     "date": "2026-11-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-14",
+     "title": "Mueon Raises $65M Series A to Optimize Semiconductors for AI | citybiz",
+     "url": "https://www.citybiz.co/article/919860/mueon-raises-65m-series-a-to-optimize-semiconductors-for-ai/",
+     "date": "2026-10-16",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "citybiz.co"
+    },
+    {
+     "id": "d-15",
+     "title": "TYLSemi raises $43 million to create building blocks of custom AI chips  | Reuters",
+     "url": "https://www.reuters.com/business/tylsemi-raises-43-million-create-building-blocks-custom-ai-chips-2026-07-14",
+     "date": "2026-07-14",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "reuters.com"
+    },
+    {
+     "id": "d-16",
+     "title": "HPCwire - Since 1987 – Covering the Fastest Computers in the World and the People Who Run Them",
+     "url": "https://www.hpcwire.com/off-the-wire/volantis-raises-88m-series-a-to-advance-photonic-memory-architecture/",
+     "date": "2026-10-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "hpcwire.com"
+    },
+    {
+     "id": "d-17",
+     "title": "Cognichip Raises $60M Series A to Design Semiconductors With AI | Built In San Francisco",
+     "url": "https://www.builtinsf.com/articles/cognichip-raises-60m-series-a-20260403",
+     "date": "2026-04-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "builtinsf.com"
+    },
+    {
+     "id": "d-18",
+     "title": "Volantis Raises $88M Series A to Demolish the AI Memory Wall With Photonics",
+     "url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html",
+     "date": "2026-10-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-19",
+     "title": "Velaura AI Raises $110 Million Series A to Advance the Next Generation of Ultra-Low-Power AI Compute Infrastructure - Velaura",
+     "url": "https://velaura.ai/velaura-ai-raises-110-million-series-a-to-advance-the-next-generation-of-ultra-low-power-ai-compute-infrastructure/",
+     "date": "2026-08-18",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "velaura.ai"
+    },
+    {
+     "id": "d-20",
+     "title": "Cognichip Raises $60M Series A for AI-Driven Chip Design | MLQ News",
+     "url": "https://mlq.ai/news/cognichip-raises-60m-series-a-for-ai-driven-chip-design/",
+     "date": "2026-04-02",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "mlq.ai"
+    },
+    {
+     "id": "d-21",
+     "title": "PowerLattice raises $86M to break AI's power wall | Dealroom News",
+     "url": "https://dealroom.co/news/168493-powerlattice-raises-86m-to-break-ais-power-wall",
+     "date": "2026-10-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-22",
+     "title": "Etched Comes out of Stealth, Again. - Semiconductor Reports",
+     "url": "https://www.semiconductorreports.com/p/etched-comes-out-of-stealth-again-2026-inference-rack",
+     "date": "2026-07-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Brave + Tavily through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "semiconductorreports.com"
+    },
+    {
+     "id": "d-23",
+     "title": "Staera Semiconductor emerges from stealth",
+     "url": "https://www.staera.ai/blog/staera-emerges-from-stealth",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "domain": "staera.ai"
+    },
+    {
+     "id": "d-24",
+     "title": "TenX Semi Emerges From Stealth With Backing From South Park Commons, Khosla Ventures - WOWTALE",
+     "url": "https://en.wowtale.net/2026/09/02/234979/",
+     "date": "2026-09-01",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "en.wowtale.net"
+    },
+    {
+     "id": "d-25",
+     "title": "AI Chip Startup Emerges from Stealth with Breakthroughs in LVI and CSM | Etched posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/etched-ai_were-coming-out-of-stealth-weve-built-activity-7477738203290988544-XF06",
+     "date": "2026-06-30",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-26",
+     "title": "Inference chip startup Etched emerges from stealth with $800m funding, unveils working chip - DCD",
+     "url": "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-emerges-from-stealth-with-800m-funding-unveils-working-chip",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "datacenterdynamics.com"
+    },
+    {
+     "id": "d-27",
+     "title": "Nagare Labs Emerges from Stealth to Break AI’s Memory Bottleneck - Semiconductor Digest",
+     "url": "https://www.semiconductor-digest.com/nagare-labs-emerges-from-stealth-to-break-ais-memory-bottleneck/",
+     "date": "2026-10-29",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "semiconductor-digest.com"
+    },
+    {
+     "id": "d-28",
+     "title": "The 10 Coolest Semiconductor Startups Of 2026 (So Far)",
+     "url": "https://www.crn.com/news/computing/2026/the-10-coolest-semiconductor-startups-of-2026-so-far",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "domain": "crn.com"
+    },
+    {
+     "id": "d-29",
+     "title": "Etched Exits Stealth Mode With $800M and Working Silicon for AI Inference – Jain.com",
+     "url": "https://www.jain.com/etched-800m-funding-working-ai-inference-chip/",
+     "date": "2026-08-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "jain.com"
+    },
+    {
+     "id": "d-30",
+     "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage | WIRED",
+     "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+     "date": "2026-09-09",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "wired.com"
+    },
+    {
+     "id": "d-31",
+     "title": "Staera Semiconductor Emerges from Stealth with US$4.6 Million to Build Light into the Chip and Break AI's Data Bottleneck",
+     "url": "https://www.prnewswire.com/news-releases/staera-semiconductor-emerges-from-stealth-with-us4-6-million-to-build-light-into-the-chip-and-break-ais-data-bottleneck-302934648.html",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-32",
+     "title": "Silicon Catalyst Announces Seven Newly Admitted Companies to Semiconductor Industry Accelerator — Silicon Catalyst",
+     "url": "https://siliconcatalyst.com/silicon-catalyst-announces-seven-newly-admitted-companies-to-semiconductor-industry-accelerator-2",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "siliconcatalyst.com"
+    },
+    {
+     "id": "d-33",
+     "title": "Semiconductors Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+     "url": "https://www.ycombinator.com/companies/industry/Semiconductors",
+     "date": "2026-10-16",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "d-34",
+     "title": "Best Semiconductors Startups in South Korea (2026) | Seedtable",
+     "url": "https://seedtable.com/best-semiconductors-startups-in-south-korea",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "seedtable.com"
+    },
+    {
+     "id": "d-35",
+     "title": "We’re Tracking AI Inferencing Start-Ups - Converge Digest",
+     "url": "https://convergedigest.com/ai-inference-semiconductor-startups-tracker",
+     "date": "2026-08-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "convergedigest.com"
+    },
+    {
+     "id": "d-36",
+     "title": "Startup Funding: Q2 2026",
+     "url": "https://semiengineering.com/startup-funding-q2-2026/",
+     "date": "2026-07-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "semiengineering.com"
+    },
+    {
+     "id": "d-37",
+     "title": "Best Semiconductors Startups in Shenzhen (2026) | Seedtable",
+     "url": "https://seedtable.com/best-semiconductors-startups-in-shenzhen",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "seedtable.com"
+    },
+    {
+     "id": "d-38",
+     "title": "AI Chip Startups and Semiconductor Startups (2026)",
+     "url": "https://www.hardwaremap.com/blog/ai-chip-startups",
+     "date": "2026-10-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "hardwaremap.com"
+    },
+    {
+     "id": "d-39",
+     "title": "AI Chip Startups 2026: Funding, Valuations and Top Companies - AI Funding Tracker",
+     "url": "https://aifundingtracker.com/ai-chip-startups/",
+     "date": "2026-10-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "aifundingtracker.com"
+    },
+    {
+     "id": "d-40",
+     "title": "Best Semiconductors Startups in Leuven (2026) | Seedtable",
+     "url": "https://seedtable.com/best-semiconductors-startups-in-leuven",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "seedtable.com"
+    },
+    {
+     "id": "d-41",
+     "title": "AI芯片创业，又开始疯狂了 - 投资界",
+     "url": "https://news.pedaily.cn/202608/568256.shtml",
+     "date": "2026-08-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "news.pedaily.cn"
+    },
+    {
+     "id": "y-1",
+     "title": "Datoric (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/datoric",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "Ashr (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/ashr",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Baud (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/baud",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "Lamb Labs (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/lamb-labs",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "TensorTest (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/tensortest",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "Lyon (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/lyon",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "Perit.AI (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/peritai",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Epsilab (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/epsilab-com",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "Ooak Data (YC Summer 2026)",
+     "url": "https://www.ycombinator.com/companies/ooak-data",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "Velum Labs (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/velum-labs",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "Visibl Semiconductors (YC Winter 2026)",
+     "url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "DeepAware AI (Robotics Center of Silicon Valley) (YC Summer 2025)",
+     "url": "https://www.ycombinator.com/companies/deepaware-ai-robotics-center-of-silicon-valley",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 81.1
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 7,
+   "of": 11,
+   "by_engine": {
+    "brave": 2,
+    "exa": 6,
+    "parallel": 5,
+    "tavily": 2
+   },
+   "reason": "",
+   "seconds": 81.1
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 1,
+    "found": 12,
+    "by_lens": {
+     "time": {
+      "found": 12,
+      "named": 1,
+      "missed": 11
+     }
+    },
+    "unverified": 0
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "Ubitium",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "universal processor for machines that perceive, think and act in the real world",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "today announced $14 million in new seed funding",
+       "url": "https://www.ubitium.com/ubitium-raises-14-million-to-build-the-first-universal-processor-for-physical-ai/",
+       "domain": "ubitium.com",
+       "title": "Ubitium Raises $14 Million to Build the First Universal Processor for Physical AI – Ubitium",
+       "date": "2026-10-13",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$14M",
+      "when": "October 2026",
+      "investors": [
+       "Ibex Investors",
+       "OpenOcean",
+       "KBC Focus Fund"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-10-13",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "Agrani Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Aims to build AI computing solutions from India",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Agrani Labs has raised $8 million in a seed funding round led by Peak XV Partners",
+       "url": "https://www.linkedin.com/posts/viestories_agranilabs-aisemiconductor-funding-activity-7422191207331782656-I5AD",
+       "domain": "linkedin.com",
+       "title": "Agrani Labs Launches as AI Semiconductor Startup with $8M Seed Funding | Viestories Media posted on the topic | LinkedIn",
+       "date": "2026-01-28",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "tavily"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$8M",
+      "when": "January 2026",
+      "investors": [
+       "Peak XV Partners"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-01-28",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Tavily"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "TYLsemi",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "develops energy-efficient AI chip technology for AI infrastructure",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "emerged from stealth with a $43 million seed round",
+       "url": "https://www.bizjournals.com/sanjose/news/2026/07/14/tylsemi-43m-seed-round-ai-chips.html",
+       "domain": "bizjournals.com",
+       "title": "San Jose chip startup TYLsemi raises $43 million in seed funding - Silicon Valley Business Journal",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://siliconangle.com/2026/07/14/custom-ai-chip-design-startup-tylsemi-launches-43m-early-stage-funding",
+       "domain": "siliconangle.com",
+       "title": "Custom AI chip design startup TYLsemi launches with $43M in early-stage funding - SiliconANGLE",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.reuters.com/business/tylsemi-raises-43-million-create-building-blocks-custom-ai-chips-2026-07-14",
+       "domain": "reuters.com",
+       "title": "TYLSemi raises $43 million to create building blocks of custom AI chips  | Reuters",
+       "date": "2026-07-14",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$43M",
+      "when": "July 2026",
+      "investors": [
+       "Matter Venture Partners",
+       "Viola Ventures",
+       "GHOVC"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 3,
+     "newest": "2026-07-14",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-4",
+     "name": "MemSilicon",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Compute-in-memory chip startup",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised more than US$55M ($59.8 million at current rates) in a Series A round",
+       "url": "https://dealroom.co/news/169395-memsilicon-raises-59-8m-series-a-names-chip-veteran-lu-tao-ceo/",
+       "domain": "dealroom.co",
+       "title": "MemSilicon raises $59.8M Series A, names chip veteran Lu Tao CEO | Dealroom News",
+       "date": "2026-11-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$59.8M",
+      "when": "November 2026",
+      "investors": [
+       "Boyuan Capital",
+       "Bosch Ventures",
+       "Chuangling Capital"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-03",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-5",
+     "name": "Mueon Corp",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "building new semiconductor systems to create cost efficiencies in AI and hyperscale computing",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has closed a $65 million Series A funding round led by Maverick Silicon",
+       "url": "https://www.citybiz.co/article/919860/mueon-raises-65m-series-a-to-optimize-semiconductors-for-ai/",
+       "domain": "citybiz.co",
+       "title": "Mueon Raises $65M Series A to Optimize Semiconductors for AI | citybiz",
+       "date": "2026-10-16",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$65M",
+      "when": "October 2026",
+      "investors": [
+       "Maverick Silicon"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-10-16",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Brave"
+     ]
+    },
+    {
+     "id": "t-6",
+     "name": "Volantis",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "building a new category of AI inference system",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "today announced an $88 million Series A co-led by Lachy Groom and Abstract Ventures",
+       "url": "https://www.hpcwire.com/off-the-wire/volantis-raises-88m-series-a-to-advance-photonic-memory-architecture/",
+       "domain": "hpcwire.com",
+       "title": "HPCwire - Since 1987 – Covering the Fastest Computers in the World and the People Who Run Them",
+       "date": "2026-10-01",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "today announced an $88 million Series A co-led by Lachy Groom and Abstract Ventures",
+       "url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html",
+       "domain": "prnewswire.com",
+       "title": "Volantis Raises $88M Series A to Demolish the AI Memory Wall With Photonics",
+       "date": "2026-10-01",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$88M",
+      "when": "October 2026",
+      "investors": [
+       "Lachy Groom",
+       "Abstract Ventures",
+       "John Doerr"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-10-01",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-7",
+     "name": "Velaura AI",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI compute infrastructure company developing ultra-low-power silicon and software technologies",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "today announced that it has raised $110 million in Series A financing",
+       "url": "https://velaura.ai/velaura-ai-raises-110-million-series-a-to-advance-the-next-generation-of-ultra-low-power-ai-compute-infrastructure/",
+       "domain": "velaura.ai",
+       "title": "Velaura AI Raises $110 Million Series A to Advance the Next Generation of Ultra-Low-Power AI Compute Infrastructure - Velaura",
+       "date": "2026-08-18",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$110M",
+      "when": "August 2026",
+      "investors": [],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-08-18",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-8",
+     "name": "PowerLattice",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "building chips that cut the power demands of AI processors",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "has raised $86 million, according to an SEC filing on October 30",
+       "url": "https://dealroom.co/news/168493-powerlattice-raises-86m-to-break-ais-power-wall",
+       "domain": "dealroom.co",
+       "title": "PowerLattice raises $86M to break AI's power wall | Dealroom News",
+       "date": "2026-10-30",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$86M",
+      "when": "October 2026",
+      "investors": [],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-10-30",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Parallel"
+     ]
+    },
+    {
+     "id": "t-9",
+     "name": "Etched",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "building chips specialized for AI inference",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://www.linkedin.com/posts/etched-ai_were-coming-out-of-stealth-weve-built-activity-7477738203290988544-XF06",
+       "domain": "linkedin.com",
+       "title": "AI Chip Startup Emerges from Stealth with Breakthroughs in LVI and CSM | Etched posted on the topic | LinkedIn",
+       "date": "2026-06-30",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Inference chip startup Etched has launched from stealth with $800 million in funding.",
+       "url": "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-emerges-from-stealth-with-800m-funding-unveils-working-chip",
+       "domain": "datacenterdynamics.com",
+       "title": "Inference chip startup Etched emerges from stealth with $800m funding, unveils working chip - DCD",
+       "date": "2026-11-12",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.jain.com/etched-800m-funding-working-ai-inference-chip/",
+       "domain": "jain.com",
+       "title": "Etched Exits Stealth Mode With $800M and Working Silicon for AI Inference – Jain.com",
+       "date": "2026-08-23",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "tavily",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Series B",
+      "amount": "$800M",
+      "when": "June 2026",
+      "investors": [
+       "Jane Street",
+       "Stripes",
+       "Hudson River Trading"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 1,
+      "memory_samples": 8,
+      "memory_name": "Etched",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 3,
+     "newest": "2026-11-12",
+     "counted": true,
+     "why_missed": []
+    },
+    {
+     "id": "t-10",
+     "name": "Staera Semiconductor",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "builds LED optical links inside silicon chips for AI systems",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Staera Semiconductor (Staera) today emerged from stealth with a technology that builds optical data links",
+       "url": "https://www.staera.ai/blog/staera-emerges-from-stealth",
+       "domain": "staera.ai",
+       "title": "Staera Semiconductor emerges from stealth",
+       "date": "2026-11-10",
+       "source_type": "own_site",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Staera Semiconductor (Staera) today emerged from stealth with a technology that builds optical data links",
+       "url": "https://www.prnewswire.com/news-releases/staera-semiconductor-emerges-from-stealth-with-us4-6-million-to-build-light-into-the-chip-and-break-ais-data-bottleneck-302934648.html",
+       "domain": "prnewswire.com",
+       "title": "Staera Semiconductor Emerges from Stealth with US$4.6 Million to Build Light into the Chip and Break AI's Data Bottleneck",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-10",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-11",
+     "name": "Nagare Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "new memory technology designed to overcome hardware bottleneck in AI innovation",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Nagare Labs emerged from stealth with $5M led by Playground Global",
+       "url": "https://www.semiconductor-digest.com/nagare-labs-emerges-from-stealth-to-break-ais-memory-bottleneck/",
+       "domain": "semiconductor-digest.com",
+       "title": "Nagare Labs Emerges from Stealth to Break AI’s Memory Bottleneck - Semiconductor Digest",
+       "date": "2026-10-29",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "$5M",
+      "when": "October 2026",
+      "investors": [
+       "Playground Global"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-10-29",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-12",
+     "name": "Baud",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "AI chips for ultra-fast training and inference",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://www.ycombinator.com/companies/baud",
+       "domain": "ycombinator.com",
+       "title": "Baud (YC Summer 2026)",
+       "date": "",
+       "source_type": "directory",
+       "engine": [],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "YC directory"
+     ],
+     "engines": [],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "Summer 2026",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Only in YC's directory, not in any news search"
+     ]
+    }
+   ],
+   "missed": [
+    "t-3",
+    "t-6",
+    "t-10",
+    "t-4",
+    "t-8",
+    "t-11",
+    "t-5",
+    "t-2",
+    "t-1",
+    "t-7",
+    "t-12"
+   ],
+   "known_in_west": [],
+   "china_rule": "A thing from Chinese platforms is counted only with 2 or more posts there and the status \"No Western posts found (top results)\" or \"Few Western posts\".",
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "failed: KeyError: 'xcom'"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 81.1
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku (local CLI)"
+   ],
+   "errors": [
+    "china lens: KeyError: 'xcom'"
+   ],
+   "notes": [],
+   "seconds": 81.1
+  }
+ ]
+}

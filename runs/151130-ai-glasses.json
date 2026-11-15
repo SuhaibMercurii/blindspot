@@ -1,0 +1,4364 @@
+{
+ "question": "AI glasses",
+ "need": "",
+ "saved": "2026-11-14 15:11",
+ "events": [
+  {
+   "stage": "plan",
+   "question": "AI glasses",
+   "specific": "",
+   "category": "AI smart glasses",
+   "area": "AI smart glasses",
+   "need": "A company that makes or supplies AI-powered smart glasses with cameras, voice assistants, or augmented reality displays.",
+   "keywords": [
+    "smart glasses",
+    "ar glasses",
+    "wearable ai",
+    "ai eyewear",
+    "camera glasses",
+    "voice assistant eyewear",
+    "heads-up display",
+    "micro display",
+    "optical waveguide",
+    "smart eyewear",
+    "wearable computing",
+    "multimodal ai glasses"
+   ],
+   "zh_queries": [
+    "AI眼镜",
+    "智能眼镜 推荐",
+    "AR眼镜 哪个好"
+   ],
+   "seconds": 9.0
+  },
+  {
+   "stage": "memory",
+   "question": "AI glasses",
+   "specific": "",
+   "category": "AI smart glasses",
+   "need": "A company that makes or supplies AI-powered smart glasses with cameras, voice assistants, or augmented reality displays.",
+   "companies": [
+    {
+     "name": "Meta Platforms",
+     "does": "Develops camera-equipped smart eyewear with built-in AI assistant, made with eyewear partners.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": [
+      "Meta"
+     ]
+    },
+    {
+     "name": "Snap",
+     "does": "Builds camera glasses with augmented reality displays and social sharing tools.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": [
+      "Snap Inc."
+     ]
+    },
+    {
+     "name": "Rokid",
+     "does": "Develops AI glasses with built-in cameras, displays, and voice interaction for consumers.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Even Realities",
+     "does": "Makes lightweight everyday smart glasses with discreet heads-up notifications and translation.",
+     "count": 8,
+     "by_model": {
+      "claude-haiku-5-5": 8
+     },
+     "variants": []
+    },
+    {
+     "name": "Vuzix",
+     "does": "Designs smart glasses and waveguide optics for enterprise and consumer wearable displays.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku-5-5": 7
+     },
+     "variants": [
+      "Vuzix Corporation"
+     ]
+    },
+    {
+     "name": "Brilliant Labs",
+     "does": "Creates open-source AI glasses with programmable displays and multimodal assistant features.",
+     "count": 7,
+     "by_model": {
+      "claude-haiku-5-5": 7
+     },
+     "variants": []
+    },
+    {
+     "name": "XREAL",
+     "does": "Augmented reality company making display glasses for mobile and computing use cases.",
+     "count": 6,
+     "by_model": {
+      "claude-haiku-5-5": 6
+     },
+     "variants": [
+      "Xreal"
+     ]
+    },
+    {
+     "name": "Google",
+     "does": "Develops Android XR platform for AI-powered glasses with display and camera partners.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku-5-5": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Xiaomi",
+     "does": "Consumer electronics maker offering smartphones, wearables, and AI-enabled smart glasses in China and globally.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku-5-5": 4
+     },
+     "variants": []
+    },
+    {
+     "name": "Solos",
+     "does": "Company making sport-focused AI glasses with built-in speakers, cameras, and coaching features.",
+     "count": 4,
+     "by_model": {
+      "claude-haiku-5-5": 4
+     },
+     "variants": [
+      "Solos Technology"
+     ]
+    }
+   ],
+   "hivemind": {
+    "samples": 8,
+    "asked": 8,
+    "temperature": 1.0,
+    "phrasings": [
+     "…",
+     "Which companies would you recommend for this? …",
+     "I'm an investor mapping this market. Which companies lead here? …",
+     "I'm a CTO choosing a vendor. What are the top companies for this? …",
+     "What are the most innovative companies working on this? …",
+     "List the best options available right now for this: …",
+     "Which startups and established companies stand out here? …",
+     "Who should I talk to first if I need this? …"
+    ],
+    "models": [
+     "claude-haiku-5-5 x8"
+    ],
+    "per_model": [
+     {
+      "model": "claude-haiku-5-5",
+      "samples": 8,
+      "distinct": 18,
+      "top": [
+       {
+        "name": "Meta Platforms",
+        "count": 8
+       },
+       {
+        "name": "Snap",
+        "count": 8
+       },
+       {
+        "name": "Rokid",
+        "count": 8
+       },
+       {
+        "name": "Even Realities",
+        "count": 8
+       },
+       {
+        "name": "Vuzix",
+        "count": 7
+       }
+      ]
+     }
+    ],
+    "distinct": 18,
+    "top5_share": 49,
+    "others": [
+     {
+      "name": "EssilorLuxottica",
+      "count": 4
+     },
+     {
+      "name": "Alphabet",
+      "count": 3
+     },
+     {
+      "name": "Alibaba",
+      "count": 3
+     },
+     {
+      "name": "Halliday",
+      "count": 2
+     },
+     {
+      "name": "Apple",
+      "count": 1
+     },
+     {
+      "name": "RealWear",
+      "count": 1
+     },
+     {
+      "name": "TCL Electronics",
+      "count": 1
+     },
+     {
+      "name": "Warby Parker",
+      "count": 1
+     }
+    ]
+   },
+   "seconds": 9.0
+  },
+  {
+   "stage": "time",
+   "queries": [
+    "AI smart glasses startup raises seed round",
+    "AI smart glasses startup raises Series A",
+    "AI smart glasses startup comes out of stealth",
+    "new AI smart glasses startups 2026"
+   ],
+   "searched_with": "Telem (Exa, Brave, Tavily, Parallel)",
+   "companies": [
+    {
+     "id": "t-1",
+     "name": "Qingmu Digital",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes lightweight AI office glasses with binocular displays, microphone array and dual speakers",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "",
+     "when": "",
+     "investors": [
+      "Nanjing Shike"
+     ],
+     "evidence": "Qingmu Digital, a Shenzhen smart glasses startup founded in November 2025, has closed a seed round from Nanjing Shike",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Qingmu Digital, a Shenzhen smart glasses startup founded in November 2025, has closed a seed round from Nanjing Shike",
+       "url": "https://robotbelt.com/a-31-7-gram-pair-of-glasses-is-a-hardware-argument-about-ai-28/",
+       "domain": "robotbelt.com",
+       "title": "A 31.7-Gram Pair of Glasses Is a Hardware Argument About AI",
+       "date": "2026-11-12",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-1"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-2",
+     "name": "Mira",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops AI-powered smart glasses acting as a second brain for users",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$6.6M",
+     "when": "November 2025",
+     "investors": [
+      "General Catalyst"
+     ],
+     "evidence": "Mira, formerly known as Halo, has raised a $6.6 million seed round led by General Catalyst",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Mira, formerly known as Halo, has raised a $6.6 million seed round led by General Catalyst",
+       "url": "https://pulse2.com/mira-6-6-million-seed-funding/",
+       "domain": "pulse2.com",
+       "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+       "date": "2025-11-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.generalcatalyst.com/stories/seeding-the-future-with-mira",
+       "domain": "generalcatalyst.com",
+       "title": "Seeding the Future with Mira",
+       "date": "2025-11-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Mira, formerly known as Halo, has raised a $6.6 million seed round led by General Catalyst",
+       "url": "https://pulse2.com/mira-6-6-million-seed-funding",
+       "domain": "pulse2.com",
+       "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "brave",
+      "exa",
+      "tavily"
+     ],
+     "sources": [
+      "d-2",
+      "d-6",
+      "d-12"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-3",
+     "name": "Phosio",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops thin-film optics platform for AR/AI glasses displays",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$4M",
+     "when": "June 2026",
+     "investors": [
+      "MESH VC",
+      "Sierra Ventures",
+      "TEL Venture Capital"
+     ],
+     "evidence": "Phosio has closed a $4M seed financing round to accelerate commercialization of our thin-film platform for next-generation AR/AI glasses",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Phosio has closed a $4M seed financing round to accelerate commercialization of our thin-film platform for next-generation AR/AI glasses",
+       "url": "https://www.phosio.com/news/haadtx89lpmpj3sy2vf3ho8hx5zg9k-3gprp-y3z2s",
+       "domain": "phosio.com",
+       "title": "Phosio Raises $4 Million Seed Round to Bring Affordable AR/AI Glasses to Mass Market — Phosio Corporation",
+       "date": "2026-06-03",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "sources": [
+      "d-3"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-4",
+     "name": "Moonix",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI-powered smart glasses positioned at intersection of technology and fashion",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "",
+     "when": "July 2026",
+     "investors": [],
+     "evidence": "Moonix, a Chinese AI wearables startup, has closed a seed round worth tens of millions of yuan",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Moonix, a Chinese AI wearables startup, has closed a seed round worth tens of millions of yuan",
+       "url": "https://app.dealroom.co/news/note/china-s-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+       "domain": "app.dealroom.co",
+       "title": "Dealroom.co | China's Moonix raises tens of millions in seed round for AI glasses",
+       "date": "2026-07-22",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://dealroom.co/news/140142-chinas-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+       "domain": "dealroom.co",
+       "title": "China's Moonix raises tens of millions in seed round for AI glasses | Dealroom News",
+       "date": "2026-07-21",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "sources": [
+      "d-4",
+      "d-8"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-5",
+     "name": "Chenbo Vision",
+     "aliases": [],
+     "kind": "company",
+     "does": "Designs and builds AI-powered smart glasses",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "",
+     "when": "October 2026",
+     "investors": [
+      "youbo capital"
+     ],
+     "evidence": "Chenbo Vision, a developer of AI smart glasses, has raised a Series A round, the company said",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Chenbo Vision, a developer of AI smart glasses, has raised a Series A round, the company said",
+       "url": "https://dealroom.co/news/162850-ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital/",
+       "domain": "dealroom.co",
+       "title": "AI smart glasses maker Chenbo Vision lands Series A led by youbo capital | Dealroom News",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Chenbo Vision, a developer of AI smart glasses, has raised a Series A round, the company said",
+       "url": "https://app.dealroom.co/news/note/ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital",
+       "domain": "app.dealroom.co",
+       "title": "Dealroom.co | AI smart glasses maker Chenbo Vision lands Series A led by youbo capital",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "sources": [
+      "d-9",
+      "d-11"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-6",
+     "name": "Rivet",
+     "aliases": [],
+     "kind": "company",
+     "does": "Smart glasses letting soldiers command AI agents on the battlefield",
+     "lens": "time",
+     "round": "Series A",
+     "amount": "$55M",
+     "when": "October 2026",
+     "investors": [],
+     "evidence": "Rivet has raised $55 million in Series A financing and delivered its first 70 prototypes to the Army",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Rivet has raised $55 million in Series A financing and delivered its first 70 prototypes to the Army",
+       "url": "https://www.armytimes.com/industry/techwatch/2026/10/13/startup-wants-us-soldiers-to-command-ai-agents-through-its-smart-glasses/",
+       "domain": "armytimes.com",
+       "title": "Startup wants US soldiers to command AI agents through its smart glasses",
+       "date": "2026-10-13",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "sources": [
+      "d-13"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-7",
+     "name": "Legato",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI hearing glasses with hearing-assistance technology built into the frame temples",
+     "lens": "time",
+     "round": "Seed",
+     "amount": "$12M",
+     "when": "August 2026",
+     "investors": [
+      "Neotribe Ventures",
+      "Listen",
+      "Village Global"
+     ],
+     "evidence": "officially emerged from stealth last week with $12 million in funding from venture capital firms Neotribe Ventures",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+       "domain": "techcrunch.com",
+       "title": "Hearing tech startup Legato emerges from stealth with $12 ...",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "brave",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://startupfortune.com/legato-emerges-from-stealth-with-12m-to-put-ai-hearing-aids-into-glasses",
+       "domain": "startupfortune.com",
+       "title": "Legato Emerges From Stealth With $12M to Put AI Hearing Aids Into Glasses - Startup Fortune",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "officially emerged from stealth last week with $12 million in funding from venture capital firms Neotribe Ventures",
+       "url": "https://www.visionmonday.com/scene-and-heard/discover/article/emerging-from-stealth-legato-debuts-ai-powered-hearing-glasses-1/",
+       "domain": "visionmonday.com",
+       "title": "VM - Emerging From Stealth, Legato Debuts AI-Powered Hearing Glasses",
+       "date": "2026-09-02",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://glance.eyesoneyecare.com/stories/2026-09-17/legato-startup-debuts-with-ai-powered-hearing-glasses/",
+       "domain": "glance.eyesoneyecare.com",
+       "title": "Legato startup debuts with AI-powered hearing glasses",
+       "date": "2026-09-17",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://hearinghealthmatters.org/hearing-technologies/2026/eyeglass-hearing-aids-tech-adoption-aynak",
+       "domain": "hearinghealthmatters.org",
+       "title": "Could AI Hearing Glasses Reach People Who Avoid Hearing Aids? | Hearing Health & Technology Matters",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://newmarketpitch.com/blogs/news/smart-glasses-funding-analysis",
+       "domain": "newmarketpitch.com",
+       "title": "\n      Smart Glasses: what’s funding like now?\n – New Market Pitch",
+       "date": "2026-10-27",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "brave",
+      "parallel",
+      "tavily"
+     ],
+     "sources": [
+      "d-15",
+      "d-19",
+      "d-20",
+      "d-21",
+      "d-22",
+      "d-32"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-8",
+     "name": "Awear",
+     "aliases": [],
+     "kind": "company",
+     "does": "Personal AI platform starting with smart glasses giving users control over AI agents",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "September 2026",
+     "investors": [],
+     "evidence": "Awear emerged from stealth today at Qualcomm's Snapdragon Summit",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Awear emerged from stealth today at Qualcomm's Snapdragon Summit",
+       "url": "https://www.prnewswire.com/news-releases/emerging-from-stealth-awear-introduces-a-new-platform-for-personal-ai-302888183.html",
+       "domain": "prnewswire.com",
+       "title": "Emerging from Stealth, Awear Introduces a New Platform for Personal AI",
+       "date": "2026-09-23",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "sources": [
+      "d-16"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-9",
+     "name": "Vonderful",
+     "aliases": [],
+     "kind": "company",
+     "does": "Developing first AI glasses, a stealth project of AR startup Viture",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2025",
+     "investors": [],
+     "evidence": "Vonder appears to be a stealth project of Viture, an AR startup that has been building glasses since 2021",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Vonder appears to be a stealth project of Viture, an AR startup that has been building glasses since 2021",
+       "url": "https://www.theverge.com/column/824994/ar-viture-ai-glasses",
+       "domain": "theverge.com",
+       "title": "AR startup Viture is stealthily working on new AI glasses | The Verge",
+       "date": "2025-11-20",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Vonder appears to be a stealth project of Viture, an AR startup that has been building glasses since 2021",
+       "url": "https://www.lowpass.cc/p/viture-vonder-ai-glasses-ar",
+       "domain": "lowpass.cc",
+       "title": "Scoop: Here comes another Ray-Ban competitor",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "sources": [
+      "d-17",
+      "d-18"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-10",
+     "name": "Gyges Labs",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI wearable glasses with invisible retinal display technology",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [
+      "Granite Asia",
+      "璀璨资本"
+     ],
+     "evidence": "AI可穿戴科技公司「Gyges Labs」近日宣布完成新一轮融资",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "AI可穿戴科技公司「Gyges Labs」近日宣布完成新一轮融资",
+       "url": "https://36kr.com/p/3559315009092485",
+       "domain": "36kr.com",
+       "title": "全球首款可全天候佩戴的隐形显示AI眼镜，Gyges Labs完成新一轮融资|硬氪首发-36氪",
+       "date": "2026-11-07",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "sources": [
+      "d-23"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-11",
+     "name": "AROTI",
+     "aliases": [],
+     "kind": "company",
+     "does": "Camera-free AI and AR glasses with translation and walking directions display",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [],
+     "evidence": "AROTI today introduced R1, AI + AR glasses weighing less than 27 grams",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "AROTI today introduced R1, AI + AR glasses weighing less than 27 grams",
+       "url": "https://www.globenewswire.com/news-release/2026/11/10/3399804/0/en/aroti-introduces-27-gram-r1-ai-ar-glasses-ahead-of-november-16-kickstarter-launch.html",
+       "domain": "globenewswire.com",
+       "title": "AROTI Introduces 27-Gram R1 AI+AR Glasses Ahead of November",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-27"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    },
+    {
+     "id": "t-12",
+     "name": "Oculosense",
+     "aliases": [],
+     "kind": "company",
+     "does": "Drishti Vision Live AI glasses describing the world in real time for visually impaired users",
+     "lens": "time",
+     "round": "",
+     "amount": "",
+     "when": "November 2026",
+     "investors": [],
+     "evidence": "Oculosense Private Limited, a DPIIT-recognised deep-tech startup, today announced Drishti Vision Live, AI smart glasses",
+     "evidence_ok": true,
+     "evidence_list": [
+      {
+       "quote": "Oculosense Private Limited, a DPIIT-recognised deep-tech startup, today announced Drishti Vision Live, AI smart glasses",
+       "url": "https://www.gradientebusiness.com/news/indias-first-open-sdk-live-ai-glasses-oculosense-launches-drishti-vision-live-for-visually-impaired-and-industry",
+       "domain": "gradientebusiness.com",
+       "title": "India's First Open-SDK Live AI Glasses: Oculosense Launches Drishti Vision Live for Visually Impaired and Industry",
+       "date": "2026-11-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "yc_batch": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "sources": [
+      "d-30"
+     ],
+     "name_verified": true,
+     "memory_count": 0
+    }
+   ],
+   "plain_label": "Plain \"new startups\" search",
+   "plain_found": 4,
+   "already_known": [],
+   "not_in_source": 0,
+   "off_topic_results": 1,
+   "sources": [
+    {
+     "id": "d-1",
+     "title": "A 31.7-Gram Pair of Glasses Is a Hardware Argument About AI",
+     "url": "https://robotbelt.com/a-31-7-gram-pair-of-glasses-is-a-hardware-argument-about-ai-28/",
+     "date": "2026-11-12",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news",
+      "Plain \"new startups\" search"
+     ],
+     "domain": "robotbelt.com"
+    },
+    {
+     "id": "d-2",
+     "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+     "url": "https://pulse2.com/mira-6-6-million-seed-funding/",
+     "date": "2025-11-25",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "pulse2.com"
+    },
+    {
+     "id": "d-3",
+     "title": "Phosio Raises $4 Million Seed Round to Bring Affordable AR/AI Glasses to Mass Market — Phosio Corporation",
+     "url": "https://www.phosio.com/news/haadtx89lpmpj3sy2vf3ho8hx5zg9k-3gprp-y3z2s",
+     "date": "2026-06-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "phosio.com"
+    },
+    {
+     "id": "d-4",
+     "title": "Dealroom.co | China's Moonix raises tens of millions in seed round for AI glasses",
+     "url": "https://app.dealroom.co/news/note/china-s-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+     "date": "2026-07-22",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "app.dealroom.co"
+    },
+    {
+     "id": "d-5",
+     "title": "Ex-ByteDance exec bets cameras beat chatbots in $3M AI ...",
+     "url": "https://www.techinasia.com/exbytedance-exec-bets-cameras-beat-chatbots-3m-ai-play",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "techinasia.com"
+    },
+    {
+     "id": "d-6",
+     "title": "Seeding the Future with Mira",
+     "url": "https://www.generalcatalyst.com/stories/seeding-the-future-with-mira",
+     "date": "2025-11-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "generalcatalyst.com"
+    },
+    {
+     "id": "d-7",
+     "title": "AlphaLum Raises CHF 3.4 Million Seed Round To Scale AR Optics For Smart Glasses",
+     "url": "https://pulse2.com/alphalum-raises-chf-3-4-million-seed-round-to-scale-ar-optics-for-smart-glasses/",
+     "date": "2026-01-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "pulse2.com"
+    },
+    {
+     "id": "d-8",
+     "title": "China's Moonix raises tens of millions in seed round for AI glasses | Dealroom News",
+     "url": "https://dealroom.co/news/140142-chinas-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+     "date": "2026-07-21",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Seed round news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-9",
+     "title": "AI smart glasses maker Chenbo Vision lands Series A led by youbo capital | Dealroom News",
+     "url": "https://dealroom.co/news/162850-ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital/",
+     "date": "2026-10-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "dealroom.co"
+    },
+    {
+     "id": "d-10",
+     "title": "AI smart glasses: which startup is ahead? – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/smart-glasses-who-is-ahead",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news",
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-11",
+     "title": "Dealroom.co | AI smart glasses maker Chenbo Vision lands Series A led by youbo capital",
+     "url": "https://app.dealroom.co/news/note/ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital",
+     "date": "2026-10-15",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "app.dealroom.co"
+    },
+    {
+     "id": "d-12",
+     "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+     "url": "https://pulse2.com/mira-6-6-million-seed-funding",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "pulse2.com"
+    },
+    {
+     "id": "d-13",
+     "title": "Startup wants US soldiers to command AI agents through its smart glasses",
+     "url": "https://www.armytimes.com/industry/techwatch/2026/10/13/startup-wants-us-soldiers-to-command-ai-agents-through-its-smart-glasses/",
+     "date": "2026-10-13",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "armytimes.com"
+    },
+    {
+     "id": "d-14",
+     "title": "Morphotonics Raises €40m for AI Smart Glasses Tech | Seb Johnson 📊🇪🇺 posted on the topic | LinkedIn",
+     "url": "https://www.linkedin.com/posts/seb-johnson_yesterday-morphotonics-announced-their-40m-activity-7508442199479590912-TdQ6",
+     "date": "2026-09-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Series A news"
+     ],
+     "domain": "linkedin.com"
+    },
+    {
+     "id": "d-15",
+     "title": "Hearing tech startup Legato emerges from stealth with $12 ...",
+     "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+     "date": "2026-08-26",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Brave + Parallel through Telem",
+     "engines": [
+      "exa",
+      "brave",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-16",
+     "title": "Emerging from Stealth, Awear Introduces a New Platform for Personal AI",
+     "url": "https://www.prnewswire.com/news-releases/emerging-from-stealth-awear-introduces-a-new-platform-for-personal-ai-302888183.html",
+     "date": "2026-09-23",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa + Parallel through Telem",
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "prnewswire.com"
+    },
+    {
+     "id": "d-17",
+     "title": "AR startup Viture is stealthily working on new AI glasses | The Verge",
+     "url": "https://www.theverge.com/column/824994/ar-viture-ai-glasses",
+     "date": "2025-11-20",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "theverge.com"
+    },
+    {
+     "id": "d-18",
+     "title": "Scoop: Here comes another Ray-Ban competitor",
+     "url": "https://www.lowpass.cc/p/viture-vonder-ai-glasses-ar",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "lowpass.cc"
+    },
+    {
+     "id": "d-19",
+     "title": "Legato Emerges From Stealth With $12M to Put AI Hearing Aids Into Glasses - Startup Fortune",
+     "url": "https://startupfortune.com/legato-emerges-from-stealth-with-12m-to-put-ai-hearing-aids-into-glasses",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "startupfortune.com"
+    },
+    {
+     "id": "d-20",
+     "title": "VM - Emerging From Stealth, Legato Debuts AI-Powered Hearing Glasses",
+     "url": "https://www.visionmonday.com/scene-and-heard/discover/article/emerging-from-stealth-legato-debuts-ai-powered-hearing-glasses-1/",
+     "date": "2026-09-02",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "visionmonday.com"
+    },
+    {
+     "id": "d-21",
+     "title": "Legato startup debuts with AI-powered hearing glasses",
+     "url": "https://glance.eyesoneyecare.com/stories/2026-09-17/legato-startup-debuts-with-ai-powered-hearing-glasses/",
+     "date": "2026-09-17",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "glance.eyesoneyecare.com"
+    },
+    {
+     "id": "d-22",
+     "title": "Could AI Hearing Glasses Reach People Who Avoid Hearing Aids? | Hearing Health & Technology Matters",
+     "url": "https://hearinghealthmatters.org/hearing-technologies/2026/eyeglass-hearing-aids-tech-adoption-aynak",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "hearinghealthmatters.org"
+    },
+    {
+     "id": "d-23",
+     "title": "全球首款可全天候佩戴的隐形显示AI眼镜，Gyges Labs完成新一轮融资|硬氪首发-36氪",
+     "url": "https://36kr.com/p/3559315009092485",
+     "date": "2026-11-07",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "domain": "36kr.com"
+    },
+    {
+     "id": "d-24",
+     "title": "AI Smart Glasses Are Having a Real Moment in 2026",
+     "url": "https://www.managexr.com/blog/ai-smart-glasses-are-having-a-real-moment-in-2026",
+     "date": "2026-07-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave + Tavily through Telem",
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "managexr.com"
+    },
+    {
+     "id": "d-25",
+     "title": "AI smart glasses: which startup is ahead? – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/xr-ai-smart-glasses-startup",
+     "date": "2026-07-31",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-26",
+     "title": "\n      What are the top smart glasses startups by revenue today?\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/smart-glasses-top-revenue",
+     "date": "2026-11-04",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "d-27",
+     "title": "AROTI Introduces 27-Gram R1 AI+AR Glasses Ahead of November",
+     "url": "https://www.globenewswire.com/news-release/2026/11/10/3399804/0/en/aroti-introduces-27-gram-r1-ai-ar-glasses-ahead-of-november-16-kickstarter-launch.html",
+     "date": "2026-11-10",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "globenewswire.com"
+    },
+    {
+     "id": "d-28",
+     "title": "r/SmartGlasses on Reddit: Upcoming AR+AI smart glasses in 2026",
+     "url": "https://www.reddit.com/r/SmartGlasses/comments/1pxrb2f/upcoming_arai_smart_glasses_in_2026/",
+     "date": "2025-12-28",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "reddit.com"
+    },
+    {
+     "id": "d-29",
+     "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses | TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+     "date": "2026-09-24",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "techcrunch.com"
+    },
+    {
+     "id": "d-30",
+     "title": "India's First Open-SDK Live AI Glasses: Oculosense Launches Drishti Vision Live for Visually Impaired and Industry",
+     "url": "https://www.gradientebusiness.com/news/indias-first-open-sdk-live-ai-glasses-oculosense-launches-drishti-vision-live-for-visually-impaired-and-industry",
+     "date": "2026-11-03",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "gradientebusiness.com"
+    },
+    {
+     "id": "d-31",
+     "title": "Best Smart Glasses Companies (2026) | Treeview",
+     "url": "https://treeview.studio/blog/best-smart-glasses-companies",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "treeview.studio"
+    },
+    {
+     "id": "d-32",
+     "title": "\n      Smart Glasses: what’s funding like now?\n – New Market Pitch",
+     "url": "https://newmarketpitch.com/blogs/news/smart-glasses-funding-analysis",
+     "date": "2026-10-27",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Parallel through Telem",
+     "engines": [
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "domain": "newmarketpitch.com"
+    },
+    {
+     "id": "y-1",
+     "title": "Mentra (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/mentra",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-2",
+     "title": "antimattr (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/antimattr",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-3",
+     "title": "Rezora IO (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/rezora-io",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-4",
+     "title": "Lunavo (YC Fall 2025)",
+     "url": "https://www.ycombinator.com/companies/lunavo",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-5",
+     "title": "Edexia (YC Winter 2025)",
+     "url": "https://www.ycombinator.com/companies/edexia",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-6",
+     "title": "The Subvocal Company (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/the-subvocal-company",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-7",
+     "title": "GBrain (YC Spring 2026)",
+     "url": "https://www.ycombinator.com/companies/gbrain",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-8",
+     "title": "Tornyol (YC Fall 2025)",
+     "url": "https://www.ycombinator.com/companies/tornyol",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-9",
+     "title": "VoiceOS (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/voiceos",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-10",
+     "title": "Alkali (YC Spring 2025)",
+     "url": "https://www.ycombinator.com/companies/alkali",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-11",
+     "title": "Audora (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/audora",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    },
+    {
+     "id": "y-12",
+     "title": "Hopper (YC Fall 2026)",
+     "url": "https://www.ycombinator.com/companies/hopper",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "YC directory",
+     "engines": [],
+     "vendor": "",
+     "stale": "",
+     "paid": "",
+     "paid_kind": "",
+     "opened": "",
+     "opened_by": "",
+     "open_error": "",
+     "found_by": [
+      "YC directory"
+     ],
+     "domain": "ycombinator.com"
+    }
+   ],
+   "seconds": 19.4
+  },
+  {
+   "stage": "money",
+   "query": "best AI smart glasses",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Xgimi",
+     "does": "Makes waveguide smart glasses with strong navigation and battery life.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Meta",
+     "does": "Makes camera glasses with an AI assistant, plus a model with a display.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-6",
+      "n-7",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Google",
+     "does": "Develops Android XR AI glasses with real-time Gemini translation and assistant features.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Even Realities",
+     "does": "Makes camera-free monochrome waveguide display glasses with optional smart ring controls.",
+     "sources": [
+      "n-3",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "Viture",
+     "does": "Makes wearable monitor glasses with micro OLED panels and large virtual screens.",
+     "sources": [
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "XREAL",
+     "does": "Makes tethered AR display glasses that provide large virtual screens.",
+     "sources": [
+      "n-3",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "RayNeo",
+     "does": "Makes budget display glasses with HDR10 video viewing.",
+     "sources": [
+      "n-3",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Solos",
+     "does": "Makes modular camera AI glasses supporting several chatbot assistants.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "Dymesty",
+     "does": "Makes audio-first AI glasses using ChatGPT, with no camera or display.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Snap",
+     "does": "Makes standalone see-through AR glasses that need no phone or puck.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 5,
+   "memory_overlap": [
+    "Even Realities",
+    "Google",
+    "Meta Platforms",
+    "Snap",
+    "Solos",
+    "XREAL"
+   ],
+   "echo": {
+    "repeated": 6,
+    "total": 10
+   },
+   "stake": {
+    "vendor": 1,
+    "paid": 3,
+    "stale": 0,
+    "flagged": 4,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "The Best Smart Glasses We've Tested for 2026 | PCMag",
+     "url": "https://www.pcmag.com/picks/the-best-smart-glasses",
+     "date": "2026-09-29",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave + Tavily + Parallel through Telem",
+     "engines": [
+      "brave",
+      "tavily",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "If you buy through affiliate links, we may earn commissions, which help support our",
+     "paid_kind": "wording",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "pcmag.com",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "Best smart glasses 2026 | Android Central",
+     "url": "https://www.androidcentral.com/best-smart-glasses",
+     "date": "2021-12-16",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Tavily + Parallel through Telem",
+     "engines": [
+      "tavily",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "androidcentral.com",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "10 Smart Glasses That Actually Earn Their Price Tag in 2026",
+     "url": "https://the-gadgeteer.com/2026/06/13/smart-glasses-worth-buying-2026/",
+     "date": "2026-06-13",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "https://www.amazon.com/dp/B0GYYGKFZS?tag=r3media07-20",
+     "paid_kind": "link",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "the-gadgeteer.com",
+     "flagged": true
+    },
+    {
+     "id": "n-4",
+     "title": "Best smart glasses and XR specs: Our recommendations",
+     "url": "https://www.wareable.com/ar/the-best-smartglasses-google-glass-and-the-rest",
+     "date": "2025-09-24",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Parallel through Telem",
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "We may earn affiliate commissions for the recommended products.",
+     "paid_kind": "wording",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "wareable.com",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "Best AI Smart Glasses of 2026: Top Wearable Tech Worth Considering",
+     "url": "https://www.techtimes.com/articles/330550/20261113/best-ai-smart-glasses-2026-top-wearable-tech-worth-considering.htm",
+     "date": "2026-11-13",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "techtimes.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "I tried Google’s AI glasses and Meta’s finally got real competition | The Verge",
+     "url": "https://www.theverge.com/tech/1031647/google-android-xr-warby-parker-gentle-monster-hands-on",
+     "date": "2026-11-12",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "theverge.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Best AI Glasses in 2026: Ultimate Smart Glasses Buying Guide\n – Dymesty AI Glasses",
+     "url": "https://dymesty.com/blogs/articles/best-ai-glasses-of-2026-smarter-than-ray-ban-meta",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "Dymesty",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "dymesty.com",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "Best Smart Glasses & AI Glasses in 2026: 15 Models Reviewed | Treeview",
+     "url": "https://treeview.studio/blog/best-smart-glasses",
+     "date": "2026-10-06",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "treeview.studio",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "status": "running",
+    "all_pages": 8,
+    "clean_pages": 4
+   },
+   "seconds": 20.8
+  },
+  {
+   "stage": "money",
+   "query": "best AI smart glasses",
+   "searched_with": "Telem auto-routing",
+   "routing": [
+    "exa",
+    "brave",
+    "tavily",
+    "parallel"
+   ],
+   "retried": "",
+   "companies": [
+    {
+     "name": "Xgimi",
+     "does": "Makes waveguide smart glasses with strong navigation and battery life.",
+     "sources": [
+      "n-1"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Meta",
+     "does": "Makes camera glasses with an AI assistant, plus a model with a display.",
+     "sources": [
+      "n-2",
+      "n-3",
+      "n-6",
+      "n-7",
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Google",
+     "does": "Develops Android XR AI glasses with real-time Gemini translation and assistant features.",
+     "sources": [
+      "n-6"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    },
+    {
+     "name": "Even Realities",
+     "does": "Makes camera-free monochrome waveguide display glasses with optional smart ring controls.",
+     "sources": [
+      "n-3",
+      "n-4",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "Viture",
+     "does": "Makes wearable monitor glasses with micro OLED panels and large virtual screens.",
+     "sources": [
+      "n-3",
+      "n-5"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "XREAL",
+     "does": "Makes tethered AR display glasses that provide large virtual screens.",
+     "sources": [
+      "n-3",
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "RayNeo",
+     "does": "Makes budget display glasses with HDR10 video viewing.",
+     "sources": [
+      "n-3",
+      "n-8"
+     ],
+     "in_memory": false,
+     "flagged_only": false
+    },
+    {
+     "name": "Solos",
+     "does": "Makes modular camera AI glasses supporting several chatbot assistants.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": true,
+     "flagged_only": true
+    },
+    {
+     "name": "Dymesty",
+     "does": "Makes audio-first AI glasses using ChatGPT, with no camera or display.",
+     "sources": [
+      "n-7"
+     ],
+     "in_memory": false,
+     "flagged_only": true
+    },
+    {
+     "name": "Snap",
+     "does": "Makes standalone see-through AR glasses that need no phone or puck.",
+     "sources": [
+      "n-8"
+     ],
+     "in_memory": true,
+     "flagged_only": false
+    }
+   ],
+   "flagged_only": 5,
+   "memory_overlap": [
+    "Even Realities",
+    "Google",
+    "Meta Platforms",
+    "Snap",
+    "Solos",
+    "XREAL"
+   ],
+   "echo": {
+    "repeated": 6,
+    "total": 10
+   },
+   "stake": {
+    "vendor": 1,
+    "paid": 3,
+    "stale": 0,
+    "flagged": 4,
+    "opened": 8,
+    "tried": 8,
+    "total": 8
+   },
+   "sources": [
+    {
+     "id": "n-1",
+     "title": "The Best Smart Glasses We've Tested for 2026 | PCMag",
+     "url": "https://www.pcmag.com/picks/the-best-smart-glasses",
+     "date": "2026-09-29",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave + Tavily + Parallel through Telem",
+     "engines": [
+      "brave",
+      "tavily",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "If you buy through affiliate links, we may earn commissions, which help support our",
+     "paid_kind": "wording",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "pcmag.com",
+     "flagged": true
+    },
+    {
+     "id": "n-2",
+     "title": "Best smart glasses 2026 | Android Central",
+     "url": "https://www.androidcentral.com/best-smart-glasses",
+     "date": "2021-12-16",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Tavily + Parallel through Telem",
+     "engines": [
+      "tavily",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "androidcentral.com",
+     "flagged": false
+    },
+    {
+     "id": "n-3",
+     "title": "10 Smart Glasses That Actually Earn Their Price Tag in 2026",
+     "url": "https://the-gadgeteer.com/2026/06/13/smart-glasses-worth-buying-2026/",
+     "date": "2026-06-13",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "https://www.amazon.com/dp/B0GYYGKFZS?tag=r3media07-20",
+     "paid_kind": "link",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "the-gadgeteer.com",
+     "flagged": true
+    },
+    {
+     "id": "n-4",
+     "title": "Best smart glasses and XR specs: Our recommendations",
+     "url": "https://www.wareable.com/ar/the-best-smartglasses-google-glass-and-the-rest",
+     "date": "2025-09-24",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Parallel through Telem",
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "We may earn affiliate commissions for the recommended products.",
+     "paid_kind": "wording",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "wareable.com",
+     "flagged": true
+    },
+    {
+     "id": "n-5",
+     "title": "Best AI Smart Glasses of 2026: Top Wearable Tech Worth Considering",
+     "url": "https://www.techtimes.com/articles/330550/20261113/best-ai-smart-glasses-2026-top-wearable-tech-worth-considering.htm",
+     "date": "2026-11-13",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa + Brave through Telem",
+     "engines": [
+      "exa",
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "techtimes.com",
+     "flagged": false
+    },
+    {
+     "id": "n-6",
+     "title": "I tried Google’s AI glasses and Meta’s finally got real competition | The Verge",
+     "url": "https://www.theverge.com/tech/1031647/google-android-xr-warby-parker-gentle-monster-hands-on",
+     "date": "2026-11-12",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Exa through Telem",
+     "engines": [
+      "exa"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "theverge.com",
+     "flagged": false
+    },
+    {
+     "id": "n-7",
+     "title": "Best AI Glasses in 2026: Ultimate Smart Glasses Buying Guide\n – Dymesty AI Glasses",
+     "url": "https://dymesty.com/blogs/articles/best-ai-glasses-of-2026-smarter-than-ray-ban-meta",
+     "date": "",
+     "date_from": "",
+     "date_note": "",
+     "provider": "Tavily through Telem",
+     "engines": [
+      "tavily"
+     ],
+     "vendor": "Dymesty",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "dymesty.com",
+     "flagged": true
+    },
+    {
+     "id": "n-8",
+     "title": "Best Smart Glasses & AI Glasses in 2026: 15 Models Reviewed | Treeview",
+     "url": "https://treeview.studio/blog/best-smart-glasses",
+     "date": "2026-10-06",
+     "date_from": "search",
+     "date_note": "",
+     "provider": "Brave through Telem",
+     "engines": [
+      "brave"
+     ],
+     "vendor": "",
+     "stale": false,
+     "paid": "",
+     "paid_kind": "",
+     "opened": true,
+     "opened_by": "Tavily Extract",
+     "open_error": "",
+     "found_by": "",
+     "domain": "treeview.studio",
+     "flagged": false
+    }
+   ],
+   "filter_test": {
+    "all_pages": 8,
+    "clean_pages": 4,
+    "all_pick": "Meta",
+    "clean_pick": "Meta",
+    "changed": false,
+    "status": "done"
+   },
+   "seconds": 23.0
+  },
+  {
+   "stage": "china",
+   "status": "ok",
+   "queries": [
+    "AI眼镜",
+    "智能眼镜 推荐",
+    "AR眼镜 哪个好"
+   ],
+   "platforms": [
+    "Xiaohongshu",
+    "Bilibili",
+    "Zhihu"
+   ],
+   "west_platforms": [
+    "Reddit",
+    "X",
+    "web"
+   ],
+   "posts_read": 52,
+   "old_posts_dropped": 6,
+   "not_in_post": 0,
+   "one_post_dropped": 5,
+   "companies": [
+    {
+     "id": "c-1",
+     "name": "Rokid",
+     "zh": "Rokid",
+     "aliases": [
+      "Rokid"
+     ],
+     "kind": "company",
+     "does": "Chinese maker of AI and AR smart glasses, sold as 乐奇 in China",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "…镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克 本期视频推荐AI&AR眼镜，从眼镜分类、重量、近视调节、续航表现和生态适配等要素，告诉不同预算和需…",
+       "url": "https://www.bilibili.com/video/BV1Qapg66Ew5",
+       "domain": "bilibili.com",
+       "title": "【10月AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克",
+       "date": "2026-10-10",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 609,
+        "comments": 186
+       }
+      },
+      {
+       "quote": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO 今年显示眼镜卖爆了，品牌越来越多，反而越来越难选。这期我们把千问、影目、Rokid、雷鸟、NIMO 五款全部拆开，从…",
+       "url": "https://www.bilibili.com/video/BV145Wm6kEpe",
+       "domain": "bilibili.com",
+       "title": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO",
+       "date": "2026-11-11",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 5167,
+        "comments": 113
+       }
+      },
+      {
+       "quote": "AI眼镜退货率最高70%背后：Rokid、千问、雷鸟的一场“非技术PK” 投资人在谈及大厂智能眼镜布局时告诉剁椒Spicy，大厂做AI眼镜，看重的是眼镜背后的AI助手。眼镜作为离用…",
+       "url": "https://zhuanlan.zhihu.com/p/2085762145317404940",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "AI眼镜退货率最高70%背后：Rokid、千问、雷鸟的一场“非技术PK”",
+       "date": "2026-09-22",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 4,
+        "comments": 0
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 5,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 6634,
+      "comments": 445,
+      "engagement": 7079
+     },
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "Rokid"
+      ],
+      "likes": 1913,
+      "comments": 516,
+      "sources": [
+       {
+        "title": "⚠️ WARNING: STAY AWAY FROM ROKID ⚠️",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1uvnzv4/warning_stay_away_from_rokid/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rokid Glasses 2 – First Impressions Compared to the Original RV101",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1xsi9ak/rokid_glasses_2_first_impressions_compared_to_the/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rokid Glasses owners: what do you actually still use after the first month, and what did y",
+        "url": "https://www.reddit.com/r/rokid_official/comments/1xfpkec/rokid_glasses_owners_what_do_you_actually_still/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Rokid",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Rokid launches the Rokid Studio spatial computing platform, taking AR immersion to new hei",
+         "url": "https://finance.yahoo.com/news/rokid-launches-rokid-studio-spatial-175600946.html",
+         "domain": "finance.yahoo.com"
+        },
+        {
+         "title": "Rokid",
+         "url": "https://unboundxr.com/rokid",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "Rokid Officially Launches Rokid Glasses: The World's Lightest Full-Function AI & AR Smart ",
+         "url": "https://finance.yahoo.com/news/rokid-officially-launches-rokid-glasses-130000409.html",
+         "domain": "finance.yahoo.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    },
+    {
+     "id": "c-2",
+     "name": "RayNeo",
+     "zh": "雷鸟",
+     "aliases": [
+      "雷鸟",
+      "RayNeo",
+      "leiniao"
+     ],
+     "kind": "company",
+     "does": "Chinese maker of AI and AR glasses, including the iO and GT lines",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "网上都在吹的雷鸟iO眼镜，真实体验到底咋样 雷鸟iO眼镜刚出来的时候，很多 Up 主在夸——这个倒能理解，毕竟厂商都会买的PR稿。 小红薯素人笔记中，有人会…",
+       "url": "https://www.xiaohongshu.com/explore/6ab619dc000000001a021a1e",
+       "domain": "xiaohongshu.com",
+       "title": "网上都在吹的雷鸟iO眼镜，真实体验到底咋样",
+       "date": "2026-09-25",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 368,
+        "comments": 81
+       }
+      },
+      {
+       "quote": "…AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克 本期视频推荐AI&AR眼镜，从眼镜分类、重量、近视调节、续航表现和生态适配等要素，告诉…",
+       "url": "https://www.bilibili.com/video/BV1Qapg66Ew5",
+       "domain": "bilibili.com",
+       "title": "【10月AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克",
+       "date": "2026-10-10",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 609,
+        "comments": 186
+       }
+      },
+      {
+       "quote": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO 今年显示眼镜卖爆了，品牌越来越多，反而越来越难选。这期我们把千问、影目、Rokid、雷鸟、NIMO 五款全部拆开，从光机、显示效…",
+       "url": "https://www.bilibili.com/video/BV145Wm6kEpe",
+       "domain": "bilibili.com",
+       "title": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO",
+       "date": "2026-11-11",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 5167,
+        "comments": 113
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 13,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 7487,
+      "comments": 714,
+      "engagement": 8201
+     },
+     "west": {
+      "posts": 34,
+      "checked_names": [
+       "RayNeo",
+       "雷鸟"
+      ],
+      "likes": 645,
+      "comments": 381,
+      "sources": [
+       {
+        "title": "Took the RayNeo iO on a trip to Taipei last week and the live captions actually paid for t",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1wzs4sk/took_the_rayneo_io_on_a_trip_to_taipei_last_week/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "DO NOT BUY FROM RAYNEO",
+        "url": "https://www.reddit.com/r/RayNeo/comments/1rw7n42/do_not_buy_from_rayneo/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rayneo IO - My thoughts",
+        "url": "https://www.reddit.com/r/RayNeo/comments/1wxp5js/rayneo_io_my_thoughts/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "RayNeo",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "RayNeo",
+         "url": "https://unboundxr.com/rayneo-ar?compatibility=1763",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "RayNeo",
+         "url": "https://unboundxr.com/rayneo-ar?conditie=695",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "RayNeo Expands Consumer AR Lineup: Unveiling RayNeo iO Smart Glasses and Cinematic RayNeo ",
+         "url": "https://www.prnewswire.com/news-releases/rayneo-expands-consumer-ar-lineup-unveiling-rayneo-io-smart-glasses-and-cinematic-rayneo-gt-series-302856466.html",
+         "domain": "prnewswire.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem",
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "A web page has both names: 未来科技！雷鸟RayNeo X3 Pro真AR智能眼镜 [1:23] 的那个…",
+     "memory_count": 0
+    },
+    {
+     "id": "c-3",
+     "name": "XREAL",
+     "zh": "XREAL",
+     "aliases": [
+      "XREAL"
+     ],
+     "kind": "company",
+     "does": "Maker of AR glasses for private big-screen viewing, praised for comfort and privacy",
+     "lens": "china",
+     "evidence_list": [
+      {
+       "quote": "来了，XREAL 1 Pro+ 预约开启。 3D，更+真实 画面，更+明亮 色彩，更+生动 交互，更+自然 … 旗舰体验，更进一步。 全新 XREAL 1…",
+       "url": "https://www.xiaohongshu.com/explore/6ad71083000000003003c3dc",
+       "domain": "xiaohongshu.com",
+       "title": "来了，XREAL 1 Pro+ 预约开启。",
+       "date": "2026-10-20",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 368,
+        "comments": 51
+       }
+      },
+      {
+       "quote": "拥有能随时随地私密投影的眼镜是什么体验？ 🕶XREAL家的AR智能眼镜我用了很多代。 这次年轻态的副线品牌xbx又出了新的a01+系列 ☁️重量轻到了惊人的",
+       "url": "https://www.xiaohongshu.com/explore/6a140974000000003503159c",
+       "domain": "xiaohongshu.com",
+       "title": "拥有能随时随地私密投影的眼镜是什么体验？",
+       "date": "2026-05-26",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 2632,
+        "comments": 191
+       }
+      },
+      {
+       "quote": "…还有眩晕这个一票否决项。\n 同时横向测评对比雷鸟、魅族、VITURE、XREAL、ROKID 等 14 款 AR 眼镜，帮大家根据观影、游戏、通勤、办公需求挑选合适型号。",
+       "url": "https://www.bilibili.com/video/BV1vxWt6aE2R",
+       "domain": "bilibili.com",
+       "title": "【建议收藏】2026年双11买AR眼镜先别急！看片、打游戏、戴出门，分别该选哪款？",
+       "date": "2026-11-09",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 285,
+        "comments": 27
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 4863,
+      "comments": 659,
+      "engagement": 5522
+     },
+     "west": {
+      "posts": 15,
+      "checked_names": [
+       "XREAL"
+      ],
+      "likes": 1924,
+      "comments": 2223,
+      "sources": [
+       {
+        "title": "I made a free, open source spatial desktop for XREAL glasses that runs on your Android pho",
+        "url": "https://www.reddit.com/r/Xreal/comments/1xm3tub/i_made_a_free_open_source_spatial_desktop_for/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ROG XREAL R1 owners - what do you actually think of them?",
+        "url": "https://www.reddit.com/r/Xreal/comments/1wzrhf4/rog_xreal_r1_owners_what_do_you_actually_think_of/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Giveaway: GameSir × XREAL Collab Prizes!!",
+        "url": "https://www.reddit.com/r/Gamesir/comments/1xod7ua/giveaway_gamesir_xreal_collab_prizes/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "XREAL",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "XREAL Announces Groundbreaking Collaborations at CES 2025",
+         "url": "https://ca.finance.yahoo.com/news/xreal-announces-groundbreaking-collaborations-ces-160000646.html",
+         "domain": "ca.finance.yahoo.com"
+        },
+        {
+         "title": "XREAL Announces Groundbreaking Collaborations at CES 2025",
+         "url": "https://finance.yahoo.com/news/xreal-announces-groundbreaking-collaborations-ces-160000209.html",
+         "domain": "finance.yahoo.com"
+        },
+        {
+         "title": "XREAL Reviews and Prices | Smart Wearables",
+         "url": "https://www.smartwearables.io/brands/xreal",
+         "domain": "smartwearables.io"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "memory_count": 0
+    }
+   ],
+   "note": "Counts are from the top results only.",
+   "seconds": 34.1
+  },
+  {
+   "stage": "engines",
+   "engines": [
+    "brave",
+    "exa",
+    "parallel",
+    "tavily"
+   ],
+   "enough": true,
+   "one_engine": 7,
+   "of": 12,
+   "by_engine": {
+    "brave": 6,
+    "exa": 6,
+    "parallel": 5,
+    "tavily": 3
+   },
+   "reason": "",
+   "seconds": 34.2
+  },
+  {
+   "stage": "report",
+   "coverage": {
+    "ready": true,
+    "why_not": "",
+    "named": 0,
+    "found": 12,
+    "by_lens": {
+     "time": {
+      "found": 12,
+      "named": 0,
+      "missed": 12
+     },
+     "china": {
+      "found": 0,
+      "named": 0,
+      "missed": 0
+     }
+    },
+    "unverified": 0
+   },
+   "entities": [
+    {
+     "id": "t-1",
+     "name": "Qingmu Digital",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes lightweight AI office glasses with binocular displays, microphone array and dual speakers",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Qingmu Digital, a Shenzhen smart glasses startup founded in November 2025, has closed a seed round from Nanjing Shike",
+       "url": "https://robotbelt.com/a-31-7-gram-pair-of-glasses-is-a-hardware-argument-about-ai-28/",
+       "domain": "robotbelt.com",
+       "title": "A 31.7-Gram Pair of Glasses Is a Hardware Argument About AI",
+       "date": "2026-11-12",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "",
+      "when": "",
+      "investors": [
+       "Nanjing Shike"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-12",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-2",
+     "name": "Mira",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops AI-powered smart glasses acting as a second brain for users",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Mira, formerly known as Halo, has raised a $6.6 million seed round led by General Catalyst",
+       "url": "https://pulse2.com/mira-6-6-million-seed-funding/",
+       "domain": "pulse2.com",
+       "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+       "date": "2025-11-25",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://www.generalcatalyst.com/stories/seeding-the-future-with-mira",
+       "domain": "generalcatalyst.com",
+       "title": "Seeding the Future with Mira",
+       "date": "2025-11-24",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Mira, formerly known as Halo, has raised a $6.6 million seed round led by General Catalyst",
+       "url": "https://pulse2.com/mira-6-6-million-seed-funding",
+       "domain": "pulse2.com",
+       "title": "Mira: $6.6 Million Seed Funding Raised For Building Advanced AI-Based Smart Glasses",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news",
+      "Series A news"
+     ],
+     "engines": [
+      "brave",
+      "exa",
+      "tavily"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$6.6M",
+      "when": "November 2025",
+      "investors": [
+       "General Catalyst"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 3,
+     "newest": "2025-11-25",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-3",
+     "name": "Phosio",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Develops thin-film optics platform for AR/AI glasses displays",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Phosio has closed a $4M seed financing round to accelerate commercialization of our thin-film platform for next-generation AR/AI glasses",
+       "url": "https://www.phosio.com/news/haadtx89lpmpj3sy2vf3ho8hx5zg9k-3gprp-y3z2s",
+       "domain": "phosio.com",
+       "title": "Phosio Raises $4 Million Seed Round to Bring Affordable AR/AI Glasses to Mass Market — Phosio Corporation",
+       "date": "2026-06-03",
+       "source_type": "own_site",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$4M",
+      "when": "June 2026",
+      "investors": [
+       "MESH VC",
+       "Sierra Ventures",
+       "TEL Venture Capital"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 0,
+     "newest": "2026-06-03",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Parallel"
+     ]
+    },
+    {
+     "id": "t-4",
+     "name": "Moonix",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI-powered smart glasses positioned at intersection of technology and fashion",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Moonix, a Chinese AI wearables startup, has closed a seed round worth tens of millions of yuan",
+       "url": "https://app.dealroom.co/news/note/china-s-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+       "domain": "app.dealroom.co",
+       "title": "Dealroom.co | China's Moonix raises tens of millions in seed round for AI glasses",
+       "date": "2026-07-22",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://dealroom.co/news/140142-chinas-moonix-raises-tens-of-millions-in-seed-round-for-ai-glasses",
+       "domain": "dealroom.co",
+       "title": "China's Moonix raises tens of millions in seed round for AI glasses | Dealroom News",
+       "date": "2026-07-21",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Seed round news"
+     ],
+     "engines": [
+      "brave",
+      "parallel"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "",
+      "when": "July 2026",
+      "investors": [],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-07-22",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-5",
+     "name": "Chenbo Vision",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Designs and builds AI-powered smart glasses",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Chenbo Vision, a developer of AI smart glasses, has raised a Series A round, the company said",
+       "url": "https://dealroom.co/news/162850-ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital/",
+       "domain": "dealroom.co",
+       "title": "AI smart glasses maker Chenbo Vision lands Series A led by youbo capital | Dealroom News",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Chenbo Vision, a developer of AI smart glasses, has raised a Series A round, the company said",
+       "url": "https://app.dealroom.co/news/note/ai-smart-glasses-maker-chenbo-vision-lands-series-a-led-by-youbo-capital",
+       "domain": "app.dealroom.co",
+       "title": "Dealroom.co | AI smart glasses maker Chenbo Vision lands Series A led by youbo capital",
+       "date": "2026-10-15",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "",
+      "when": "October 2026",
+      "investors": [
+       "youbo capital"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2026-10-15",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Brave"
+     ]
+    },
+    {
+     "id": "t-6",
+     "name": "Rivet",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Smart glasses letting soldiers command AI agents on the battlefield",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Rivet has raised $55 million in Series A financing and delivered its first 70 prototypes to the Army",
+       "url": "https://www.armytimes.com/industry/techwatch/2026/10/13/startup-wants-us-soldiers-to-command-ai-agents-through-its-smart-glasses/",
+       "domain": "armytimes.com",
+       "title": "Startup wants US soldiers to command AI agents through its smart glasses",
+       "date": "2026-10-13",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Series A news"
+     ],
+     "engines": [
+      "brave"
+     ],
+     "funding": {
+      "round": "Series A",
+      "amount": "$55M",
+      "when": "October 2026",
+      "investors": [],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-10-13",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Brave"
+     ]
+    },
+    {
+     "id": "t-7",
+     "name": "Legato",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI hearing glasses with hearing-assistance technology built into the frame temples",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "",
+       "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+       "domain": "techcrunch.com",
+       "title": "Hearing tech startup Legato emerges from stealth with $12 ...",
+       "date": "2026-08-26",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "brave",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://startupfortune.com/legato-emerges-from-stealth-with-12m-to-put-ai-hearing-aids-into-glasses",
+       "domain": "startupfortune.com",
+       "title": "Legato Emerges From Stealth With $12M to Put AI Hearing Aids Into Glasses - Startup Fortune",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "officially emerged from stealth last week with $12 million in funding from venture capital firms Neotribe Ventures",
+       "url": "https://www.visionmonday.com/scene-and-heard/discover/article/emerging-from-stealth-legato-debuts-ai-powered-hearing-glasses-1/",
+       "domain": "visionmonday.com",
+       "title": "VM - Emerging From Stealth, Legato Debuts AI-Powered Hearing Glasses",
+       "date": "2026-09-02",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://glance.eyesoneyecare.com/stories/2026-09-17/legato-startup-debuts-with-ai-powered-hearing-glasses/",
+       "domain": "glance.eyesoneyecare.com",
+       "title": "Legato startup debuts with AI-powered hearing glasses",
+       "date": "2026-09-17",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://hearinghealthmatters.org/hearing-technologies/2026/eyeglass-hearing-aids-tech-adoption-aynak",
+       "domain": "hearinghealthmatters.org",
+       "title": "Could AI Hearing Glasses Reach People Who Avoid Hearing Aids? | Hearing Health & Technology Matters",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "",
+       "url": "https://newmarketpitch.com/blogs/news/smart-glasses-funding-analysis",
+       "domain": "newmarketpitch.com",
+       "title": "\n      Smart Glasses: what’s funding like now?\n – New Market Pitch",
+       "date": "2026-10-27",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news",
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa",
+      "brave",
+      "parallel",
+      "tavily"
+     ],
+     "funding": {
+      "round": "Seed",
+      "amount": "$12M",
+      "when": "August 2026",
+      "investors": [
+       "Neotribe Ventures",
+       "Listen",
+       "Village Global"
+      ],
+      "verified": true
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 6,
+     "newest": "2026-10-27",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-8",
+     "name": "Awear",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Personal AI platform starting with smart glasses giving users control over AI agents",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Awear emerged from stealth today at Qualcomm's Snapdragon Summit",
+       "url": "https://www.prnewswire.com/news-releases/emerging-from-stealth-awear-introduces-a-new-platform-for-personal-ai-302888183.html",
+       "domain": "prnewswire.com",
+       "title": "Emerging from Stealth, Awear Introduces a New Platform for Personal AI",
+       "date": "2026-09-23",
+       "source_type": "independent",
+       "engine": [
+        "exa",
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "exa",
+      "parallel"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "September 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-09-23",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-9",
+     "name": "Vonderful",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Developing first AI glasses, a stealth project of AR startup Viture",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Vonder appears to be a stealth project of Viture, an AR startup that has been building glasses since 2021",
+       "url": "https://www.theverge.com/column/824994/ar-viture-ai-glasses",
+       "domain": "theverge.com",
+       "title": "AR startup Viture is stealthily working on new AI glasses | The Verge",
+       "date": "2025-11-20",
+       "source_type": "independent",
+       "engine": [
+        "brave"
+       ],
+       "platform": "",
+       "engagement": null
+      },
+      {
+       "quote": "Vonder appears to be a stealth project of Viture, an AR startup that has been building glasses since 2021",
+       "url": "https://www.lowpass.cc/p/viture-vonder-ai-glasses-ar",
+       "domain": "lowpass.cc",
+       "title": "Scoop: Here comes another Ray-Ban competitor",
+       "date": "",
+       "source_type": "independent",
+       "engine": [
+        "tavily"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "brave",
+      "tavily"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2025",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 2,
+     "newest": "2025-11-20",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search"
+     ]
+    },
+    {
+     "id": "t-10",
+     "name": "Gyges Labs",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Makes AI wearable glasses with invisible retinal display technology",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "AI可穿戴科技公司「Gyges Labs」近日宣布完成新一轮融资",
+       "url": "https://36kr.com/p/3559315009092485",
+       "domain": "36kr.com",
+       "title": "全球首款可全天候佩戴的隐形显示AI眼镜，Gyges Labs完成新一轮融资|硬氪首发-36氪",
+       "date": "2026-11-07",
+       "source_type": "independent",
+       "engine": [
+        "parallel"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Out of stealth news"
+     ],
+     "engines": [
+      "parallel"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [
+       "Granite Asia",
+       "璀璨资本"
+      ],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-07",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Parallel"
+     ]
+    },
+    {
+     "id": "t-11",
+     "name": "AROTI",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Camera-free AI and AR glasses with translation and walking directions display",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "AROTI today introduced R1, AI + AR glasses weighing less than 27 grams",
+       "url": "https://www.globenewswire.com/news-release/2026/11/10/3399804/0/en/aroti-introduces-27-gram-r1-ai-ar-glasses-ahead-of-november-16-kickstarter-launch.html",
+       "domain": "globenewswire.com",
+       "title": "AROTI Introduces 27-Gram R1 AI+AR Glasses Ahead of November",
+       "date": "2026-11-10",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-10",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "t-12",
+     "name": "Oculosense",
+     "zh": "",
+     "aliases": [],
+     "kind": "company",
+     "does": "Drishti Vision Live AI glasses describing the world in real time for visually impaired users",
+     "lens": "time",
+     "lenses": [
+      "time"
+     ],
+     "evidence": [
+      {
+       "quote": "Oculosense Private Limited, a DPIIT-recognised deep-tech startup, today announced Drishti Vision Live, AI smart glasses",
+       "url": "https://www.gradientebusiness.com/news/indias-first-open-sdk-live-ai-glasses-oculosense-launches-drishti-vision-live-for-visually-impaired-and-industry",
+       "domain": "gradientebusiness.com",
+       "title": "India's First Open-SDK Live AI Glasses: Oculosense Launches Drishti Vision Live for Visually Impaired and Industry",
+       "date": "2026-11-03",
+       "source_type": "independent",
+       "engine": [
+        "exa"
+       ],
+       "platform": "",
+       "engagement": null
+      }
+     ],
+     "found_by": [
+      "Plain \"new startups\" search"
+     ],
+     "engines": [
+      "exa"
+     ],
+     "funding": {
+      "round": "",
+      "amount": "",
+      "when": "November 2026",
+      "investors": [],
+      "verified": false
+     },
+     "yc_batch": "",
+     "west": null,
+     "china": null,
+     "name_verified": true,
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": false,
+      "on_normal_pages": false,
+      "in_normal_search": false
+     },
+     "named_by_ai": false,
+     "independent_sources": 1,
+     "newest": "2026-11-03",
+     "counted": true,
+     "why_missed": [
+      "Not in any of the 8 AI answers, and not on any page behind normal search",
+      "Found by one engine: Exa"
+     ]
+    },
+    {
+     "id": "c-1",
+     "name": "Rokid",
+     "zh": "Rokid",
+     "aliases": [
+      "Rokid"
+     ],
+     "kind": "company",
+     "does": "Chinese maker of AI and AR smart glasses, sold as 乐奇 in China",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "…镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克 本期视频推荐AI&AR眼镜，从眼镜分类、重量、近视调节、续航表现和生态适配等要素，告诉不同预算和需…",
+       "url": "https://www.bilibili.com/video/BV1Qapg66Ew5",
+       "domain": "bilibili.com",
+       "title": "【10月AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克",
+       "date": "2026-10-10",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 609,
+        "comments": 186
+       }
+      },
+      {
+       "quote": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO 今年显示眼镜卖爆了，品牌越来越多，反而越来越难选。这期我们把千问、影目、Rokid、雷鸟、NIMO 五款全部拆开，从…",
+       "url": "https://www.bilibili.com/video/BV145Wm6kEpe",
+       "domain": "bilibili.com",
+       "title": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO",
+       "date": "2026-11-11",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 5167,
+        "comments": 113
+       }
+      },
+      {
+       "quote": "AI眼镜退货率最高70%背后：Rokid、千问、雷鸟的一场“非技术PK” 投资人在谈及大厂智能眼镜布局时告诉剁椒Spicy，大厂做AI眼镜，看重的是眼镜背后的AI助手。眼镜作为离用…",
+       "url": "https://zhuanlan.zhihu.com/p/2085762145317404940",
+       "domain": "zhuanlan.zhihu.com",
+       "title": "AI眼镜退货率最高70%背后：Rokid、千问、雷鸟的一场“非技术PK”",
+       "date": "2026-09-22",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Zhihu",
+       "engagement": {
+        "likes": 4,
+        "comments": 0
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 13,
+      "checked_names": [
+       "Rokid"
+      ],
+      "likes": 1913,
+      "comments": 516,
+      "sources": [
+       {
+        "title": "⚠️ WARNING: STAY AWAY FROM ROKID ⚠️",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1uvnzv4/warning_stay_away_from_rokid/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rokid Glasses 2 – First Impressions Compared to the Original RV101",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1xsi9ak/rokid_glasses_2_first_impressions_compared_to_the/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rokid Glasses owners: what do you actually still use after the first month, and what did y",
+        "url": "https://www.reddit.com/r/rokid_official/comments/1xfpkec/rokid_glasses_owners_what_do_you_actually_still/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "Rokid",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "Rokid launches the Rokid Studio spatial computing platform, taking AR immersion to new hei",
+         "url": "https://finance.yahoo.com/news/rokid-launches-rokid-studio-spatial-175600946.html",
+         "domain": "finance.yahoo.com"
+        },
+        {
+         "title": "Rokid",
+         "url": "https://unboundxr.com/rokid",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "Rokid Officially Launches Rokid Glasses: The World's Lightest Full-Function AI & AR Smart ",
+         "url": "https://finance.yahoo.com/news/rokid-officially-launches-rokid-glasses-130000409.html",
+         "domain": "finance.yahoo.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 5,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 6634,
+      "comments": 445,
+      "engagement": 7079
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 8,
+      "memory_samples": 8,
+      "memory_name": "Rokid",
+      "in_normal_list": false,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-11-11",
+     "counted": false,
+     "why_missed": []
+    },
+    {
+     "id": "c-2",
+     "name": "RayNeo",
+     "zh": "雷鸟",
+     "aliases": [
+      "雷鸟",
+      "RayNeo",
+      "leiniao"
+     ],
+     "kind": "company",
+     "does": "Chinese maker of AI and AR glasses, including the iO and GT lines",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "网上都在吹的雷鸟iO眼镜，真实体验到底咋样 雷鸟iO眼镜刚出来的时候，很多 Up 主在夸——这个倒能理解，毕竟厂商都会买的PR稿。 小红薯素人笔记中，有人会…",
+       "url": "https://www.xiaohongshu.com/explore/6ab619dc000000001a021a1e",
+       "domain": "xiaohongshu.com",
+       "title": "网上都在吹的雷鸟iO眼镜，真实体验到底咋样",
+       "date": "2026-09-25",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 368,
+        "comments": 81
+       }
+      },
+      {
+       "quote": "…AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克 本期视频推荐AI&AR眼镜，从眼镜分类、重量、近视调节、续航表现和生态适配等要素，告诉…",
+       "url": "https://www.bilibili.com/video/BV1Qapg66Ew5",
+       "domain": "bilibili.com",
+       "title": "【10月AI眼镜推荐】2026年AI眼镜怎么选？18款热门AI智能眼镜大横评，雷鸟、Rokid、Xreal、INMO、华为、小米、夸克",
+       "date": "2026-10-10",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 609,
+        "comments": 186
+       }
+      },
+      {
+       "quote": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO 今年显示眼镜卖爆了，品牌越来越多，反而越来越难选。这期我们把千问、影目、Rokid、雷鸟、NIMO 五款全部拆开，从光机、显示效…",
+       "url": "https://www.bilibili.com/video/BV145Wm6kEpe",
+       "domain": "bilibili.com",
+       "title": "第一副显示眼镜到底该怎么选？千问、Rokid、影目、雷鸟、NIMO",
+       "date": "2026-11-11",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 5167,
+        "comments": 113
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 34,
+      "checked_names": [
+       "RayNeo",
+       "雷鸟"
+      ],
+      "likes": 645,
+      "comments": 381,
+      "sources": [
+       {
+        "title": "Took the RayNeo iO on a trip to Taipei last week and the live captions actually paid for t",
+        "url": "https://www.reddit.com/r/SmartGlasses/comments/1wzs4sk/took_the_rayneo_io_on_a_trip_to_taipei_last_week/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "DO NOT BUY FROM RAYNEO",
+        "url": "https://www.reddit.com/r/RayNeo/comments/1rw7n42/do_not_buy_from_rayneo/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Rayneo IO - My thoughts",
+        "url": "https://www.reddit.com/r/RayNeo/comments/1wxp5js/rayneo_io_my_thoughts/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "RayNeo",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "RayNeo",
+         "url": "https://unboundxr.com/rayneo-ar?compatibility=1763",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "RayNeo",
+         "url": "https://unboundxr.com/rayneo-ar?conditie=695",
+         "domain": "unboundxr.com"
+        },
+        {
+         "title": "RayNeo Expands Consumer AR Lineup: Unveiling RayNeo iO Smart Glasses and Cinematic RayNeo ",
+         "url": "https://www.prnewswire.com/news-releases/rayneo-expands-consumer-ar-lineup-unveiling-rayneo-io-smart-glasses-and-cinematic-rayneo-gt-series-302856466.html",
+         "domain": "prnewswire.com"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem",
+       "Reddit and X through Tavily"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 13,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 7487,
+      "comments": 714,
+      "engagement": 8201
+     },
+     "name_verified": true,
+     "name_proof": "A web page has both names: 未来科技！雷鸟RayNeo X3 Pro真AR智能眼镜 [1:23] 的那个…",
+     "ai": {
+      "memory_count": 0,
+      "memory_samples": 8,
+      "memory_name": "",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-11-11",
+     "counted": false,
+     "why_missed": []
+    },
+    {
+     "id": "c-3",
+     "name": "XREAL",
+     "zh": "XREAL",
+     "aliases": [
+      "XREAL"
+     ],
+     "kind": "company",
+     "does": "Maker of AR glasses for private big-screen viewing, praised for comfort and privacy",
+     "lens": "china",
+     "lenses": [
+      "china"
+     ],
+     "evidence": [
+      {
+       "quote": "来了，XREAL 1 Pro+ 预约开启。 3D，更+真实 画面，更+明亮 色彩，更+生动 交互，更+自然 … 旗舰体验，更进一步。 全新 XREAL 1…",
+       "url": "https://www.xiaohongshu.com/explore/6ad71083000000003003c3dc",
+       "domain": "xiaohongshu.com",
+       "title": "来了，XREAL 1 Pro+ 预约开启。",
+       "date": "2026-10-20",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 368,
+        "comments": 51
+       }
+      },
+      {
+       "quote": "拥有能随时随地私密投影的眼镜是什么体验？ 🕶XREAL家的AR智能眼镜我用了很多代。 这次年轻态的副线品牌xbx又出了新的a01+系列 ☁️重量轻到了惊人的",
+       "url": "https://www.xiaohongshu.com/explore/6a140974000000003503159c",
+       "domain": "xiaohongshu.com",
+       "title": "拥有能随时随地私密投影的眼镜是什么体验？",
+       "date": "2026-05-26",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Xiaohongshu",
+       "engagement": {
+        "likes": 2632,
+        "comments": 191
+       }
+      },
+      {
+       "quote": "…还有眩晕这个一票否决项。\n 同时横向测评对比雷鸟、魅族、VITURE、XREAL、ROKID 等 14 款 AR 眼镜，帮大家根据观影、游戏、通勤、办公需求挑选合适型号。",
+       "url": "https://www.bilibili.com/video/BV1vxWt6aE2R",
+       "domain": "bilibili.com",
+       "title": "【建议收藏】2026年双11买AR眼镜先别急！看片、打游戏、戴出门，分别该选哪款？",
+       "date": "2026-11-09",
+       "source_type": "post",
+       "engine": [],
+       "platform": "Bilibili",
+       "engagement": {
+        "likes": 285,
+        "comments": 27
+       }
+      }
+     ],
+     "found_by": [
+      "Bilibili",
+      "Xiaohongshu",
+      "Zhihu"
+     ],
+     "engines": [],
+     "funding": null,
+     "yc_batch": "",
+     "west": {
+      "posts": 15,
+      "checked_names": [
+       "XREAL"
+      ],
+      "likes": 1924,
+      "comments": 2223,
+      "sources": [
+       {
+        "title": "I made a free, open source spatial desktop for XREAL glasses that runs on your Android pho",
+        "url": "https://www.reddit.com/r/Xreal/comments/1xm3tub/i_made_a_free_open_source_spatial_desktop_for/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "ROG XREAL R1 owners - what do you actually think of them?",
+        "url": "https://www.reddit.com/r/Xreal/comments/1wzrhf4/rog_xreal_r1_owners_what_do_you_actually_think_of/",
+        "platform": "Reddit"
+       },
+       {
+        "title": "Giveaway: GameSir × XREAL Collab Prizes!!",
+        "url": "https://www.reddit.com/r/Gamesir/comments/1xod7ua/giveaway_gamesir_xreal_collab_prizes/",
+        "platform": "Reddit"
+       }
+      ],
+      "web": {
+       "searched_as": "XREAL",
+       "count": 10,
+       "returned": 10,
+       "links": [
+        {
+         "title": "XREAL Announces Groundbreaking Collaborations at CES 2025",
+         "url": "https://ca.finance.yahoo.com/news/xreal-announces-groundbreaking-collaborations-ces-160000646.html",
+         "domain": "ca.finance.yahoo.com"
+        },
+        {
+         "title": "XREAL Announces Groundbreaking Collaborations at CES 2025",
+         "url": "https://finance.yahoo.com/news/xreal-announces-groundbreaking-collaborations-ces-160000209.html",
+         "domain": "finance.yahoo.com"
+        },
+        {
+         "title": "XREAL Reviews and Prices | Smart Wearables",
+         "url": "https://www.smartwearables.io/brands/xreal",
+         "domain": "smartwearables.io"
+        }
+       ]
+      },
+      "searched_with": [
+       "Reddit and X through Telem"
+      ],
+      "answered": true,
+      "status": "Seen in the West"
+     },
+     "china": {
+      "posts": 4,
+      "platforms": [
+       "Bilibili",
+       "Xiaohongshu",
+       "Zhihu"
+      ],
+      "likes": 4863,
+      "comments": 659,
+      "engagement": 5522
+     },
+     "name_verified": true,
+     "name_proof": "The posts write the name in Latin letters.",
+     "ai": {
+      "memory_count": 6,
+      "memory_samples": 8,
+      "memory_name": "XREAL",
+      "in_normal_list": true,
+      "on_normal_pages": true,
+      "in_normal_search": true
+     },
+     "named_by_ai": true,
+     "independent_sources": 0,
+     "newest": "2026-11-09",
+     "counted": false,
+     "why_missed": []
+    }
+   ],
+   "missed": [
+    "t-7",
+    "t-2",
+    "t-4",
+    "t-9",
+    "t-5",
+    "t-8",
+    "t-1",
+    "t-11",
+    "t-10",
+    "t-12",
+    "t-6",
+    "t-3"
+   ],
+   "known_in_west": [],
+   "china_rule": "A thing from Chinese platforms is counted only with 2 or more posts there and the status \"No Western posts found (top results)\" or \"Few Western posts\".",
+   "lenses": {
+    "memory": "ok",
+    "money": "ok",
+    "time": "ok",
+    "china": "ok"
+   },
+   "sort": "independent sources, then engines, then newest date",
+   "seconds": 34.2
+  },
+  {
+   "stage": "done",
+   "mode": "live",
+   "provider": "telem",
+   "models": [
+    "claude-haiku-5-5"
+   ],
+   "errors": [],
+   "notes": [
+    "Telem engines that failed on at least one search: tavily.",
+    "Telem engines that failed on at least one search: exa, parallel."
+   ],
+   "seconds": 34.2
+  }
+ ]
+}
